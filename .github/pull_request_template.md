@@ -6,6 +6,7 @@
 - **Info about the related issue (Aim of the project)** : <!-- What's the goal of the project -->
 - **Name:** <!--Mention Your name-->
 - **GitHub ID:** <!-- Mention your GitHub ID -->
+- **Email ID:** <!--Mention your email ID for further communication. -->
 - **Idenitfy yourself: (Mention in which program you are contributing in. Eg. For a JWOC 2022 participant it's, `JWOC Participant`)** <!-- Mention in which program you are contributing -->
 
 
