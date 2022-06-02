@@ -2,7 +2,7 @@
   <h1>DEEP LEARNING SIMPLIFIED 💻:brain:</h1>
 </div>
 
-![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(1).png)
+![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
 
 ***************************************************
 ## 🔴 Welcome contributors!
