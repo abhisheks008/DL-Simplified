@@ -2,7 +2,7 @@
 name: DL-Simplified_issue_template
 about: Describe this issue template's purpose here.
 title: ''
-labels: ''
+labels: Up For Grabs
 assignees: ''
 
 ---
