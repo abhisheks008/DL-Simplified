@@ -1,5 +1,6 @@
 <div align="center">
   <h1>DEEP LEARNING SIMPLIFIED 💻:brain:</h1>
+  <h3>Website for Deep Learning Simplified Repo: <a href="https://tinyurl.com/deep-learning-simplified">Click Here!🎯</a></h3>
 </div>
 
 ![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
