@@ -23,6 +23,16 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 - Add, Commit and Push
 - Then in Github, in your cloned repository find the option to make a pull request
 
+
+*************************************************************
+## ❄️Open Source Programs!
+<table>
+<tr>
+ <td align="center">
+<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=150px height=150px /><br /><sub><b>Social Summer of Code 2022</b></sub></a><br /><sub><h1>PR Count: :zero::zero:</h1></sub>
+ </td>
+  </table>
+  
 *************************************************************
 
 <h2>✔Project Admin</h2>
