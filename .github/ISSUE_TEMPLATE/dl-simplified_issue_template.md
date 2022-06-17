@@ -17,7 +17,7 @@ assignees: ''
 
 ---
 
-### ML-Crate Repository (Proposing new issue)
+### Deep Learning Simplified Repository (Proposing new issue)
 :red_circle: **Project Title** : </br>
 :red_circle: **Aim** : </br>
 :red_circle: **Dataset** : </br>
