@@ -49,7 +49,7 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 **************************************************************
 <h2>⭐Give this Project a Star</h2>
 
-[![GitHub followers](https://img.shields.io/github/followers/abhisheks008.svg?label=Follow%20@abhisheks008&style=social)](https://github.com/abhisheks008/)  [![Twitter Follow](https://img.shields.io/twitter/follow/Abhishe08346491?style=social)](https://twitter.com/Abhishe08346491)
+[![GitHub followers](https://img.shields.io/github/followers/abhisheks008.svg?label=Follow%20@abhisheks008&style=social)](https://github.com/abhisheks008/)  [![Twitter Follow](https://img.shields.io/twitter/follow/abhishek_py3?style=social)](https://twitter.com/abhishek_py3)
 
 If you liked working on this project, do ⭐ and share this repository.
 
@@ -59,7 +59,7 @@ If you liked working on this project, do ⭐ and share this repository.
 
 If you want to contact me, you can reach me through social handles.
 
-<a href="https://twitter.com/Abhishe08346491"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/abhishek-sharma-aa06a9183/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
+<a href="https://twitter.com/abhishek_py3"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/abhishek-sharma-aa06a9183/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
 
 
 © 2022 Abhishek Sharma
