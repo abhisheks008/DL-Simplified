@@ -1,6 +1,6 @@
 <div align = 'center'>
-  <h2> HackClub RAIT's SoC Leaderboard | Project : ML-Crate 📊 </h2>
-  <i>Duration: <b>15th July, 2022</b> to <b>30th August, 2022</b></i>
+  <h2> Social Summer of Code 2022 Leaderboard | Project : Deep Learning Simplified 📊 </h2>
+  <i>Duration: <b>1st August, 2022</b> to <b>1st October, 2022</b></i>
   </div>
   
   </br>
