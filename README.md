@@ -37,6 +37,16 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
   
 *************************************************************
 
+## Leaderboard 📊
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/ssoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SSOC Leaderboard</b></sub></a></td>
+    </tr>
+  </table>
+
+**************************************************************
+
 <h2>✔Project Admin</h2>
 
 <table>
