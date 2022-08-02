@@ -36,6 +36,15 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 </table>
   
 *************************************************************
+## Points Break up for SSOC 2022 :chart_with_upwards_trend:
+| Levels | Points |
+|-|---|
+|🟢 Beginner|**10** Points|
+|🟡 Intermediate|**20** Points|
+|🔴 Advanced|**30** Points|
+
+**************************************************************
+
 
 ## Leaderboard 📊
 
