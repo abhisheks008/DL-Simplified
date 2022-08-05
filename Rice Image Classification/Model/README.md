@@ -49,6 +49,12 @@ By viewing the graphs, we can conclude that the model is not performing well. It
 
 By adding the MaxPooling layer, the model is now performing better than before.
 
+### Prediction
+
+Prediction on a random image from the testing dataset.
+
+![Prediction](../Images/prediction.png)
+
 **ACCURACIES**
 
 | Model         | Architecture              | Accuracy in % (on testing data) |
