@@ -14,7 +14,7 @@ The dataset contains images of 5 different types of rice. There are 15,000 image
 
 **WHAT I HAD DONE**
 
-I have developed 3 deep learning models to classify the images. First I used a ANN to classify the images. But I didn't get a good accuracy. Secondly I used a CNN to classify the images, but the model was overfitting on the training data. Lastly, I used a CNN with MaxPooling layers and got a satisfactory accuracy score.
+First I imported all the required libraries and dataset for this project. Then I imported the dataset and split it into training, validation and testing sets in the ratio 70:20:10. Then I proceeded to build the model. I have developed 3 deep learning models to classify the images. First I used a ANN to classify the images. But I didn't get a good accuracy. Secondly I used a CNN to classify the images, but the model was overfitting on the training data. Lastly, I used a CNN with MaxPooling layers and got a satisfactory accuracy score.
 
 **MODELS USED**
 
@@ -70,4 +70,5 @@ I was successfully able to develop a Deep Learning model that can classify image
 
 **Omkar Jahagirdar**
 
-Linkedin: https://www.linkedin.com/in/omkar-jahagirdar/
+Connect with me on Linkedin: https://www.linkedin.com/in/omkar-jahagirdar/
+Check out my Github profile: https://github.com/omkar3602
