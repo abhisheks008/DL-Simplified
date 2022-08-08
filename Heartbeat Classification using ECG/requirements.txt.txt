@@ -1,0 +1,27 @@
+Required packages/libraries to run the project in other machines:
+
+import numpy as np
+
+import pandas as pd
+
+import matplotlib.pyplot as plt
+
+from keras.utils.np_utils import to_categorical
+
+from sklearn.utils import class_weight,resample
+
+from keras.models import Sequential
+
+from keras.layers import Conv1D, MaxPooling1D, Flatten
+
+from keras.layers import Dense, Dropout, BatchNormalization
+
+from keras.callbacks import EarlyStopping, ModelCheckpoint
+
+from keras.callbacks import History 
+
+from sklearn.metrics import confusion_matrix
+
+from keras.models import load_model
+
+from tensorflow.keras.optimizers import Adam
