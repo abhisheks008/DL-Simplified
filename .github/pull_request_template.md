@@ -1,4 +1,4 @@
-# Pull Request for ML-Crate 💡
+# Pull Request for DL-Simplified 💡
 
 
 ## Issue Title : <!-- Enter the issue title here -->
