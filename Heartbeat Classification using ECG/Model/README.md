@@ -1,3 +1,23 @@
+# Heartbeat Classification using ECG
+
+### Goal
+The goal of this project is to create a deep learning model which will predict the heartbeat of the patients from the ECG images.
+
+### Dataset
+The dataset is collected from the following link, https://www.kaggle.com/datasets/shayanfazeli/heartbeat
+
+### What I have done
+Firstly I have visulized the data using different data visualization techniques and after that the model creation is started.
+
+### Libraries used
+1. `Numpy`
+2. `Pandas`
+3. `sklearn`
+4. `Keras`
+5. `Tensorflow`
+6. `matplotlib`
+
+
 # Data Visualization And Conclusion #
 
 ### Content of the Training Data set ###
