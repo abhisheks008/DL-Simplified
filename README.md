@@ -3,6 +3,20 @@
   <h3>Website for Deep Learning Simplified Repo: <a href="https://tinyurl.com/deep-learning-simplified">Click Here!🎯</a></h3>
 </div>
 
+<div align="center">
+
+![GitHub contributors](https://img.shields.io/github/contributors/abhisheks008/DL-Simplified?style=for-the-badge&color=blue)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/abhisheks008/DL-Simplified?style=for-the-badge&color=brightgreen)
+![GitHub PR Open](https://img.shields.io/github/issues-pr/abhisheks008/DL-Simplified?style=for-the-badge&color=aqua)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/abhisheks008/DL-Simplified?style=for-the-badge&color=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/abhisheks008/DL-Simplified?style=for-the-badge&color=brightgreen)
+![GitHub top language](https://img.shields.io/github/languages/top/abhisheks008/DL-Simplified?style=for-the-badge&color=aqua)
+![GitHub last commit](https://img.shields.io/github/last-commit/abhisheks008/DL-Simplified?style=for-the-badge&color=blue)
+![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge)
+![Github Repo Size](https://img.shields.io/github/repo-size/abhisheks008/DL-Simplified?style=for-the-badge&color=aqua)
+
+</div>
+
 ![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
 
 *************************************************
@@ -30,7 +44,7 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 <table>
 <tr>
  <td align="center">
-<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 01</h3></sub>
+<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 02</h3></sub>
  </td>
 </tr>
 </table>
