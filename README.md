@@ -64,7 +64,7 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/ssoc_leaderboard.md"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SSOC Leaderboard</b></sub></a></td>
+    <td align="center"><a href="https://docs.google.com/spreadsheets/d/14s2_cPpc_R09HJacQ-cqXy57xXD6lfU-18Gd562T5Dw/edit?usp=sharing"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SSOC Leaderboard</b></sub></a></td>
     </tr>
   </table>
 
