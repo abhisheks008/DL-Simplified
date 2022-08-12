@@ -1,25 +1,10 @@
-Libraries Required:
-1. Seaborn: Seaborn is a library for making statistical graphics in Python. 
-            It builds on top of matplotlib and integrates closely with pandas data structures.
+packages/libraries required to run the model:
 
-2. OS MOdule: The OS module in Python provides functions for interacting with the operating system. 
-              OS comes under Python`s standard utility modules. 
-              This module provides a portable way of using operating system-dependent functionality.
-
-3. Scipy: SciPy is a collection of mathematical algorithms and convenience functions built on the NumPy extension of Python. 
-          It adds significant power to the interactive Python session by providing the user with high-level commands and classes for manipulating and visualizing data.
-
-4. Warnings: Warnings are provided to warn the developer of situations that aren`t necessarily exceptions. 
-             Usually, a warning occurs when there is some obsolete of certain programming elements, such as keyword, function or class, etc.
-
-5. String
-
-6. datetime
-
-7. Tensorflow
-
-8. numpy
-
-9. pandas
-
-10. matplotlib
+os
+random
+opencv
+numpy
+pandas
+matplotlib
+keras
+tensorflow
