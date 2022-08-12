@@ -44,7 +44,7 @@ This dataset consists of more than four hundred thousand handwritten names colle
 ### Visualization ###
 
 ### Dataset ###
-![image](https://user-images.githubusercontent.com/83596240/183436392-f412bd71-0330-4bc5-bcde-41f78583a959.png)
+![image](https://github.com/SHAY2407/DL-Simplified/blob/main/Handwriting%20Recognition%20Project/Images/datasetImg.jpg)
 
 ### Distribution of names ###
 
