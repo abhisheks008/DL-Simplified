@@ -47,13 +47,13 @@ This dataset consists of more than four hundred thousand handwritten names colle
 ![image](https://github.com/SHAY2407/DL-Simplified/blob/main/Handwriting%20Recognition%20Project/Images/datasetImg.jpg)
 
 ### Distribution of names ###
-
+![image](https://github.com/SHAY2407/DL-Simplified/blob/main/Handwriting%20Recognition%20Project/Images/DistbNames.jpg)
 
 ### heatmap ###
-
+![image](https://github.com/SHAY2407/DL-Simplified/blob/main/Handwriting%20Recognition%20Project/Images/heatmap.jpg)
 
 ### Histogram ###
-
+![image](https://github.com/SHAY2407/DL-Simplified/blob/main/Handwriting%20Recognition%20Project/Images/Histogram.jpg)
 
 ### Accuracy ###
 
