@@ -14,7 +14,7 @@ Data for the case is available in CSV format having 6362620 rows and 10 columns.
 
 **WHAT I HAD DONE**
 
-First I imported all the required libraries and dataset for this project. Then I imported the dataset and split it into training, validation and testing sets in the ratio 70:20:10. Then I proceeded to build the model. I have developed 3 deep learning models to classify the images. First I used a ANN to classify the images. But I didn't get a good accuracy. Secondly I used a CNN to classify the images, but the model was overfitting on the training data. Lastly, I used a CNN with MaxPooling layers and got a satisfactory accuracy score.
+First I imported all the required libraries and dataset for this project. Then I did some EDA to find which mode of transaction results into most fraudulent transactions. Then I worked throught to treat any inconsistency in the data. Then I proceeded to build the model. I worked two different models and compared results from both to select mode appropriate one for this project. First I used a logistic regression model classify Fraudulent and Non fraudulent transactions. Next I worked with Random Forest classifier model to amp up the accuracy which resulted in some improvement from the previous LR moel. At the end I observed an accuracy of 99.97.
 
 **MODELS USED**
 
