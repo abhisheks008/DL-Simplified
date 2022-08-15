@@ -1,3 +1,16 @@
+## SARS COV 2 CT Scan Classification ##
+
+### Goal ###
+The goal of this project is to create a deep learning - image processing model which can identify the CT scan images of SARS COV 2 affected patients.
+
+### Dataset ###
+The dataset is collected from the following link,
+https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset
+
+### Approach ###
+Using 3 differnent algorithms to implement the models and comparing all the algorithms to find out the best fitted algorithm for the model by checking the accuracy
+scores and performing data visualization and prediction
+
 ## Creating Training Dataset ##
 Selecting Data directory and Categories: COVID & non-COVID
 ![image](https://user-images.githubusercontent.com/83596240/184601190-78fd0821-e5b2-4434-9dec-fa058c5b86f3.png)
