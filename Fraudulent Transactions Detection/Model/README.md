@@ -24,6 +24,7 @@ The models are:
 2. Random Forest Classifier
 
 **HOW TO RUN**
+
 Upload kaggle api key file and fraud_transaction_detection.ipynb file on colab and just run the code.
 
 **LIBRARIES NEEDED**
@@ -63,7 +64,8 @@ By viewing Confusion Matrix it is easily deduced that RFC model is the best mode
 
 I was successfully able to find the most accurate model to detect fraudlent transactions.
 
-**Tanish Khandelwal**
+# Tanish Khandelwal
 
 Connect with me on Linkedin: https://www.linkedin.com/in/tanish-khandelwal-da/
+
 Check out my Github profile: https://github.com/tknishh
