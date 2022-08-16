@@ -1,71 +1,77 @@
-# Fraudulent Transactions Detection
+# RESUME SCREENING AND CLASSIFICATION MODEL
 
 **AIM**
 
-Develop a model for predicting fraudulent transactions for a financial company and use insights from the model to develop an actionable plan.
+Develop a model for predicting the class/category of role based on the person's resume.
 
 **DATASET**
 
-https://www.kaggle.com/datasets/miznaaroob/fraudulent-transactions-data
+https://www.kaggle.com/datasets/dhainjeamita/updatedresumedataset?resource=download
 
 **CONTENT**
 
-Data for the case is available in CSV format having 6362620 rows and 10 columns.
+Data for the case is available in CSV format having 963 rows and 2 columns.
 
-**WHAT I HAD DONE**
+**STEPS TAKEN**
 
-First I imported all the required libraries and dataset for this project. Then I did some EDA to find which mode of transaction results into most fraudulent transactions. Then I worked throught to treat any inconsistency in the data. Then I proceeded to build the model. I worked two different models and compared results from both to select mode appropriate one for this project. First I used a logistic regression model classify Fraudulent and Non fraudulent transactions. Next I worked with Random Forest classifier model to amp up the accuracy which resulted in some improvement from the previous LR moel. At the end I observed an accuracy of 99.97.
+All the required libraries and packages were imported and then the required dataset for the project was loaded.EDA was carried out to visualize various parameters and the most corelated unigrams and bigrams. Data was cleaned also known as Text Preprocessing. Text Preprocessing was done using the re function of python and the nltk library which is used for NLP based models. Model building was then implemented using different algorithms. 9 different models were used to train and valuate the results. 5 of the used models gave a very high accuracy whereas Dummy Classifier gave the least accuracy of less than 0.1.
 
 **MODELS USED**
 
-The models are:
+The classification models used are:
 
-1. Logistic Regression
-2. Random Forest Classifier
-
-**HOW TO RUN**
-
-Upload kaggle api key file and fraud_transaction_detection.ipynb file on colab and just run the code.
+1. K Nearest Neighbor
+2. Dummy Classifier
+3. Linear Support Vector Classifier
+4. Stochastic Gradient Descent
+5. Random Forest
+6. Decision Tree
+7. Multinomial Naive Bayes Classifier
+8. Gradient Boost
+9. AdaBoost
 
 **LIBRARIES NEEDED**
 
-* Opendatasets (for downloading the dataset)
 * Pandas - for data analysis
 * Numpy - for data analysis
 * matplotlib - for data visualization
 * seaborn - for data visualization
-* itertools - for data analysis
+* scikit-learn - for data analysis
 
 **VISUALIZATION**
 
-### Dataset Head snipshot
-![Dataset Head snipshot](../Images/Dataset%20head.png)
+### Dataset Head snapshot
+![data sample](https://user-images.githubusercontent.com/86421205/184983563-e11e69ab-266b-45ca-949c-68992b0a8dd5.png)
 
-### Confusion matrix for Logistic Regression model
-![Confusion matrix for Logistic Regression model](../Images/lr_cm.png)
+### Accuracy Comparison of Different models
+![acuracy_comp(two)](https://user-images.githubusercontent.com/86421205/184983218-d01dba0d-98c0-4679-b08f-f2d65759df63.png)
 
-### Confusion matrix for Random Forest Classifier model
-![Confusion matrix for Random Forest Classifier model](../Images/rfc_cm.png)
+### Confusion matrix for Stochastic Gradient Descent Algorithm
+![confusion_matrix_SGD](https://user-images.githubusercontent.com/86421205/184983825-5244289e-1583-4ac6-908d-fe0eb37bd7c9.png)
 
 By viewing Confusion Matrix it is easily deduced that RFC model is the best model for this project.
 
-### Accuracy score for Random Forest Classifier in comparison to Logistic Regression
-![Accuracy score for Random Forest Classifier in comparison to Logistic Regression](../Images/acc_com_lr_rfc.png)
 
 **ACCURACIES**
 
 | Model         | Architecture                      | Accuracy in % (on testing data) |
 | ------------- |:---------------------------------:|:-------------:|
-| Model 1       | Logistic Regression model         |99.83          |
-| Model 2       | Random Forest classifier Model    |99.97          |
-
+| Model 1       | K Nearest Neighbor Model          |97.92          |
+| Model 2       | Dummy Classifier Model            |9.84           |
+| Model 3       | Linear Support Vector Model       |100.00         |
+| Model 4       | Stochastic Gradient Descent Model |100.00         |
+| Model 5       | Random Forest Classifier Model    |100.00         |
+| Model 6       | Decision Tree Classifier Model    |100.00         |
+| Model 7       | Multinomial Naive Bayes Model     |96.37          |
+| Model 8       | Gradient Boost Classifier Model   |100.00         |
+| Model 9       | AdaBoost Model                    |30.05          |
 
 **CONCLUSION**
 
-I was successfully able to find the most accurate model to detect fraudlent transactions.
+The mostsuccesful model was found to be Stochastic Gradient Descent Classifier for Role classification basedon their resume.
 
-# Tanish Khandelwal
+# Prajwal Uday
 
-Connect with me on Linkedin: https://www.linkedin.com/in/tanish-khandelwal-da/
+Connect with me on Linkedin: https://www.linkedin.com/in/prajwal-uday-1b9678229/
 
-Check out my Github profile: https://github.com/tknishh
+Check out my Github profile: https://github.com/prajwal-144
