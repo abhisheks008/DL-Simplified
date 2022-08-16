@@ -37,6 +37,8 @@ TF-IDF is a measure of originality of a word.
 
 **IDF** is a measure of how common or rare a term is across the entire corpus of documents.
 
+![res](https://user-images.githubusercontent.com/86421205/184990238-7664e734-0e60-46a7-a778-f3fd79ebc2d5.png)
+
 **MODELS USED**
 
 The classification models used are:
@@ -66,6 +68,9 @@ The classification models used are:
 
 ### Accuracy Comparison of Different models
 ![acuracy_comp(two)](https://user-images.githubusercontent.com/86421205/184983218-d01dba0d-98c0-4679-b08f-f2d65759df63.png)
+
+### Evaluating SGD on different classes
+![sgd](https://user-images.githubusercontent.com/86421205/184990143-e525fd7f-530c-4629-9f49-e5cb70668e17.png)
 
 ### Confusion matrix for Stochastic Gradient Descent Algorithm
 ![confusion_matrix_SGD](https://user-images.githubusercontent.com/86421205/184983825-5244289e-1583-4ac6-908d-fe0eb37bd7c9.png)
