@@ -49,7 +49,7 @@ The classification models used are:
 ### Confusion matrix for Stochastic Gradient Descent Algorithm
 ![confusion_matrix_SGD](https://user-images.githubusercontent.com/86421205/184983825-5244289e-1583-4ac6-908d-fe0eb37bd7c9.png)
 
-By viewing Confusion Matrix it is easily deduced that RFC model is the best model for this project.
+By viewing Confusion Matrix it is easily deduced that SGD model is the best model for this project.
 
 
 **ACCURACIES**
