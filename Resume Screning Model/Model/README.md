@@ -1,7 +1,5 @@
 # RESUME SCREENING AND CLASSIFICATION MODEL
 
-##TEXT CLASSIFICATION
-
 **GOAL**
 
 Develop a model classify resumes into predefined categories.
@@ -17,11 +15,11 @@ Data for the case is available in CSV format having 963 rows and 2 columns.
 
 **STEPS TAKEN**
 
-All the required libraries and packages were imported and then the required dataset for the project was loaded.EDA was carried out to visualize various parameters and the most corelated unigrams and bigrams. Data was cleaned also known as Text Preprocessing. Text Preprocessing was done using the re function of python and the nltk library which is used for NLP based models. Model building was then implemented using different algorithms. 9 different models were used to train and valuate the results. 5 of the used models gave a very high accuracy whereas Dummy Classifier gave the least accuracy of less than 0.1.
+All the required libraries and packages were imported and then the required dataset for the project was loaded. *EDA* was carried out to visualize various parameters and the most corelated unigrams and bigrams. Data was cleaned also known as *Text Preprocessing*. Text Preprocessing was done using the re function of python and the nltk library which is used for NLP based models. Model building was then implemented using different algorithms. 9 different models were used to train and valuate the results. 5 of the used models gave a very high accuracy whereas Dummy Classifier gave the least accuracy of less than 0.1.
 
 **TEXT PREPROCESSING**
 
-The text needs to be transformed to vectors so as the algorithms will be able make predictions. In this case, the Term Frequency – Inverse Document Frequency (TFIDF) weight will be used to evaluate how important a word is to a document in a collection of documents.
+The text needs to be transformed to vectors so as the algorithms will be able make predictions. In this case, the **Term Frequency – Inverse Document Frequency (TFIDF)** weight will be used to evaluate how important a word is to a document in a collection of documents.
 
 After removing punctuation and lower casing the words, importance of a word is determined in terms of its frequency.
 
