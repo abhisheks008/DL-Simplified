@@ -16,8 +16,11 @@ Data for the case is available in CSV format having 963 rows and 2 columns.
 **STEPS TAKEN**
 
 All the required libraries and packages were imported and then the required dataset for the project was loaded. 
+
 *EDA* was carried out to visualize various parameters and the most corelated unigrams and bigrams. 
+
 Data was cleaned also known as *Text Preprocessing*. Text Preprocessing was done using the re function of python and the nltk library which is used for NLP based models. 
+
 Model building was then implemented using different algorithms. 9 different models were used to train and valuate the results. 5 of the used models gave a very high accuracy whereas Dummy Classifier gave the least accuracy of less than 0.1.
 
 **TEXT PREPROCESSING**
@@ -36,15 +39,15 @@ TF-IDF is a measure of originality of a word.
 
 The classification models used are:
 
-1. *K Nearest Neighbor
-2. *Dummy Classifier
-3. *Linear Support Vector Classifier
-4. *Stochastic Gradient Descent
-5. *Random Forest
-6. *Decision Tree
-7. *Multinomial Naive Bayes Classifier
-8. *Gradient Boost
-9. *AdaBoost
+1. *K Nearest Neighbor*
+2. *Dummy Classifier*
+3. *Linear Support Vector Classifier*
+4. *Stochastic Gradient Descent*
+5. *Random Forest*
+6. *Decision Tree*
+7. *Multinomial Naive Bayes Classifier*
+8. *Gradient Boost*
+9. *AdaBoost*
 
 **LIBRARIES REQUIRED**
 
