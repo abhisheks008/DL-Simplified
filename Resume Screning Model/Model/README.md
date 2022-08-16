@@ -30,7 +30,7 @@ The classification models used are:
 8. Gradient Boost
 9. AdaBoost
 
-**LIBRARIES NEEDED**
+**LIBRARIES REQUIRED**
 
 * Pandas - for data analysis
 * Numpy - for data analysis
