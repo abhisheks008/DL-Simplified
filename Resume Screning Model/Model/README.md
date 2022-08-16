@@ -23,6 +23,8 @@ Data was cleaned also known as *Text Preprocessing*. Text Preprocessing was done
 
 Model building was then implemented using different algorithms. 9 different models were used to train and valuate the results. 5 of the used models gave a very high accuracy whereas Dummy Classifier gave the least accuracy of less than 0.1.
 
+![category_distribution](https://user-images.githubusercontent.com/86421205/184989201-89102de2-33d1-4472-85d1-8245280952ef.png)
+
 **TEXT PREPROCESSING**
 
 The text needs to be transformed to vectors so as the algorithms will be able make predictions. In this case, the **Term Frequency – Inverse Document Frequency (TFIDF)** weight will be used to evaluate how important a word is to a document in a collection of documents.
