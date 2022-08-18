@@ -1,4 +1,6 @@
-James Webb Space Telescope Image Analysis
+<h1>James Webb Space Telescope Image Analysis</h1>
+
+Dataset link: https://www.kaggle.com/datasets/goelyash/james-webb-telescope-images-original-size
 
 Click on "Run" button to execute the code
 
@@ -6,13 +8,15 @@ Download data using the opendatasets module or download it directly from kaggle 
 
 Download the required modules and if there is an error while downloading opencv try:- pip install opencv-python
 
+Install all the requirements from requirements.txt file
+
 Change path ff the images are in a different folder
 
 Can also provide "path" by using glob module and a for loop
 
 Dataset for image classification and regression has already been found and uploaded into the data.csv file in dataset folder
 
-Analysis:
+<h4>Analysis:</h4>
 
 The dataset's photos are all first transformed to greyscale versions. This approach makes it simpler and requires less computing with the use of greyscale images. When colour photos are used for image analysis, extraneous information will be included therefore increasing the amount of training data necessary to attain acceptable accuracy and performance. So they are transformed into greyscale images.
 
@@ -51,3 +55,7 @@ Laplacian Method:
 Edge Detection (canny method):
 
 ![alt text](https://github.com/Rohith2202/DL-Simplified/blob/main/James%20Webb%20Space%20Telescope%20Image%20Analysis/Images/Edge%20Detection.jpg)
+
+My linkedin: https://www.linkedin.com/in/m-rohith-3a4b8b237/ 
+
+My github: https://github.com/Rohith2202
