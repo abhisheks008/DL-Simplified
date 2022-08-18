@@ -2,7 +2,7 @@ name: Auto message on Pr merge
 
 on:
   pull_request_target:
-    types: [closed]
+    types: [merged]
 
 jobs:
   auto-response:
