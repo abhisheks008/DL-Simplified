@@ -1,6 +1,8 @@
 **PROJECT TITLE**
+Car Object Detection Project
 
 **GOAL**
+Detect all cars.
 
 Write the main goal of project and what's the purpose of it
 
