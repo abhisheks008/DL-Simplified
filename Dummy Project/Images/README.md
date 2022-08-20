@@ -1,1 +1,1 @@
-Upload your visualization images here.
+Output of model in the form of png images
