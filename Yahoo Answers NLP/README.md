@@ -2,6 +2,7 @@
   <h1>Yahoo Answers NLP</h1>
   </div>
 <img src = "https://github.com/Aadi71/DL-Simplified/blob/main/Yahoo%20Answers%20NLP/Images/yahoo-answers.png">
+
 ### Goal
 The goal of this project is to create a deep learning model to analyse the Yahoo Answers.
 
@@ -48,7 +49,7 @@ LSTM gave more accuracy than CNN.
 ### LSTM Performance Plot:
 <img src = "https://github.com/Aadi71/DL-Simplified/blob/main/Yahoo%20Answers%20NLP/Images/LSTM%20Plot.png">
 
-
+### Hence, we have trained tow models: **LSTM**(Accuracy: 46.26%) and **CNN**(38.97%)
 
 ### Author
 Code contributed by: **Aadi Jain**
