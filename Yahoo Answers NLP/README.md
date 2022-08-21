@@ -1,7 +1,7 @@
 <div align = 'center'>
   <h1>Yahoo Answers NLP</h1>
   </div>
-
+<img src = "https://github.com/Aadi71/DL-Simplified/blob/main/Yahoo%20Answers%20NLP/Images/yahoo-answers.png">
 ### Goal
 The goal of this project is to create a deep learning model to analyse the Yahoo Answers.
 
@@ -36,11 +36,19 @@ The dataset for this project is taken from the Kaggle dataset website. Here is t
 9. Tenserflow
 10. Contractions
 
-### Visualization and EDA of different attributes:
-<img src = "https://github.com/abhisheks008/DevHack22/blob/main/Machine%20learning/Abhishek%20Sharma/Images/glass1.png">
+### Visualization of question lengths per category:
+<img src = "https://github.com/Aadi71/DL-Simplified/blob/main/Yahoo%20Answers%20NLP/Images/box%20plot.png">
 
 ### Model Creation:
 LSTM gave more accuracy than CNN.
+
+### CNN Performance Plot:
+<img src = "https://github.com/Aadi71/DL-Simplified/blob/main/Yahoo%20Answers%20NLP/Images/CNN%20Plot.png">
+
+### LSTM Performance Plot:
+<img src = "https://github.com/Aadi71/DL-Simplified/blob/main/Yahoo%20Answers%20NLP/Images/LSTM%20Plot.png">
+
+
 
 ### Author
 Code contributed by: **Aadi Jain**
