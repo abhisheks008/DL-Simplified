@@ -40,4 +40,4 @@ What's the conclusion derived from this project and also showcase the accuracy r
 
 **YOUR NAME**
 
-Add your name at the end of the file, along with social media handles if applicable.
+Add your name at the end of the file, along with social media handles if applicable!
