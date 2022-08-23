@@ -5,7 +5,7 @@
 
 Create a model to identify the brands of the shoes.
 
-**DATASET**
+**DATASET :**
 [https://www.kaggle.com/datasets/ifeanyinneji/nike-adidas-shoes-for-image-classification-dataset](https://www.kaggle.com/datasets/ifeanyinneji/nike-adidas-shoes-for-image-classification-dataset)
 
 **DESCRIPTION**
@@ -20,7 +20,7 @@ The models are:
 
   
 
-1. SVM ()
+1. Support Vector Machine(SVM)
 
 2. Convolutional Neural Network (CNN)
   
@@ -208,8 +208,27 @@ Finally, in the **Model evaluation** phase, the model generated can be used to e
 The final output would be like this:
 
   
-
-![](https://miro.medium.com/max/453/1*MwoVOO8PkAKBHrR7uIyoBg.png)
+![](https://github.com/adithya-s-k/DL-Simplified/blob/shoe_classification/Shoes%20Classification/Images/output.png)
 
 # **Conclusion:**
-In this work, I assembled and trained the SVM model to classify images of ice cream cone, cricket ball, and cars. I used GridSearchCV to find out the best parameters for SVM to classify the images and have measured the accuracy of the model.
+In this work, I assembled and trained the SVM model to classify images of nike shoes and adidas shoe. I used GridSearchCV to find out the best parameters for SVM to classify the images and have measured the accuracy of the model.
+
+# **Image Classification Using Machine Learning-Convolution Neural Network(CNN)**
+
+## CNN Performance Graphs
+
+![](../Images/Accuracy.png)
+![](../Images/training_validation_loss.png)
+
+
+**ACCURACIES**
+
+| Model         | Architecture              | Accuracy in % (on testing data) |
+| ------------- |:-------------------------:|:-------------:|
+| Model 1       | SVM                       |72.50          |
+| Model 2       | Basic CNN Model           |82.33          |
+
+
+## Connect with me on
+### [LinkedIn - Adithya S Kolavi](https://www.linkedin.com/in/adithya-s-kolavi-127a561a8/)
+### [Github - adithya_s_k](https://github.com/adithya-s-k)
