@@ -1,4 +1,5 @@
 # Monkeypox Detection
+
 **GOAL**
 
 To classify the images from the monkeypox skin lesion dataset using a Deep Learning approach.
@@ -83,4 +84,5 @@ I was successfully able to develop a Deep Learning model that can classify image
 **Omkar Jahagirdar**
 
 Connect with me on Linkedin: https://www.linkedin.com/in/omkar-jahagirdar/
+
 Check out my Github profile: https://github.com/omkar3602
