@@ -1,5 +1,4 @@
-# Rice Image Classification
-
+# Monkeypox Detection
 **GOAL**
 
 To classify the images from the monkeypox skin lesion dataset using a Deep Learning approach.
