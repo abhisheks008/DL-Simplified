@@ -65,7 +65,7 @@ Differnet Cell types
 
 
 **CONCLUSION**
-Based on the optimizer used we get different accuracies for the same model. Some optimizers for example SGD (Stochastic Gradient Descent) because of a slower convergance need more epochs to reach the minimum when compared to optimizers like RMSPROP (Root Mean Squared Propagation).
+Based on the optimizer used, we get different accuracies for the same model. Some optimizers for example SGD (Stochastic Gradient Descent) because of a slower convergance need more epochs to reach the minimum when compared to optimizers like RMSPROP (Root Mean Squared Propagation).
 
 # Uttkarsh Patel
 
