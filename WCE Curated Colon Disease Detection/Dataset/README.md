@@ -1,0 +1,1 @@
+I have fetched the WCE Curated Colon Disease Detection Dataset from, https://www.kaggle.com/datasets/francismon/curated-colon-dataset-for-deep-learning, for building and developing this Project. You guys can check out the dataset from the given link.
