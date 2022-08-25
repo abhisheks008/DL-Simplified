@@ -42,6 +42,7 @@ The below image is the graph of all the accuracies and losses combined.
 |  ___________ ACCURACY ___________                            | ______________ LOSS ______________                                                  |
 |:------------------------------------------------------------:|:-----------------------------------------------------:|
 |  ![COMBINED ACCURACY](../Images/all_combined_accuracy.svg)   | ![COMBINED ACCURACY](../Images/all_combined_loss.svg) |
+
 View it on [TENSORBOARD](https://tensorboard.dev/experiment/hnDJqaynRduP3bWTYSaYMw)
 One thing to take note is that RMSPROP may not always show this kind of performance on evry model, it depends on various factors. Some (optimizers) may perform better in different situations.
 <br>
