@@ -14,10 +14,10 @@ This dataset contains 12,500 (320x240 rgb) augmented images of blood cells (JPEG
 There are 2 folders namely dataset-master and dataset2-master. dataset-master contains the original (with no augmentation) 410 images of the different cell types. Where as the dataset2-master contains 3000 augmented images for each cell types, with different folders for training, testing and validation (test_simple).
 <br>
 
-**WHAT I HAD DONE**
+**BRIEF EXPLINATION**
 I have created an input pipeline using `tf.keras.utils.image_dataset_from_directory`. It eases the process of creating traing, testing and validation datasets with the use of a simple folder structure. More on it [image_dataset_from_directory](https://www.tensorflow.org/api_docs/python/tf/keras/utils/image_dataset_from_directory).
 
-Then the datasets are passed to the model for training. The CNN consists of 4 `2D Convolution` and `Pooling` layers, and a single Dense
+Then the datasets are passed to the model for training. The CNN consists of 4 `2D Convolution` and `Pooling` layers with different number of filters, two `Dense` layers with a `Dropout` of 10% between them.
 <br>
 
 **MODELS USED**
@@ -27,16 +27,27 @@ Summary of the model -
 
 The model is trained with various parameter combinations.
 
-![#fe7042](https://via.placeholder.com/15/fe7042/fe7042.png) `Training`
-![#0176bb](https://via.placeholder.com/15/0176bb/0176bb.png) `Validation`
 
-| OPTIMIZER |          LOSS FUNCTION          | ACTIVATION FUNCTION |                    <div style="width:200px">ACCURACY</div>           |         <div style="width:200px">LOSS</div>                                 |                                        Link                                       |
-|:---------:|:-------------------------------:|:-------------------:|:--------------------------------------------------------------------:|----------------------------------------------------------------------|:---------------------------------------------------------------------------------:|
-| adam      | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/adam_scc_relu_accuracy.svg)                    | ![LOSS](../Images/adam_scc_relu_loss.svg)                            | [TensorBoard](https://tensorboard.dev/experiment/dlF6LYCxTn2kYA2SVCXZFw)          |
-| adadelta  | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/adadelta_scc_relu_accuracy.svg)                | ![LOSS](../Images/adadelta_scc_relu_loss.svg)                        | [TensorBoard](https://tensorboard.dev/experiment/oKYQnvs2RmOOqBWR4V6gsA)          |
-| rmsprop   | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/rmsprop_scc_relu_accuracy.svg)                 | ![LOSS](../Images/rmsprop_scc_relu_loss.svg)                         | [TensorBoard](https://tensorboard.dev/experiment/631Uyt1gR7aL4udZYT8QlA)          |
-| adagrad   | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/adagrad_scc_relu_accuracy.svg)                 | ![LOSS](../Images/adagrad_scc_relu_loss.svg)                         | [TensorBoard](https://tensorboard.dev/experiment/Oibh7HgJR4KbJasGY5i96g)          |
-| sgd       | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/sgd_scc_relu_accuracy.svg)                     | ![LOSS](../Images/sgd_scc_relu_loss.svg)                             | [TensorBoard](https://tensorboard.dev/experiment/J4v0y5gpRn2ZgNrlV9alGA)          |
+| OPTIMIZER |          LOSS FUNCTION          | ACTIVATION FUNCTION |                    <div style="width:200px">____ ACCURACY ____</div>           |         <div style="width:200px">_______ LOSS _______</div>                          |
+|:---------:|:-------------------------------:|:-------------------:|:--------------------------------------------------------------------:|----------------------------------------------------------------------|
+| adadelta  | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/adadelta_scc_relu_accuracy.svg)                | ![LOSS](../Images/adadelta_scc_relu_loss.svg)                        |
+| adagrad   | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/adagrad_scc_relu_accuracy.svg)                 | ![LOSS](../Images/adagrad_scc_relu_loss.svg)                         |
+| adam      | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/adam_scc_relu_accuracy.svg)                    | ![LOSS](../Images/adam_scc_relu_loss.svg)                            |
+| rmsprop   | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/rmsprop_scc_relu_accuracy.svg)                 | ![LOSS](../Images/rmsprop_scc_relu_loss.svg)                         |
+| sgd       | sparse categorical crossentropy | relu                | ![ACCURACY](../Images/sgd_scc_relu_accuracy.svg)                     | ![LOSS](../Images/sgd_scc_relu_loss.svg)                             |
+<br>
+
+###### From the above reults we can deduce that our model works best with the RMSPROP(Root Mean Squared Propagation) optimizer.
+The below image is the graph of all the accuracies and losses combined.
+|  ___________ ACCURACY ___________                            | ______________ LOSS ______________                                                  |
+|:------------------------------------------------------------:|:-----------------------------------------------------:|
+|  ![COMBINED ACCURACY](../Images/all_combined_accuracy.svg)   | ![COMBINED ACCURACY](../Images/all_combined_loss.svg) |
+View it on [TENSORBOARD](https://tensorboard.dev/experiment/hnDJqaynRduP3bWTYSaYMw)
+One thing to take note is that RMSPROP may not always show this kind of performance on evry model, it depends on various factors. Some (optimizers) may perform better in different situations.
+<br>
+
+
+###### Now we experiment how the accuracy and loss (both training and validation) are affected when we change the number of dense layers and the neurons in them.
 <br>
 
 **LIBRARIES NEEDED**
