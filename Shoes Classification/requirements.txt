@@ -1,0 +1,10 @@
+python
+pandas
+numpy
+matplotlib
+tensorflow
+pytorch
+keras
+sklearn
+cv2
+timm
