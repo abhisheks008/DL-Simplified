@@ -39,7 +39,7 @@ Optical Character Recognition (OCR) is the process that converts an image of tex
 
 ![ocr_flow](https://user-images.githubusercontent.com/86421205/187048138-8663068a-d334-4622-83db-b961cd906e4f.png)
 
-*AGGLOMERATIVE CLUSTERING*
+**AGGLOMERATIVE CLUSTERING**
 
 Agglomerative Clustering is a type of *Hierarchical Method* of Clustering which creates a tree-like structure through decomposition. It uses distance between the nearest/farthest points in neighbouring clusters for refinement.
 
