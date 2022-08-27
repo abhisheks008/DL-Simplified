@@ -70,7 +70,7 @@ Agglomerative Clustering uses a *bottom-up approach*. It starts with each object
 
 **CONCLUSION**
 
-Tesseract OCR has an upper-hand over the keras-ocr.
+Tesseract OCR has an upper-hand over the keras-ocr mostly for high-resolution images.
 
 # Prajwal Uday
 
