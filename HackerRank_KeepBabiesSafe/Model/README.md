@@ -3,6 +3,7 @@
 **GOAL**
 
 Develop a model to classify products into consumer products and toys and Extract and tag brand names of these products from each image. In case no brand names are mentioned, tag it as ‘Unnamed’.
+
 *NOTE* : We can cluster visually similar images (image clustering) together using deep learning and clustering. 
 
 **DATASET**
