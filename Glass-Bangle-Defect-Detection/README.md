@@ -12,7 +12,7 @@ The dataset was with images if pixel density 3000*3000 and I had to reduce it to
 
 ## The Model
 So the model I have used here is here is a simple CNN based model that has 1 CNN layer, followed by one pooling payer (MaxPool) and two fully connected layer.
-<img src="../Images/CNN model.png" width="350" title="CNN Model">
+<img src="./Images/CNN model.png" width="350" title="CNN Model">
 <p>Source: https://medium.com/analytics-vidhyaintroduction-to-cnn-and-corona-virus-prediction-through-ct-scan-c9d6dbd67d26</p>
 
 ## Training and Testing of the Model
