@@ -1,57 +1,51 @@
-# RESUME SCREENING AND CLASSIFICATION MODEL
+# KEEP BABIES SAFE MODEL
 
 **GOAL**
 
-Develop a model classify resumes into predefined categories.
-Note: Text classification is an example of supervised machine learning since we train the model with labelled data.
+Develop a model to classify products into consumer products and toys and Extract and tag brand names of these products from each image. In case no brand names are mentioned, tag it as ‘Unnamed’.
+*NOTE* : We can cluster visually similar images (image clustering) together using deep learning and clustering. 
 
 **DATASET**
 
-https://www.kaggle.com/datasets/dhainjeamita/updatedresumedataset?resource=download
+https://www.kaggle.com/datasets/kunalgupta2616/hackerearth-dl-challenge-keep-babies-safe
 
 **CONTENT**
 
-Data for the case is available in CSV format having 963 rows and 2 columns.
+Data for the case is available in CSV format having 1131 rows and 3 columns.
+It also has an images folder containing 1131 images of different products.
 
 **STEPS TAKEN**
 
 All the required libraries and packages were imported and then the required dataset for the project was loaded. 
 
-*EDA* was carried out to visualize various parameters and the most corelated unigrams and bigrams. 
+Basic *EDA* was carried out.
 
-Data was cleaned also known as *Text Preprocessing*. Text Preprocessing was done using the re function of python and the nltk library which is used for NLP based models. 
+The code uses Resnet50, a pre-trained  CNN, for feature extraction, we remove its topmost/head or the final layer of neurons used for prediction of classes, we then feed our image to the CNN and get a feature vector as an output, which essentially is a flattened array of all the feature maps learned by our CNN at the second last layer of Resnet50. This output vector can be fed into any clustering algorithm ( kmeans(n_cluster = 2) or agglomerative clustering) which classifies our images into the desired number of classes.
 
-Model building was then implemented using different algorithms. 9 different models were used to train and valuate the results. 5 of the used models gave a very high accuracy whereas Dummy Classifier gave the least accuracy of less than 0.1.
-
-![category_distribution](https://user-images.githubusercontent.com/86421205/184989201-89102de2-33d1-4472-85d1-8245280952ef.png)
-
-**TEXT PREPROCESSING**
-
-The text needs to be transformed to vectors so as the algorithms will be able make predictions. In this case, the **Term Frequency – Inverse Document Frequency (TFIDF)** weight will be used to evaluate how important a word is to a document in a collection of documents.
-
-After removing punctuation and lower casing the words, importance of a word is determined in terms of its frequency.
-
-TF-IDF is a measure of originality of a word.
-
-**TF** is the number of times a term appears in a particular document.
-
-**IDF** is a measure of how common or rare a term is across the entire corpus of documents.
-
-![res](https://user-images.githubusercontent.com/86421205/184990238-7664e734-0e60-46a7-a778-f3fd79ebc2d5.png)
+Model building was then implemented using different algorithms. Two different OCR libraries were used.
 
 **MODELS USED**
 
 The classification models used are:
 
-1. *K Nearest Neighbor*
-2. *Dummy Classifier*
-3. *Linear Support Vector Classifier*
-4. *Stochastic Gradient Descent*
-5. *Random Forest*
-6. *Decision Tree*
-7. *Multinomial Naive Bayes Classifier*
-8. *Gradient Boost*
-9. *AdaBoost*
+1. *PyTesseract*
+2. *Keras-OCR*
+3. *Agglomerative Clustering*
+
+**THEORY**
+
+Optical Character Recognition (OCR) is the process that converts an image of text into a machine-readable text format. An OCR program extracts and repurposes data from scanned documents, camera images and image-only pdfs. OCR software singles out letters on the image, puts them into words and then puts the words into sentences, thus enabling access to and editing of the original content.
+
+![ocr_flow](https://user-images.githubusercontent.com/86421205/187048138-8663068a-d334-4622-83db-b961cd906e4f.png)
+
+*AGGLOMERATIVE CLUSTERING*
+
+Agglomerative Clustering is a type of *Hierarchical Method* of Clustering which creates a tree-like structure through decomposition. It uses distance between the nearest/farthest points in neighbouring clusters for refinement.
+
+Agglomerative Clustering uses a *bottom-up approach*. It starts with each object forming its own cluster and then iteratively merges the clusters according to their similarity hence forming Large Clusters. It terminates either when all the clusters merge into a single cluster or if a certain clustering threshold is imposed. 
+
+![aglo](https://user-images.githubusercontent.com/86421205/187048328-01fa6042-d37a-40e5-b1cf-157516531bac.jpg)
+
 
 **LIBRARIES REQUIRED**
 
@@ -60,41 +54,23 @@ The classification models used are:
 * matplotlib - for data visualization
 * seaborn - for data visualization
 * scikit-learn - for data analysis
+* scikit-learn - for data analysis
 
 **VISUALIZATION**
 
 ### Dataset Head snapshot
-![data sample](https://user-images.githubusercontent.com/86421205/184983563-e11e69ab-266b-45ca-949c-68992b0a8dd5.png)
+![Head](https://user-images.githubusercontent.com/86421205/187048338-c7faaf98-e52b-4fb7-b430-ae2958920b29.png)
 
-### Accuracy Comparison of Different models
-![acuracy_comp(two)](https://user-images.githubusercontent.com/86421205/184983218-d01dba0d-98c0-4679-b08f-f2d65759df63.png)
+### Samples
+![Sample](https://user-images.githubusercontent.com/86421205/187048354-e883481f-827a-44f7-9afb-5b1d7d0ee986.png)
 
-### Evaluating SGD on different classes
-![sgd](https://user-images.githubusercontent.com/86421205/184990143-e525fd7f-530c-4629-9f49-e5cb70668e17.png)
+### RESULT
+![tesseract_result](https://user-images.githubusercontent.com/86421205/187048377-240db53f-6736-4a3f-90b6-e0caf5efac34.png)
 
-### Confusion matrix for Stochastic Gradient Descent Algorithm
-![confusion_matrix_SGD](https://user-images.githubusercontent.com/86421205/184983825-5244289e-1583-4ac6-908d-fe0eb37bd7c9.png)
-
-By viewing Confusion Matrix it is easily deduced that SGD model is the best model for this project.
-
-
-**ACCURACIES**
-
-| Model         | Architecture                      | Accuracy in % (on testing data) |
-| ------------- |:---------------------------------:|:-------------:|
-| Model 1       | K Nearest Neighbor Model          |97.92          |
-| Model 2       | Dummy Classifier Model            |9.84           |
-| Model 3       | Linear Support Vector Model       |100.00         |
-| Model 4       | Stochastic Gradient Descent Model |100.00         |
-| Model 5       | Random Forest Classifier Model    |100.00         |
-| Model 6       | Decision Tree Classifier Model    |100.00         |
-| Model 7       | Multinomial Naive Bayes Model     |96.37          |
-| Model 8       | Gradient Boost Classifier Model   |100.00         |
-| Model 9       | AdaBoost Model                    |30.05          |
 
 **CONCLUSION**
 
-The most succesful model was found to be Stochastic Gradient Descent Classifier for Role classification based on their resume.
+Tesseract OCR has an upper-hand over the keras-ocr.
 
 # Prajwal Uday
 
