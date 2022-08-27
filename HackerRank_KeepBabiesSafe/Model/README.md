@@ -55,7 +55,6 @@ Agglomerative Clustering uses a *bottom-up approach*. It starts with each object
 * matplotlib - for data visualization
 * seaborn - for data visualization
 * scikit-learn - for data analysis
-* scikit-learn - for data analysis
 
 **VISUALIZATION**
 
