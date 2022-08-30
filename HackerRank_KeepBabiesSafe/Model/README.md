@@ -90,6 +90,7 @@ WER is generally well-correlated with CER (provided error rates are not excessiv
 ![image](https://user-images.githubusercontent.com/86421205/187368447-67bc6929-cd76-4083-b2a1-7bfda7ba74e8.png)
 
 *Keras-OCR*
+
 ![image](https://user-images.githubusercontent.com/86421205/187368593-17ce07fc-5a2b-4d18-8104-3d37d8b2da93.png)
 
 **CONCLUSION**
