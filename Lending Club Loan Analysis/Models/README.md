@@ -6,24 +6,24 @@ The dataset is collected from the following link,https://www.kaggle.com/datasets
 ## Description
 This dataset contains the full LendingClub data available from their site. There are separate files for accepted and rejected loans. The accepted loans also include the FICO scores, which can only be downloaded when you are signed in to LendingClub and download the data.The task is to Analyse and Predict Lending Club Loan Analysis.
 ## What I have done
-Imported the required libraries
-Imported the dataset
-Cleaned the data from null values
-Dealing with outliers
-Panda Profiling
-Categorcal features
-Ordinal transofmraiton
-One hot encoding
-Bi-Variate Analysis
-Train/Test Split
-Logistic Regression Model
+#Imported the required libraries
+#Imported the dataset
+#Cleaned the data from null values
+#Dealing with outliers
+#Panda Profiling
+#Categorcal features
+#Ordinal transofmraiton
+#One hot encoding
+#Bi-Variate Analysis
+#Train/Test Split
+#Logistic Regression Model
 ## Libraries used
-numpy
-pandas
-random
-matplotlib
-scikit learn (sklearn)
-seaborn
+#numpy
+#pandas
+#random
+#matplotlib
+#scikit learn (sklearn)
+#seaborn
 ## Models Used
 Logistic Regression Model
 ## Accuracy
