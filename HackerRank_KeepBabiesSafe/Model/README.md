@@ -67,10 +67,36 @@ Agglomerative Clustering uses a *bottom-up approach*. It starts with each object
 ### RESULT
 ![tesseract_result](https://user-images.githubusercontent.com/86421205/187048377-240db53f-6736-4a3f-90b6-e0caf5efac34.png)
 
+### EVALUATION OF ACCURACY
+
+*CER* calculation is based on the concept of Levenshtein distance, where we count the minimum number of character-level operations required to transform the ground truth text (aka reference text) into the OCR output.
+![image](https://user-images.githubusercontent.com/86421205/187367635-04fe26d9-3ee6-4dcc-bc41-106945ecf1d7.png)
+
+* S = Number of Substitutions
+* D = Number of Deletions
+* I = Number of Insertions
+* N = Number of characters in reference text (aka ground truth)
+
+*Word Error Rate (WER)* might be more applicable if it involves the transcription of paragraphs and sentences of words with meaning (e.g., pages of books, newspapers).
+
+WER operates at the word level instead. It represents the number of word substitutions, deletions, or insertions needed to transform one sentence into another.
+
+WER is generally well-correlated with CER (provided error rates are not excessively high), although the absolute WER value is expected to be higher than the CER value.
+![image](https://user-images.githubusercontent.com/86421205/187367946-64620e60-0a11-46e8-994f-880bb8719649.png)
+
+*TESSERACT OCR ACCURACY*
+![image](https://user-images.githubusercontent.com/86421205/187368323-84df1c54-9c1b-4f5b-9c8c-a8cdbb5a21ed.png)
+
+![image](https://user-images.githubusercontent.com/86421205/187368447-67bc6929-cd76-4083-b2a1-7bfda7ba74e8.png)
+
+*Keras-OCR*
+![image](https://user-images.githubusercontent.com/86421205/187368593-17ce07fc-5a2b-4d18-8104-3d37d8b2da93.png)
 
 **CONCLUSION**
 
-Tesseract OCR has an upper-hand over the keras-ocr mostly for high-resolution images.
+Tesseract OCR has an upper-hand over the keras-ocr mostly for high-resolution images. 
+
+After comparing the CER and WER accuracies of Tesseract OCR and Keras-OCR, we can conclude that for this case Pytesseract will be a better fit as it has a *lower CER and WER* as compared to Keras-OCR, hence *better accuracy*.
 
 # Prajwal Uday
 
