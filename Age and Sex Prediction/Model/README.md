@@ -41,17 +41,18 @@ Model Used
 
 
 - Accuracy and Loss Graph for Gender 
+Accuracy
 
-![image]()
+![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/AccuracyforGender.png)
 
-![image]()
+Loss 
 
+![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/genderloss.png)
 
 - Accuracy and Loss Graph for Age
 
-![image]()
+![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/Age.png)
 
-![image]()
 
 
 ## Testing 
@@ -59,23 +60,31 @@ Testing on random image from index 1-23708, you can also test by changing index 
 
 - Test Image 
 
-![image]()
+Original Gender: Male Original Age: 10
 
-output - 
+Predicted Gender: Male Predicted Age: 11
 
-
-- Test Image 
-
-![image]()
-
-output -
+![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/test1.png)
 
 
 - Test Image 
 
-![image]()
+Original Gender: Male Original Age: 25
 
-output - 
+Predicted Gender: Male Predicted Age: 24
+
+![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/test2.png)
+
+
+
+- Test Image 
+
+Original Gender: Female Original Age: 29
+
+Predicted Gender: Female Predicted Age: 29
+
+![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/test3.png)
+
 
 
 
