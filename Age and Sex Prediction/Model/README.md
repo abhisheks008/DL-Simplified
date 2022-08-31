@@ -54,7 +54,7 @@ output -
 
 
 ## Conclusion
-We can vary the number of epochs to get more accuracy on models, here we have achieved the accuracy of 
+We can vary the number of epochs to get more accuracy on models, here we have achieved the accuracy of more than 95% 
 
 
 ## License
