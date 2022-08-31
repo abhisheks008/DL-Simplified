@@ -13,44 +13,70 @@ I have used Kaggle's [EMİRHAN BULUT](https://www.kaggle.com/datasets/emirhanai/
 The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). Images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. Dataset could be used on a variety of tasks, e.g., face detection, age estimation, age progression/regression, landmark localization, etc.
 
 dataset image sample - 
+
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/OneoftheDatasetImage.png)
 
 ### Approach
 In the notebook we have trained an pretrained CNN model using the above dataset  and adjusting the algorithm. It also uses Convolutional Layers from Convolutional Neural Networks and compare the accuracy for age and gender and it also figure out the loss during model training. We have trained the model with large variation of images which covers pose, facial expression, illumination,  occlusion, resolution, etc so that we can enhance the accuracy of the model.
 
+
 Model Used 
+
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/ModelUsed.png)
 
+
 ### Output
+
 - Frequency Distribution of age of images used in dataset.
+
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/AgeDistribution.png)
 
 - Grid View of few Images used in Dataset 
+
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/DatasetPlot.png)
+
 - Gender Distribution 
+
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/GenderDistribution.png)
 
+
 - Accuracy and Loss Graph for Gender 
-![image]()
+
 ![image]()
 
+![image]()
+
+
 - Accuracy and Loss Graph for Age
+
 ![image]()
+
 ![image]()
+
 
 ## Testing 
 Testing on random image from index 1-23708, you can also test by changing index of the image used for test, variable name image_index.
 
 - Test Image 
+
 ![image]()
+
 output - 
-- Test Image 
-![image]()
-output -
+
 
 - Test Image 
+
 ![image]()
+
+output -
+
+
+- Test Image 
+
+![image]()
+
 output - 
+
 
 
 ## Conclusion
