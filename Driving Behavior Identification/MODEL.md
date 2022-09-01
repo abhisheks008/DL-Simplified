@@ -46,6 +46,14 @@ Aggressive
 ### Dataset Head snapshot
 <img width="177" alt="DATA" src="https://user-images.githubusercontent.com/91720396/187628443-f6330379-16b8-4b9b-86f1-482a44fcbe84.PNG">
 
+### The dataset contains 8 Features and 3643data points. The Class coloumn signifies whether driving speed is normal,slow or agressive.
+<img width="455" alt="Capture" src="https://user-images.githubusercontent.com/91720396/187948255-22c68f29-0a50-44cb-abc4-3c886369ace2.PNG">
+
+
+
+<img width="500" alt="Capture" src="https://user-images.githubusercontent.com/91720396/187948999-eeaa1031-22c8-4091-b6ab-852b7f8d11ec.PNG">
+
+
 ### Normal driving behavior's acceleration
 <img width="295" alt="DATA" src="https://user-images.githubusercontent.com/91720396/187631726-4faafb69-2e08-4bf1-9f70-a9d64b46d967.PNG">
 
