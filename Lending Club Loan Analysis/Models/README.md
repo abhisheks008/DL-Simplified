@@ -26,8 +26,16 @@ This dataset contains the full LendingClub data available from their site. There
 #seaborn
 ## Models Used
 Logistic Regression Model
+Decision Tree Model
+Random Forest Model 
+ANN Model 
+KNN Model 
 ## Accuracy
 Accuracy of logistic regression classifier on test set: 0.79
+Accuracy of KNN Classifier on test set                : 0.70
+Decision Tree Test Accuracy: 0.6947914800531789
+RandomForest Test Accuracy: 0.7647444298820446
+Accuracy of ANN                         : 0.79
 ## Conclusion
 Successfully able to develop a Machine Learning Model that can Analyse or Predict Lending Club Loan with upto 79% accuracy
 ## Vasu Arora 
