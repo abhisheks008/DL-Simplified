@@ -1,0 +1,10 @@
+packages/libraries required to run the model:
+
+os
+random
+opencv
+numpy
+pandas
+matplotlib
+keras
+tensorflow

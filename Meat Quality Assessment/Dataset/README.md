@@ -1,0 +1,1 @@
+I have fetched the Meat Quality Assessment Classification Dataset from,https://www.kaggle.com/datasets/crowww/meat-quality-assessment-based-on-deep-learning, for building and developing this Project. You guys can check out the dataset from the given link.

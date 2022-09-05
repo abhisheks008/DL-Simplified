@@ -2,7 +2,7 @@
 
 **GOAL**
 
-Write the main goal of project and what's the purpose of it
+Write the main goal of project and what's the purpose of it.
 
 **DATASET**
 
@@ -36,8 +36,8 @@ Add all the algorithms used with their accuracies and results
 
 **CONCLUSION**
 
-What's the conclusion derived from this project and also showcase the accuracy results if it's applicable. Be briefer
+What's the conclusion derived from this project and also showcase the accuracy results if it's applicable. Be briefer. Use accuracy scores to find the best fitted model among all the developed models for the particular projects.
 
 **YOUR NAME**
 
-Add your name at the end of the file, along with social media handles if applicable.
+Add your name at the end of the file, along with social media handles if applicable!
