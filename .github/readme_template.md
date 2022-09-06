@@ -2,7 +2,7 @@
 
 **GOAL**
 
-Write the main goal of project and what's the purpose of it.
+Write the main goal of project and what's the purpose of it
 
 **DATASET**
 
