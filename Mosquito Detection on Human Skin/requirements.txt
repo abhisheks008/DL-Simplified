@@ -1,0 +1,4 @@
+kaggle
+tensorflow
+tensorflow-hub
+matplotlib
