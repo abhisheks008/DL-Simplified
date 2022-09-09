@@ -17,28 +17,30 @@ The data images(about 1080 in number) were especially large (3000X3000 pixels). 
 
 ## The Model
 So the model I have used here is here is ResNet and GoogleNet, commom industry standard models developed by researchers at Microsoft and Google respectively.
-<img src="./Images/CNN model.png" width="800" title="CNN Model">
-<p>Source: 
+#### ResNet
+<img src="./Images/Residual-Block.PNG" width="800" title="CNN Model">
+
+#### GoogleNet
+<img src="./Images/CNN-architecture-based-on-GoogLeNet-model.ppm.png" width="800" title="CNN Model">
+<p>Source: Google Images
 </p>
 
-## Training and Testing of the Model
-I trained the model using googlecolab and it took approximate 1 Hour of computation time on the GPU runtime. 
-
-n testing the model with random images from the trainset only, it generated an accuracy of 53.33% which means the model has learnt properties in the training. One can also use tranfer learning in order to train on the images from pretrained models like EfficientNet or MobileNet.
-## Dataset
-The dataset I used is available on Kaggle as https://www.kaggle.com/datasets/almique/glass-bangle-defect-detection-classification
-Since one of the most crucial aspects of bangle manufacturing process is to make sure bangles come out round and without defects. We have compiled a dataset which consists of human-labeled images collected from one of the bangle factories. The dataset consist total of 1080 images consisting broken, defected and good bangle images.
-The dataset was with images if pixel density 3000x3000 and I had to reduce it to  500x500 in order for the GPU to render it. I also normalized the images to reduce overfitting.
-
-## The Model
-So the model I have used here is here is a simple CNN based model that has 1 CNN layer, followed by one pooling payer (MaxPool) and two fully connected layer.
-
-<img src="./Images/CNN model.png" width="350" title="CNN Model">
-<p>Source: https://medium.com/analytics-vidhyaintroduction-to-cnn-and-corona-virus-prediction-through-ct-scan-c9d6dbd67d26</p>
+#### Custom-Model
+Also I have made a custom model using one convolutional layer and 2 fully connected layers in order to display the internal working of the CNN-architecture based Neural Networks.
 
 ## Training and Testing of the Model
-I trained the model using googlecolab and it took approximate 1 Hour of computation time on the GPU runtime. 
-On testing the model with random images from the trainset onl, it generated an accuracy of 53.33% which means the model has learnt properties in the training. One can also use tranfer learning in order to train on the images from pretrained models like EfficientNet or MobileNet.
+ResNet and GoogleNet took approximately 19 minutes each to be fine-tuned and generate accurate results.And the custom model took approximately 30 minutes of computational time. All models were trained on GoogleColab using 12 GB free GPU provided by Colab.
+
+| Models | Best Train-Accuracy | Best Validation-Accuracy | Computation-Time| 
+|--------|---------------------|--------------------------|-----------------|
+| ResNet-18 | 86.21% | 89.8618% | 19m 31s |
+| GoogleNet | 74.62%  | 77.8802% | 19m 42s | 
+| Custom Model |53.548% | 53.548 % | 30 minutes | 
+
+
+## Conclusion
+
+So the best model selected is going to be ResNet which is a very good model for Image Recognition. For more information on ResNet, read https://arxiv.org/abs/1512.03385
 
 ## Courses I followed to Build the Model 
 - Michigan's Deep Learning for Computer Vision
