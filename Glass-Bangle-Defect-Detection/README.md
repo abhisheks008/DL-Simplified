@@ -24,7 +24,8 @@ So the model I have used here is here is ResNet and GoogleNet, commom industry s
 
 ## Training and Testing of the Model
 I trained the model using googlecolab and it took approximate 1 Hour of computation time on the GPU runtime. 
-On testing the model with random images from the trainset only, it generated an accuracy of 53.33% which means the model has learnt properties in the training. One can also use tranfer learning in order to train on the images from pretrained models like EfficientNet or MobileNet.
+
+n testing the model with random images from the trainset only, it generated an accuracy of 53.33% which means the model has learnt properties in the training. One can also use tranfer learning in order to train on the images from pretrained models like EfficientNet or MobileNet.
 
 ## Courses I followed to Build the Model 
 - Michigan's Deep Learning for Computer Vision
