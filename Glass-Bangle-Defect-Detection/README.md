@@ -5,19 +5,26 @@ In this project, I have tried to come up with a deep convolutional model in orde
 Run pip install -r requirements.txt (Python 2),
 or pip3 install -r requirements.txt (Python 3)
 
-## Dataset
-The dataset I used is available on Kaggle as https://www.kaggle.com/datasets/almique/glass-bangle-defect-detection-classification
+
+## About Dataset
+The dataset used here is provided at https://www.kaggle.com/datasets/almique/glass-bangle-defect-detection-classification.
 Since one of the most crucial aspects of bangle manufacturing process is to make sure bangles come out round and without defects. We have compiled a dataset which consists of human-labeled images collected from one of the bangle factories. The dataset consist total of 1080 images consisting broken, defected and good bangle images.
-The dataset was with images if pixel density 3000*3000 and I had to reduce it to  500*500 in order for the GPU to render it. I also normalized the images to reduce overfitting.
+
+The data images(about 1080 in number) were especially large (3000X3000 pixels). So I took the following optimizations in order to decrease the computation time and increase the accuracy of the output.
+- Random Horizontal flip
+- Resizing the images to (224 X 224) using Resize function in Pytorch Data Trasforms
+- Normalized the data images using empirical values of mean and standard deviation.
+- Finally all images were converted into batches and loaded into the pytorch model
 
 ## The Model
-So the model I have used here is here is a simple CNN based model that has 1 CNN layer, followed by one pooling payer (MaxPool) and two fully connected layer.
-<img src="./Images/CNN model.png" width="350" title="CNN Model">
-<p>Source:https://medium.com/analytics-vidhyaintroduction-to-cnn-and-corona-virus-prediction-through-ct-scan-c9d6dbd67d26</p>
+So the model I have used here is here is ResNet and GoogleNet, commom industry standard models developed by researchers at Microsoft and Google respectively.
+<img src="./Images/CNN model.png" width="800" title="CNN Model">
+<p>Source: 
+</p>
 
 ## Training and Testing of the Model
 I trained the model using googlecolab and it took approximate 1 Hour of computation time on the GPU runtime. 
-On testing the model with random images from the trainset onl, it generated an accuracy of 53.33% which means the model has learnt properties in the training. One can also use tranfer learning in order to train on the images from pretrained models like EfficientNet or MobileNet.
+On testing the model with random images from the trainset only, it generated an accuracy of 53.33% which means the model has learnt properties in the training. One can also use tranfer learning in order to train on the images from pretrained models like EfficientNet or MobileNet.
 
 ## Courses I followed to Build the Model 
 - Michigan's Deep Learning for Computer Vision
