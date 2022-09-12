@@ -1,0 +1,6 @@
+Necessary Libraries for this project.
+
+numpy==1.21.6
+pandas==1.3.5
+matplotlib==3.2.2
+tensorflow==2.8.2
