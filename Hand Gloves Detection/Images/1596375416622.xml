@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>1596375416622.jpg</filename>
+	<path>E:\deeplearning\train\1596375416622.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>527</width>
+		<height>522</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Glove</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>70</xmin>
+			<ymin>46</ymin>
+			<xmax>484</xmax>
+			<ymax>502</ymax>
+		</bndbox>
+	</object>
+</annotation>
