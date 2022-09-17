@@ -1,0 +1,8 @@
+Augmentor==0.2.10
+ipython==8.5.0
+matplotlib==3.5.1
+numpy==1.22.3
+Pillow==9.2.0
+protobuf==4.21.6
+tensorflow==2.9.1
+tensorflow_datasets==4.6.0
