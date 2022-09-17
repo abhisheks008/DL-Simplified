@@ -2,7 +2,7 @@
 
 **GOAL**
 
-Write the main goal of project and what's the purpose of it
+Write the main goal of project and what's the purpose of it.
 
 **DATASET**
 
@@ -10,7 +10,7 @@ Add a link to dataset and from where it's taken.
 
 **DESCRIPTION**
 
-Brief description about the project
+Brief description about the project.
 
 **WHAT I HAD DONE**
 
