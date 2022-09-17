@@ -23,7 +23,7 @@ Why have you choosed that algorithms should also be stated
 
 **LIBRARIES NEEDED**
 
-Add all the libraries needed in this project in points
+Add all the libraries needed in this project in points.
 
 **VISUALIZATION**
 
