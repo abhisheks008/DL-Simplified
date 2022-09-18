@@ -1,10 +1,13 @@
 # Google Recaptcha Image Classification
 
-GOAL: To make a CNN to classify different images.
+**GOAL**<br>
+To make a CNN to classify different images.
 
-DATASET: [Google Recaptcha Image Dataset](https://www.kaggle.com/datasets/mikhailma/test-dataset)
+**DATASET**<br>
+[Google Recaptcha Image Dataset](https://www.kaggle.com/datasets/mikhailma/test-dataset)
 
-DESCRIPTION: The dataset has near to 12000 RGB images of dimentions 120x120 pixels. They are scattered across 12 categories namely - 
+**DESCRIPTION**<br>
+The dataset has near to 12000 RGB images of dimentions 120x120 pixels. They are scattered across 12 categories that are - 
 1. Bicycle (780 images)
 ![](../Images/bicycle.png)
 2. Bridge (533 images)
@@ -30,9 +33,9 @@ DESCRIPTION: The dataset has near to 12000 RGB images of dimentions 120x120 pixe
 12. Traffic Light (719 images)
 
 As you can see that the dataset is highly imbalanced as for example the category Car has 3558 images where as Motorcycle only 81. The data is balanced using Augmentator library, which is explained below. 
+<br><br>
 
-<br>
-#### METHODOLOGY 
+**METHODOLOGY**<br><br>
 Augmentor library is used to produce augmented images to make the dataset balanced. Using Augmentator we are applying augmentations to data such as rotation, skew, horizontal mirroring, changing brightness and contrast until there are a total of 2000 images in a perticular category (this number can be changed while running).
 All of the images are stored in a different folder named "balanced_images".
 
@@ -41,43 +44,58 @@ Augmentation is again added to the pipeline in order to overcome any changes of 
 
 To use the hardware effectively we optimize the pipeline by caching and prefetching the dataset. 
 
-Model - 
+**Model** - <br>
 ![Model Shape](../Images/HyperparameterTestModel.png)
 
 To reduce overfitting Batch Normalization is performed on the outputs before applying an activation function. Leaky ReLU is used as the activation function as it gives better performance than ReLU. 
 The main reason behind using Batch Normalization is that it gives better results when the data is overfitting. Given that the dataset is such that it doesn't want bots to easily classify between the categories (purpose of captcha). This technique helps the weights to be tuned more effectively so that the validation metrics match with the training metrics and thus prevent overfitting.
 This architecture was just to get the best combination of different hyperparameters.
+<br><br>
 
-<br>
-#### Results
+**RESULTS**<br>
 
+[Hyperparameter Combination Performance](https://tensorboard.dev/experiment/sW4rl4fnSmK0CN5LBMuEyQ/#scalars) <br>
 
-[Tensorboard](https://tensorboard.dev/experiment/sW4rl4fnSmK0CN5LBMuEyQ/#scalars)
+**Validation Accuracy**
+
+![Validation Accuracy](../Images/hyperparameterTestingValidationAccuracy.png) <br>
+
+**Validation Loss**
+
+![Validation Accuracy](../Images/hyperparameterTestingValidationLoss.png)
+
+(You can check what each color means from the link above)
 
 From the results we can see that <b>RMSProp(Root Mean Squared Propagation)</b> as the optimizer with <b>Sparse Categorical Crossentropy</b> as the loss function and <b>Leky ReLU</b> as the activation function gave the best performance out of all. The graph would go up even more if trained for more epochs.
 
-[Hyperparameter Combinations](https://tensorboard.dev/experiment/6EDBd1dqRBO97cmuGN8MbQ/#scalars)
+[Layer|Neuron Combination Performance](https://tensorboard.dev/experiment/6EDBd1dqRBO97cmuGN8MbQ/#scalars) <br>
 The above link shows how different combinations of layers and number of neurons in them affect the accuracy and loss (both training and validation).
-But because of computational limitations all combinations are not present.
 
-<b>c2DLayers</b> - Number of 2D convolutional layers.
-<b>c2DFilters</b> - Number of filters in a convolutional layer.
-<b>denseLayers</b> - Number of dense layers.
-<b>denseNeurons</b> - Number of neurons in a dense layer.
+<b>c2DLayers</b> - Number of 2D convolutional layers. <br>
+<b>c2DFilters</b> - Number of filters in a convolutional layer. <br>
+<b>denseLayers</b> - Number of dense layers. <br>
+<b>denseNeurons</b> - Number of neurons in a dense layer. <br>
 
-On the basis of the computed (as only the subset of the combinations were trained) results the lowest validation accuracy is of 2.28 and highest validation accuracy is 0.45.
+**NOTE** -> Output of the second last cell is abruptly terminated in between as its goal is to train the create and train the model iteratively with different number of layers and neurons in them. And because of the computational limitations all combinations are not present.
+**IF YOU ARE RUNNING THIS CELL THEN YOU SHOULD ALSO CONSIDER STOPPING IT IN BETWEEN**
+That said even if it runs for half or 1/4 of the total iterations, you should get a good enough idea of how the curve will look like from the above (tensorboard) results.
+<br><br>
+
+**CONCLUSION**<br>
+
+On the basis of the computed results (as only the subset of the combinations were trained) the lowest validation accuracy is of 2.28 and highest validation accuracy is 0.45.
 
 On the above basis we can assume that, because of the dataset where images were choosen specifically so that a bot cannot calssify them, we result with a overfitted data.
 
-One thing to note is that metrics may vary if the model is allowed to train for more epochs.
-
+**One thing to note is that metrics may vary if the model is allowed to train for more epochs.**
 <br>
-#### Libraries Needed
-1. Augmentor
-2. Tensorflow
-3. Numpy
-4. Matplotlib
-5. PIL
-6. Random
-7. Datetime
-8. Shutil
+
+**Libraries Needed**<br>
+1. Augmentor <br>
+2. Tensorflow <br>
+3. Numpy <br>
+4. Matplotlib <br>
+5. PIL <br>
+6. Random <br>
+7. Datetime <br>
+8. Shutil <br>
