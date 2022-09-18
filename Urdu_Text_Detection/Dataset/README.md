@@ -1,0 +1,1 @@
+Link to Dataset: https://www.kaggle.com/datasets/maryambiibii/urdu-artificial-text-text-detection
