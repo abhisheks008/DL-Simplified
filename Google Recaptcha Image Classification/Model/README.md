@@ -58,11 +58,11 @@ This architecture was just to get the best combination of different hyperparamet
 
 **Validation Accuracy**
 
-![Validation Accuracy](../Images/hyperparameterTestingValidationAccuracy.png) <br>
+![Validation Accuracy](../Images/hyperparameterTestingValidationAccuracy.svg) <br>
 
 **Validation Loss**
 
-![Validation Accuracy](../Images/hyperparameterTestingValidationLoss.png)
+![Validation Accuracy](../Images/hyperparameterTestingValidationLoss.svg)
 
 (You can check what each color means from the link above)
 
