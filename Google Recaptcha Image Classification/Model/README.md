@@ -68,6 +68,8 @@ This architecture was just to get the best combination of different hyperparamet
 
 From the results we can see that <b>RMSProp(Root Mean Squared Propagation)</b> as the optimizer with <b>Sparse Categorical Crossentropy</b> as the loss function and <b>Leky ReLU</b> as the activation function gave the best performance out of all. The graph would go up even more if trained for more epochs.
 
+<br>
+
 [Layer|Neuron Combination Performance](https://tensorboard.dev/experiment/6EDBd1dqRBO97cmuGN8MbQ/#scalars) <br>
 The above link shows how different combinations of layers and number of neurons in them affect the accuracy and loss (both training and validation).
 
@@ -77,7 +79,11 @@ The above link shows how different combinations of layers and number of neurons 
 <b>denseNeurons</b> - Number of neurons in a dense layer. <br>
 
 **NOTE** -> Output of the second last cell is abruptly terminated in between as its goal is to train the create and train the model iteratively with different number of layers and neurons in them. And because of the computational limitations all combinations are not present.
-**IF YOU ARE RUNNING THIS CELL THEN YOU SHOULD ALSO CONSIDER STOPPING IT IN BETWEEN**
+
+<br>
+
+**If you are running this cell then you should also consider stopping it in between**
+
 That said even if it runs for half or 1/4 of the total iterations, you should get a good enough idea of how the curve will look like from the above (tensorboard) results.
 <br><br>
 
