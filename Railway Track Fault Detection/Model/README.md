@@ -23,6 +23,7 @@ The project consists of an image dataset of Railway Track in **Train**, **Test**
 9. It's time for the evaluation of the model and for this I used `.evaluate` in `Keras` Library.
 10. Predicted the model against the Test Data and store the outputs as a dataframe. Did some analysis on the predictions obtained.
 11. Saved the model using `.save` in `keras.models`.
+12. Again, Build an Xception model and followed the steps **7-11** on it and got an remarkable accuracy of **`100 %`** which is better than that got with CNN model.
 
 **LIBRARIES NEEDED**:
 
@@ -48,7 +49,7 @@ The project consists of an image dataset of Railway Track in **Train**, **Test**
 
 
 **CONCLUSION**:
-After observing the model, it can be inferred that the model incurred **loss (Binary Crossentropy)** of **0.70** with an **accuracy** of around **0.502** (approx.) which is considerably good on this dataset (small in size). Atlast, the model is effectively classifying the Rail Tracks as Defective or Not. 
+After observing the model, it can be inferred that the CNN model incurred **loss (Binary Crossentropy)** of **0.70** with an **accuracy** of around **0.502** (approx.) whereas when an **`Xception`** was used, it got an accuracy of **`100 %`** which is extremely good on this dataset (small in size). Atlast, the model is effectively classifying the Rail Tracks as Defective or Not. 
 
 **Contributed By** : 😄 
 **ANKIT PANDEY** 
