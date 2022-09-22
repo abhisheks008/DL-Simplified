@@ -19,7 +19,11 @@ But as there is lack of data in the dataset the validation accuracy is quite low
 
 **MODELS USED**
 
-1. Convolutional Neural Network (CNN) with MaxPooling layer
+The models are:
+
+1. Artificial Neural Network (ANN)
+2. Convolutional Neural Network (CNN)
+3. Convolutional Neural Network (CNN) with MaxPooling layer
 
 **LIBRARIES NEEDED**
 
@@ -28,21 +32,43 @@ But as there is lack of data in the dataset the validation accuracy is quite low
 * split-folders
 * matplotlib
 
+### Images of different Rice classes
 **VISUALIZATION**
+![different foods](../Images/visualize.png)
 
+### Model 1 (ANN Model) performance graphs
+![Model 1 (ANN Model) performance graphs](../Images/model1_output.png)
+
+### Model 2 (Basic CNN Model) performance graphs
+![Model 2 (Basic CNN Model) performance graphs](../Images/model2_output.png)
+
+By viewing the graphs, we can conclude that the model is not performing well. It is overfitting on the training data.
 
 ### Model 3 (CNN Model with MaxPooling layer) performance graphs
-![Model 3 (CNN Model with MaxPooling layer) performance graphs](../Images/output1.png)
+![Model 3 (CNN Model with MaxPooling layer) performance graphs](../Images/model3_output.png)
+
+By adding the MaxPooling layer, the model is now performing better than before.
+
 
 ### Prediction
 
 Prediction on a random image from the testing dataset.
 
 ![Prediction](../Images/prediction.png)
+![Prediction](../Images/prediction2.png)
 
-## ACCURACIES
+**ACCURACIES**
 
-CNN Model with MaxPooling	99.36
+| Model         | Architecture              | Accuracy in % (on testing data) |
+| ------------- |:-------------------------:|:-------------:|
+| Model 1       | ANN Model                 |.5%            |
+| Model 2       | Basic CNN Model           |99.46          |
+| Model 3       | CNN Model with MaxPooling |97.24          |
+
+### Accuracy can be increased by doing the following:
+- Add more data or images
+- Train the model for higher number of Epochs
+- Augment the images
 
 ## CONCLUSION
 
