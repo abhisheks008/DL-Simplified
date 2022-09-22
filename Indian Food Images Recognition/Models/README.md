@@ -61,9 +61,9 @@ Prediction on a random image from the testing dataset.
 
 | Model         | Architecture              | Accuracy in % (on testing data) |
 | ------------- |:-------------------------:|:-------------:|
-| Model 1       | ANN Model                 |.5%            |
-| Model 2       | Basic CNN Model           |99.46          |
-| Model 3       | CNN Model with MaxPooling |97.24          |
+| Model 1       | ANN Model                 |1.00           |
+| Model 2       | Basic CNN Model           |21.75          |
+| Model 3       | CNN Model with MaxPooling |22.00          |
 
 ### Accuracy can be increased by doing the following:
 - Add more data or images
