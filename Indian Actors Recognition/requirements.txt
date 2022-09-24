@@ -1,0 +1,4 @@
+matplotlib
+tensorflow
+random
+shutil
