@@ -1,6 +1,7 @@
 ﻿# Quality Prediction in Mining Process
 
-(dataset image)
+![iron mine](https://user-images.githubusercontent.com/73381366/192100894-75f9fe77-369f-450d-8a1b-e762d3b95008.jpg)
+
 
 # Introduction
 
@@ -25,8 +26,12 @@ The main aim is to build a model using various approaches that will be able to p
 We will try to build the models using different algorithms of ML and DL and compare their accuracy. In this notebook we will be building models using Linear Regression, Decision Trees, Random Forest and Artificial Neural Networks.
 
 ## Exploratory Data Analysis
-(image - 2)
-(image - 3)
+
+![eda 1](https://user-images.githubusercontent.com/73381366/192100909-75f5af72-00a9-4a1d-870f-4b2b4b612298.jpg)
+
+<br>
+
+![eda 2](https://user-images.githubusercontent.com/73381366/192100921-00a54040-1f97-4984-9ecf-6bfc0ffc5049.jpg)
 
 
 ## 1. Linear Regression
