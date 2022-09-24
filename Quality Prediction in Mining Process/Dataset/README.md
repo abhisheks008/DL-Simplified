@@ -6,9 +6,4 @@ The dataset used in this project is take from the Kaggle website.
 <br>
 In this dataset there is a table which contains 24 columns and around 735000 rows.
 <br>
-<b>Some of the columns are:</b>% Iron Feed, % Silica Feed, Starch Flow, Ore Pulp Flow, Floatation columns and so on.
-
-
-## Exploratory Data Analysis
-(image - 3)
-
+<b>Some of the columns are:</b>  % Iron Feed, % Silica Feed, Starch Flow, Ore Pulp Flow, Floatation columns and so on.
