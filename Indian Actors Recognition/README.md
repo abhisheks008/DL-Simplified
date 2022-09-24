@@ -37,7 +37,7 @@ The dataset for this project is taken from the Kaggle. Here is the link for the 
 
 ### Visualizing the Dataset:
 
-![Dataset Image](Images/Dataset.png)
+![Dataset Image](Images/dataset.png)
 
 ### Model 1 - Basic CNN:
 
@@ -76,6 +76,9 @@ Model 4
 
 - Loss: 1.464
 - Accuracy: 66.6%
+
+### Conclusion
+Model 4, (FaceNet) performed the best with the accuracy of 66.6% without any pre-processing of images for this project.
 
 ### Author
 
