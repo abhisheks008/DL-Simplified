@@ -45,7 +45,9 @@ In the notebook we have implemented InceptionResNetV2 transfer learning method u
 Training the model requires GPU for faster training but it can be trained on CPU as well.If GPU is not there then use google colab for training the model.Refer the notebook.ipynb file for detailed procedure of training and testing. 
 
 This is the accuracy and loss plot we got after training-
+
 ![image.png](https://github.com/kshitij192/DL-Simplified/blob/main/HackerEarth%20Holiday%20Session%20Challenge/Images/4.png?raw=true)
+
 ![image.png](https://github.com/kshitij192/DL-Simplified/blob/main/HackerEarth%20Holiday%20Session%20Challenge/Images/3.png?raw=true)
 
 # Conclusion
