@@ -34,9 +34,18 @@ The models are:
 ### Images of different Rice classes
 **VISUALIZATION**
 ![different foods](../Images/visualise.png)
+### Model 1 (ANN Model) performance graphs
+![Model 1 (ANN Model) performance graphs](../Images/prediction.png)
 
+### Model 2 (Basic CNN Model) performance graphs
+![Model 2 (Basic CNN Model) performance graphs](../Images/prediction1.png)
 
+By viewing the graphs, we can conclude that the model is not performing well. It is overfitting on the training data.
 
+### Model 3 (CNN Model with MaxPooling layer) performance graphs
+![Model 3 (CNN Model with MaxPooling layer) performance graphs](../Images/prediction2.png)
+
+By adding the MaxPooling layer, the model is now performing better than before.
 
 
 
