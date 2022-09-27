@@ -46,6 +46,29 @@ By viewing the graphs, we can conclude that the model is not performing well. It
 ![Model 3 (CNN Model with MaxPooling layer) performance graphs](../Images/prediction2.png)
 
 By adding the MaxPooling layer, the model is now performing better than before.
+### Prediction
+
+Prediction on a random image from the testing dataset.
+
+![Prediction](../Images/output.png)
+
+
+**ACCURACIES**
+
+| Model         | Architecture              | Accuracy in % (on testing data) |
+| ------------- |:-------------------------:|:-------------:|
+| Model 1       | ANN Model                 |7.95          |
+| Model 2       | Basic CNN Model           |42.6          |
+| Model 3       | CNN Model with MaxPooling |45.1          |
+
+### Accuracy can be increased by doing the following:
+- Add more data or images
+- Train the model for higher number of Epochs
+- Augment the images
+
+## CONCLUSION
+
+I was successfully able to develop a Deep Learning model that can classify images from the given Portuguese Meals dataset which has 23 different variation
 
 
 
