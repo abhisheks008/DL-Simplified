@@ -9,7 +9,7 @@
 
 **DESCRIPTION**
 
-The dataset contains images of 23 different types of meals. There are 200 - 500 images of each type. The task is to classify the images by using a deep learning architecture.
+The dataset contains images of 23 different types of food. There are 100 - 500 images of each type. The task is to classify the images by using a deep learning architecture.
 
 **WHAT I HAD DONE**
 
@@ -30,6 +30,13 @@ The models are:
 * tensorflow
 * split-folders
 * matplotlib
+
+### Images of different Rice classes
+**VISUALIZATION**
+![different foods](../Images/visualise.png)
+
+
+
 
 
 
