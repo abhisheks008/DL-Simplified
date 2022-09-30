@@ -44,7 +44,7 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 <table>
 <tr>
  <td align="center">
-<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 35</h3></sub>
+<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 37</h3></sub>
  </td>
 </tr>
 </table>
@@ -115,4 +115,4 @@ If you want to contact me, you can reach me through social handles.
 © 2022 Abhishek Sharma
 
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) [![@abhisheks008's Holopin board](https://holopin.io/api/user/board?user=abhisheks008)](https://holopin.io/@abhisheks008)
