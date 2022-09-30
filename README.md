@@ -19,7 +19,7 @@
 
 ![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
 
-***********************************************
+*********************************************
 ## 🔴 Welcome contributors!
 Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain—albeit far from matching its ability—allowing it to “learn” from large amounts of data. Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. The concept of deep learning is not new. It has been around for a couple of years now. It’s on hype nowadays because earlier we did not have that much processing power and a lot of data. As in the last 20 years, the processing power increases exponentially, deep learning and machine learning came in the picture. </br> </br>
 **Deep Learning Simplified is an Open-source repository, containing beginner to advance level deep learning projects for the contributors, who are willing to start their journey in Deep Learning.**
@@ -44,7 +44,7 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 <table>
 <tr>
  <td align="center">
-<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 35</h3></sub>
+<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 37</h3></sub>
  </td>
 </tr>
 </table>
@@ -115,4 +115,4 @@ If you want to contact me, you can reach me through social handles.
 © 2022 Abhishek Sharma
 
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) [![@abhisheks008's Holopin board](https://holopin.io/api/user/board?user=abhisheks008)](https://holopin.io/@abhisheks008)
