@@ -1,0 +1,13 @@
+python
+pandas
+numpy
+matplotlib
+tensorflow
+pytorch
+keras
+sklearn
+cv2
+time
+mediapipe==0.8.3.1
+numpy
+opencv-python
