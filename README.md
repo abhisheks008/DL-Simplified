@@ -44,10 +44,10 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 <table>
 <tr>
  <td align="center">
-<a href="https://ssoc.getsocialnow.co/#"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>Social WOC 2022</b></sub></a><br /><sub><h3>PR Count: -</h3></sub>
+<a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>Social WOC 2022</b></sub></a><br /><sub><h3>PR Count: -</h3></sub>
  </td>
  <td align="center">
-<a href="https://swoc.getsocialnow.co/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 39</h3></sub>
+<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 39</h3></sub>
  </td>
 </tr>
 </table>
