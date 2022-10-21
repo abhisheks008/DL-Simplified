@@ -53,25 +53,6 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 </table>
 
 *************************************************************
-## Points Break up for SSOC 2022 :chart_with_upwards_trend:
-| Levels | Points |
-|-|---|
-|🟢 Beginner|**10** Points|
-|🟡 Intermediate|**20** Points|
-|🔴 Advanced|**30** Points|
-
-**************************************************************
-
-
-## Leaderboard 📊
-
-<table>
-  <tr>
-    <td align="center"><a href="https://docs.google.com/spreadsheets/d/14s2_cPpc_R09HJacQ-cqXy57xXD6lfU-18Gd562T5Dw/edit?usp=sharing"><img src="https://cdn-icons-png.flaticon.com/512/1986/1986941.png" width="100px;" alt=""/><br /><sub><b>SSOC Leaderboard</b></sub></a></td>
-    </tr>
-  </table>
-
-**************************************************************
 
 <h2>✔Project Admin</h2>
 
