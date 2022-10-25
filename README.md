@@ -52,6 +52,9 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 </tr>
 </table>
 
+## 🏆 Achievements of this Project Repo 🎉
+:one: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Summer of Code, for the year 2022.** (39 Pull Requestes have been merged!)
+
 *************************************************************
 
 <h2>✔Project Admin</h2>
