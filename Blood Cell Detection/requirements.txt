@@ -1,0 +1,15 @@
+Libraries:
+1. Numpy
+2. Pandas
+3. Matplotlib
+4. OS
+5. tensorflow
+6. keras
+    6.1 prepreprocessing.image => ImageDataGenerator
+    6.2 layers
+    6.3 models
+    6.4 optimizers => Adam
+    6.5 applications => VGG16, Xception
+    6.6 core => Dense,Flatten,Dropout
+    6.7 Dense, BatchNormalization
+
