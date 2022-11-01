@@ -8,8 +8,7 @@ There are 364 images across three classes: `WBC` (white blood cells), `RBC` (red
 
 
 
-*`Fork`* this dataset (upper right hand corner) to receive the raw images, or (to save space) grab the 500x500 export.
-
+*`Dataset Link : `* https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset
 # Use Cases
 
 This is a small scale object detection dataset, commonly used to assess model performance. It's a first example of medical imaging capabilities.
@@ -19,8 +18,6 @@ This dataset is mainly preprocessed for YOLOV5 Application
 
 I'm releasing the data as public domain. Feel free to use it for any purpose.
 `This dataset is already splitted into train,testing and validation datasets(70% for training , 20% testing and 10% for validation).` The train,testing and validation folders are further classified as `IMAGES AND LABELS.`
-* `images` Folder : It contains images of blood cells.
-* `labels` Folder : It conatins labelling of blood cells across three classes: `WBC` (white blood cells), `RBC` (red blood cells), and `Platelets`..
 
 
 Example of blood cell: 
