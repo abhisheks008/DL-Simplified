@@ -96,7 +96,7 @@ If you liked working on this project, do ⭐ and share this repository.
 
 If you want to contact me, you can reach me through social handles.
 
-<a href="https://twitter.com/abhishek_py3"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/abhishek-sharma-aa06a9183/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
+<a href="https://twitter.com/abhishek_py3"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/abhishek-sharma-aa06a9183/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
 
 
 © 2022 Abhishek Sharma
