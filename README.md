@@ -39,7 +39,7 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 - Then in Github, in your cloned repository find the option to make a pull request
 
 
-*************************************************************
+************************************************************
 ## ❄️Open Source Programs!
 <table>
 <tr>
