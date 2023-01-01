@@ -43,14 +43,19 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 ## ❄️Open Source Programs!
 <table>
 <tr>
- <td align="center">
-<a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>Social WOC 2023</b></sub></a><br /><sub><h3>PR Count: -</h3></sub>
+<td align="center">
+<a href="https://dwoc.io/"><img src="https://github.com/World-of-ML/DL-Simplified/blob/main/.github/Assets/dwoc.png" width=100px height=100px /><br /><sub><b>Delta WoC 2023</b></sub></a>
  </td>
  <td align="center">
-<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a><br /><sub><h3>PR Count: 39</h3></sub>
+<a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>Social WoC 2023</b></sub></a>
+ </td>
+ <td align="center">
+<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a>
  </td>
 </tr>
 </table>
+
+
 
 ## 🏆 Achievements of this Project Repo 🎉
 :one: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Summer of Code, for the year 2022.** (**39** brand new Deep Learning projects have been added throughout this journey!)
