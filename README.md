@@ -43,9 +43,6 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 ## ❄️Open Source Programs!
 <table>
 <tr>
-<td align="center">
-<a href="https://dwoc.io/"><img src="https://github.com/World-of-ML/DL-Simplified/blob/main/.github/Assets/dwoc.png" width=100px height=100px /><br /><sub><b>Delta WoC 2023</b></sub></a>
- </td>
  <td align="center">
 <a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>Social WoC 2023</b></sub></a>
  </td>
