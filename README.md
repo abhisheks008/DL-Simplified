@@ -32,11 +32,16 @@ This repository consists of various machine learning projects, and all of the pr
 Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplified/blob/main/Code_of_conduct.md) and [Contributing Guidelines](https://github.com/abhisheks008/DL-Simplified/blob/main/CONTRIBUTING.md) while contributing in this project repository.
 
 ## 🧮 Workflow
-- Fork the repository
-- Clone your forked repository using terminal or gitbash.
-- Make changes to the cloned repository
-- Add, Commit and Push
-- Then in Github, in your cloned repository find the option to make a pull request
+- Go through the project repository and the [README](https://github.com/World-of-ML/DL-Simplified/blob/main/README.md) to get an idea about this repository.
+- Check out the existing issues present there in the [Issues](https://github.com/World-of-ML/DL-Simplified/issues) section.
+- Comment out in the issue, you wanna work on.
+- Wait for the issue to be assigned to you. Once it's assigned to you, start working on it.
+- Fork the repository.
+- Clone your forked repository using terminal or gitbash. Also you can simply use the web version of GitHub to add your files.
+- Make changes to the cloned repository.
+- Add, Commit and Push.
+- Then in Github, in your cloned repository find the option to make a pull request.
+- Project admin will evaluate your PR and provide remarks accordingly. If it satisfies all the criterias, your PR will be merged and your contributions will be counted.
 
 
 ************************************************************
