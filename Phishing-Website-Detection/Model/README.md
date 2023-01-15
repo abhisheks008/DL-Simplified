@@ -1,8 +1,6 @@
 **PROJECT TITLE**: Phishing Website Detection
 
-**GOAL**: 
-
-To determine if a website is safe/dangerous using optimized features extracted from the website.
+**GOAL**: To determine if a website is safe/dangerous using optimized features extracted from the website.
 
 **DATASET**: [Phishing Website Dataset - Kaggle](https://www.kaggle.com/datasets/akashkr/phishing-website-dataset)
 
@@ -29,7 +27,7 @@ even without tuning. Used a grid search method to tune the deep neural network a
 
 1. Logistic Regression and Principal Component Analysis + Logistic Regression for a linear baseline.
 2. Random Forest for a non-linear baseline.
-3. Multi-layer Perceptron (fully-connected feed-forward neural network) with a shallow as well as deep
+3. Multi-layer Perceptron (fully-connected feed-forward neural network) with shallow as well as deep
 configuration to beat the baselines.
 4. Halving Grid-search for hyperparameter tuning of the neural networks
 (All scikit-learn implementations)
@@ -43,7 +41,9 @@ configuration to beat the baselines.
 
 **VISUALIZATION**
 
-#TODO
+1. [Feature selection](https://github.com/stiwari-ds/DL-Simplified-SWOC-S3/tree/phishing-website-detection/Phishing-Website-Detection/Images/00-eda_and_preprocessing) ([Notebook 00](https://github.com/stiwari-ds/DL-Simplified-SWOC-S3/tree/phishing-website-detection/Phishing-Website-Detection/Model/00_eda_and_preprocessing.ipynb))
+2. [Baseline results](https://github.com/stiwari-ds/DL-Simplified-SWOC-S3/tree/phishing-website-detection/Phishing-Website-Detection/Images/01-ml_baseline) ([Notebook 01](https://github.com/stiwari-ds/DL-Simplified-SWOC-S3/tree/phishing-website-detection/Phishing-Website-Detection/Model/01_ml_baseline.ipynb))
+3. [Deep neural network results](https://github.com/stiwari-ds/DL-Simplified-SWOC-S3/tree/phishing-website-detection/Phishing-Website-Detection/Images/02-sklearn_mlp) ([Notebook 02](https://github.com/stiwari-ds/DL-Simplified-SWOC-S3/tree/phishing-website-detection/Phishing-Website-Detection/Model/02_sklearn_mlp.ipynb)) 
 
 **ACCURACIES**: (%)
 
@@ -62,7 +62,7 @@ configuration to beat the baselines.
 
 We used extracted and optimized features to detect cases of phishing websites. While simple ML models were able to classify  
 with an accuracy upto 93.8%, training and tuning deep neural networks had even better performance. The best model was a deep  
-multi-layer perceptron tuned using halving grid-search with **Accuracy = 96.73% and ROC-AUC = 0.9956**.
+multi-layer perceptron tuned using halving grid-search, with final metrics: **Accuracy = 96.73% and ROC-AUC = 0.9956**.
 
 **AUTHOR**:
 Siddhant Tiwari  
