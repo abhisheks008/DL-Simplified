@@ -19,8 +19,8 @@
 </ul>
 
 ### Images viewed using different visual methods
-<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/download.png"/>
-<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/download(3).png"/>
-<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/download(2).png"/>
-<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/download(1).png"/>
-<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/Screenshot(60).png"/>
+<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/visual1.png" />
+<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/visual2.png" />
+<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/visual3.png" />
+<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/visual4.png" />
+<img src="https://github.com/PiyushBL45t/DL-Simplified/blob/main/Pistol%20Recognition/Images/detection.png" />
