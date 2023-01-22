@@ -1,11 +1,18 @@
 # <p align = 'center'> Pistol Detection/Recognition using Deep Learning </p>
 ### Illustration about the topic:
 <p align = 'center'>
-    The project focuses on creating an Pistol Detection/Recognition model using Deep Learning.
-    Main implementation focuses on use of Convolutional Neural Network and Artificial Neural Network.
-    The number of images are split from the main dataset into train, test and validation data.
-    Further details are given below.
+    <b>
+        <i>The project focuses on creating an Pistol Detection/Recognition model using Deep Learning.
+            Main implementation focuses on use of Convolutional Neural Network and Artificial Neural Network.
+            The number of images are split from the main dataset into train, test and validation data.
+            Further details are given below.
+        </i>
+    </b>   
 </p>
+    
+
+### Dataset link: https://www.kaggle.com/datasets/vaibhavtalekar/pistol-classification
+
 
 ### Libraries/Frameworks used:
 <ul>
