@@ -11,9 +11,6 @@
 </p>
     
 
-### Dataset link: https://www.kaggle.com/datasets/vaibhavtalekar/pistol-classification
-
-
 ### Libraries/Frameworks used:
 <ul>
     <li>Numpy</li>
