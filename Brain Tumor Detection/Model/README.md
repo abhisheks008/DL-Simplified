@@ -35,10 +35,22 @@ The dataset contains around 3060 MRI images of brain .
 <img src  = "https://user-images.githubusercontent.com/72621930/219722818-6194763d-8bb8-4c89-8bdf-8caec896705e.jpg" width = "199">
 
 
+## TRAIN - TEST SPLIT RATIO 
+80 - 20
 
 
-
-## MODELS USED
+## MODELS IMPLEMENTED
 - CNN (CONVOLUTIONAL NEURAL NETWORK)
 - VGG16
 - RESNET 50
+
+## CNN PLOT CURVES
+![cnn_plot](https://user-images.githubusercontent.com/72621930/219741841-a316f577-4090-4a9b-974b-3cb8acc7771d.jpg)
+
+## VGG16 PLOT CURVES
+![vgg_plot](https://user-images.githubusercontent.com/72621930/219743961-a1dfa5fb-58af-40c2-956b-28613cddb11a.png)
+
+
+## RESNET50 PLOT CURVES
+![resnet50](https://user-images.githubusercontent.com/72621930/219744008-c9e9015b-cbee-438f-ae04-bbb2d1c030b4.png)
+
