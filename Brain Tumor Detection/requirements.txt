@@ -1,1 +1,5 @@
-Sample
+numpy
+matplotlib
+vgg16
+resnet50
+cnn
