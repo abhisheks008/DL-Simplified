@@ -48,7 +48,7 @@ This dataset consists of ranking product ratings and reviews on Amazon.
 ![image](https://github.com/SHAY2407/DL-Simplified/blob/main/Amazon%20Reviews%20Sentiment%20Analysis/Images/newplot.png)
 
 ### Result ###
-![image](https://github.com/SHAY2407/DL-Simplified/blob/main/Handwriting%20Recognition%20Project/Images/DistbNames.jpg)
+![image](https://github.com/SHAY2407/DL-Simplified/blob/main/Amazon%20Reviews%20Sentiment%20Analysis/Images/result.png)
 
 ### Accuracy ###
 
