@@ -1,0 +1,10 @@
+packages/libraries required to run the model:
+
+ntlk
+sklearn
+textblob
+wordcloud
+plotly
+numpy
+pandas
+matplotlib
