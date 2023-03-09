@@ -21,3 +21,7 @@ A typical CNN layer can be understood with the help of following diagram:
 
 ![image](https://user-images.githubusercontent.com/90842808/224102774-206d03e2-d091-4730-ab84-3a1f92d2c5e3.png)
 ![image](https://user-images.githubusercontent.com/90842808/224102803-304d6752-ef69-4c58-89a4-e935d3753326.png)
+
+
+# **Future**
+Will be adding more models like Mobilenet, VGG16 and many more
