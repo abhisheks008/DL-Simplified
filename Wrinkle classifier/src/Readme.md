@@ -24,4 +24,4 @@ A typical CNN layer can be understood with the help of following diagram:
 
 
 # **Future**
-Will be adding more models like Mobilenet, VGG16 and many more
+Will be adding more models like Mobilenet, VGG16
