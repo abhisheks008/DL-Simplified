@@ -1,19 +1,19 @@
-#**Wrinkles Classification**#
+# **Wrinkles Classification**
 
 
 Wrinkles Classification Model is a model which will classify whether wrinkles are present or not on an image provided.
 
-#**Dataset**
+# **Dataset**
 The dataset used in this project is take from the Kaggle website.
 Dataset Link:- https://www.kaggle.com/datasets/rishantrokaha/skin-wrinkles-vs-nonwrinkles
 The datasets are divided into train and test directories. Inside those directories, there are two sub-directories: Wrinkled and NoWrinkles.
 The test directory contains one image in each wrinkled and no wrinkles sub-directories. There are a total of 381 images for Wrinkled and 
 373 images for No Wrinkles
 
-#**Aim**
+# **Aim**
 The main aim is to build a Deep Learning model using CNN that will be able to classify an image into its appropriate class with the highest accuracy.
 
-#**1. CNN Model**
+# **1. CNN Model**
 A Convolutional Neural Network is a type of neural network that is used in Computer Vision and Natural Language Processing tasks quite often
 due to the fact that it can learn to extract relevant features from the input data.
 A typical CNN layer can be understood with the help of following diagram:
