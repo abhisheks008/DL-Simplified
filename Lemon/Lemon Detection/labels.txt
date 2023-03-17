@@ -1,0 +1,3 @@
+0 Good Quality
+1 Invalid Image
+2 Bad Quality
