@@ -1,0 +1,2 @@
+0 gloves
+1 no gloves
