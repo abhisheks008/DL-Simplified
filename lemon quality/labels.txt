@@ -1,0 +1,2 @@
+0 good quality
+1 bad quality
