@@ -1,0 +1,2 @@
+0 Human
+1 Non Human
