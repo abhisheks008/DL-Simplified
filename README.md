@@ -68,7 +68,8 @@ You can refer to the following articles on the basics of Git and Github.
 
 
 ## 🏆 Achievements of this Project Repo 🎉
-:one: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Summer of Code, for the year 2022.** (**39** brand new Deep Learning projects have been added throughout this journey!)
+:one: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Summer of Code, for the year 2022.** (**39** brand new Deep Learning projects have been added throughout this journey!) </br>
+:two: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Winter of Code, for the year 2023.** (**23** brand new Deep Learning projects have been added throughout this journey!)
 
 *************************************************************
 
