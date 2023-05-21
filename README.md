@@ -17,7 +17,7 @@
 
 </div>
 
-![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
+![](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
 
 ****************************************************
 ## 🔴 Welcome contributors!
