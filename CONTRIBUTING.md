@@ -23,11 +23,11 @@ Following are the steps to guide you:
 * Step 1: Fork the repo and Go to your Git terminal and  clone it on your machine.
 * Step 2: Add a upstream link to main branch in your cloned repo
     ```
-    git remote add upstream https://github.com/abhisheks008/ML-Crate.git
+    git remote add upstream https://github.com/World-of-ML/DL-Simplified.git
     ```
 * Step 3: Keep your cloned repo upto date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
     ```
-    git pull upstream main https://github.com/abhisheks008/ML-Crate.git
+    git pull upstream main https://github.com/World-of-ML/DL-Simplified.git
     ```
 * Step 4: Create your feature branch (This is a necessary step, so don't skip it)
     ```
@@ -35,7 +35,7 @@ Following are the steps to guide you:
     ```
 * Step 5: Commit all the changes (Write commit message as "Small Message")
     ```
-    git commit -m "Write a meaningfull but small commit message"
+    git commit -m "Write a meaningful but small commit message"
     ```
 * Step 6: Push the changes for review
     ```
@@ -48,7 +48,7 @@ Following are the steps to guide you:
 
 > - Do not edit/delete someone else's code in this repository. You can only insert new files/folder in this repository.
 
-  > - Give a meaningful name to whatever file or folder you are adding. (For e.g., if you have written a ML code on Loan Prediction, then loan_prediction.py is one example of valid name)
+  > - Give a meaningful name to whatever file or folder you are adding. (For e.g., if you have written a Deep Learning code on Loan Prediction, then loan_prediction.py is one example of valid name)
 
 
 ## 🔑Guidelines
@@ -56,7 +56,7 @@ Following are the steps to guide you:
 1. Welcome to this repository, if you are here as open source program participant/contributor.
 2. Participants / contributors have to **comment** on issues they would like to work on, and mentors or the PA will assign you.
 3. Issues will be assigned on a **first-come, first-serve basis.**
-4. Participants / contributors can also **open their issues** using [issue_template], but it needs to be verified and labelled by a mentor or PA. Please discuss with the team once before opening your issues. We respect all your contributions, whether it is an Issue or a Pull Request.
+4. Participants / contributors can also **open their issues** using [issue_template](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/ISSUE_TEMPLATE/dl-simplified_issue_template.md), but it needs to be verified and labelled by a mentor or PA. Please discuss with the team once before opening your issues. We respect all your contributions, whether it is an Issue or a Pull Request.
 5. When you raise a issue, make sure you get it assigned to you, before you start working on that project.
 6. Each participant / contributor will be **assigned 1 issue (max)** at a time to work.
 7. Participants are expected to follow **project guidelines** and [**coding style**](https://pep8.org/"). **Structured code** is one of our top priority.
@@ -76,7 +76,7 @@ Following are the steps to guide you:
 
 ### 🧲Pull Requests Review Criteria
 
-1. Please fill the **[PR Template]** properly while making a Pull Request.
+1. Please fill the **[PR Template](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/pull_request_template.md)** properly while making a Pull Request.
 2. You must add your code .ipynb file into the respective **folders**.
 3. Your work must be original, written by you not copied from other resources.
 4. You must comment on your code where necessary.
@@ -89,17 +89,17 @@ Following are the steps to guide you:
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
-- If Titanic Survival Prediction is submitted for example, the Folder Name should be "Titanic Survival Prediction" and the File Name as "titanic_survival_prediction.py"
+- If Titanic Survival Prediction is submitted for example, the Folder Name should be "Titanic Survival Prediction" and the File Name as "titanic_survival_prediction.ipynb"
 - File extension for code should be `.ipynb`. 
 - Strictly use snake_case (underscore_separated) in your file_name, as it will be easy to parse in future using scripts.
 - Please avoid creating new directories if at all possible. Try to fit your work into the existing directory structure you have created for your project. If you want to, please contact before doing so.
 - The basic project folder should have 2 repositories : Dataset and Model. Dataset should have the related dataset files for project to work and Model should have the program file and other related files concerning the project for ML, DL, CV, NLP enthusiasts.
-- The [README.md] file should be concise and clear about what the project is about and what it does.
+- The [README.md](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/readme_template.md) file should be concise and clear about what the project is about and what it does.
 - It should be documented briefly enough to let readers understand. 
 - If you have modified/added code work, make sure that algorithm works before submitting.
 - If you have modified/added documentation work, ensure your language is concise and contains no grammar errors.
 - For front end designers, back end developers and UI/UX designers follow the project structure mentioned in [README]
-- Do not update the [README.md] and [Contributing_Guidelines.md].
+- Do not update the [README.md](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/readme_template.md) and [Contributing_Guidelines.md](https://github.com/World-of-ML/DL-Simplified/blob/main/CONTRIBUTING.md).
 - Avoid importing external libraries for basic algorithms. Only use those libraries for complicated algorithms. **Usage of NumPY is highly recommended.** 
 
 
