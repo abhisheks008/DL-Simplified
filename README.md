@@ -54,6 +54,9 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
  <td align="center">
 <a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a>
  </td>
+  <td align="center">
+<a href="https://hack2skill.com/hack/ssoc"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2023</b></sub></a>
+ </td>
 </tr>
 </table>
 
