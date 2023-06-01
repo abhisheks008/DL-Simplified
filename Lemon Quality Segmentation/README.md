@@ -27,7 +27,11 @@ is a crucial task in computer vision that involves identifying and classifying d
 
 **Lastly,** I will utilize the **VGG16** (Visual Geometry Group) architecture, which have deeper and complex structures. These models are renowned for their exceptional performance on various image recognition tasks. By leveraging the pre-trained weights of VGG, I can benefit from the learned features and fine-tune the network for image segmentation on the Lemon Quality Dataset.
 
+**Visualization**
 
+Since the models' high levels of accuracy mean that most of their pictures will be almost similar with little room for mistake, the anticipated labels for the lemons are visualised as follows.
+
+![visualization](https://github.com/aditya0929/DL-Simplified/assets/127277877/a1cc294f-2faf-4be0-84e1-0c1c3308d379)
 
 **Throughout the project,** 
 
@@ -36,5 +40,14 @@ I will preprocess the dataset by resizing the images and splitting it into train
 **After training the models,**
 
 I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the lemon images.
+
+**Performance checker**
+
+![Accuracy Evaluation](https://github.com/aditya0929/DL-Simplified/assets/127277877/df847c08-55e4-4a4c-aaaa-7164ccd71c1b)
+## after evaluation, `ALEXNET` model looks to be the best fit model in this case of Lemon Quality Segmentation.
+
+## even though the other models also have a high accuracy and have complete capacity for executing the task and predicting the labels.
+
+**Future Scope**
 
 This project will contribute to advancing the understanding and application of deep learning in the field of computer vision and could potentially find applications in quality assessment and sorting of lemons.
