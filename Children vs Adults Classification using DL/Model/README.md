@@ -48,7 +48,7 @@ The following libraries are required to run this project:
 
 **VISUALIZATION**
 
-<img src="/Users/omachrekar/My Work/SSOC'23/DL-Simplified/Children vs Adults Classification using DL/Images/comparison2.png" alt="Comparison Image">
+<img src="Children vs Adults Classification using DL/Images/comparison2.png" alt="Comparison Image">
 
 **ACCURACIES**
 
