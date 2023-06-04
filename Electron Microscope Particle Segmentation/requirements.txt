@@ -1,0 +1,8 @@
+torch
+torchvision
+numpy
+pandas
+os
+matplotlib
+itertools
+PIL
