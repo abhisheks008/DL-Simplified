@@ -25,11 +25,12 @@ This project aims to build a segmentation model that can accurately detect and s
 5. Model evaluation: Evaluated the trained models on a separate validation dataset to measure their segmentation performance.
 6. Comparative analysis: Compared the IoU (Intersection over Union) and Dice coefficient scores of each model to determine the best-performing model.
 
-## MODEL USED
+## MODELS USED
 
 1. DeepLabv3+
+2. UNet
 
-The choice of this model was based on its proven performance in image segmentation tasks and its architectural complexities. This allowed for a comprehensive analysis of different model types.
+The choice of these model was based on its proven performance in image segmentation tasks and its architectural complexities. This allowed for a comprehensive analysis of different model types.
 
 ## LIBRARIES NEEDED
 
@@ -47,7 +48,7 @@ The following libraries are required to run this project:
 
 ## EVALUATION METRICS
 
-The evaluation metrics I used to assess the performance of the segmentation model is:
+The evaluation metrics I used to assess the performance of the segmentation models is:
 
 - Intersection over Union (IoU)
 
@@ -56,7 +57,8 @@ The evaluation metrics I used to assess the performance of the segmentation mode
 The segmentation results obtained for selected model on the validation dataset is as follows:
 
 - DeepLabv3+: IoU=0.8972
+- UNet: IoU=0.2954
 
 ## CONCLUSION
 
-This project highlights the potential of deep learning models for accurate and precise segmentation of particles in electron microscopy images. The findings contribute to advancements in image analysis and can have implications in various scientific and medical research fields.
+The DeepLabv3+ model achieved a significantly higher IoU score of 0.8972 on the validation dataset, indicating superior performance in accurately segmenting the biomedical images compared to the UNet model, which achieved an IoU score of 0.2954.
