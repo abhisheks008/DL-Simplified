@@ -38,7 +38,7 @@ I have implemented the ANN model to the project to get the better accuracy than 
 
 **VISUALIZATION**
 
-<img src="./Images/Visualization.PNG" width="800" title="ANN model">
+<img src="./Images/Visualization.png" width="800" title="ANN model">
 
 **ACCURACIES**
 
