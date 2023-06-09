@@ -93,13 +93,15 @@ Based on these accuracies, the SVM algorithm performed the best and was selected
 
 ## Conclusion
 
-In this project, we successfully developed a machine learning model to classify images based on the time of day depicted in them. The Random Forest algorithm showed the highest accuracy among the tested models. The model's performance was visualized using learning curves, and a subset of test images was used to demonstrate the model's predictions. The generated confusion matrix provided further insights into the model's performance.
+In this project, I successfully developed a machine learning model to classify images based on the time of day depicted in them. The SVM algorithm showed the highest accuracy among the tested models. The model's performance was visualized using learning curves, and a subset of test images was used to demonstrate the model's predictions. The generated confusion matrix provided further insights into the model's performance.
 
 By accurately classifying images into time of day categories, this model can be useful in various applications such as image organization, scene recognition, and smart photo editing.
 
 ## Author
 
 Saket Gudimella 
+
 GitHub: https://github.com/SaketGudimella)
+
 LinkedIn: www.linkedin.com/in/saket-gudimella-299611240
 
