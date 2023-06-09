@@ -18,7 +18,8 @@ By this project I have done classification of the different processor of smartph
 2.Then I analyze the data and filter out the features which has the impact on the output.
 3.Then I create two sets one of output and other of input.
 4.Then I split data in train and test.
-5.Then I apply the ANN model to it.
+5.Then I apply the three different ANN model to it.
+Then take the weighted average to get the best accuracy.
 
 **MODELS USED**
 
@@ -38,20 +39,23 @@ I have implemented the ANN model to the project to get the better accuracy than 
 
 **VISUALIZATION**
 
-<img src="./Images/Visualization.PNG" width="800" title="ANN model">
+<img src="./Images/Visualization model 1.PNG" width="800" title="ANN model 1">
+<img src="./Images/Visualization model 2.PNG" width="800" title="ANN model 2">
+<img src="./Images/Visualization model 3.PNG" width="800" title="ANN model 3">
+<img src="./Images/Matrix model 1.PNG" width="800" title="ANN model 1">
+<img src="./Images/Matrix model 2.PNG" width="800" title="ANN model 2">
+<img src="./Images/Matrix model 3.PNG" width="800" title="ANN model 3">
 
 **ACCURACIES**
 
-ANN model provies the accuracy of approx 17 percent.
-loss: 4.1214 - accuracy: 0.1702
+ANN model provies the accuracy of approx 57 percent.
+accuracy: 0.5733
 
 
 **CONCLUSION**
 
 By this model I have classified different processor on the basis of different processor scores.
-This model gave me 17 percent accuracy.
-It is low due to the less data in the dataset.
-and there is no other dataset available on google.
+This model gave me 57 percent accuracy.
 
 **YOUR NAME**
 
