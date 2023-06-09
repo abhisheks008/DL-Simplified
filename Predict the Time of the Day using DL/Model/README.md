@@ -51,39 +51,31 @@ The project requires the following libraries:
 
 ## VISUALIZATION
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/a4fc6fb4-a4ad-4769-9d32-d4c2b8afa721)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/9a491a42-5404-4dcf-916b-0198d023717d)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/1ca9d3a3-91a4-42af-86fa-5c35cad1712c)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/4e84a3a4-03f1-4623-bbb3-d2a5ccd22e17)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/c6ebf550-190c-4a57-9c14-885b00cf2ba8)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/65a7a1fd-2d70-4901-8959-2259f892bca8)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/d2a70664-b3a0-45a5-bbe7-1ac77bcd18fe)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/81f6fbc8-a39f-4008-a302-12366c436b10)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/8f537e96-c2b8-415c-bca8-cc788cf23b02)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/1b6591a7-c638-4457-9e92-ba688152c72b)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/06b4d5b6-6c2d-4c77-ae61-8e0e7a185932)
 
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/97c71185-a250-453e-934c-146df6ea9e8e)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/c71ddc90-b353-47c6-aab0-addcca4661df)
 
 The visualization shows a subset of predicted images by the best model, along with their predicted and true labels.
 
