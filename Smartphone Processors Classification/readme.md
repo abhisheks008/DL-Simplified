@@ -39,12 +39,16 @@ I have implemented the ANN model to the project to get the better accuracy than 
 
 **VISUALIZATION**
 
+<<<<<<< HEAD
 <img src="./Images/Visualization model 1.PNG" width="800" title="ANN model 1">
 <img src="./Images/Visualization model 2.PNG" width="800" title="ANN model 2">
 <img src="./Images/Visualization model 3.PNG" width="800" title="ANN model 3">
 <img src="./Images/Matrix model 1.PNG" width="800" title="ANN model 1">
 <img src="./Images/Matrix model 2.PNG" width="800" title="ANN model 2">
 <img src="./Images/Matrix model 3.PNG" width="800" title="ANN model 3">
+=======
+<img src="./Images/Visualization.png" width="800" title="ANN model">
+>>>>>>> d624c0f1a8778c088e4d8683e91c74c2622ac54d
 
 **ACCURACIES**
 
