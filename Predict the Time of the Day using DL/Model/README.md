@@ -55,6 +55,27 @@ The following libraries were used in this project:
 ![Screen Shot 2023-06-09 at 08 55 11](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/0e83f8f6-fc71-4b8a-90f2-20c83b9a18a6)
 
 
+![Screen Shot 2023-06-09 at 08 56 54](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/e28acf7b-c70e-4036-9a45-766029a139d7)
+
+
+![Screen Shot 2023-06-09 at 08 56 43](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/f7575e91-8c7c-4a16-852a-d2e8351f4170)
+
+
+![Screen Shot 2023-06-09 at 08 56 23](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/b4d60d6c-a90f-42f0-9ff7-5635978fc542)
+
+
+
+![Screen Shot 2023-06-09 at 08 56 11](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/20d73dbf-882e-4656-9116-7ac056940fa5)
+
+
+![Screen Shot 2023-06-09 at 08 55 40](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/d4467acd-3c2f-49b9-91b6-a144364fd03e)
+
+
+![Screen Shot 2023-06-09 at 08 55 51](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/c496c514-d2c2-4595-95f3-c3a0ca8e6c60)
+
+
+
+![Screen Shot 2023-06-09 at 08 57 04](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/8043f00b-5f5c-4afe-b5f3-1935a2f01a79)
 
 
 
