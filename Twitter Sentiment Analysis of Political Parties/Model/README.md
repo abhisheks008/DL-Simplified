@@ -1,4 +1,4 @@
-# Electron Microscopy Particle Segmentation
+# Tweet Analysis of Indian Political Parties
 
 ## PROJECT TITLE
 
