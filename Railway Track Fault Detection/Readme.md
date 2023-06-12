@@ -1,4 +1,4 @@
-# <h1 align = "center"> (Enhanced) Railway Track Fault Detection using Dep Learning </h1>
+# <h1 align = "center"> (Enhanced) Railway Track Fault Detection using Deep Learning </h1>
 ## Aim of the project: 
 ### The project focuses on detecting the faults in the railway tracks using various Deep Learning Algorithms
 ### Dataset Link: [railway Track fault Detection Resized (224 X 224) | Kaggle](https://www.kaggle.com/datasets/gpiosenka/railway-track-fault-detection-resized-224-x-224)
