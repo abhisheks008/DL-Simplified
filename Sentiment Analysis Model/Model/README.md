@@ -42,6 +42,7 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/5ecbe61f-d183-4463-b766-41fb9c72d1b0)
 
 
 
@@ -61,6 +62,11 @@ Results on Val dataset:
 | SNN    | 0.7178     | 0.9930    |
 | CNN    | 0.8472     | 0.8535    |
 | LSTM    | 0.8634    | 0.4711    |
+
+#### Confusion Matrix:
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/88dc73b8-20f1-41d6-8827-c5af3abe9c3f)
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/f566e412-36fd-4a7a-bdbc-a3946936d3e9)
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/9040125c-4f5b-4c83-a374-ffa5c0deb09c)
 
 
 ## CONCLUSION
