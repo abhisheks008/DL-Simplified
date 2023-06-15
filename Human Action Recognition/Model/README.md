@@ -40,8 +40,7 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
-
-
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/3e98f574-b460-494a-9622-ace2d9d8f905)
 
 
 ## EVALUATION METRICS
@@ -62,13 +61,11 @@ Results on Val dataset:
 | Xception    | 0.664    | 1.099    |
 
 #### Confusion Matrix:
-
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/56a5958a-4b07-4c7f-9619-cb9e21666292)
 
 
 ## CONCLUSION
 Based on results we can draw following conclusions:
 1. VGG19: The VGG19 model achieved an accuracy of 0.456 and a loss of 1.641. These results indicate that the model has a relatively low accuracy and high loss, suggesting that it may not be the most effective architecture for this particular task of human action recognition. Further improvements or alternative models should be explored.
-
 2. Inception: The Inception model performed better than VGG19, with an accuracy of 0.648 and a loss of 1.097. These results show a noticeable improvement in accuracy compared to VGG19. The Inception architecture, known for its ability to capture complex patterns and spatial hierarchies, seems to be more suitable for human action recognition.
-
 3. Xception: The Xception model achieved the highest accuracy among the three models, with a value of 0.664, and a loss of 1.099. This indicates that the Xception architecture performs even better than Inception for human action recognition. The Xception model, which is based on an extended version of the Inception architecture, incorporates depthwise separable convolutions to efficiently capture spatial and channel-wise dependencies.
