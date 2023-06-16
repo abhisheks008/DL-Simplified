@@ -67,6 +67,7 @@ Results on Val dataset:
 | VGG16    | 0.859     | 0.304    |
 | Inception    | 0.886     | 0.33    |
 | Xception    | 0.843    | 0.481    |
+| Fine-tuned Inception    | 0.902    | 0.312    |
 
 
 ## CONCLUSION
@@ -78,3 +79,5 @@ Based on results we can draw following conclusions:
 3. Inception Model: The Inception model achieved an accuracy of 88.6% and a loss of 0.33. It performs well, with a higher accuracy than both the CNN and VGG16 models. This suggests that the Inception architecture is effective in capturing human features and distinguishing them from non-human objects.
 
 4. Xception Model: The Xception model achieved an accuracy of 84.3% and a loss of 0.481. While it performs decently, it is slightly behind the VGG16 and Inception models in terms of accuracy.
+
+5. Fine-tuned Inception: The fine-tuned Inception model showed further improvement with an accuracy of 90.2% and a loss of 0.312. Fine-tuning the Inception model likely helped to adapt it more specifically to the task of human image detection, resulting in increased accuracy.
