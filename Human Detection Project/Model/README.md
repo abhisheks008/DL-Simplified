@@ -41,6 +41,12 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
+#### Image with humans
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/88c70bb4-c99f-400d-ad27-34f72df2f809)
+
+#### Image without humans
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/fcb2d038-7aad-4603-a86b-3f1189a490b2)
+
 
 
 
