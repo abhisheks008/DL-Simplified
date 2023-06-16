@@ -41,6 +41,11 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
+#### Image with gloves on:
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/88077e83-63de-4798-b365-5969a3b09d05)
+
+#### Image without gloves:
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/cb3e0df7-d93d-4508-87cc-9bf815cabaa7)
 
 
 
