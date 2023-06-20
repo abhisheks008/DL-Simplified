@@ -1,0 +1,1 @@
+The link for the dataset used in this project: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification and https://www.kaggle.com/datasets/tongpython/cat-and-dog
