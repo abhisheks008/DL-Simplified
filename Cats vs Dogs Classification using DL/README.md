@@ -40,7 +40,11 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
+#### Best performing model accuracy:
+![val_acc3](https://github.com/achrekarom12/DL-Simplified/assets/88442486/b48589ab-83e6-4ce7-86df-eebdbe35921f)
 
+#### Best performing model loss:
+![val_loss3](https://github.com/achrekarom12/DL-Simplified/assets/88442486/55072c0f-1fdb-433a-87be-c442c25d84a7)
 
 
 ## EVALUATION METRICS
