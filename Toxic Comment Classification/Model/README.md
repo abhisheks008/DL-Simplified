@@ -41,6 +41,7 @@ The following libraries are required to run this project:
 - tensorflow
 
 ## VISUALIZATION
+![bar](https://github.com/achrekarom12/DL-Simplified/assets/88442486/7bb768e1-7ab0-428c-a363-bb5479d43b73)
 
 
 
