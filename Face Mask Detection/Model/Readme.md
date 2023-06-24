@@ -11,7 +11,8 @@ We have to classify the images between **2 discrete classes**: The ones that con
 ## The dataset
 https://www.kaggle.com/datasets/shiekhburhan/face-mask-dataset
 
-<img width="258" alt="Face Images" src="https://github.com/ranodeepbanerjee/DL-Simplified/assets/63450189/e574ae40-6780-48fb-843d-43d835d2b12e">
+![image](https://github.com/ranodeepbanerjee/DL-Simplified/assets/63450189/c0322919-0452-412a-9216-fbc75de3c17a)
+
 
 
 ## Models used
@@ -28,3 +29,9 @@ https://www.kaggle.com/datasets/shiekhburhan/face-mask-dataset
 
 ## Distribution of classes
 
+![image](https://github.com/ranodeepbanerjee/DL-Simplified/assets/63450189/4392ebd7-5aa2-4fd3-88e3-d90c17dfee14)
+
+
+## Evaluation
+
+![image](https://github.com/ranodeepbanerjee/DL-Simplified/assets/63450189/eef19273-71e7-4284-8156-3db09f7051c1)
