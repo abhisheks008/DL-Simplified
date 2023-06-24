@@ -41,8 +41,7 @@ The following libraries are required to run this project:
 - tensorflow
 
 ## VISUALIZATION
-
-
+![pie](https://github.com/achrekarom12/DL-Simplified/assets/88442486/f280d0b8-0ae6-4cf9-9103-7a91f4873dd9)
 
 ## EVALUATION METRICS
 
