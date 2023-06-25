@@ -40,8 +40,8 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
-
-
+##### Cracked Image:
+![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/43606dbc-0a41-4325-8609-5e52b0df886e)
 
 ## EVALUATION METRICS
 
@@ -52,7 +52,7 @@ The evaluation metrics I used to assess the models:
 
 
 ## RESULTS
-
+##### !!Note: The test directory in the dataset contains unlabelled images only and we have to predict the classes of those images. I have done for one random image for demonstration!!
 Results on Train dataset:
 
 | Model      | Accuracy | Loss    |
