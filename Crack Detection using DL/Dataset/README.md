@@ -1,0 +1,1 @@
+The link for the dataset used in this project: https://www.kaggle.com/competitions/crack-identification-ce784a-2020-iitk/data
