@@ -10,7 +10,8 @@ To detect the cracks in the image using Deep learning.
 
 ## DATASET
 
-The link for the dataset used in this project: https://www.kaggle.com/competitions/crack-identification-ce784a-2020-iitk/data
+The link for the dataset used in this project: https://www.kaggle.com/competitions/crack-identification-ce784a-2020-iitk/data<br>
+Alternate dataset you can use: https://www.kaggle.com/datasets/arunrk7/surface-crack-detection
 
 ## DESCRIPTION
 
@@ -25,8 +26,8 @@ This project aims to identify whether the image contains the cracks or not.
 
 ## MODELS USED
 
-1. CNN
-2. VGG16
+1. VGG16
+2. InceptionV3
 3. ResNet50
 
 
@@ -41,7 +42,11 @@ The following libraries are required to run this project:
 
 ## VISUALIZATION
 ##### Cracked Image:
-![image](https://github.com/achrekarom12/DL-Simplified/assets/88442486/43606dbc-0a41-4325-8609-5e52b0df886e)
+![positives](https://github.com/achrekarom12/DL-Simplified/assets/88442486/f68744b6-3abe-4d96-8abc-94952f0fbbd0)
+
+##### Uncracked Image:
+![negatives](https://github.com/achrekarom12/DL-Simplified/assets/88442486/4d9c0521-851e-4e93-a72b-4d631776e5b9)
+
 
 ## EVALUATION METRICS
 
@@ -52,18 +57,19 @@ The evaluation metrics I used to assess the models:
 
 
 ## RESULTS
-##### !!Note: The test directory in the dataset contains unlabelled images only and we have to predict the classes of those images. I have done for one random image for demonstration!!
-Results on Train dataset:
+Results on Validation dataset:
 
 | Model      | Accuracy | Loss    |
 |------------|----------|---------|
-| CNN    | 0.493     | 0.693   |
-| VGG16    | 0.887     | 0.222    |
-| ResNet50    | 0.495     | 0.693    |
+| VGG16    | 0.997     | 0.018   |
+| InceptionV3    | 0.989     | 0.103    |
+| ResNet50    | 0.902     | 0.261    |
 
 
 ## CONCLUSION
-Based on results we can draw following conclusions:
-1. CNN model achieved an accuracy of 0.493 and a loss of 0.693. The accuracy is relatively low, indicating that the model has difficulty correctly classifying crack images. The high loss value also suggests that the model's predictions are not accurate.
-2. VGG16 model performed better with an accuracy of 0.887 and a loss of 0.222. It outperformed the CNN model in terms of accuracy, indicating that it is more capable of distinguishing crack images. The lower loss value suggests that the VGG16 model's predictions are more accurate.
-3. ResNet50 model had a similar performance to the CNN model, with an accuracy of 0.495 and a loss of 0.693. This suggests that ResNet50 is not effective in crack detection and performs similarly to a basic CNN model.
+Based on the results:
+1. VGG16: The VGG16 model achieved high accuracy with an accuracy of 99.7% and a low loss of 0.018. It demonstrates excellent performance in distinguishing between cracked and uncracked images.
+2. InceptionV3: The InceptionV3 model also performed well with an accuracy of 98.9% and a relatively low loss of 0.103. It shows good capabilities in crack detection, although slightly lower than VGG16.
+3. ResNet50: The ResNet50 model achieved a decent accuracy of 90.2% but with a higher loss of 0.261. It still exhibits reasonable performance in crack detection, although not as accurate as VGG16 and InceptionV3.
+
+Based on these results, we can conclude that VGG16 is the most effective model for crack detection in terms of accuracy and loss. It provides highly accurate predictions on the validation dataset, closely followed by InceptionV3. ResNet50, although not as accurate, still shows potential for crack detection tasks.
