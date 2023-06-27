@@ -25,9 +25,11 @@ This project aims to identify whether the given medical image contains Leukaemia
 
 ## MODELS USED
 
-1. InceptionV3
-2. VGG16
-3. ResNet50
+1. VGG16
+2. ResNet50
+3. Inception
+4. Xception
+5. CNN
 
 
 ## LIBRARIES NEEDED
@@ -58,15 +60,18 @@ Results on Val dataset:
 
 | Model      | Accuracy | Loss    |
 |------------|----------|---------|
-| Inception    | 0.684     | 0.706   |
-| ResNet50    | 0.653     | 0.64    |
-| VGG16    | 0.679     | 0.82    |
+| Inception    | 0.775     | 0.498   |
+| ResNet50    | 0.802     | 0.514    |
+| VGG16    | 0.77     | 0.536    |
+| CNN    | 0.784     | 0.506    |
+| Xception    | 0.783     | 0.533    |
 
 
 ## CONCLUSION
 Based on results we can draw following conclusions:
-1. Inception: The Inception model achieved an accuracy of 68.4% with a loss of 0.706. It demonstrates moderate performance in distinguishing between leukemia and non-leukemia samples.
-2. ResNet50: The ResNet50 model performed slightly lower with an accuracy of 65.3% and a loss of 0.64. It shows similar capabilities to Inception in leukemia detection.
-3. VGG16: The VGG16 model achieved an accuracy of 67.9% but with a higher loss of 0.82. It falls between Inception and ResNet50 in terms of accuracy and loss.
-
-Based on these results, it appears that none of the models achieved high accuracy or low loss in leukemia detection. The performance of the models was limited by the complexity of the task, the available data and computational power. 
+1. Inception: The Inception model achieved an accuracy of 77.5% with a loss of 0.498. It demonstrates good performance in distinguishing between leukemia and non-leukemia samples.
+2. ResNet50: The ResNet50 model performed slightly better with an accuracy of 80.2% and a loss of 0.514. It shows improved capabilities compared to Inception in leukemia detection.
+3. VGG16: The VGG16 model achieved an accuracy of 77.0% with a loss of 0.536. It falls slightly behind ResNet50 in terms of accuracy and loss.
+4. CNN: The CNN model achieved an accuracy of 78.4% with a loss of 0.506. It demonstrates similar performance to ResNet50 and shows potential in leukemia detection.
+5. Xception: The Xception model achieved an accuracy of 78.3% with a loss of 0.533. It shows comparable performance to the other models in this task.
+Overall, all the models performed relatively well in leukemia detection, with accuracies ranging from 77% to 80.2%.  
