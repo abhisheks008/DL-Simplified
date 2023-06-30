@@ -41,6 +41,8 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
+#### Spectogram for samples:
+![spectograms](https://github.com/achrekarom12/DL-Simplified/assets/88442486/60beef49-8cf1-45f8-ab2f-494fdada0eea)
 
 
 
