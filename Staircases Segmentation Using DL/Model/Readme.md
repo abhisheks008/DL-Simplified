@@ -61,6 +61,7 @@ The following libraries are essential :-
 
 <h2>MOBILENETV2</h2><br>
 <h2>ACCURACY CURVE<h2>
+![Mobilenet_acc_curve](Mobilenet_acc_curve.png)
 <img src="https://github.com/kanishkakataria/DL-Simplified/blob/main/Staircases%20Segmentation%20Using%20DL/Images/Mobilenet_acc_curve.jpg"></img>
 <h2>LOSS CURVE<h2>
 <br>
