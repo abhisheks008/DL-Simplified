@@ -1,6 +1,6 @@
 <h1>PROJECT TITLE</h1>
 <br>
-Staircases Segmentation Using DL
+<h3><ul>Staircases Segmentation Using DL</ul></h3>
 <br>
 <h1>GOAL</h1>
 <br>
@@ -19,9 +19,9 @@ The  Dataset is taken from Kaggle
 <br>
 Dataset Link :- https://www.kaggle.com/datasets/akshaydattatraykhare/ascending-and-descending-staircases
 <br>
-Description 
+<ul>Description</ul>
 <br>
-There are two folders within the dataset ,one for images of ascending staircases and the other one for descending staircases.Each foldercontains 50 images of ascending staircases and 50 images of descending staircases respectively. These images have been taken using mobile phone's camera. This dataset includes interior staircases and exterior staircases of various houses. This dataset can be helpful in detection and classification of ascending and descending staircases.<br>
+There are two folders within the dataset ,one for images of ascending staircases and the other one for descending staircases.Each folder contains 50 images of ascending staircases and 50 images of descending staircases respectively. These images have been taken using mobile phone's camera. This dataset includes interior staircases and exterior staircases of various houses. This dataset can be helpful in detection and classification of ascending and descending staircases.<br>
 
 <h1>DESCRIPTION</h1>
 
