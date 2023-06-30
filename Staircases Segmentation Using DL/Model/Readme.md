@@ -29,15 +29,16 @@ The project aims at classifying the images of the staircases as ascending and de
 <br>
 <h2>METHODOLOGY</h2>
 <br>
-<ol>The necessary libraries are imported and installed.</ol><ol>The dataset has only 100 images in total which is very less to create a robust model.To increasethe robustness and to increase the data samples,images are augmented using Augmentor by flipping,rotating,skewing,zooming,resizing the images and creating 500 samples for each label that is in total 1000 image samples are created by augmenting them from 100 samples of both ascending and descending images.An array of these 1000 samples concatenated with label(Ascending and Descending) is formed into a dataset which will be used for training and testing of the model.</ol><ol>The dataset is split into training and testing using train_test_split function of sklearn.The train size is kept 0.7 for all the models.</ol><ol>Label Encoder is used to encode the labels into 0 and 1</ol><ol>Normalization is done to normzalise the pixel values between 0 and 1</ol>
-<ol>Four Transfer Learning models namely MobileNetV2,VGG16,XCeption,InceptionV3 are used for the training purpose.Sequential models are created of baseline transfer learning models along with convoluted layer,dense layers.Dropout layer is used to avoid overfitting of the model.</ol>
-<ol>Loss Function used is Binary Crossentropy,optimizer is Adam,Metrics is Accuracy</ol>
-<ol>Models are trained on number of epochs value ranging from 25 to 50.</ol>
-<ol>To analyse the accuracy and loss Confusion Matrix,Classification Report,Accuracy Graph (Training Accuracy VS Validation Accuracy),Loss Graph(Training Accuracy VS Validation Accuracy) are generated.
+<ol>
+<li>The necessary libraries are imported and installed.</li><li>The dataset has only 100 images in total which is very less to create a robust model.To increasethe robustness and to increase the data samples,images are augmented using Augmentor by flipping,rotating,skewing,zooming,resizing the images and creating 500 samples for each label that is in total 1000 image samples are created by augmenting them from 100 samples of both ascending and descending images.An array of these 1000 samples concatenated with label(Ascending and Descending) is formed into a dataset which will be used for training and testing of the model.</li><li>The dataset is split into training and testing using train_test_split function of sklearn.The train size is kept 0.7 for all the models.</li><li>Label Encoder is used to encode the labels into 0 and 1</li><li>Normalization is done to normzalise the pixel values between 0 and 1</li>
+<li>Four Transfer Learning models namely MobileNetV2,VGG16,XCeption,InceptionV3 are used for the training purpose.Sequential models are created of baseline transfer learning models along with convoluted layer,dense layers.Dropout layer is used to avoid overfitting of the model.</li>
+<li>Loss Function used is Binary Crossentropy,optimizer is Adam,Metrics is Accuracy</li>
+<li>Models are trained on number of epochs value ranging from 25 to 50.</li>
+<li>To analyse the accuracy and loss Confusion Matrix,Classification Report,Accuracy Graph (Training Accuracy VS Validation Accuracy),Loss Graph(Training Accuracy VS Validation Accuracy) are generated.
+</li>
+<li>Some test samples are used to test on the trained models and predictions are made.
+</li>
 </ol>
-<ol>Some test samples are used to test on the trained models and predictions are made.
-</ol>
-
 <br>
 <h1>MODELS USED</h1>
 <br>
@@ -52,28 +53,47 @@ Every model is different in its pursuit and are easy trainable.
 
 The following libraries are essential :-
 <br>
-<ol>Keras - open source python library which facilitates deep neural networks like convolutional ,recurrent and their combinations</ol>
-<ol>Tensorflow - open source library which supports Machine Learning powered models and applications.It also works with Keras and is of high utility </ol>
-<ol>Scikit-learn - Simple and efficient tools for data mining and data analysis. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means.
-</ol>
+<ol>
+<li>Keras - open source python library which facilitates deep neural networks like convolutional ,recurrent and their combinations</li>
+<li>Tensorflow - open source library which supports Machine Learning powered models and applications.It also works with Keras and is of high utility </li>
+<li>Scikit-learn - Simple and efficient tools for data mining and data analysis. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means.
+</li>
 
 <h1>VISUALIZATION</h1>
 
-<h2>MOBILENETV2</h2><br>
 <h2>ACCURACY CURVE<h2>
-![Mobilenet_acc_curve](Mobilenet_acc_curve.png)
-<img src="https://github.com/kanishkakataria/DL-Simplified/blob/main/Staircases%20Segmentation%20Using%20DL/Images/Mobilenet_acc_curve.jpg"></img>
+
+![MobilenetV2 Accuracy Curve](Mobilenet_acc_curve.png)
+![Xception Accuracy Curve](Xception_acc_graph.jpg)
+![InceptionV3 Accuracy Curve](InceptionV3_ACCgraph.jpg)
+![VGG16 Accuracy Curve](VGG16_acc_curve.jpg)
+
 <h2>LOSS CURVE<h2>
-<br>
-<img src="C:\Users\Dell\Desktop\Open Source\DL-Simplified\Staircases Segmentation Using DL\Images\Mobilenet_loss_Curve.jpg">
-ACCURACIES
 
-Add all the algorithms used with their accuracies and results
+![MobilenetV2 Loss Curve](Mobilenet_loss_Curve.jpg)
+![Xception Loss Curve](Xception_loss_curve.jpg)
+![InceptionV3 Loss Curve](InceptionV3_loss_graph.jpg)
+![VGG16 Loss Curve](VGG16_loss_curve.jpg)
 
-CONCLUSION
+<h1>ACCURACIES</h1>
+<ol>
+<li>MOBILENETV2 - 99%</li>
+<li>VGG16 - 99%</li>
+<li>INCEPTIONV3 - 99%</li>
+<li>XCEPTION - 98%</li>
 
-What's the conclusion derived from this project and also showcase the accuracy results if it's applicable. Be briefer. Use accuracy scores to find the best fitted model among all the developed models for the particular projects.
+</ol>
 
-YOUR NAME
+<h1>CONCLUSION</h1>
 
-Add your name at the end of the file, along with social media handles if applicable!
+The models are trained well with validation accuracies of 99% in MobilenetV2,Inception and VGG16 and 98% in Xception.
+To avoid overfitting augmentation,dropout layers was used.The number of layers,train test split and batch size was changed to peform trial and testing for better accuarcies.
+
+Xception model is said to be the best as it is not overfitting and generalises the data well comparatively.
+
+<h1>CONTRIBUTOR</h1>
+
+NAME - KANISHKA KATARIA
+GITHUB - https://github.com/kanishkakataria
+LINKEDIN - https://kanishkakataria.vercel.app/
+PORTFOLIO -https://kanishkakataria.vercel.app/
