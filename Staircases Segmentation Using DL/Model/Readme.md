@@ -64,16 +64,24 @@ The following libraries are essential :-
 <h2>ACCURACY CURVE<h2>
 
 ![MobilenetV2 Accuracy Curve](Mobilenet_acc_curve.png)
+<br>
 ![Xception Accuracy Curve](Xception_acc_graph.jpg)
+<br>
 ![InceptionV3 Accuracy Curve](InceptionV3_ACCgraph.jpg)
+<br>
 ![VGG16 Accuracy Curve](VGG16_acc_curve.jpg)
+<br>
 
 <h2>LOSS CURVE<h2>
 
 ![MobilenetV2 Loss Curve](Mobilenet_loss_Curve.jpg)
+<br>
 ![Xception Loss Curve](Xception_loss_curve.jpg)
+<br>
 ![InceptionV3 Loss Curve](InceptionV3_loss_graph.jpg)
+<br>
 ![VGG16 Loss Curve](VGG16_loss_curve.jpg)
+<br>
 
 <h1>ACCURACIES</h1>
 <ol>
@@ -94,6 +102,9 @@ Xception model is said to be the best as it is not overfitting and generalises t
 <h1>CONTRIBUTOR</h1>
 
 NAME - KANISHKA KATARIA
+<br>
 GITHUB - https://github.com/kanishkakataria
+<br>
 LINKEDIN - https://kanishkakataria.vercel.app/
+<br>
 PORTFOLIO -https://kanishkakataria.vercel.app/
