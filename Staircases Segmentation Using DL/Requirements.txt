@@ -1,0 +1,12 @@
+<ol>
+<li>keras -- 3.7</li>
+<li>numpy -- 1.25</li>
+<li>pandas --1.3.5</li>
+<li>PIL --9.5</li>
+<li>cv2 --4.7</li>
+<li>matplotlib --3.6</li>
+<li>tensorflow --2.12</li>
+
+
+</li>
+</ol>
