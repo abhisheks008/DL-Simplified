@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+tensorflow
+os
+shutil
+glob
+keras
+tqdm
