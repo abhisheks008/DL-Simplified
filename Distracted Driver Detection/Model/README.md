@@ -41,6 +41,11 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
+In train data: <br>
+![traindist](https://github.com/achrekarom12/DL-Simplified/assets/88442486/bf32b8d5-cc2a-4034-bb0d-f758a33d73e9)
+
+In test data:<br>
+![testdist](https://github.com/achrekarom12/DL-Simplified/assets/88442486/f1fd547c-337f-4f73-a9dc-d910a9b388b3)
 
 
 
