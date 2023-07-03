@@ -64,24 +64,26 @@ The following libraries are essential :-
 
 <h2>ACCURACY CURVE<h2>
 
-![MobilenetV2 Accuracy Curve](Mobilenet_acc_curve.png)
+![Mobilenet_acc_curve ](https://github.com/kanishkakataria/Images/assets/85161519/40135c42-46df-40f4-9aba-1cfdc8d0be2d)
+
 <br>
-![Xception Accuracy Curve](Xception_acc_graph.jpg)
+![Xception_acc_graph](https://github.com/kanishkakataria/Images/assets/85161519/379debcf-9739-477c-b8bd-40735f86ad46)
 <br>
-![InceptionV3 Accuracy Curve](InceptionV3_ACCgraph.jpg)
+![InceptionV3_ACC graph](https://github.com/kanishkakataria/Images/assets/85161519/7d4ea849-13c7-4c70-bc9e-6f17942f3b0e)
 <br>
-![VGG16 Accuracy Curve](VGG16_acc_curve.jpg)
+![VGG16_acc_curve](https://github.com/kanishkakataria/Images/assets/85161519/483b35b1-f711-49b1-ba5a-e2ceb6776544)
 <br>
 
 <h2>LOSS CURVE<h2>
 
-![MobilenetV2 Loss Curve](Mobilenet_loss_Curve.jpg)
+![Mobilenet_loss_Curve](https://github.com/kanishkakataria/Images/assets/85161519/ee7c40f1-e7a2-4b1e-881d-c5767a1087ef)
 <br>
-![Xception Loss Curve](Xception_loss_curve.jpg)
+![Xception_loss_curve](https://github.com/kanishkakataria/Images/assets/85161519/ec725122-8a07-41f8-a74f-7e051f4263b0)
 <br>
-![InceptionV3 Loss Curve](InceptionV3_loss_graph.jpg)
+
+![InceptionV3_loss_graph](https://github.com/kanishkakataria/Images/assets/85161519/7352f92a-f79f-4502-8770-91762f97d86a)
 <br>
-![VGG16 Loss Curve](VGG16_loss_curve.jpg)
+![VGG16_loss_curve](https://github.com/kanishkakataria/Images/assets/85161519/0ce9b5c3-78e2-4da3-9bf4-be3d98ebf7b6)
 <br>
 
 <h1>ACCURACIES</h1>
