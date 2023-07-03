@@ -65,7 +65,6 @@ The following libraries are essential :-
 <h2>ACCURACY CURVE<h2>
 
 ![Mobilenet_acc_curve ](https://github.com/kanishkakataria/Images/assets/85161519/40135c42-46df-40f4-9aba-1cfdc8d0be2d)
-
 <br>
 ![Xception_acc_graph](https://github.com/kanishkakataria/Images/assets/85161519/379debcf-9739-477c-b8bd-40735f86ad46)
 <br>
@@ -88,19 +87,19 @@ The following libraries are essential :-
 
 <h1>ACCURACIES</h1>
 <ol>
-<li>MOBILENETV2 - 99%</li>
-<li>VGG16 - 99%</li>
+<li>MOBILENETV2 - 99.9%</li>
+<li>VGG16 - 99.5%</li>
 <li>INCEPTIONV3 - 99%</li>
-<li>XCEPTION - 98%</li>
+<li>XCEPTION - 99.8%</li>
 
 </ol>
 
 <h1>CONCLUSION</h1>
 
-The models are trained well with validation accuracies of 99% in MobilenetV2,Inception and VGG16 and 98% in Xception.
-To avoid overfitting augmentation,dropout layers was used.The number of layers,train test split and batch size was changed to peform trial and testing for better accuarcies.
+The models are trained well with validation accuracies close to 99.9% in MobilenetV2,Inception,Xception and 99.5% in VGG16
+To avoid overfitting augmentation,dropout layers was used.The number of layers,train test split and batch size was changed to peform trial and testing for better accuracies.
 
-Xception model is said to be the best as it is not overfitting and generalises the data well comparatively.
+VGG16 model is said to be the best as it is not overfitting and generalises the data well comparatively.This is clearily shown in the predictions made through test samples on the trained model.
 
 <h1>CONTRIBUTOR</h1>
 
