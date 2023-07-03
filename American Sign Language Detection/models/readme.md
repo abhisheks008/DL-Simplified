@@ -1,5 +1,6 @@
  # American Sign Language Detection
-![image](https://github.com/aditya0929/sign-language-detection/assets/127277877/59249191-d14b-441e-845a-e14ddadeddd9)
+![image](https://github.com/aditya0929/DL-Simplified/assets/127277877/c149f669-ed35-4751-87bd-b148495fafc4)
+
 
 **SOCIAL SUMMER OF CODE 2023**
 github link - [aditya0929](https://github.com/aditya0929)
