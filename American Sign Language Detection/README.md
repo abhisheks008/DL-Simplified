@@ -54,7 +54,8 @@ I will preprocess the dataset by resizing the images and splitting it into train
 
 I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the vegetable images.
 
-![image](https://github.com/aditya0929/sign-language-detection/assets/127277877/4ef0e9f3-aa02-4167-9447-41c330102afa)
+
+![predicted labels](https://github.com/aditya0929/DL-Simplified/assets/127277877/6f459067-2939-4436-b19a-5c8177a7e7bb)
 
 
 ## after evaluation, `MobileNet` or `VGG16` model looks to be the best fit model in this case of American Sign Language Classification .
