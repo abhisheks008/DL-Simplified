@@ -7,7 +7,7 @@ The main goal of this project is to create a deep learning model that can accura
 The dataset used for this project can be found at: [Dataset Link](https://www.kaggle.com/datasets/tapakah68/anti-spoofing). It contains a collection of real and spoofed images, which will be used for training and evaluation.
 
 # **🔴 Description:**
-This project focuses on implementing a deep learning model for anti-spoofing. The goal is to accurately differentiate between real images and spoofed images to enhance security measures. Various algorithms and models will be explored to achieve the desired results.
+This project focuses on implementing a deep learning model for anti-spoofing. The goal is to accurately differentiate between images of different kind such as real image, replay, prinout, layout and cut out. to enhance security measures. Various algorithms and models will be explored to achieve the desired results.
 
 # **🔴 What I Have Done:**
 To develop the anti-spoofing model, the following steps were followed:
@@ -46,11 +46,11 @@ The following models were used in this project:
    - Chosen over CNN and RNN models.
    - Specifically designed for image similarity and one-shot learning tasks.
    - Capable of accurately measuring similarity between images.
-   - Well-suited for detecting and classifying spoofed images.
+   - Well-suited for detecting and classifying between images.
 
 The Siamese model was selected for its unique architecture and its ability to accurately compare and measure similarity between images, making it a suitable choice for the anti-spoofing task.
 
-**# 🔴 Libraries Needed:**
+# ** 🔴 Libraries Needed:**
 The following libraries are required for this project:
 
 - TensorFlow
@@ -61,7 +61,7 @@ The following libraries are required for this project:
 - Pandas
 
 # **🔴 Visualization:**
-Images showcasing the visualization of the exploratory data analysis (EDA) results will be included.
+
 
 # **🔴 Accuracies:**
 The accuracies of the models used in this project are as follows:
@@ -79,7 +79,7 @@ The accuracies of the models used in this project are as follows:
   - Validation Accuracy: 100.00%
 
 # **🔴 Conclusion:**
-In conclusion, the Siamese model outperformed the CNN and RNN models in terms of accuracy for the anti-spoofing task. Its unique architecture, specifically designed for image similarity and one-shot learning, proved to be effective in accurately differentiating between real and spoofed images. The Siamese model provides a robust solution for enhancing security measures against various types of image-based spoofing attacks.
+In conclusion, the Siamese model outperformed the CNN and RNN models in terms of accuracy for the anti-spoofing task. Its unique architecture, specifically designed for image similarity and one-shot learning, proved to be effective in accurately differentiating between different types of images. The Siamese model provides a robust solution for enhancing security measures against various types of image-based spoofing attacks.
 
 # **Author:**
 
