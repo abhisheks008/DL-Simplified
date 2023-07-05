@@ -40,6 +40,7 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
+![onechannel](https://github.com/achrekarom12/DL-Simplified/assets/88442486/1ff7750c-6da4-40f4-ba2a-23b8c5c69d90)
 
 
 
