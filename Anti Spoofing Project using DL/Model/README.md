@@ -1,3 +1,4 @@
+![Screen Shot 2023-07-06 at 00 32 23](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/cf85da70-42e5-4d02-b03b-3fef2d0313e8)
 # **🔴 Project Title: Anti-Spoofing Project**
 
 # **🔴 Goal:**
@@ -61,6 +62,23 @@ The following libraries are required for this project:
 - Pandas
 
 # **🔴 Visualization:**
+
+![Screen Shot 2023-07-06 at 00 32 57](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/e3960074-841d-4ded-95c0-3ee974fe10f6)
+
+![Screen Shot 2023-07-06 at 00 32 39](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/c58e98f7-96f7-45f3-9895-0f8d89a1b053)
+
+![Screen Shot 2023-07-06 at 00 32 23](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/cc025660-f3b6-4633-b562-949113705804)
+
+![Screen Shot 2023-07-06 at 00 34 00](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/e44fa62d-32cf-4990-9812-ced8e4c555cd)
+
+![Screen Shot 2023-07-06 at 00 34 21](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/b9809010-b2b6-416f-a049-ef5934b5a3c4)
+
+![Screen Shot 2023-07-06 at 00 34 48](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/39f33d3d-718d-40cd-b5ea-b3b1d82992dc)
+
+
+![Screen Shot 2023-07-06 at 00 35 09](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/b2086afc-b050-4e7e-ae80-b0011ec7ab0d)
+
+![Screen Shot 2023-07-06 at 00 35 27](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/da4a314a-8881-4805-99b8-0e26675d88aa)
 
 
 # **🔴 Accuracies:**
