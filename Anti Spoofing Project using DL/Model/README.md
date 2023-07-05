@@ -1,4 +1,3 @@
-![Screen Shot 2023-07-06 at 00 32 23](https://github.com/SaketGudimella/DL-Simplified/assets/106355242/cf85da70-42e5-4d02-b03b-3fef2d0313e8)
 # **🔴 Project Title: Anti-Spoofing Project**
 
 # **🔴 Goal:**
