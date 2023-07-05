@@ -50,7 +50,7 @@ The following models were used in this project:
 
 The Siamese model was selected for its unique architecture and its ability to accurately compare and measure similarity between images, making it a suitable choice for the anti-spoofing task.
 
-# ** 🔴 Libraries Needed:**
+# **🔴 Libraries Needed:**
 The following libraries are required for this project:
 
 - TensorFlow
