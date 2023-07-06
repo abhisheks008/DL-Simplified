@@ -42,7 +42,7 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
-
+![comparision](https://github.com/achrekarom12/DL-Simplified/assets/88442486/5cb0b74c-4220-4c87-8940-572b200b533b)
 
 
 ## EVALUATION METRICS
