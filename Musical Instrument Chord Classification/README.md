@@ -10,7 +10,7 @@ To identify major or minor chords from the given audio.
 
 ## DATASET
 
-The link for the dataset used in this project:  https://www.kaggle.com/datasets/deepcontractor/musical-instrument-chord-classification 
+The link for the dataset used in this project:  https://www.kaggle.com/datasets/deepcontractor/musical-instrument-chord-classification and https://www.kaggle.com/datasets/mehanat96/major-vs-minor-guitar-chords
 
 ## DESCRIPTION
 
@@ -57,13 +57,13 @@ Results on Val dataset:
 
 | Model      | Accuracy | Loss    |
 |------------|----------|---------|
-| CNN    | 0.669     | 0.63   |
-| ANN    | 0.756     | 0.621    |
-| MLP    | 0.692     | 0.612    |
+| CNN    | 0.663     | 0.572   |
+| ANN    | 0.81     | 0.916    |
+| MLP    | 0.707     | 0.651    |
 
 
 ## CONCLUSION
 Based on results we can draw following conclusions:
-1. CNN: The CNN model achieved an accuracy of 0.669 and a loss of 0.63. CNNs are well-suited for handling grid-like data such as images, and they can automatically learn local patterns and spatial relationships. However, in this case, the CNN model's performance is relatively lower compared to the other models.
-2. ANN: The ANN (Artificial Neural Network) model achieved an accuracy of 0.756 and a loss of 0.621. ANNs, also known as fully connected neural networks or MLPs, can handle various types of data. The ANN model shows better performance than the CNN model in terms of accuracy.
-3. MLP: The MLP model achieved an accuracy of 0.692 and a loss of 0.612. MLPs, similar to ANNs, are versatile and can handle a wide range of data types. The MLP model's performance is similar to the CNN model, but slightly better in terms of accuracy.
+1. CNN: The CNN model achieved an accuracy of 0.663 and a loss of 0.572. CNNs are well-suited for handling grid-like data such as images and can automatically learn local patterns and spatial relationships. However, in this case, the CNN model's performance is relatively lower compared to the other models.
+2. ANN: The ANN (Artificial Neural Network) model achieved an accuracy of 0.810 and a loss of 0.916. ANNs, also known as fully connected neural networks or MLPs, can handle various types of data. The ANN model shows the highest accuracy among the three models, indicating its effectiveness in capturing the underlying patterns in the data.
+3. MLP: The MLP model achieved an accuracy of 0.707 and a loss of 0.651. MLPs, similar to ANNs, are versatile and can handle a wide range of data types. The MLP model's performance is intermediate between the CNN and ANN models in terms of accuracy.
