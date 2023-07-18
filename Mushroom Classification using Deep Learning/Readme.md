@@ -29,10 +29,15 @@
 
 ### Evaluation stats:
 
-#### <p align = "center">Convolutional Neural Networks </p>
+### <p align = "center">Convolutional Neural Network </p>
 
-<p align="center">
-  <img src="" alt="Accuracy and Loss graph">
-</p>
+![cnn stats](https://github.com/PiyushBL45t/DL-Simplified/assets/75735209/2865cb07-0ab6-4f5d-927d-3eccee6bd37e)
+
+### <p align = "center">Incetpion V3 Neural Network </p>
+
+
+![indep stats](https://github.com/PiyushBL45t/DL-Simplified/assets/75735209/f0a8d3b8-8f5c-47c2-b44d-f027c1028dbf)
+
+
 
 
