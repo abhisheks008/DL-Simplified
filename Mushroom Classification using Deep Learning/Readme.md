@@ -38,6 +38,9 @@
 
 ![indep stats](https://github.com/PiyushBL45t/DL-Simplified/assets/75735209/f0a8d3b8-8f5c-47c2-b44d-f027c1028dbf)
 
+## Project Contributed by: Piyush Bhujbal
+## Connect with me on Linkedin: https://www.linkedin.com/in/piyush-bhujbal-637a621a5/
+
 
 
 
