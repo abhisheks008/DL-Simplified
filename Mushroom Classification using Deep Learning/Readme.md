@@ -17,6 +17,9 @@
 10. Warnings (to supress unnecessary warnings)
 
 ### Operations performed:
+
+> ###  Images were not properly resized, so I wrote a script to convert images to a reliabe 256x256 resolution. It made those easy for preprocessing and testing.
+
 1. Image Processing.
 2. Data Visualization.
 3. Image data generation.
