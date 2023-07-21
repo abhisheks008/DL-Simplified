@@ -40,7 +40,7 @@ Xception is a powerful deep convolutional neural network architecture widely uti
 | ResNet152V2 | 97% |
 
 
-Since the models' decent levels of accuracy(94% and above) means that most of their pictures will be almost having similar predicted labels with a small room for mistake, the anticipated labels for the sign image labels are as are visualised as follows.
+Since the models' decent levels of accuracy(94% and above) means that most of their pictures will be almost having similar predicted labels with a small room for mistake, the anticipated labels for the artwork image labels are as are visualised as follows.
 
 **Throughout the project,** 
 
@@ -54,7 +54,7 @@ I will evaluate their performance using appropriate metrics. Additionally, I wil
 ![image](https://github.com/aditya0929/Surreal-Symphonies-artwork-image-recognition-/assets/127277877/028bc26c-e372-47ba-b494-80111950d156)
 
 
-## after evaluation, `ResNet152V2`  model looks to be the best fit model in this case of American Sign Language Classification .
+## after evaluation, `ResNet152V2`  model looks to be the best fit model in this case of Artwork Image Recognition .
 
 
 **Future Scope**
