@@ -2,7 +2,7 @@
 
 ## PROJECT TITLE
 
-Ship Detection using DL  
+Ship Detection from Aerial Images
 
 ## GOAL
 
@@ -47,6 +47,7 @@ The following libraries are required to run this project:
 - pytorch
 
 ## VISUALIZATION
+![yolov5s_val_pred](https://github.com/achrekarom12/DL-Simplified/assets/88442486/21edbe30-6f75-4f36-8551-090c6a79c326)
 
 
 
