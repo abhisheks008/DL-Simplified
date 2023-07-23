@@ -40,6 +40,9 @@ The following libraries are required to run this project:
 - tensorflow==2.6.0
 
 ## VISUALIZATION
+Image Distribution in dataset:
+
+![dist](https://github.com/achrekarom12/DL-Simplified/assets/88442486/c828fa7d-cce4-420e-aa3b-361ff9bf3ca4)
 
 
 
