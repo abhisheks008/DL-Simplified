@@ -25,7 +25,7 @@ To implement InceptionV3, we start by loading the pre-trained model, which comes
 
 **VGG16**
 
-**Lastly,** I will utilize the **VGG16** (Visual Geometry Group) architecture, which have deeper and complex structures. These models are renowned for their exceptional performance on various image recognition tasks. By leveraging the pre-trained weights of VGG, I can benefit from the learned features and fine-tune the network for image segmentation on the Lemon Quality Dataset.
+**Lastly,** I will utilize the **VGG16** (Visual Geometry Group) architecture, which have deeper and complex structures. These models are renowned for their exceptional performance on various image recognition tasks. By leveraging the pre-trained weights of VGG, I can benefit from the learned features and fine-tune the network for image segmentation task
 
 
 
@@ -35,7 +35,7 @@ I will preprocess the dataset by resizing the images and splitting it into train
 
 **After training the models,**
 
-I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the lemon images.
+I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the images.
 the comparison.ipynb shows different graphical representation for the metrics evaluation and the model with the best accuracy score can be selected eventhough the other models are also highly accurate.
 
 
@@ -56,7 +56,7 @@ I will preprocess the dataset by resizing the images and splitting it into train
 
 **After training the models,**
 
-I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the vegetable images.
+I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the leave images.
 
 ## predicted labels 
 
