@@ -1,41 +1,43 @@
-## Introduction
+### Market Basket Analysis for Retail Store: A Deep Learning Approach
+<hr/>
 
-Market Basket Analysis is a powerful technique commonly used in retail and e-commerce industries to identify cross-selling opportunities, optimize product placements, and enhance overall sales strategies.
+### GOAL
 
-## Problem Statement
+The main goal of this project is to perform Market Basket Analysis on a given dataset containing transactional data from a retail store. The purpose is to discover item associations and generate insights that can be used to improve cross-selling opportunities, optimize product placements, and enhance overall sales strategies.
 
-Market Basket Analysis on a given dataset containing transactional data from a retail store
-The dataset comprises a collection of customer transactions, each listing the items purchased during a single shopping session.
-By analyzing this data, we intend to discover item associations and generate insights that can be used to improve the store's sales and marketing strategies.
+### DATASET
+The dataset used in this project is available in the file basket_analysis.csv. It contains transactional data with boolean values indicating whether specific products were bought by the customer in each shopping session.
 
-## Dataset
-The dataset directory consists of the dataset used. It includes the file basket_analysis.csv which consists of Serial no. and boolean values of the products bought by the customer
+### DESCRIPTION
+Market Basket Analysis is a widely used technique in retail and e-commerce industries to gain insights into customer buying patterns and discover potential relationships between products. By analyzing the transaction data, we aim to find frequent itemsets and association rules that can guide the store's sales and marketing strategies.
 
-## Methodology
-Data Preprocessing: The transactional data may need cleaning, handling missing values, and converting it into a suitable format for analysis.
+### WHAT I HAD DONE
 
-Transaction Encoding: The transaction data will be transformed into a format suitable for association rule mining. One popular method is to convert the transaction data into a binary format (0 for items not purchased, 1 for items purchased).
+Data Preprocessing: Cleaned the transactional data and handled missing values, converting it into a suitable format for analysis.
+Transaction Encoding: Transformed the transaction data into a binary format to prepare it for association rule mining.
+Association Rule Mining: Employed the Apriori and FP Growth algorithms to mine frequent itemsets and discover association rules.
+Rule Evaluation: Evaluated the generated association rules based on support, confidence, and lift to identify significant rules.
+Insight Generation: Interpreted the results to identify meaningful item associations and provide actionable insights for the retail store.
 
-Association Rule Mining using Apriori and FP Growth: Two common algorithms, Apriori and FP Growth, will be employed to mine frequent itemsets and discover association rules from the transaction data.
+### MODELS USED
 
-Rule Evaluation: The generated association rules will be evaluated based on metrics such as support, confidence, and lift. These metrics help identify significant rules that can be utilized for decision-making.
+Apriori Algorithm: Used for frequent itemset mining and rule generation based on transaction data.
+FP Growth Algorithm: Employed as an alternative frequent itemset mining technique for comparison.
+Neural Collaborative Filtering (NCF) Model: A deep learning-based approach used for personalized product recommendations.
 
-Insight Generation: The final step involves interpreting the results, identifying meaningful item associations, and providing actionable insights to improve cross-selling strategies, product placements, and overall sales.
+### LIBRARIES NEEDED
 
-## Dependencies
-The requirements.txt file consists of the dependencies for the project, including Python libraries such as pandas, numpy, scikit-learn, mlxtend, and matplotlib. Additionally, for the market basket analysis using deep learning algorithm, TensorFlow and Keras libraries will also be required.
+pandas
+numpy
+scikit-learn
+mlxtend
+matplotlib
+TensorFlow
+Keras
 
-## Deep Learning-based Market Basket Analysis
-To further explore advanced technique, employing a deep learning-based approach for Market Basket Analysis using the Neural Collaborative Filtering (NCF) model. The NCF model leverages embeddings and neural networks to predict user-item interactions and recommend products based on past behaviors. The steps for this approach will be as follows:
+### VISUALIZATION
+![image](https://github.com/vaishnavi-3969/DL-Simplified/assets/80088403/37aa53ab-da2a-44cd-835c-0f8035b244a9)
 
-Prepare the data for NCF: Encode user-item interactions as one-hot encoded vectors.
 
-Build the NCF model: Create a deep learning model using TensorFlow and Keras, incorporating embeddings and dense layers.
-
-Train the NCF model: Use the encoded interaction data to train the NCF model with categorical cross-entropy as the loss function.
-
-Make recommendations for users: Utilize the trained NCF model to make personalized recommendations for specific users.
-
-Evaluation and Visualization: Evaluate the NCF model's performance and visualize the recommendations across users and items to gain insights.
-
-By incorporating deep learning techniques, we aim to enhance the recommendation capabilities and provide more accurate and personalized product recommendations to customers.
+### CONCLUSION
+The Market Basket Analysis provided valuable insights into customer buying patterns and item associations. Both traditional Apriori and FP Growth algorithms proved effective in mining frequent itemsets and generating association rules. Additionally, the NCF model successfully delivered personalized product recommendations based on user-item interactions. The incorporation of deep learning techniques enhanced the accuracy and personalization of recommendations, allowing the retail store to optimize cross-selling opportunities and improve customer satisfaction.
