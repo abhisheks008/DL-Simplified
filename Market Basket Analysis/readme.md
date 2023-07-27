@@ -36,7 +36,7 @@ TensorFlow
 Keras
 
 ### VISUALIZATION
-![image](https://github.com/vaishnavi-3969/DL-Simplified/assets/80088403/37aa53ab-da2a-44cd-835c-0f8035b244a9)
+<img src = "https://github.com/vaishnavi-3969/DL-Simplified/assets/80088403/37aa53ab-da2a-44cd-835c-0f8035b244a9"/>
 
 
 ### CONCLUSION
