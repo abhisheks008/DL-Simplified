@@ -46,7 +46,8 @@ The dataset for this project can be found at link given below.
   them to classify earthquake events accurately based on their unique characteristics.
 ```
 5. Model evaluation: Evaluated the performance of each model using appropriate metrics such as accuracy and precision. 
-       
+     
+
 ## Libraries Needed
 
 - Pandas
@@ -65,7 +66,7 @@ The dataset for this project can be found at link given below.
 | GRU |0.8920000195503235 |
 | FNN| 1.0 |
 
-
+   ![IMG_20230729_174802](https://github.com/RAJharsh02/Earthquake-type-prediction/assets/118257196/5947898d-04a1-4b1b-8f67-b63254482f68)
 
 ## Conclusion
  In conclusion, this project aimed to classifies Earthquake using DL models. Among the models developed, the Feedforward Neural Network (fNN) achieved the highest accuracy of 100%. This suggests that the temporal dependencies captured by the FNN architecture are valuable in Classification. 
