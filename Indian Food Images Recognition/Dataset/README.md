@@ -1,0 +1,1 @@
+I have fetched the Rice Image Dataset from https://www.kaggle.com/datasets/iamsouravbanerjee/indian-food-images-dataset for building and developing this Project. You guys can check out the dataset from the given link.

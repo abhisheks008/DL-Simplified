@@ -1,0 +1,10 @@
+os
+itertools
+PIL
+torch==2.0.1
+torchvision==0.15.0
+numpy==1.24.3
+pandas==1.5.0
+matplotlib==3.6.0
+segmentation-models==1.0.1
+tensorflow
