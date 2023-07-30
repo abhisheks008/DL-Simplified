@@ -27,8 +27,8 @@ Mentioned in requirements.text file.
 VISUALIZATION
 
 ACCURACIES
-LSTM : 56.89
-BiLSTM : 52.92
+LSTM : 0.6863
+BiLSTM : 0.6858
 
 As I have only run 10 epochs each for both the models, accuracy is showing less. If more epochs are run, the accuracy will definitely increase.
 
