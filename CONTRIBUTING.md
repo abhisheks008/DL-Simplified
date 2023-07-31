@@ -8,7 +8,7 @@ I'm happy to welcome all the contributions from anyone willing to add new script
 
 ## 💻Before Contributing
 
-Welcome to [Deep Learning Simplified](https://github.com/abhisheks008/DL-Simplified). Before sending your pull requests, make sure that you **read the whole guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
+Welcome to [Deep Learning Simplified](https://github.com/abhisheks008/DL-Simplified). - an open-source repository, containing beginner to advance level deep learning projects for the contributors, who are willing to start their journey in Deep Learning. Devfolio URL, https://devfolio.co/projects/deep-learning-simplified-f013. Before sending your pull requests, make sure that you **read the whole guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
 
 
 ## 🙌Contribution
@@ -54,9 +54,9 @@ Following are the steps to guide you:
 ## 🔑Guidelines
 
 1. Welcome to this repository, if you are here as open source program participant/contributor.
-2. Participants / contributors have to **comment** on issues they would like to work on, and mentors or the PA will assign you.
+2. Participants / contributors have to **comment** on issues they would like to work on, and mentors or the PA (Project Administrator) will assign you.
 3. Issues will be assigned on a **first-come, first-serve basis.**
-4. Participants / contributors can also **open their issues** using [issue_template](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/ISSUE_TEMPLATE/dl-simplified_issue_template.md), but it needs to be verified and labelled by a mentor or PA. Please discuss with the team once before opening your issues. We respect all your contributions, whether it is an Issue or a Pull Request.
+4. Participants / contributors can also **open their issues** by navigating to the issue template directory [issue_template](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/ISSUE_TEMPLATE/dl-simplified_issue_template.md), but it needs to be verified and labelled by a mentor or PA(Project Administrator). Please discuss with the team once before opening your issues. We respect all your contributions, whether it is an Issue or a Pull Request.
 5. When you raise a issue, make sure you get it assigned to you, before you start working on that project.
 6. Each participant / contributor will be **assigned 1 issue (max)** at a time to work.
 7. Participants are expected to follow **project guidelines** and [**coding style**](https://pep8.org/"). **Structured code** is one of our top priority.
@@ -83,6 +83,7 @@ Following are the steps to guide you:
 4. For frontend changes, kindly share screenshots and work samples of your work before sending a PR.
 5. Follow the proper [style guides](https://google.github.io/styleguide/) for your work.
 6. For any queries or discussions, please feel free to drop a message.
+7. Pull Requests will be reviewed based on code quality, documentation, and adherence to coding standards.
 
 
 ## 📍Other points to remember while submitting your work:
@@ -100,7 +101,7 @@ We want your work to be readable by others; therefore, we encourage you to note 
 - If you have modified/added documentation work, ensure your language is concise and contains no grammar errors.
 - For front end designers, back end developers and UI/UX designers follow the project structure mentioned in [README]
 - Do not update the [README.md](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/readme_template.md) and [Contributing_Guidelines.md](https://github.com/World-of-ML/DL-Simplified/blob/main/CONTRIBUTING.md).
-- Avoid importing external libraries for basic algorithms. Only use those libraries for complicated algorithms. **Usage of NumPY is highly recommended.** 
+- Avoid importing external libraries for basic algorithms (based on Time Complexity). Only use those libraries for complicated algorithms. **Usage of NumPy is highly recommended.** 
 
 
 ## 📖Resources
