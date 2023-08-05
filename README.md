@@ -49,13 +49,16 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 <table>
 <tr>
  <td align="center">
-<a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>Social WoC 2023</b></sub></a>
+<a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>SWOC 2023</b></sub></a>
  </td>
  <td align="center">
-<a href="https://ssoc.getsocialnow.co/#"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2022</b></sub></a>
+<a href="https://ssoc.getsocialnow.co/#"><img width="100px" src="https://github.com/World-of-ML/DL-Simplified/assets/68724349/67bf9f12-3031-495d-a884-76c1c6437707" /><br /><sub><b>SSOC 2022</b></sub></a>
  </td>
   <td align="center">
-<a href="https://hack2skill.com/hack/ssoc"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/logo-1.jpg" width=100px height=100px /><br /><sub><b>Social SoC 2023</b></sub></a>
+<a href="https://hack2skill.com/hack/ssoc"><img width="100px" src="https://github.com/World-of-ML/DL-Simplified/assets/68724349/67bf9f12-3031-495d-a884-76c1c6437707"><br /><sub><b>SSOC 2023</b></sub></a>
+ </td>
+  <td align="center">
+<a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>SWOC 4.0</b></sub></a>
  </td>
 </tr>
 </table>
