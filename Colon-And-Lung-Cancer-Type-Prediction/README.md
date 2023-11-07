@@ -32,6 +32,15 @@ To train the model, execute the training script provided in the src directory. Y
 # Evaluation
 After training, the model's performance can be evaluated using the validation and test datasets. The code generates accuracy, loss, and a confusion matrix to assess the model's effectiveness in cancer detection.
 
+# Visualization
+![dataset](https://github.com/adi271001/DL-Simplified/assets/67856422/ddeec067-df03-49aa-bd24-5071a69332b3)
+![training](https://github.com/adi271001/DL-Simplified/assets/67856422/d8d4ff4b-40f0-4a9a-99f4-25086ab5990e)
+![plot_training_testing](https://github.com/adi271001/DL-Simplified/assets/67856422/c1f7d305-ad94-45c4-8fc0-4d4e66ca441b)
+![accuracy](https://github.com/adi271001/DL-Simplified/assets/67856422/9298bfe0-890b-4321-9b7d-2f2d156c0637)
+![classification_report](https://github.com/adi271001/DL-Simplified/assets/67856422/f6df8216-eb6b-4422-947f-3dc0ce8fd09a)
+![confusion_matrix](https://github.com/adi271001/DL-Simplified/assets/67856422/649c373d-64ff-417a-9bd0-04739cc962e2)
+
+
 # Results 
 The model achieved an accuracy of 99.6399, Graphs are attached  which shows that the model is neither overfitted nor underfitted
 
