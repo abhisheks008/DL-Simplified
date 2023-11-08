@@ -32,8 +32,4 @@ Run the code cells in the notebook sequentially. Adjust any parameters or settin
 Monitor the training progress and evaluate the model's performance using the provided metrics.
 
 # Results
-The code achieves accurate classification results for bone marrow cells. Detailed performance metrics and visualizations can be found in the Kaggle notebook.
-
-# Visualization
-
-
+The code achieves accurate classification results for bone marrow cells.I have got accuracy of 95.545% Detailed performance metrics and visualizations can be found in the Kaggle notebook.
