@@ -33,3 +33,12 @@ Monitor the training progress and evaluate the model's performance using the pro
 
 # Results
 The code achieves accurate classification results for bone marrow cells.I have got accuracy of 95.545% Detailed performance metrics and visualizations can be found in the Kaggle notebook.
+
+# Visualization
+![bDataset](https://github.com/adi271001/DL-Simplified/assets/67856422/808c795b-01a6-49d9-affe-f40a88d9ff15)
+![Btrainingandtesting](https://github.com/adi271001/DL-Simplified/assets/67856422/2924e248-c989-4c00-a692-da7464f0b293)
+![bgraphs](https://github.com/adi271001/DL-Simplified/assets/67856422/b72a08d8-78ee-4f16-8f21-6e1bcd4afa75)
+![bclassificationreport](https://github.com/adi271001/DL-Simplified/assets/67856422/589ed3a7-4155-418f-adfe-bc2b6d1e5b52)
+
+# Saving Model
+The trained model and its weights can be saved for future use. You can easily save both the model architecture and the learned weights using the provided code. The saved model can then be loaded and used for making predictions on new data.
