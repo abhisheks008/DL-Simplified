@@ -1,0 +1,12 @@
+os==<your_os_version>
+time==<your_time_version>
+shutil==<your_shutil_version>
+pathlib==<your_pathlib_version>
+itertools==<your_itertools_version>
+opencv-python==4.5.1
+numpy==1.19.5
+pandas==1.1.5
+seaborn==0.11.1
+matplotlib==3.4.3
+scikit-learn==0.24.2
+tensorflow==2.4.1
