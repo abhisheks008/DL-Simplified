@@ -60,6 +60,9 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
   <td align="center">
 <a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>SWOC 4.0</b></sub></a>
  </td>
+  <td align="center">
+<a href="https://www.codepeak.tech/"><img src="https://github.com/World-of-ML/Play-With-Python/blob/main/Assets/Screenshot%202022-12-02%20190456.png" width=100px height=100px /><br /><sub><b>CodePeak 2023</b></sub></a>
+ </td>
 </tr>
 </table>
 
