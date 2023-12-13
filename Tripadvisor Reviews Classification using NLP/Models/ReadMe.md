@@ -1,9 +1,8 @@
 **PROJECT TITLE**
-TripAdvisor Reviews Classification Using Deep Learning
+TripAdvisor Reviews Classification Using NLP
 
 **GOAL**
-To classify TripAdvisor reviews  using Deep Learning
-
+To classify TripAdvisor reviews  using NLP
 **DATASET**
 https://www.kaggle.com/datasets/arnabchaki/tripadvisor-reviews-2023/data
 
@@ -42,7 +41,8 @@ Logistic Regression, RNN
 Pandas, Numpy, Keras,TensorFlow, ScikitLearn, Seaborn, Matplotlib,NLTK
 
 **VISUALIZATION**
-EDA Results in Images folder
+![EDA -1 ](<../Images/Screenshot (257).png>)
+![EDA -2](<../Images/Screenshot (259).png>)
 
 **ACCURACIES**
 Around 94% for Logistic Regression
