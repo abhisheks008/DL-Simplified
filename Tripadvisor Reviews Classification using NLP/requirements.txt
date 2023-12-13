@@ -1,0 +1,3 @@
+Pandas, Numpy, Keras,TensorFlow, ScikitLearn, Seaborn, Matplotlib,NLTK
+
+(import GLove Embeddings in Kaggle to work)
