@@ -23,11 +23,13 @@ This project aims to perform a sentiment analysis on the tweets posted by variou
 3. Used Glove embeddings in other notebook
 4. Created LSTM model with Conv1D, Spatial DropOut, Dense and other layers
 5. Used confusion matrix
+6. Used BERT for classification
 
 ## MODELS USED
 
 1. Glove embeddings with LSTM
-2. Sequential Mode
+2. Sequential Model
+3. BERT
 
 ## LIBRARIES NEEDED
 - numpy
@@ -48,8 +50,8 @@ Confusion matrix was created and recall, f1 score, precision were used as metric
 
 ## RESULTS
 
-LSTM has higher accuracy (About 78%) compared to 72% of Keras sequential model
+LSTM has higher accuracy (About 78%) compared to 72% of Keras sequential model. The highest accuracy is offered by BERT at 87%
 
 ## CONCLUSION
 
-Long Short-Term Memory (LSTM) networks are beneficial in tweet sentiment analysis compared to Keras Sequential models due to their ability to capture contextual dependencies and handle sequential data effectively. Tweets often contain short and informal language, making it challenging for traditional models to discern sentiment accurately. LSTMs, with their memory cells, can capture nuances in the temporal structure of tweets, considering dependencies between words and phrases. This enables LSTMs to grasp the sentiment context better than simple sequential models. In contrast, Keras Sequential models may struggle to capture the inherent sequential nature and intricate dependencies present in tweet data, leading to suboptimal performance in sentiment analysis tasks.
+Long Short-Term Memory (LSTM) networks are beneficial in tweet sentiment analysis compared to Keras Sequential models due to their ability to capture contextual dependencies and handle sequential data effectively. Tweets often contain short and informal language, making it challenging for traditional models to discern sentiment accurately. LSTMs, with their memory cells, can capture nuances in the temporal structure of tweets, considering dependencies between words and phrases. This enables LSTMs to grasp the sentiment context better than simple sequential models. In contrast, Keras Sequential models may struggle to capture the inherent sequential nature and intricate dependencies present in tweet data, leading to suboptimal performance in sentiment analysis tasks.Using encoders from Transformer enables BERT to have a better context understanding than traditional neural networks such as LSTM or RNN since the encoder process all inputs, which is the whole sentence, simultaneously so when building a context for a word, BERT will take into account the inputs before it
