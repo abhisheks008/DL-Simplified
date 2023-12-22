@@ -34,7 +34,7 @@ Neural networks have been used to solve the problem at hand as they tend to perf
 </ul>
 
 # VISUALIZATION
-![bar graph to visualize class imbalance](<MNIST Digit Classification using Neural Networks\images\bar graph.png>)
+![pie chart to visualize class imbalance](<bar graph.png>)
 ![pie chart to visualize class imbalance](<MNIST Digit Classification using Neural Networks\images\pie chart.png>)
 ![histogram plot to visualize frequency distribution in each class](<MNIST Digit Classification using Neural Networks\images\histogram.png>)
 ![input visualization](<MNIST Digit Classification using Neural Networks\images\input visualisation.png>)
