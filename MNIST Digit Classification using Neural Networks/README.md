@@ -34,10 +34,10 @@ Neural networks have been used to solve the problem at hand as they tend to perf
 </ul>
 
 # VISUALIZATION
-![pie chart to visualize class imbalance](<bar graph.png>)
-![pie chart to visualize class imbalance](<MNIST Digit Classification using Neural Networks\images\pie chart.png>)
-![histogram plot to visualize frequency distribution in each class](<MNIST Digit Classification using Neural Networks\images\histogram.png>)
-![input visualization](<MNIST Digit Classification using Neural Networks\images\input visualisation.png>)
+![bar graph to visualize class imbalance](<bar graph.png>)
+![pie chart to visualize class imbalance](<pie chart.png>)
+![histogram plot to visualize frequency distribution in each class](histogram.png)
+![input visualization](<input visualisation.png>)
 
 # ACCURACIES
 
