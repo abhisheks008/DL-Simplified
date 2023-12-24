@@ -6,4 +6,4 @@ pandas==2.0.3
 scikit-learn==1.3.0
 seaborn==0.12.2
 segmentation-models==1.0.1
-tensorflow-intel==2.15.0
+tensorflow==2.15.0
