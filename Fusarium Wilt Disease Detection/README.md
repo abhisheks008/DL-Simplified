@@ -15,7 +15,7 @@ The Data Set consists of raw and augmented images with categories of healthy and
 
 <br>
 Severity level images from the dataset:
-1: Highly Resistant (HR): The plant has been wilted by 0%-10%,
+<br>1: Highly Resistant (HR): The plant has been wilted by 0%-10%,
 3: Resistant (R): The plant has been wilted by 11%-20%,
 5: Moderately Resistant/ Tolerant (MR): The plant has been wilted by 21%-30%,
 7: Susceptible (S): The plant has been wilted by 31%-50%,
@@ -38,5 +38,5 @@ We will try to build the models using  different approaches and compare their ac
 ![MobileNet](https://github.com/the-silent-geek/DL-Simplified/blob/01c08181398f712cb364bbe9f71749a23ef668fb/Fusarium%20Wilt%20Disease%20Detection/images/MobileNet.jpg)
 
 <br>DenseNet:
-1[DenseNet](https://github.com/the-silent-geek/DL-Simplified/blob/97e0d242b9c5dbc11bae466b6f4dc8ba9f1b01e5/Fusarium%20Wilt%20Disease%20Detection/images/DenseNet210.jpg)
+![DenseNet](https://github.com/the-silent-geek/DL-Simplified/blob/97e0d242b9c5dbc11bae466b6f4dc8ba9f1b01e5/Fusarium%20Wilt%20Disease%20Detection/images/DenseNet210.jpg)
 
