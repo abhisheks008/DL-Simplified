@@ -31,5 +31,9 @@ The main aim is to build a Deep Learning model using various approaches that wil
 
 We will try to build the models using  different approaches and compare their accuracy. In this notebook we will be building models using VGG16, DenseNet and MobileNet. 
 
+#VGG16
 ![VGG16](https://github.com/the-silent-geek/DL-Simplified/blob/7652413344186a95ec90a15f639f3efc10da6493/Fusarium%20Wilt%20Disease%20Detection/images/VGG16.jpg)
+
+#MobileNet
+![MobileNet](https://github.com/the-silent-geek/DL-Simplified/blob/01c08181398f712cb364bbe9f71749a23ef668fb/Fusarium%20Wilt%20Disease%20Detection/images/MobileNet.jpg)
 
