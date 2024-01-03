@@ -11,9 +11,9 @@ The Data Set consists of raw and augmented images with categories of healthy and
 
 <br>
 Severity level images from the dataset:
-1: Highly Resistant (HR): The plant has been wilted by 0%-10%,
-3: Resistant (R): The plant has been wilted by 11%-20%,
-5: Moderately Resistant/ Tolerant (MR): The plant has been wilted by 21%-30%,
-7: Susceptible (S): The plant has been wilted by 31%-50%,
-9: Highly Susceptible (HS): The plant has been wilted by more than 51%
+<br>1: Highly Resistant (HR): The plant has been wilted by 0%-10%,
+<br>3: Resistant (R): The plant has been wilted by 11%-20%,
+<br>5: Moderately Resistant/ Tolerant (MR): The plant has been wilted by 21%-30%,
+<br>7: Susceptible (S): The plant has been wilted by 31%-50%,
+<br>9: Highly Susceptible (HS): The plant has been wilted by more than 51%
 <br>
