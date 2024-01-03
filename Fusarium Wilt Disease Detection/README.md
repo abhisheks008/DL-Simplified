@@ -15,11 +15,11 @@ The Data Set consists of raw and augmented images with categories of healthy and
 
 <br>
 Severity level images from the dataset:
-1: Highly Resistant (HR): The plant has been wilted by 0%-10%,
-3: Resistant (R): The plant has been wilted by 11%-20%,
-5: Moderately Resistant/ Tolerant (MR): The plant has been wilted by 21%-30%,
-7: Susceptible (S): The plant has been wilted by 31%-50%,
-9: Highly Susceptible (HS): The plant has been wilted by more than 51%
+<br>1: Highly Resistant (HR): The plant has been wilted by 0%-10%,
+<br>3: Resistant (R): The plant has been wilted by 11%-20%,
+<br>5: Moderately Resistant/ Tolerant (MR): The plant has been wilted by 21%-30%,
+<br>7: Susceptible (S): The plant has been wilted by 31%-50%,
+<br>9: Highly Susceptible (HS): The plant has been wilted by more than 51%
 <br>
 
 
@@ -31,5 +31,12 @@ The main aim is to build a Deep Learning model using various approaches that wil
 
 We will try to build the models using  different approaches and compare their accuracy. In this notebook we will be building models using VGG16, DenseNet and MobileNet. 
 
-![VGG16](VGG16.jpg)
+# VGG16
+![VGG16](https://github.com/the-silent-geek/DL-Simplified/blob/7652413344186a95ec90a15f639f3efc10da6493/Fusarium%20Wilt%20Disease%20Detection/images/VGG16.jpg)
+
+# MobileNet
+![MobileNet](https://github.com/the-silent-geek/DL-Simplified/blob/01c08181398f712cb364bbe9f71749a23ef668fb/Fusarium%20Wilt%20Disease%20Detection/images/MobileNet.jpg)
+
+# DenseNet
+![DenseNet](https://github.com/the-silent-geek/DL-Simplified/blob/97e0d242b9c5dbc11bae466b6f4dc8ba9f1b01e5/Fusarium%20Wilt%20Disease%20Detection/images/DenseNet210.jpg)
 
