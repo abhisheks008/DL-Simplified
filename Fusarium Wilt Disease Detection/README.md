@@ -42,7 +42,7 @@ We will try to build the models using  different approaches and compare their ac
 # Pie-chart of severity level of diseases
 
 # Bar plot for number of cases for specific levels
-
+![Bar-plot](https://github.com/the-silent-geek/DL-Simplified/blob/33ca1d25fe31624b315128b73490b35d0a9aa943/Fusarium%20Wilt%20Disease%20Detection/images/bar%20plot.png)
 # Conclusion
 
 We have solved the problem using four different approaches. The differences in the accuracies may be because of the model's architecture, optimizers used, loss functions used.
