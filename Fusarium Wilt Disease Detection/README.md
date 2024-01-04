@@ -40,3 +40,8 @@ We will try to build the models using  different approaches and compare their ac
 # DenseNet
 ![DenseNet](https://github.com/the-silent-geek/DL-Simplified/blob/97e0d242b9c5dbc11bae466b6f4dc8ba9f1b01e5/Fusarium%20Wilt%20Disease%20Detection/images/DenseNet210.jpg)
 
+# Conclusion
+
+We have solved the problem using four different approaches. The differences in the accuracies may be because of the model's architecture, optimizers used, loss functions used.
+<br>
+The VGG16 model seemed to have the best accuracy in our case.
