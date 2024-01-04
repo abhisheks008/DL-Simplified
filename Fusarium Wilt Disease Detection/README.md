@@ -39,6 +39,9 @@ We will try to build the models using  different approaches and compare their ac
 
 # DenseNet
 ![DenseNet](https://github.com/the-silent-geek/DL-Simplified/blob/97e0d242b9c5dbc11bae466b6f4dc8ba9f1b01e5/Fusarium%20Wilt%20Disease%20Detection/images/DenseNet210.jpg)
+# Pie-chart of severity level of diseases
+
+# Bar plot for number of cases for specific levels
 
 # Conclusion
 
