@@ -17,15 +17,17 @@ The required libraries for this project are listed in the `requirements.txt` fil
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 All the codes are provided in the 'CarPricePrediction.py' file.
 
 ## Visualizations
 
-This project includes several visualizations to understand the data better:
+### This project includes several visualizations to understand the data better:
 
-Pair plot for numerical features
+#### Pair plot for numerical features
+
 ![Pair plot](Car Price Prediction using DL/Images/PairPlot.png)
 
 Correlation heatmap
