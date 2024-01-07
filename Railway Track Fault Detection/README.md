@@ -50,4 +50,4 @@
 ![mobilenet](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/mobileNet.png)
 
 # Conclusion
-DenseNet model performs better comparitve to other models used on the above dataset.
+DenseNet model performs better comparative to other models used on the above dataset.
