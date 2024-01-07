@@ -32,8 +32,19 @@
 |  DenseNet   |     98%       |     
 |  MobileNet  |     97%       |
 
-# Vgg16
-# ResNet50
-# InceptionV3
-# DenseNet
-# MobileNet
+# Accuracy plots of all models
+
+## Vgg16
+![vgg16](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/vgg16.png)
+
+## ResNet50
+![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/ResNet.png)
+
+## InceptionV3
+![inception](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/inceptionV3.png)
+
+## DenseNet
+![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/densenet.png)
+
+## MobileNet
+![mobilenet](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/mobileNet.png)
