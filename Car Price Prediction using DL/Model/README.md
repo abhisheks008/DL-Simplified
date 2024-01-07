@@ -26,26 +26,25 @@ All the codes are provided in the 'CarPricePrediction.py' file.
 This project includes several visualizations to understand the data better:
 
 Pair plot for numerical features
-![Pair plot](D:/Running_Projects/Car Price Prediction using DL/Images/PairPlot.png)
+![Pair plot](Car Price Prediction using DL/Images/PairPlot.png)
 
 Correlation heatmap
-![Heatmap](D:/Running_Projects/Car Price Prediction using DL/Images/CorrelationHeatmap.png)
+![Heatmap](Car Price Prediction using DL/Images/CorrelationHeatmap.png)
 
 Box plot for car body vs. price
-![Box plot](D:/Running_Projects/Car Price Prediction using DL/Images/box_CarBody_vs_Price.png)
+![Box plot](Car Price Prediction using DL/Images/box_CarBody_vs_Price.png)
 
 Interactive 3D scatter plot for curb weight, horsepower, and price
-![Interactive Plot](D:/Running_Projects/Car Price Prediction using DL/Images/interactive_3d_scatter_plot.html)
+![Interactive Plot](Car Price Prediction using DL/Images/interactive_3d_scatter_plot.html)
 
 Error Values Comparison Bar Plot
-![Error Values Plot](D:/Running_Projects/Car Price Prediction using DL/Images/ErrorValuesBarPlot.png)
+![Error Values Plot](Car Price Prediction using DL/Images/ErrorValuesBarPlot.png)
 
 Training History Plot
-![Training History Plot](D:/Running_Projects/Car Price Prediction using DL/Images/TrainingHistoryPlot.png)
+![Training History Plot](Car Price Prediction using DL/Images/TrainingHistoryPlot.png)
 
 Predicted vs Actual Price Scatter Plot
-![Predicted vs Actual Price](D:/Running_Projects/Car Price Prediction using DL/Images/Scatter_Predicted_vs_Actual.png)
-
+![Predicted vs Actual Price](Car Price Prediction using DL/Images/Scatter_Predicted_vs_Actual.png)
 
 ## Model
 Different DL models were used to predict the car prices, then the best one was chosen.
