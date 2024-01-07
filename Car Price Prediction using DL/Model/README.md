@@ -28,25 +28,25 @@ All the codes are provided in the 'CarPricePrediction.py' file.
 
 #### Pair plot for numerical features
 
-![Pair plot](Car Price Prediction using DL/Images/PairPlot.png)
+![Pair plot](../Images/PairPlot.png)
 
 Correlation heatmap
-![Heatmap](Car Price Prediction using DL/Images/CorrelationHeatmap.png)
+![Heatmap](../Images/CorrelationHeatmap.png)
 
 Box plot for car body vs. price
-![Box plot](Car Price Prediction using DL/Images/box_CarBody_vs_Price.png)
+![Box plot](../Images/box_CarBody_vs_Price.png)
 
 Interactive 3D scatter plot for curb weight, horsepower, and price
-![Interactive Plot](Car Price Prediction using DL/Images/interactive_3d_scatter_plot.html)
+![Interactive Plot](../Images/interactive_3d_scatter_plot.html)
 
 Error Values Comparison Bar Plot
-![Error Values Plot](Car Price Prediction using DL/Images/ErrorValuesBarPlot.png)
+![Error Values Plot](../Images/ErrorValuesBarPlot.png)
 
 Training History Plot
-![Training History Plot](Car Price Prediction using DL/Images/TrainingHistoryPlot.png)
+![Training History Plot](../Images/TrainingHistoryPlot.png)
 
 Predicted vs Actual Price Scatter Plot
-![Predicted vs Actual Price](Car Price Prediction using DL/Images/Scatter_Predicted_vs_Actual.png)
+![Predicted vs Actual Price](../Images/Scatter_Predicted_vs_Actual.png)
 
 ## Model
 Different DL models were used to predict the car prices, then the best one was chosen.
