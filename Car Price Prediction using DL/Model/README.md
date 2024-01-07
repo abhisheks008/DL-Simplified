@@ -37,7 +37,7 @@ Box plot for car body vs. price
 ![Box plot](../Images/box_CarBody_vs_Price.png)
 
 Interactive 3D scatter plot for curb weight, horsepower, and price
-![Interactive Plot](../Images/interactive_3d_scatter_plot.html)
+![Interactive Plot](../Images/interactive_3d_scatter_plot.svg)
 
 Error Values Comparison Bar Plot
 ![Error Values Plot](../Images/ErrorValuesBarPlot.png)
