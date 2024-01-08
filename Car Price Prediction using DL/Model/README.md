@@ -78,6 +78,15 @@ Compilation: Adam optimizer, mean squared error loss function.
 
 ## Results
 
+| Model                   | MSE                     | R-squared              |
+|-------------------------|-------------------------|------------------------|
+| Simple Neural Network   | 34290440.002507746     | 0.5656360086499759     |
+| Complex Neural Network  | 9222450.53118023        | 0.883177339734963      |
+| MLP                     | 21686974.238817435      | 0.7252866778615561     |
+| Simple RNN              | 24707967.891473647      | 0.6870191356336094     |
+| LSTM                    | 11925410.305463398      | 0.8489383974545393     |
+
+
 Simple Neural Network MSE: 34290440.002507746, R-squared: 0.5656360086499759
 Complex Neural Network MSE: 9222450.53118023, R-squared: 0.883177339734963
 MLP MSE: 21686974.238817435, R-squared: 0.7252866778615561
