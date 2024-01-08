@@ -39,12 +39,6 @@ Box plot for car body vs. price
 Interactive 3D scatter plot for curb weight, horsepower, and price
 ![Interactive Plot](../Images/interactive_3d_scatter_plot.svg)
 
-Error Values Comparison Bar Plot
-![Error Values Plot](../Images/ErrorValuesBarPlot.png)
-
-Training History Plot
-![Training History Plot](../Images/TrainingHistoryPlot.png)
-
 Predicted vs Actual Price Scatter Plot
 ![Predicted vs Actual Price](../Images/Scatter_Predicted_vs_Actual.png)
 
@@ -87,11 +81,11 @@ Compilation: Adam optimizer, mean squared error loss function.
 | LSTM                    | 11925410.305463398      | 0.8489383974545393     |
 
 
-Simple Neural Network MSE: 34290440.002507746, R-squared: 0.5656360086499759
-Complex Neural Network MSE: 9222450.53118023, R-squared: 0.883177339734963
-MLP MSE: 21686974.238817435, R-squared: 0.7252866778615561
-Simple RNN MSE: 24707967.891473647, R-squared: 0.6870191356336094
-LSTM MSE: 11925410.305463398, R-squared: 0.8489383974545393
-
 ## Conclusions
 As the results show, based on the lowest MSE or Higest R-Squared value, Complex Neural Network is the best model.
+
+Error Values Comparison Bar Plot
+![Error Values Plot](../Images/ErrorValuesBarPlot.png)
+
+Training History Plot
+![Training History Plot](../Images/TrainingHistoryPlot.png) 
