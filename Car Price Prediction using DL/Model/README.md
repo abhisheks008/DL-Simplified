@@ -39,6 +39,10 @@ Box plot for car body vs. price
 Interactive 3D scatter plot for curb weight, horsepower, and price
 ![Interactive Plot](../Images/interactive_3d_scatter_plot.svg)
 
+
+Training History Plot
+![Training History Plot](../Images/TrainingHistoryPlot.png) 
+
 Predicted vs Actual Price Scatter Plot
 ![Predicted vs Actual Price](../Images/Scatter_Predicted_vs_Actual.png)
 
@@ -86,6 +90,3 @@ As the results show, based on the lowest MSE or Higest R-Squared value, Complex 
 
 Error Values Comparison Bar Plot
 ![Error Values Plot](../Images/ErrorValuesBarPlot.png)
-
-Training History Plot
-![Training History Plot](../Images/TrainingHistoryPlot.png) 
