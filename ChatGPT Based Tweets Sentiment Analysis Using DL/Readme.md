@@ -2,23 +2,23 @@ ChatGPT-Based Tweets Sentiment Analysis Using Deep Learning
 
 GOAL
 
-I wanted to perform Sentiment Analysis on the Tweets on ChatGPT using Deep learning.
+The aim of this project is to analyze the sentiments of the tweets made on/against ChatGPT.
 
 DATASET
 
-https://www.kaggle.com/datasets/tariqsays/chatgpt-twitter-dataset
+https://www.kaggle.com/datasets/charunisa/chatgpt-sentiment-analysis
 
 DESCRIPTION
 
-Sentiment analysis on ChatGPT tweets involves using NLP to analyze emotions and attitudes expressed in tweets by the language model. It categorizes tweets as positive, negative, or neutral, providing insights into the overall emotional tone of the content. However, it may not fully capture nuances like humor and sarcasm. Regular updates improve accuracy in understanding human emotions.
+Sentiment analysis on ChatGPT tweets involves using NLP to analyze emotions and attitudes expressed in tweets by the language model. It categorizes tweets as good, bad, or neutral, providing insights into the overall emotional tone of the content. However, it may not fully capture nuances like humor and sarcasm. Regular updates improve accuracy in understanding human emotions.
 
 WHAT I HAD DONE
 
-I have done data processing, data visualisation and then finally applied LSTM and BiLSTM on the dataset.
+The code is an end-to-end sentiment analysis project, covering data loading, cleaning, preprocessing, model training, evaluation, and visualization. It utilizes different machine learning models to compare their performance on sentiment analysis tasks.
 
 MODELS USED
 
-LSTM and BiLSTM
+CNN, LSTM, Logistic Regression, Naive Bayes, Random Forest
 
 LIBRARIES NEEDED
 
@@ -27,16 +27,17 @@ Mentioned in requirements.text file.
 VISUALIZATION
 
 ACCURACIES
-LSTM : 0.6863
-BiLSTM : 0.6858
+CNN: 0.883268250514204
+LSTM : 0.8940292723641459
+Logistic Regression: 0.4335111932512594
+Naive Bayes: 0.4417384564938743
+Random Forest: 0.5508987390824813
 
-As I have only run 10 epochs each for both the models, accuracy is showing less. If more epochs are run, the accuracy will definitely increase.
 
 CONCLUSION
-
-After the sentiment analysis is performed, it is showing that majority of the tweets are neutral in nature and both LSTM and BiLSTM showed good results even on low epochs. Thus showing, that if more epochs are run, the accuracy of model will increase. 
+In conclusion, the code serves as a comprehensive sentiment analysis project, covering data preprocessing, model selection, training, evaluation, and visualization. It demonstrates the application of different machine learning models to analyze sentiments in Twitter data, offering a useful framework for similar natural language processing tasks.
 
 YOUR NAME
 
-vrinda-vritti
+Jigyasa Karakoti
 
