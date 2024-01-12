@@ -1,1 +1,16 @@
-
+## Python Libraries/Packages reqired:
+matplotlib
+pandas
+numpy
+image
+scikit-learn
+tensorflow
+keras
+opencv python
+vgg16
+ResNet
+cnn
+svm
+lda
+pca
+train-test-split
