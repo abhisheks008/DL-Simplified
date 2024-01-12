@@ -1,6 +1,6 @@
 # <h1 align = "center"> Bone marrow cell classification</h1>
 ## Aim of the project: 
-### The project focuses on classification of different types of cells using various Deep Learning Algorithms
+### The project focuses on classification of different types of cells using various Deep Learning Algorithms.
 
 ###  Libraries and Frameworks used:
 1. Pandas
@@ -27,24 +27,21 @@
 |   MobileNet    |     86%       |
 
 # Representation of types of cells
-![EDA]
+![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/EDA.png)
 
 # Accuracy plots of all models
 
 ## Vgg16
-![vgg16](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/vgg16.png)
+![vgg16](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/VGG16.png)
 
-## ResNet50
-![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/ResNet.png)
-
-## InceptionV3
-![inception](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/inceptionV3.png)
+## EfficientNetB5
+![EfficientNetB5](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/efficient%20net%20b5.png)
 
 ## DenseNet
-![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/densenet.png)
+![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/DenseNet.png)
 
 ## MobileNet
-![mobilenet](https://github.com/the-silent-geek/DL-Simplified/blob/55596e0bfc60b5aba38f5bb64519fa9363dd5d61/Railway%20Track%20Fault%20Detection/images/mobileNet.png)
+![mobilenet](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/mobileNet.png)
 
 # Conclusion
-DenseNet model performs better comparative to other models used on the above dataset.
+EfficientNetB5 model performs better comparative to other models used on the above dataset.
