@@ -42,6 +42,14 @@ This project consists of code that uses NLP techniques for author name predictio
 
 ![Image](../Images/EDA.png)
 
+## Length Distribution of Words
+
+![Image](../Images/Sample_Distrib.png)
+
+## Pie Chart of top 20 Words
+
+![Image](../Images/Pie.png)
+
 # Accuracies
 
 1. BERT - 91.32%
