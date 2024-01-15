@@ -1,6 +1,6 @@
 # <h1 align = "center"> Snake Breed Identification</h1>
 ## Aim of the project: 
-### The project focuses on identification of different species of snakes using various Deep Learning Algorithms.
+### The project focuses on identification of different breeds of snakes using various Deep Learning Algorithms.
 
 ###  Libraries and Frameworks used:
 1. Pandas
@@ -27,7 +27,7 @@
 |     ResNet     |     45%       |  
 |    DenseNet    |     50%       |     
 
-# Representation of types of snakes
+# Representation of breeds of snakes
 ![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/snakes.png)
 
 # Counts of each species
