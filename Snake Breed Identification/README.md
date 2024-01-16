@@ -1,6 +1,6 @@
 # <h1 align = "center"> Snake Breed Identification</h1>
 ## Aim of the project: 
-### The project focuses on identification of different species of snakes using various Deep Learning Algorithms.
+### The project focuses on identification of different breeds of snakes using various Deep Learning Algorithms.
 
 ###  Libraries and Frameworks used:
 1. Pandas
@@ -27,22 +27,22 @@
 |     ResNet     |     45%       |  
 |    DenseNet    |     50%       |     
 
-# Representation of types of snakes
-![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/EDA.png)
+# Representation of breeds of snakes
+![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/snakes.png)
+
+# Counts of each species
+![values](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/value%20counts.png)
 
 # Accuracy plots of all models
 
 ## Vgg16
-![vgg16](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/VGG16.png)
-
-## EfficientNetB5
-![EfficientNetB5](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/efficient%20net%20b5.png)
+![vgg16](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/vgg16.png)
 
 ## DenseNet
-![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/DenseNet.png)
+![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/densenet.png)
 
-## MobileNet
-![mobilenet](https://github.com/the-silent-geek/DL-Simplified/blob/64d196ea11684a3a2df59b58b912244d9cc8d3fb/Bone%20marrow%20cell%20classification/images/mobileNet.png)
+## ResNet
+![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/resnet.png)
 
 # Conclusion
 DenseNet201 model performs better comparative to other models used on the above dataset.
