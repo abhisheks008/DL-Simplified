@@ -1,0 +1,2 @@
+D:/SWOC-2024/DL-Simplified/High[[:space:]]Throughput[[:space:]]Algae[[:space:]]Cell[[:space:]]Detection/Model/yolov8n.pt filter=lfs diff=lfs merge=lfs -text
+.pt
