@@ -18,7 +18,7 @@ The code is an end-to-end sentiment analysis project, covering data loading, cle
 
 MODELS USED
 
-CNN, LSTM, Logistic Regression, Naive Bayes, Random Forest
+CNN, LSTM, 
 
 LIBRARIES NEEDED
 
@@ -27,11 +27,8 @@ Mentioned in requirements.text file.
 VISUALIZATION
 
 ACCURACIES
-CNN: 0.883268250514204
-LSTM : 0.8940292723641459
-Logistic Regression: 0.4335111932512594
-Naive Bayes: 0.4417384564938743
-Random Forest: 0.5508987390824813
+CNN: 0.8841029004083822
+LSTM : 0.8942677437624825
 
 
 CONCLUSION
