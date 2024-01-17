@@ -18,7 +18,7 @@ The code is an end-to-end sentiment analysis project, covering data loading, cle
 
 MODELS USED
 
-CNN, LSTM, 
+CNN, LSTM, VADER
 
 LIBRARIES NEEDED
 
