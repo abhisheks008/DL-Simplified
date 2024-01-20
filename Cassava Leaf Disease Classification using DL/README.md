@@ -29,32 +29,38 @@
 |    InceptionNet    |     61%       |
 |    EfficientNet    |     54%       |     
 
-# Representation of breeds of snakes
-![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/snakes.png)
+# Representation of diseases of cassava leaves
+![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/diseases.png)
 
-# Counts of each species
-![values](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/value%20counts.png)
+# Counts of disease cases
+![values](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/bar%20plot.png)
 
-# Random images from the dataset
-![ri](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/random%20images.png)
+# Pie chart for the count of cases
+![ri](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/pie%20chart.png)
 
 # Orignal image vs grayscale image
-![ovsg](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/original%20vs%20grayscale.png)
+![ovsg](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/gray.png)
 
 # Original vs Resized image(224*224 pixels)
-![ovri](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/original%20vs%20resized.png)
+![ovri](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/original%20vs%20res.png)
 
 
 # Accuracy and plots of all models
 
-## Vgg16
-![vgg16](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/vgg16.png)
+## InceptionNetV2
+![inv2](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/inceptionNet_1.png)
 
 ## DenseNet
-![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/densenet.png)
+![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/denseNet.png)
 
-## ResNet
-![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/resnet.png)
+## ResNet50
+![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/ResNet50_1.png)
+
+## EfficientNet
+![effnet](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/efficientNet_1.png)
+
+## MobileNet
+![mnet](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/mobileNetV2_1.png)
 
 # Conclusion
-DenseNet201 model performs better comparative to other models used on the above dataset.
+DenseNet model performs better comparative to other models used on the above dataset.
