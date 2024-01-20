@@ -1,4 +1,4 @@
-# <h1 align = "center"> Cassava Leaf Disease Classificatiob using DL</h1>
+# <h1 align = "center"> Cassava Leaf Disease Classification using DL</h1>
 ## Aim of the project: 
 ### The project focuses on classification of different diseases of cassava leaves using various Deep Learning Algorithms.
 
