@@ -21,11 +21,13 @@
 5. EfficientNet
 
 ## Accuracy and training time comparison of all the Deep Learning Algorithms
-|                |   Accuracy    |
-|----------------|---------------|
-|     Vgg16      |     22%       |
-|     ResNet     |     45%       |  
-|    DenseNet    |     50%       |     
+|                    |   Accuracy    |
+|--------------------|---------------|
+|     MobileNet      |     59%       |
+|      ResNet        |     60%       |  
+|     DenseNet       |     68%       |
+|    InceptionNet    |     61%       |
+|    EfficientNet    |     54%       |     
 
 # Representation of breeds of snakes
 ![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/snakes.png)
@@ -46,7 +48,7 @@
 ![ovri](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/original%20vs%20resized.png)
 
 
-# Accuracy plots of all models
+# Accuracy and plots of all models
 
 ## Vgg16
 ![vgg16](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/vgg16.png)
