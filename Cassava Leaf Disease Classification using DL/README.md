@@ -10,15 +10,15 @@
 5. Tensorflow
 6. Keras
 7. sklearn
-8. shutil
-9. pillow
-10. pickle
+8. glob
 
 
 ## Deep Learning Algorithms used:
-1. Vgg16
+1. MobileNet
 2. ResNet
 3. DenseNet
+4. InceptionNet
+5. EfficientNet
 
 ## Accuracy and training time comparison of all the Deep Learning Algorithms
 |                |   Accuracy    |
