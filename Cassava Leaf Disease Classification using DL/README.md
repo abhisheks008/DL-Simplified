@@ -11,6 +11,7 @@
 6. Keras
 7. sklearn
 8. glob
+9. OpenCV
 
 
 ## Deep Learning Algorithms used:
