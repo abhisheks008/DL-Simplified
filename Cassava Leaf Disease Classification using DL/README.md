@@ -38,9 +38,6 @@
 # Random images from the dataset
 ![ri](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/random%20images.png)
 
-# Random images belonging to a particular class from the csv file
-![ri2](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/random%20images%20from%20csv.png)
-
 # Orignal image vs grayscale image
 ![ovsg](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/original%20vs%20grayscale.png)
 
