@@ -1,5 +1,5 @@
-tensorflowmat
-plotlib.pyplot
+tensorflow
+matplotlib.pyplot
 numpy
 pandas
 pytorch
