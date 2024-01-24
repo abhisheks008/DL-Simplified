@@ -1,6 +1,6 @@
-# <h1 align = "center"> Cassava Leaf Disease Classification using DL</h1>
+# <h1 align = "center"> Cricket Shots Detection</h1>
 ## Aim of the project: 
-### The project focuses on classification of different diseases of cassava leaves using various Deep Learning Algorithms.
+### The project focuses on classification of different cricket shots using various Deep Learning Algorithms.
 
 ###  Libraries and Frameworks used:
 1. Pandas
@@ -23,10 +23,10 @@
 ## Accuracy and training time comparison of all the Deep Learning Algorithms
 |                    |   Accuracy    |
 |--------------------|---------------|
-|      ResNet        |     60%       |  
-|     DenseNet       |     68%       |
-|    InceptionNet    |     61%       |
-|    EfficientNet    |     54%       |     
+|      ResNet        |     86%       |  
+|     DenseNet       |     92%       |
+|    InceptionNet    |     96%       |
+|    EfficientNet    |     95%       |     
 
 # Representation of diseases of cassava leaves
 ![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/a3ed67cd7eaae3e9c9c4e25c9316a484083387c3/Cassava%20Leaf%20Disease%20Classification%20using%20DL/images/diseases.png)
@@ -54,4 +54,4 @@
 
 
 # Conclusion
-DenseNet model performs better comparative to other models used on the above dataset.
+InceptionNet model performs better comparative to other models used on the above dataset.
