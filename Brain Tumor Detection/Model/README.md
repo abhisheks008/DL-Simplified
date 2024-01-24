@@ -86,10 +86,8 @@ Chose these models due to their effectiveness in image classification tasks and 
   <img src="https://user-images.githubusercontent.com/72621930/219722814-f0b7ec73-981f-4dcc-8be4-e9afe831fb72.jpg" width="200" height="200">
 </div>
 
-### 📈Results
-
 ## 📈 Performance of the Models based on Accuracy Scores
-| ![CNN Plot](/Images/cnn_plot.png) | ![RESNET50 Plot](/Images/resnet50.png) | ![VGG Plot](/Images/vgg_plot.png) |
+| ![CNN Plot](../Images/cnn_plot.png) | ![RESNET50 Plot](../Images/resnet50.png) | ![VGG Plot](../Images/vgg_plot.png) |
 |---|---|---|
 
 - **CNN:**
