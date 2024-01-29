@@ -45,10 +45,24 @@ https://www.kaggle.com/datasets/ealaxi/paysim1
 ###### tensorflow
 ###### keras
 
+### Visualizations:
+###### Correlation Matrix-
+![Correlation Matrix](https://github.com/AgrawalTitiksha/DL-Simplified/assets/117917014/4c3cb44b-6054-4c7a-8d19-99eaa605e212)
+###### Count of all type of transaction
+![Count of all type of transaction](https://github.com/AgrawalTitiksha/DL-Simplified/assets/117917014/46733b4b-3d1b-49b5-a900-6318f38716f3)
+###### Count of frauds
+![Count of frauds](https://github.com/AgrawalTitiksha/DL-Simplified/assets/117917014/a31cc303-59a4-4612-8fba-4e6d6fa4f12c)
+###### Number of transaction by Type of transaction and isFlaggedFraud
+![Number of transaction by Type of transaction and isFlaggedFraud](https://github.com/AgrawalTitiksha/DL-Simplified/assets/117917014/283bfaff-919e-4f3e-8c02-966ea8f2775c)
+###### Number of transaction by Type of transaction and isFraud
+![Number of transaction by Type of transaction and isFraud](https://github.com/AgrawalTitiksha/DL-Simplified/assets/117917014/bd944358-592e-4b17-928d-58742e78114b)
+
+
 ### Conclusion: 
 ###### After traing and testing model the accuracies we got are upto 99.93% (yet at first epochs, can do for more epochs but alot time is required)
 
-###### ![image](https://github.com/AgrawalTitiksha/DL-Simplified/assets/117917014/6b34209f-8f3e-4bd0-8009-09e2416029be)
+### Accuracy Table:
+![image](https://github.com/AgrawalTitiksha/DL-Simplified/assets/117917014/6b34209f-8f3e-4bd0-8009-09e2416029be)
 
 ### Contributor:
 ###### Name: Titiksha Agrawal
