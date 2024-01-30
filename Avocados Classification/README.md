@@ -64,6 +64,19 @@ The main goal of this project is to develop a Dl model that can accurately predi
 | LSTM |9389041095890411 |
 | FNN| 1.0 |
 
+TabNet Comparison Evaluation
+![Tabnet comparison evaluation](https://github.com/abhisheks008/DL-Simplified/blob/1630e48a26b392ea03f882270222dab253e8470e/Avocados%20Classification/Images/TabNet%20Comparison%20evaluation.png)
+<br>
+<br>
+LSTM Comparison Evaluation
+![Lstm comaprison evaluation](https://github.com/abhisheks008/DL-Simplified/blob/1630e48a26b392ea03f882270222dab253e8470e/Avocados%20Classification/Images/LSTM%20comparison%20evaluation.png)
+<br>
+<br>
+FNN Comparison Evaluation
+![FNN Comaprison Evaluation](https://github.com/abhisheks008/DL-Simplified/blob/1630e48a26b392ea03f882270222dab253e8470e/Avocados%20Classification/Images/FNN%20Comparison%20evaluation.png)
+
+<br>
+
 ![Comparison graph](https://github.com/RAJharsh02/Avocados-classification/assets/118257196/60225a7c-e5eb-4904-8ec4-db7f079e2d60)
 
 📢**CONCLUSION**
