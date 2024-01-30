@@ -1,18 +1,18 @@
 <h1>Avocados Classification</h1>
 
-**GOAL**
+🎯**GOAL**
 
 The project aims to predict whether an avocado is conventional or organic using Deep learning models.
 
-**DATASET**
+🧵**DATASET**
 
 https://www.kaggle.com/datasets/neuromusic/avocado-prices
 
-**DESCRIPTION**
+🧾**DESCRIPTION**
 
 The main goal of this project is to develop a Dl model that can accurately predict whether an avocado is conventional or organic based on various features such as `Size of Bags`,`Volume`,`Price` etc. The purpose of this project is to categorize avocados for better market segmentation and analysis
 
-**WHAT I HAD DONE**
+🧮**WHAT I HAD DONE**
 
 
 1. Data loading and exploration: Loaded the dataset, examined its structure, and performed initial exploratory data analysis (EDA) to gain insights into the data distribution, missing values, and relationships between variables.
@@ -23,7 +23,7 @@ The main goal of this project is to develop a Dl model that can accurately predi
 
 4. Model development: Three models were developed: Feedforward Neural Network (FNN),TabNet, and Long Short-Term Memory (LSTM). Each model was trained and evaluated based on accuracy.
 
- **Models Implemented**
+ 🚀**Models Implemented**
 ```bash
   a.LSTM (Long Short-Term Memory In avocado classification, LSTM 
   classifies by taking sequential input data and processing it through 
@@ -45,7 +45,7 @@ The main goal of this project is to develop a Dl model that can accurately predi
   feature importance, leading to an interpretable and efficient model 
   for accurate avocado classification..
 ```
-**LIBRARIES NEEDED**
+📚**LIBRARIES NEEDED**
 
 - Pandas
 - Tensorflow
@@ -56,7 +56,7 @@ The main goal of this project is to develop a Dl model that can accurately predi
 - keras
 - torch
 
-**Performance of the Models based on the Accuracy Scores**
+📈**Performance of the Models based on the Accuracy Scores**
 
 | Model            | Accuracy                                                               |
 | ----------------- | ------------------------------------------------------------------ |
@@ -66,11 +66,11 @@ The main goal of this project is to develop a Dl model that can accurately predi
 
 ![Comparison graph](https://github.com/RAJharsh02/Avocados-classification/assets/118257196/60225a7c-e5eb-4904-8ec4-db7f079e2d60)
 
-**CONCLUSION**
+📢**CONCLUSION**
 
 In conclusion, this project aimed to classify Avocados using DL models. Among the models developed, the Feedforward Neural Network (fNN) achieved the highest accuracy of 100%. This suggests that the temporal dependencies captured by the FNN architecture are valuable in slassifying Avocados.
 
-**AUTHOR**
+✒️**AUTHOR**
 
 - Code contributed by *Harsh Raj* @ #SSoC_2023 <br>
 Email : harshraj2828@gmail.com <br>
