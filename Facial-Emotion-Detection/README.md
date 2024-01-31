@@ -16,6 +16,7 @@
 │   ├── 01_data_augmentation_cnn.ipynb
 │   ├── 02_transfer_learning_mobilenetv2.ipynb
 │   ├── 03_transfer_learning_efficientnetv2.ipynb
-│   └── README.md
+│   ├── README.md
+│   └── requirements.txt
 └── README.md
 ```
