@@ -4,3 +4,4 @@ scikit-learn
 matplotlib
 seaborn
 nltk
+tensorflow
