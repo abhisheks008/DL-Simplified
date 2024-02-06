@@ -10,9 +10,8 @@
 5. Tensorflow
 6. Keras
 7. sklearn
-8. shutil
-9. pillow
-10. pickle
+8. glob
+9. OpenCV
 
 
 ## Deep Learning Algorithms used:
