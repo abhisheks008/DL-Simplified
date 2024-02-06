@@ -23,10 +23,10 @@
 ## Accuracy and training time comparison of all the Deep Learning Algorithms
 |                    |   Accuracy    |
 |--------------------|---------------|
-|    InceptionNet    |     22%       |
+|    InceptionNet    |     88%       |
 |       ResNet       |     45%       |  
-|      DenseNet      |     50%       |   
-|    EfficientNet    |     50%       |   
+|      DenseNet      |     97%       |   
+|    EfficientNet    |     56%       |   
 
 # Representation of Durum Wheat
 ![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/eda.png)
@@ -38,7 +38,7 @@
 ![ovri](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/original%20vs%20resized.png)
 
 # Data Augmentation (Flipped image)
-![Flipped]()
+![Flipped](https://github.com/the-silent-geek/DL-Simplified/blob/4a4055cc3490618bc652695fd06dec3b62ba4f89/Durum%20Wheat%20Classification%20using%20DL/images/flipped.png)
 
 # Data Augmentation (Rotated image)
 ![rotated](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/rotated.png)
