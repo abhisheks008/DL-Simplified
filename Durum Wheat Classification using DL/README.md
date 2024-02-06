@@ -29,31 +29,33 @@
 |    EfficientNet    |     50%       |   
 
 # Representation of Durum Wheat
-![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/snakes.png)
-
-# Random images belonging to a particular class
-![ri2](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/random%20images%20from%20csv.png)
+![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/eda.png)
 
 # Orignal image vs grayscale image
-![ovsg](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/original%20vs%20grayscale.png)
+![ovsg](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/original%20vs%20grayscale.png)
 
 # Original vs Resized image(224*224 pixels)
-![ovri](https://github.com/the-silent-geek/DL-Simplified/blob/28d3fb0417b830c98b821c12803e65e19a221f52/Snake%20Breed%20Identification/images/original%20vs%20resized.png)
+![ovri](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/original%20vs%20resized.png)
 
+# Data Augmentation (Flipped image)
+![Flipped]()
+
+# Data Augmentation (Rotated image)
+![rotated](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/rotated.png)
 
 # Accuracy plots of all models
 
 ## InceptionNet
-![vgg16](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/vgg16.png)
+![in](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/inceptionNet.png)
 
 ## DenseNet
-![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/densenet.png)
+![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/DenseNet.png)
 
 ## ResNet
-![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/resnet.png)
+![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/ResNet50.png)
 
 ## EfficientNet
-![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/97358a7e149e84235180ddcc30f8a9d9f4462b77/Snake%20Breed%20Identification/images/resnet.png)
+![resnet](https://github.com/the-silent-geek/DL-Simplified/blob/9f6fb51986e4b450ba8c205aa3037fbc3d702d44/Durum%20Wheat%20Classification%20using%20DL/images/efficientnet.png)
 
 # Conclusion
 ResNet50 model performs better comparative to other models used on the above dataset.
