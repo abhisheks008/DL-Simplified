@@ -1,4 +1,6 @@
-*Image Classification using CNN, VGG16, and ResNet50*<br>
+*Potato Diseases Detection #458*<br>
+<br>
+
 *🎯 Goal*<br>
 The primary objective of this project is to perform image classification using a custom Convolutional Neural Network (CNN) architecture, as well as leveraging the pre-trained models VGG16 and ResNet50. The models are trained to categorize images into seven classes, providing a versatile solution for various image processing tasks.<br>
 
@@ -68,6 +70,24 @@ Insight: The accuracy plot provides a snapshot of the models' performance, showc
 Feel free to replace the placeholder text with actual links to your visualizations or images and provide specific insights derived from your training results.<br>
 <br>
 
+
+*📊 Exploratory Data Analysis Results*<br>
+**Distribution of Classes**<br>
+To gain an understanding of the dataset, we analyzed the distribution of images across the seven classes. The table below shows the number of images in each class.<br>
+
+| Class | Number of Images |
+|-------|-------------------|
+| Black Scurf      |  97 |
+| Blackleg         |  94 |
+| Common Scab      | 101 |
+| Dry Rot          |  89 |
+| Healthy Potatoes |  96 |
+| Miscellaneous    | 104 |
+| Pink Rot         |  87 |
+
+**Insight:** The class distribution showcases a relatively balanced dataset, aiding in effective model training.<br>
+
+
 *📈 Model Performance based on Accuracy Scores*<br>
    - Custom CNN Model Accuracy: 60%
    - VGG16 Model Accuracy: 98%
@@ -81,4 +101,4 @@ The image classification project using custom CNN, VGG16, and ResNet50 models de
 ✒️ Your Signature<br>
 Dipayan Majumder<br>
 github.com/dipayan22<br>
-[Optional: Any additional information or acknowledgments]
+
