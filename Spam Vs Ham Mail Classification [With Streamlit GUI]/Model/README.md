@@ -70,13 +70,23 @@ A Streamlit GUI is implemented for real-time email classification. Users can inp
 
 In the Dataset, we have 88% Ham Data and 12% Spam Data. The distribution of classes is imbalanced, which creates a challenge in accurately classifying emails.<br>
 
-## 📈 Performance of the Models based on the Accuracy Scores<br>
+![Spam vs Ham dataset](./../Image/Spam-vs-ham-piechart.jpg)
+
+![Pairplot of Dataset](./../Image/PairPlot_withHue.png)
+
+
 
 | Model                              | Accuracy Score |
 | ---------------------------------- | -------------- |
 | Machine Learning Model (BernoulliNB)| 96%            |
 | Deep Learning Model (LSTM)          | 88.58%         |
 | Deep Learning Model (Bidirectional LSTM)| 98.56%       |
+
+## 📈 Performance of the Models based on the Accuracy Scores<br>
+
+1. Machine Learning Model (BernoulliNB)     : 96%    
+2. Deep Learning Model (LSTM)               : 88.58%         
+3. Deep Learning Model (Bidirectional LSTM) : 98.56%  
 
 ## 📢 Conclusion<br>
 
