@@ -47,6 +47,10 @@ pip install jupyter tensorflow numpy matplotlib seaborn scikit-learn
 4. Navigate to the `model/notebook.ipynb`
 5. Run all the cells
 
+## Additional Resources
+
+Check out the Kaggle notebook for Persian Alphabet Classification using CNN and LSTM: [Kaggle Notebook](https://www.kaggle.com/code/gowrivinaykamalakars/persian-alphabet-classification-using-cnn-and-lstm)
+
 ## Contributor:
 <p align="center">
   <img src="https://github.com/sgvkamalakar.png" height="200" width="200"/>
