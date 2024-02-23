@@ -8,7 +8,7 @@ In this repo, I developed a novel deep learning approach for classifying Persian
 
 ## Dataset
 
-The dataset used in this project consists of 51,744 images of Persian alphabets and numbers. The images are organized into folders based on their corresponding labels, making it suitable for training and evaluating machine learning models for Persian alphabet classificatiaon.
+The dataset used in this project consists of 51,744 images of Persian alphabets and numbers. The images are organized into folders based on their corresponding labels, making it suitable for training and evaluating machine learning models for Persian alphabet classification.
 
 You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/mostafamohammadi1/persian-alphabets-and-numbers).
 
