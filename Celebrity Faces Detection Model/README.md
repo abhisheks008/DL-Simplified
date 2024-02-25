@@ -69,7 +69,10 @@ There are 40 features and 202599 entries in this dataset.
 
 **MODELS USED**
 
-- Inception-V3 model is used which contains 313 hidden layers and some of the fully-connected layers made by me.
+| Models Used  | Accuracy |
+| Inception V3 | 69.60%   |
+| ResNet50     | 50.20%   |
+| ResNet101V2  | 66.50%   |
 
 **LIBRARIES NEEDED**
 
@@ -98,8 +101,24 @@ There are 40 features and 202599 entries in this dataset.
 
 
 ### Prediction Analysis 
-![graph](./Images/accuracy.png)
-![graph](./Images/loss_function.png)
+
+#### InceptionV3
+
+![graph](./Images/accuracy_inception.png)
+![graph](./Images/loss_function_inception.png)
+
+
+#### ResNet50
+
+![graph](./Images/accuracy_resnet50.png)
+![graph](./Images/loss_function_resnet50.png)
+
+
+#### ResNet101V2
+
+![graph](./Images/accuracy_resnet101v2.png)
+![graph](./Images/loss_function_resnet101v2.png)
+
 
 
 **ACCURACIES**
