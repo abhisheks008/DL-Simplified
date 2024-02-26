@@ -70,9 +70,10 @@ There are 40 features and 202599 entries in this dataset.
 **MODELS USED**
 
 | Models Used  | Accuracy |
-| Inception V3 | 69.60%   |
+|--------------|----------|
+| Inception V3 | 68.80%   |
 | ResNet50     | 50.20%   |
-| ResNet101V2  | 66.50%   |
+| ResNet101V2  | 62.13%   |
 
 **LIBRARIES NEEDED**
 
@@ -123,7 +124,8 @@ There are 40 features and 202599 entries in this dataset.
 
 **ACCURACIES**
 
-Accuracy of the model is 69.50%.
+- Inception V3 gives somewhat promising performance rather than ResNet50 and ResNet101V2 Models.
+- Accuracy of this model is comes around 68.80%.
 
 **CONCLUSION**
 
