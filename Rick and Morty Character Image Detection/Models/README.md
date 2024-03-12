@@ -48,16 +48,16 @@ Dataset
 
 <br>
 
-![Loss plot of Model 1](./../Images/loss_plot_model1.png)
+![Loss plot of Model 1](./../Images/loss_plot_model1.png)<br>
 *Caption: Model Loss of Model1 "Train vs Validation Data"*
 
-![Loss plot of Model 2](./../Images/loss_plot_model2.png)
+![Loss plot of Model 2](./../Images/loss_plot_model2.png)<br>
 *Caption: Model Loss of Model2 "Train vs Validation Data"*
 
-![Accuracy plot of Model 1](./../Images/accuracy_plot_model1.png)
+![Accuracy plot of Model 1](./../Images/accuracy_plot_model1.png)<br>
 *Caption: Model Accuracy of Model1 "Train vs Validation Data"*
 
-![Accuracy plot of Model 2](./../Images/accuracy_plot_model1.png)
+![Accuracy plot of Model 2](./../Images/accuracy_plot_model1.png)<br>
 *Caption: Model Accuracy of Model1 "Train vs Validation Data"*
 
 # 📈 Performance of the Models based on the Accuracy Scores<br>
