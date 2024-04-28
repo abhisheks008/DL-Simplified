@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>DEEP LEARNING SIMPLIFIED 💻:brain:</h1>
+  <h1>DEEP LEARNING SIMPLIFIED 💻🧠</h1>
   <h3>Website for Deep Learning Simplified Repo: <a href="https://tinyurl.com/deep-learning-simplified">Click Here!🎯</a></h3>
 </div>
 
@@ -62,6 +62,9 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
  </td>
   <td align="center">
 <a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>SWOC 2024</b></sub></a>
+ </td>
+  <td align="center">
+<a href="https://gssoc.girlscript.tech/"><img src="https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1630597186826/girlscriptsoc_logo?e=1722470400&v=beta&t=riGIryHFCH81TLbHmS3YZhyuz4ymzuYKgIXY0MpP14M" width=100px height=100px /><br /><sub><b>GSSoC 2024</b></sub></a>
  </td>
 </tr>
 </table>
