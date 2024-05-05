@@ -1,19 +1,43 @@
-# CCTV-HUMAN-DETECTION
+# CCTV Human Detection
+
+##  🎯 Goal
+
+The goal of this project is to identify human beings from CCTV camera footage.
 
  ![image.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrLn9Zzwpzvpp2FLu0n8bdwOIR26fARzsV4A&usqp=CAU)
+ 
+## 🧵 Dataset
 
-YOLOv4 HumaN DETECTION
-==========================
+The dataset for this project is taken from the Kaggle website. [Link](https://www.kaggle.com/datasets/jonathannield/cctv-human-pose-estimation-dataset) to the dataset. Here, you'll find various human images captured through CCTV cameras installed in different locations. However, the dataset is not suitable for training a YOLO model. Therefore, we annotated the data according to the format provided by YOLO using LabelIMG.
 
-This is a tutorial demonstrating how to train a YOLOv4 people detector using [Darknet](https://github.com/AlexeyAB/darknet) and the Kaggle Human dataset.
+## 🧾 Description
 
-Process
------------------
+This is a tutorial demonstrating how to train a YOLOv4 people detector using Darknet and the Kaggle Human dataset.
 
-* [Setup](#setup)
-* [Preparing training data](#preparing)
-* [Training on a local PC](#training-locally)
-* [Testing the custom-trained yolov4 model](#testing)
+## 🧮 What I had done!
+
+#### Setup
+- Preparing training data
+- Training on a local PC
+- Testing the custom-trained YOLOv4 model
+
+## 🚀 Models Implemented
+
+##### YOLOv4
+This model fails to perform with distant and finer objects.
+
+##### YOLOv7
+This model performs much better than YOLOv4 on distant objects.
+
+## 📚 Libraries Needed
+
+- Darknet
+- LabelIMG
+- TensorFlow
+- NumPy
+
+
+
 
  # Introduction
 
@@ -30,13 +54,6 @@ We used LabelIMG to annotate image.
 You can refer to https://machinelearningknowledge.ai/train-custom-yolov4-model-for-object-detection-in-google-colab/ for custom data preparation.
 
 
-# Goal
-
-The goal of this project is to identify human being from CCTV camera.
-
-# Approach
-
-In the notebook we have implemented various Yolov4 and latest released Yolov7 and compare their accuracy with the help of dataset each approach will be divided into different section.
 
 # Approach Using Yolov4
 
@@ -50,9 +67,12 @@ In the notebook we have implemented various Yolov4 and latest released Yolov7 an
 
 ### This model performs much better than Yolov4 on distant objects
 
-# Training and Testing
+📈 Performance of the Models based on the Accuracy Scores
 
-Training the model requires GPU.If GPU is not there then use google colab for training the model.Refer the yolo_model.ipynb file for detailed procedure of training and testing. 
+YOLOv4: [Insert Accuracy]
 
-# Conclusion
-### We have implemented two different approach Yolov4 and Yolov7 and, Yolov7 gives the best accuracy.
+YOLOv7: [Insert Accuracy]
+
+## 📢 Conclusion
+
+We have implemented two different approaches, YOLOv4 and YOLOv7. YOLOv7 gives the best accuracy for this project.
