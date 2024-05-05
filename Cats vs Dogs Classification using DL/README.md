@@ -10,6 +10,7 @@ The link for the dataset used in this project: [Cats and Dogs Image Classificati
 
 ## 🧾 Description
 
+
 This project aims to identify cats and dogs in images. It is trained on a dataset containing cats and dogs.
 
 ## 🧮 What I had done!
