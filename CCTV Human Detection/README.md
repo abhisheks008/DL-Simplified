@@ -67,11 +67,6 @@ You can refer to https://machinelearningknowledge.ai/train-custom-yolov4-model-f
 
 ### This model performs much better than Yolov4 on distant objects
 
-📈 Performance of the Models based on the Accuracy Scores
-
-YOLOv4: [Insert Accuracy]
-
-YOLOv7: [Insert Accuracy]
 
 ## 📢 Conclusion
 
