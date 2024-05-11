@@ -64,8 +64,10 @@ This model performs much better than Yolov4 on distant objects
 Loss is less in YoLo7 compared to Yolo4. Hence, YoLo7 is more accurate
 #### Performance of YoLo4 vs Performance of YoLo7
 ![alt text](<Screenshot 2024-05-11 173921-1.png>) 
-![alt text](<Screenshot 2024-05-11 173858-1.png>)
+Yolo7
 
+![alt text](<Screenshot 2024-05-11 173858-1.png>)
+Yolo4
 
 # CONCLUSION
 We have implemented two different approach Yolov4 and Yolov7 and, Yolov7 gives the best accuracy.
