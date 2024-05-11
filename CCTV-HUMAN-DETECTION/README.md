@@ -21,28 +21,35 @@ You can refer to https://machinelearningknowledge.ai/train-custom-yolov4-model-f
 
 # WHAT I HAD DONE
 
-* The script detects objects using YOLOv4 model with Darknet, configurable through command-line arguments.
+The script detects objects using YOLOv4 model with Darknet, configurable through command-line arguments.
 * [Setup](#setup)
 * [Preparing training data](#preparing)
-- It supports both image and video inputs, including live streams from webcams and various protocols.
+    - It supports both image and video inputs, including live streams from webcams and various protocols.
 * [Training on a local PC](#training-locally)
-- Detection results can be displayed, saved as images or videos, and exported as text files. 
-- The script utilizes PyTorch for inference and CUDA for GPU acceleration if available.
-- Training the model requires GPU.If GPU is not there then use google colab for training the model.Refer the yolo_model.ipynb file for detailed procedure of training and testing. 
-
+    - Detection results can be displayed, saved as images or videos, and exported as text files. 
+    - The script utilizes PyTorch for inference and CUDA for GPU acceleration if available.
+    - Training the model requires GPU.If GPU is not there then use google colab for training the model.Refer the yolo_model.ipynb file for detailed procedure of training and testing. 
 * [Testing the custom-trained yolov4 model](#testing)
 
 # MODEL IMPLEMENTED
-##### DARKNET:-
+### DARKNET:-
 Darknet, the neural network framework developed by Joseph Redmon, has been instrumental in the evolution of YOLO models and numerous other deep learning projects. Offering flexibility and efficiency, Darknet serves as the backbone for implementing cutting-edge algorithms like YOLOv4 and YOLOv7. Its modular architecture facilitates rapid prototyping and experimentation, enabling researchers and developers to push the boundaries of object detection and recognition. Moreover, Darknet's open-source nature fosters collaboration and innovation within the computer vision community, driving continual advancements in human detection and beyond.
 
-##### YOLO4:-
+### YOLO4:-
 You Only Look Once (YOLO) version 4 (YOLOv4) has been a significant advancement in human detection from CCTV footage, offering real-time processing capabilities and improved accuracy compared to its predecessors. YOLOv4 utilizes a single neural network to predict bounding boxes and class probabilities directly from full images in one evaluation. While it excels in detecting human figures swiftly and accurately, it falls short in discerning finer details such as facial features or subtle gestures. This limitation poses a challenge in scenarios where identifying specific individuals or analyzing intricate behaviors is crucial, highlighting the need for further refinement in detection algorithms.
 
-##### YOLO7:-
+### YOLO7:-
 In contrast, YOLO version 7 (YOLOv7) represents the latest evolution in human detection technology, boasting enhanced performance and robustness over YOLOv4. With advancements in model architecture and training techniques, YOLOv7 demonstrates superior accuracy in identifying human subjects from CCTV feeds while also addressing some of the limitations of its predecessors. Its improved ability to capture finer details ensures better recognition of human attributes and behaviors, making it a preferred choice for applications requiring precise analysis and tracking in complex environments.
 
 # LIBRARIES NEEDED
+opencv-python==4.1.1.26
+lxml
+tqdm
+tensorflow==2.3.0
+absl-py
+easydict
+matplotlib
+pillow
 
 # EDA RESULTS
 #### Approach Using Yolov4
@@ -54,6 +61,10 @@ This model fails to perform with distant and finer object.
 This model performs much better than Yolov4 on distant objects
 
 # COMPARING PERFORMANCE
+Loss is less in YoLo7 compared to Yolo4. Hence, YoLo7 is more accurate
+#### Performance of YoLo4 vs Performance of YoLo7
+![alt text](<Screenshot 2024-05-11 173921-1.png>) 
+![alt text](<Screenshot 2024-05-11 173858-1.png>)
 
 
 # CONCLUSION
