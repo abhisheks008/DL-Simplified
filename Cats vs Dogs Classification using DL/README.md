@@ -4,19 +4,19 @@
 
 Cats vs Dogs Classification using DL
 
-## GOAL
+## 🎯 Goal
 
-Create a DL model which will identify the Cats and Dogs. 
+The project goal is to make a deep-learning model that will differentiate between cat and dog images.
 
-## DATASET
+## 🧵 Dataset
 
 The link for the dataset used in this project: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification and https://www.kaggle.com/datasets/tongpython/cat-and-dog
 
-## DESCRIPTION
+## 🧾 Description
 
-This project aims to identify the cats and dogs in the image. It is trained on the dataset containing cats and dogs.
+The main goal of the project is to develop a deep-learning model that can accurately predict whether the image provided is of a cat or a dog based on various features.
 
-## WHAT I HAD DONE
+## 🧮 What I had done!
 
 1. Data collection: From the link of the dataset given above. 
 2. Data preprocessing: Preprocessed the image in order to have all images in equal shape.
