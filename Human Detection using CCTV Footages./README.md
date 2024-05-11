@@ -65,11 +65,11 @@ This model performs much better than Yolov4 on distant objects
 # COMPARING PERFORMANCE
 Loss is less in YoLo7 compared to Yolo4. Hence, YoLo7 is more accurate
 #### Performance of YoLo4 vs Performance of YoLo7
-![alt text](<aindree-2005/DL-Simplified/Human Detection using CCTV Footages./Images/Screenshot 2024-05-11 173921.png>) 
+![alt text](<./Images/Screenshot 2024-05-11 173921.png>) 
 
 ##### Yolo7
 
-![alt text](<Human Detection using CCTV Footages./Images/Screenshot 2024-05-11 173858.png>)
+![alt text](<./Images/Screenshot 2024-05-11 173858.png>)
 
 ##### Yolo4
 
