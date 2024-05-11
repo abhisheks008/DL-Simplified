@@ -1,4 +1,4 @@
-# CCTV-HUMAN-DETECTION
+# HUMAN DETECTION USING CCTV FOOTAGES
 
  ![image.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrLn9Zzwpzvpp2FLu0n8bdwOIR26fARzsV4A&usqp=CAU)
 
@@ -54,22 +54,24 @@ pillow
 # EDA RESULTS
 #### Approach Using Yolov4
 ![image.png](https://miro.medium.com/max/785/1*f2diI7O28j2A875FwQPMJA.jpeg)
+
 This model fails to perform with distant and finer object.
 
 #### Approach Using Yolov7
 ![image.png](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)
+
 This model performs much better than Yolov4 on distant objects
 
 # COMPARING PERFORMANCE
 Loss is less in YoLo7 compared to Yolo4. Hence, YoLo7 is more accurate
 #### Performance of YoLo4 vs Performance of YoLo7
-![alt text](<Screenshot 2024-05-11 173921-1.png>) 
+![alt text](<aindree-2005/DL-Simplified/Human Detection using CCTV Footages./Images/Screenshot 2024-05-11 173921.png>) 
 
-Yolo7
+##### Yolo7
 
-![alt text](<Screenshot 2024-05-11 173858-1.png>)
+![alt text](<Human Detection using CCTV Footages./Images/Screenshot 2024-05-11 173858.png>)
 
-Yolo4
+##### Yolo4
 
 # CONCLUSION
 We have implemented two different approach Yolov4 and Yolov7 and, Yolov7 gives the best accuracy.
