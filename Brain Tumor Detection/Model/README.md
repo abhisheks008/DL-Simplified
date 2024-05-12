@@ -10,58 +10,132 @@ This project focuses on automated classification techniques using Deep Learning 
 
 Brain tumors present complexities in size and location, requiring expertise for accurate analysis. Developing countries often face challenges due to a shortage of skilled doctors and insufficient knowledge about tumors. An automated system on the cloud can address these issues, providing a faster and more accessible solution.
 
-## 🔍 Methodology
+## Methodology
 
+### Project Overview
+The Brain Tumor Detection project aims to develop a deep learning model to classify brain tumor images into different categories. Three different models, a Convolutional Neural Network (CNN), a Multilayer Perceptron (MLP) based on TensorFlow, and a VGG16 transfer learning model, are explored for this task.
+
+### Project Directory Structure
+```
+Brain Tumor Detection
+|- Dataset
+  |- Training Folder
+  |- Testing Folder
+  |- README.md
+|- Images
+  |- EDA README.md
+|- Model
+  |- brain_tumor.ipynb
+  |- README.md
+|- Web App
+  |- app.py
+  |- templates
+  |- demo.mp4
+  |- best_model.h5
+  |- README.md
+|- requirements.txt
+```
+
+### Methodology
 1. **Importing Libraries:**  
-   - Various libraries such as NumPy, Pandas, TensorFlow, and others are imported for data manipulation, visualization, and deep learning model building.
+   - Libraries such as NumPy, Pandas, TensorFlow, and others are imported for data manipulation, visualization, and model building.
 
 2. **Loading the Dataset:**
    - The training and testing datasets are loaded into dataframes. File paths and labels are extracted for each image in the dataset.
 
 3. **Data Preprocessing:**
-   - Data balance is checked to ensure there is an even distribution of classes.
+   - Data balance is checked to ensure an even distribution of classes.
    - The testing dataset is split into validation and test sets.
    - ImageDataGenerator is used to convert dataframes to numpy arrays for model training.
-![image](https://github.com/TheNaiveSamosa/DL-Simplified/assets/112872086/f4a94995-5345-483f-872e-8b2afddfc19c)
 
 4. **Model Structure:**
-   - A Convolutional Neural Network (CNN) model is created using Keras Sequential API.
-   - The model consists of convolutional layers followed by max-pooling layers and dense layers for classification.
-![image](https://github.com/TheNaiveSamosa/DL-Simplified/assets/112872086/4ad8044b-8370-4c28-bff4-94d02321c134)
+   - Three models are explored: 
+     - CNN: A CNN model is created using Keras Sequential API with convolutional and pooling layers followed by dense layers for classification.
+     - MLP: An MLP model is created with Flatten, Dense, and Dropout layers.
+     - VGG16: A VGG16 transfer learning model is used with a custom dense layer for classification.
 
-5. **Training the Model:**
-   - The model is compiled using the Adamax optimizer and categorical cross-entropy loss.
-   - It is trained on the training dataset for a specified number of epochs, with validation data for evaluation.
+5. **Training the Models:**
+   - Each model is compiled using the Adamax optimizer and categorical cross-entropy loss.
+   - Models are trained on the training dataset for a specified number of epochs, with validation data for evaluation.
 
 6. **Model Performance:**
    - Training and validation loss and accuracy are plotted over epochs to visualize the model's performance.
-   - The best epoch based on validation loss and accuracy is highlighted.
-![image](https://github.com/TheNaiveSamosa/DL-Simplified/assets/112872086/3cab15ed-825e-4f98-b4a4-3d3b7f93d22a)
+   - The best epoch based on validation loss and accuracy is noted for each model.
 
-7. **Model Evaluation:**
-   - The model is evaluated on the training, validation, and test sets to assess its performance.
-   - Loss and accuracy metrics are displayed for each set.
-![image](https://github.com/TheNaiveSamosa/DL-Simplified/assets/112872086/c984e01a-0282-4ee5-adbe-2001c181f9f0)
+### Model Performance
+#### Convolutional Neural Network (CNN)
+- **Structure**
+   ![alt text](image-2.png)
+- **Loss vs. Epochs and Accuracy vs. Epochs:**
+  ![alt text](image-1.png)
+- **Performance Metrics:**
+  ![alt text](image.png)
+- **Confusion Matrix:**
+  ![alt text](image-10.png)
+- **Classification Report:**
+  ```               precision    recall  f1-score   support
 
-8. **Making Predictions:**
-   - The trained model is used to make predictions on the test set.
-   - Predictions are converted to class labels for evaluation.
+      glioma       0.79      0.93      0.85       151
+  meningioma       0.91      0.76      0.83       164
+     notumor       0.97      0.97      0.97       192
+   pituitary       0.99      0.98      0.99       149
 
-9. **Confusion Matrix and Classification Report:**
-   - A confusion matrix is generated to visualize the model's performance in classifying each class.
-   - A classification report provides a detailed evaluation of the model's performance, including precision, recall, and F1-score for each class.
-![image](https://github.com/TheNaiveSamosa/DL-Simplified/assets/112872086/b2833bd1-1b86-41a5-8c92-e6ed90f1ae8a)
+    accuracy                           0.91       656
+   macro avg       0.92      0.91      0.91       656
+   weighted avg    0.92      0.91      0.91       656
 
-10. **Saving the Model:**
-    - The trained model is saved to an HDF5 file ('Brain_Tumor.h5') for future use or deployment.
+  ```
 
-**Data and Model File Download:**
-- Due to the large size of the dataset, it is not included in the GitHub repository. Please download the dataset from the provided location and place it in a directory named 'DataSets/Training' relative to the notebook.
+#### Multilayer Perceptron (MLP) Based on TensorFlow
+- **Structure**
+   ![alt text](image-7.png)
+- **Loss vs. Epochs and Accuracy vs. Epochs:**
+  ![alt text](image-3.png)
+- **Performance Metrics:**
+  ![alt text](image-4.png)
+- **Confusion Matrix:**
+  ![alt text](image-9.png)
+- **Classification Report:**
+  ```
+                precision    recall  f1-score   support
 
--Similarly, the trained model file ('Brain_Tumor.h5') is generated when you run the notebook successfully. Please keep this file in a directory named 'Deployment' for smooth deployment without hiccups.
+      glioma       0.72      0.78      0.75       151
+  meningioma       0.66      0.71      0.68       164
+     notumor       0.94      0.85      0.89       192
+   pituitary       0.93      0.89      0.91       149
 
-**Ensure to update the paths accordingly based on your local machine's directory structure**
+    accuracy                           0.81       656
+   macro avg       0.81      0.81      0.81       656
+   weighted avg    0.82      0.81      0.81       656
 
+
+  ```
+
+#### VGG16 Transfer Learning Model
+- **Structure**
+   ![alt text](image-8.png)
+- **Loss vs. Epochs and Accuracy vs. Epochs:**
+  ![alt text](image-5.png)
+- **Performance Metrics:**
+  ![alt text](image-6.png)
+- **Confusion Matrix:**
+  ![alt text](image-11.png)
+- **Classification Report:**
+   ```
+                 precision    recall  f1-score   support
+
+      glioma       0.97      0.95      0.96       151
+  meningioma       0.95      0.95      0.95       164
+     notumor       0.99      1.00      1.00       192
+   pituitary       0.97      0.99      0.98       149
+
+    accuracy                           0.97       656
+   macro avg       0.97      0.97      0.97       656
+   weighted avg    0.97      0.97      0.97       656
+   ```
+
+### Conclusion
+The project explores three different models for brain tumor detection. Each model's performance is evaluated based on loss, accuracy, F1-score, and confusion matrix. The best-performing model can be selected for deployment in the Web App directory.
 
 ## How to Use
 Requirements: Ensure you have the necessary libraries and dependencies installed. You can find the list of required packages in the requirements.txt file.
