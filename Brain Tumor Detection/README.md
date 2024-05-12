@@ -85,8 +85,4 @@ Training and Evaluation: Train the models using the provided data and evaluate t
 Interpret Results: Analyze the model's performance using the visualizations and metrics provided in the notebook.
 
 Feel free to reach out if you encounter any issues or need further assistance with running the notebook.
-## Demo Video
-
-
-https://github.com/TheNaiveSamosa/DL-Simplified/assets/112872086/7891bc05-efe8-4728-af02-602edab10918
 
