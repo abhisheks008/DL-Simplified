@@ -13,50 +13,74 @@ Brain tumors present complexities in size and location, requiring expertise for 
 ## 🔍 Methodology
 
 1. **Importing Libraries:**  
-   - Various libraries such as NumPy, Pandas, TensorFlow, and others are imported for data manipulation, visualization, and deep learning model building.
+   - Libraries such as NumPy, Pandas, TensorFlow, and others are imported for data manipulation, visualization, and deep learning model building.
 
 2. **Loading the Dataset:**
-   - The training and testing datasets are loaded into dataframes. File paths and labels are extracted for each image in the dataset.
+   - The dataset containing brain MRI images is loaded into dataframes. File paths and labels are extracted for each image in the dataset.
 
 3. **Data Preprocessing:**
    - Data balance is checked to ensure there is an even distribution of classes.
-   - The testing dataset is split into validation and test sets.
-   - ImageDataGenerator is used to convert dataframes to numpy arrays for model training.
+   - The dataset is split into training, validation, and test sets.
+   - ImageDataGenerator is used to preprocess the images and convert dataframes to numpy arrays for model training.
 
-4. **Model Structure:**
-   - A Convolutional Neural Network (CNN) model is created using Keras Sequential API.
-   - The model consists of convolutional layers followed by max-pooling layers and dense layers for classification.
+4. **Model Architecture:**
+   - Three different convolutional neural network (CNN) models are created using Keras Sequential API:
+     - Model 1: Simple CNN model with few layers.
+     - Model 2: CNN model with additional layers for increased complexity.
+     - Model 3: Transfer learning using a pre-trained VGG16 model with fine-tuning.
 
-5. **Training the Model:**
-   - The model is compiled using the Adamax optimizer and categorical cross-entropy loss.
-   - It is trained on the training dataset for a specified number of epochs, with validation data for evaluation.
+5. **Training the Models:**
+   - Each model is compiled using the Adam optimizer and categorical cross-entropy loss.
+   - The models are trained on the training dataset for a specified number of epochs, with validation data for evaluation.
 
-6. **Model Performance:**
-   - Training and validation loss and accuracy are plotted over epochs to visualize the model's performance.
-   - The best epoch based on validation loss and accuracy is highlighted.
+6. **Model Performance Analysis:**
+   - Training and validation loss and accuracy are plotted over epochs to visualize the models' performance.
+   - The best epoch based on validation loss and accuracy is determined for each model.
 
 7. **Model Evaluation:**
-   - The model is evaluated on the training, validation, and test sets to assess its performance.
+   - Each model is evaluated on the training, validation, and test sets to assess its performance.
    - Loss and accuracy metrics are displayed for each set.
 
 8. **Making Predictions:**
-   - The trained model is used to make predictions on the test set.
+   - The trained models are used to make predictions on the test set.
    - Predictions are converted to class labels for evaluation.
 
-9. **Confusion Matrix and Classification Report:**
-   - A confusion matrix is generated to visualize the model's performance in classifying each class.
-   - A classification report provides a detailed evaluation of the model's performance, including precision, recall, and F1-score for each class.
+9. **Performance Metrics and Visualization:**
+   - For each model, performance metrics such as F1-score, precision, recall, and confusion matrix are calculated and displayed.
 
-10. **Saving the Model:**
-    - The trained model is saved to an HDF5 file ('Brain_Tumor.h5') for future use or deployment.
+10. **Saving the Best Model:**
+    - The best performing model is saved to an .keras file ('best_model.keras') for future use or deployment.
+
+
+**Note:** Ensure to update the paths accordingly based on your local machine's directory structure.
 
 **Data and Model File Download:**
-- Due to the large size of the dataset, it is not included in the GitHub repository. Please download the dataset from the provided location and place it in a directory named 'DataSets/Training' relative to the notebook.
+- Due to the large size of the dataset, it is not included in the GitHub repository. Please download the dataset from the provided location and place it in a directory named 'Datasets/Training' and 'Datasets/Testing' relative to the notebook.
 
--Similarly, the trained model file ('Brain_Tumor.h5') is generated when you run the notebook successfully. Please keep this file in a directory named 'Deployment' for smooth deployment without hiccups.
+-Similarly, the trained model file ('best_model.keras') is generated when you run the notebook successfully. Please keep this file in a directory named 'Web App' for smooth deployment without hiccups.
 
 **Ensure to update the paths accordingly based on your local machine's directory structure**
 
+### Project Directory Structure
+```
+Brain Tumor Detection
+|- Dataset
+  |- Training Folder
+  |- Testing Folder
+  |- README.md
+|- Images
+  |- EDA README.md
+|- Model
+  |- brain_tumor.ipynb
+  |- README.md
+|- Web App
+  |- app.py
+  |- templates
+  |- demo.mp4
+  |- best_model.keras
+  |- README.md
+|- requirements.txt
+```
 ## 🙌 Acknowledgments
 
 The authors would like to acknowledge the contributions of the research community in the field of brain tumor detection using deep learning. The open-source datasets and repositories have been instrumental in the development of this project[1][2][3][4][5][6][7][8].
