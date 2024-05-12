@@ -1,70 +1,81 @@
-# Colour Detection using DL
+## 🌈 Colour Detection using DL (#527)
 
-## PROJECT TITLE
+Full name : jahnvi sahni
 
-Colour Detection using DL
+GitHub Profile Link : https://github.com/jahnvisahni31
 
-## GOAL
+Email ID : jahnvisahni98@gmail.com
 
-To detect 10 different colours using DL techniques. 
+## 💡 Project Overview
 
-## DATASET
+In this project, we'll delve into the fascinating world of color detection using Deep Learning techniques. The goal is to accurately identify ten different colors from images.
 
-The link for the dataset used in this project:  https://www.kaggle.com/datasets/adikurniawan/color-dataset-for-color-recognition
+## Approach for this Project
 
-## DESCRIPTION
+### CNN Model
 
-This project aims to identify ten different colours from the given images.
+**Description:**
+- Utilized a traditional Convolutional Neural Network (CNN) architecture.
+- CNNs are well-suited for image classification tasks due to their ability to learn spatial hierarchies.
 
-## WHAT I HAD DONE
+### VGG16 Model
 
-1. Data collection: From the link of the dataset given above. 
-2. Data preprocessing: Preprocessed the image in order to have all images in equal shape.
-3. Model selection: Chose traditional CNN along with Image detection architecture VGG16 and ResNet15V2 for Image detection.
-4. Comparative analysis: Compared the accuracy score of all the models.
+**Description:**
+- Employed the VGG16 architecture, known for its simplicity and effectiveness.
+- VGG16 consists of 16 convolutional layers and is capable of capturing intricate features in images.
 
-## MODELS USED
+### ResNet50 Model
 
-1. CNN
-2. VGG16
-3. ResNet15V2
-
-
-## LIBRARIES NEEDED
-
-The following libraries are required to run this project:
-
-- numpy==1.24.3
-- pandas==1.5.0
-- matplotlib==3.6.0
-- tensorflow==2.6.0
-
-## VISUALIZATION
-![cnn](https://github.com/achrekarom12/DL-Simplified/assets/88442486/8336a43a-b9e0-4a74-a7dc-794c3b20f8ec)
-![cnn 2](https://github.com/achrekarom12/DL-Simplified/assets/88442486/e68336fc-a0b3-488d-bce5-37b31fd12540)
+**Description:**
+- Implemented the ResNet50 architecture, featuring residual connections.
+- ResNet50's residual blocks mitigate the vanishing gradient problem, enabling training of deeper networks.
 
 
 
-## EVALUATION METRICS
+## 📊 Dataset Exploration
 
-The evaluation metrics I used to assess the models:
+We've sourced our dataset from [Color Dataset for Color Recognition](https://www.kaggle.com/datasets/adikurniawan/color-dataset-for-color-recognition). Let's dive into the data and see what hues we're dealing with.
 
-- Accuracy 
-- Loss
+## 🔍 Data Preprocessing
 
+Ensuring uniformity in image shapes and enhancing color contrast to extract meaningful features for our models.
 
-## RESULTS
-Results on Val dataset:
+## 🧠 Model Selection
+
+We're employing the latest DL architectures for our color detection task:
+
+1. **Convolutional Neural Network (CNN)**: Known for its prowess in image classification.
+2. **VGG16**: A state-of-the-art architecture with deep convolutional layers.
+3. **ResNet15V2**: Harnessing the power of residual networks for accurate color recognition.
+
+## 📈 Performance Evaluation
+
+Let's visualize the accuracy scores of our models:
 
 | Model      | Accuracy | Loss    |
 |------------|----------|---------|
-| CNN    | 0.9     | 0.326   |
-| VGG16    | 0.825     | 0.154    |
-| ResNet50    | 0.875     | 0.987    |
+| CNN        | 90%      | 0.326   |
+| VGG16      | 82.5%    | 0.154   |
+| ResNet50   | 87.5%    | 0.987   |
+
+## 🎨 Colorful Visualizations
+
+Check out some vibrant visualizations of our models in action:
+
+### CNN Model
+![CNN Model](https://github.com/abhisheks008/DL-Simplified/blob/main/Colour%20Detection%20using%20DL/Images/cnn%202.jpg)
+
+### VGG16 Model
+![VGG16 Model](https://github.com/abhisheks008/DL-Simplified/blob/main/Colour%20Detection%20using%20DL/Images/vgg16%202.jpg)
+
+### ResNet50 Model
+![ResNet16 Model](https://github.com/abhisheks008/DL-Simplified/blob/main/Colour%20Detection%20using%20DL/Images/res%202.jpg)
 
 
-## CONCLUSION
-Based on results we can draw following conclusions:
-1. CNN Model: The CNN model achieved the highest accuracy of 90% and a relatively low loss of 0.326 on the validation dataset. This indicates that the CNN model performed well in learning and predicting color classes.
-2. VGG16 Model: The VGG16 model showed an accuracy of 82.5% and a loss of 0.154. While it performed reasonably well, it didn't outperform the CNN model in terms of accuracy.
-3. ResNet50 Model: The ResNet50 model achieved an accuracy of 87.5% but had a relatively high loss of 0.987. This suggests that the model might be overfitting or facing challenges in generalizing to new data.
+## 🚀 Conclusion
+
+1. **CNN Model**: With an accuracy of 90% and a low loss of 0.326, it's the clear winner in color detection.
+2. **VGG16 Model**: While respectable at 82.5% accuracy, it falls short compared to the CNN model.
+3. **ResNet50 Model**: Despite its 87.5% accuracy, its higher loss indicates potential overfitting.
+
+In conclusion, the CNN model emerges as the champion in accurately detecting colors from images.
