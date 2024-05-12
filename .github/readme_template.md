@@ -18,7 +18,7 @@
 
 ### 🚀 **Models Implemented**
 
-List out all the algorithms or models used in this project. Why have you choosed that algorithms should also be stated`
+`List out all the algorithms or models used in this project. Why have you choosed that algorithms should also be stated`
 
 ### 📚 **Libraries Needed**
 
