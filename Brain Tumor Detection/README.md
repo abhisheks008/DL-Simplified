@@ -39,6 +39,19 @@ Citations:
 [7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9854739/
 [8] https://www.nature.com/articles/s41598-024-57970-7
 
+
+## How to Use
+Requirements: Ensure you have the necessary libraries and dependencies installed. You can find the list of required packages in the requirements.txt file.
+
+Download Data: Download the Brain Tumor MRI Dataset from Kaggle mentioned in the dataset section of the project.
+
+Run the Jupyter Notebook: Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
+
+Training and Evaluation: Train the models using the provided data and evaluate their performance using metrics such as accuracy and loss.
+
+Interpret Results: Analyze the model's performance using the visualizations and metrics provided in the notebook.
+
+Feel free to reach out if you encounter any issues or need further assistance with running the notebook.
 ## Demo Video
 
 
