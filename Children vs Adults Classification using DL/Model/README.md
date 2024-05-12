@@ -72,4 +72,4 @@ This project demonstrates the effectiveness of deep learning models in classifyi
 ## ✒️ Your Signature
 
   ##### 📌 README.md modified by *Vanshika Bisht* @ GGSoC2024
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]( www.linkedin.com/in/vanshika-bisht-a875aa2b7) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vanshika52)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/vanshika-bisht-a875aa2b7) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vanshikab52)
