@@ -6,9 +6,13 @@ import io
 import base64
 
 def load_model_and_labels():
-    model = tf.keras.models.load_model("Model/Brain_Tumor.h5")
+    # Get the directory path of the current file
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    model_path = os.path.join(dir_path, "best_model.h5")
+    model = tf.keras.models.load_model(model_path)
     class_labels = ['Glioma', 'Meningioma', 'No tumor', 'Pituitary']
     return model, class_labels
+
 
 def preprocess_image(img):
     img = img.resize((224, 224))  # Ensure consistent size with model training
