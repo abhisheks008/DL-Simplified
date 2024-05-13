@@ -65,16 +65,16 @@ Brain Tumor Detection
 ### Model Performance
 #### Convolutional Neural Network (CNN)
 - **Structure**  
-   ![CNN Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-1.png)
+   ![CNN Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-1.png)
 
 - **Loss vs. Epochs and Accuracy vs. Epochs**  
-   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-2.png)
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-2.png)
 
 - **Performance Metrics**  
-   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image.png)
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image.png)
 
 - **Confusion Matrix**  
-   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-10.png)
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-10.png)
 
 - **Classification Report**  
    ```
@@ -92,16 +92,16 @@ Brain Tumor Detection
 
 #### Multilayer Perceptron (MLP) Based on TensorFlow
 - **Structure**  
-   ![MLP Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-7.png)
+   ![MLP Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-7.png)
 
 - **Loss vs. Epochs and Accuracy vs. Epochs**  
-   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-3.png)
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-3.png)
 
 - **Performance Metrics**  
-   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-4.png)
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-4.png)
 
 - **Confusion Matrix**  
-   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-9.png)
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-9.png)
 
 - **Classification Report**  
    ```
@@ -119,16 +119,16 @@ Brain Tumor Detection
 
 #### VGG16 Transfer Learning Model
 - **Structure**  
-   ![VGG16 Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-8.png)
+   ![VGG16 Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-8.png)
 
 - **Loss vs. Epochs and Accuracy vs. Epochs**  
-   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-5.png)
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-5.png)
 
 - **Performance Metrics**  
-   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-6.png)
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-6.png)
 
 - **Confusion Matrix**  
-   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-11.png)
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-11.png)
 - **Classification Report:**
    ```
                  precision    recall  f1-score   support
@@ -145,6 +145,31 @@ Brain Tumor Detection
 
 ### Conclusion
 The project explores three different models for brain tumor detection. Each model's performance is evaluated based on loss, accuracy, F1-score, and confusion matrix. The best-performing model can be selected for deployment in the Web App directory.
+Based on the provided classification reports, the performance ranking from best to worst is as follows:
+
+1. **VGG16 Transfer Learning Model**
+   - Accuracy: 0.97
+   - F1-score: 0.97
+   - Precision and recall scores are also high for all classes.
+   - This model performed the best among the three.
+
+2. **Convolutional Neural Network (CNN)**
+   - Accuracy: 0.91
+   - F1-score: 0.91
+   - Precision and recall scores are also relatively high.
+   - This model performed well but not as well as VGG16.
+
+3. **Multilayer Perceptron (MLP) Based on TensorFlow**
+   - Accuracy: 0.81
+   - F1-score: 0.81
+   - Precision and recall scores are lower compared to the other two models.
+   - This model performed the worst among the three.
+
+- **Approach:** We used three different models for brain tumor detection: VGG16 transfer learning, a custom CNN, and an MLP based on TensorFlow.
+- **Performance:** VGG16 showed the best performance, with the highest accuracy, F1-score, precision, and recall across all classes. The custom CNN performed well but slightly lower than VGG16. The MLP had the lowest performance among the three models.
+- **Reasons:** VGG16, being a pre-trained model on ImageNet, has learned rich feature representations that are useful for our task. The custom CNN, although designed specifically for this task, might not have been deep enough or trained on enough data compared to VGG16. The MLP, being a simpler model, struggled to learn complex patterns in the data, leading to lower performance.
+
+In conclusion, VGG16 is the most suitable model for this task due to its superior performance, followed by the custom CNN. The MLP, while simpler, is not as effective for this particular problem.
 
 ## How to Use
 Requirements: Ensure you have the necessary libraries and dependencies installed. You can find the list of required packages in the requirements.txt file.
