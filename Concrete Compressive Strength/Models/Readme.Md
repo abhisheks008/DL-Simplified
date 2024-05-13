@@ -44,7 +44,7 @@ Pandas, Numpy, Keras,TensorFlow, ScikitLearn, Seaborn, Matplotlib
 
 ### 📊 **Exploratory Data Analysis Results**
 
-![](https://github.com/abhisheks008/DL-Simplified/blob/main/Concrete%20Compressive%20Strength/Images/Screenshot%20(243).png)
+![understanding the characters for cement with concrete compressive strength](https://github.com/abhisheks008/DL-Simplified/blob/main/Concrete%20Compressive%20Strength/Images/Screenshot%20(243).png)
 ![](https://github.com/abhisheks008/DL-Simplified/blob/main/Concrete%20Compressive%20Strength/Images/Screenshot%20(244).png)
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
