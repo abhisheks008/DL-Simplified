@@ -64,16 +64,21 @@ Brain Tumor Detection
 
 ### Model Performance
 #### Convolutional Neural Network (CNN)
-- **Structure**
-   ![alt text](image-2.png)
-- **Loss vs. Epochs and Accuracy vs. Epochs:**
-  ![alt text](image-1.png)
-- **Performance Metrics:**
-  ![alt text](image.png)
-- **Confusion Matrix:**
-  ![alt text](image-10.png)
-- **Classification Report:**
-  ```               precision    recall  f1-score   support
+- **Structure**  
+   ![CNN Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-1.png)
+
+- **Loss vs. Epochs and Accuracy vs. Epochs**  
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-2.png)
+
+- **Performance Metrics**  
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image.png)
+
+- **Confusion Matrix**  
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-10.png)
+
+- **Classification Report**  
+   ```
+               precision    recall  f1-score   support
 
       glioma       0.79      0.93      0.85       151
   meningioma       0.91      0.76      0.83       164
@@ -83,21 +88,24 @@ Brain Tumor Detection
     accuracy                           0.91       656
    macro avg       0.92      0.91      0.91       656
    weighted avg    0.92      0.91      0.91       656
-
-  ```
+   ```
 
 #### Multilayer Perceptron (MLP) Based on TensorFlow
-- **Structure**
-   ![alt text](image-7.png)
-- **Loss vs. Epochs and Accuracy vs. Epochs:**
-  ![alt text](image-3.png)
-- **Performance Metrics:**
-  ![alt text](image-4.png)
-- **Confusion Matrix:**
-  ![alt text](image-9.png)
-- **Classification Report:**
-  ```
-                precision    recall  f1-score   support
+- **Structure**  
+   ![MLP Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-7.png)
+
+- **Loss vs. Epochs and Accuracy vs. Epochs**  
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-3.png)
+
+- **Performance Metrics**  
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-4.png)
+
+- **Confusion Matrix**  
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-9.png)
+
+- **Classification Report**  
+   ```
+               precision    recall  f1-score   support
 
       glioma       0.72      0.78      0.75       151
   meningioma       0.66      0.71      0.68       164
@@ -107,19 +115,20 @@ Brain Tumor Detection
     accuracy                           0.81       656
    macro avg       0.81      0.81      0.81       656
    weighted avg    0.82      0.81      0.81       656
-
-
-  ```
+   ```
 
 #### VGG16 Transfer Learning Model
-- **Structure**
-   ![alt text](image-8.png)
-- **Loss vs. Epochs and Accuracy vs. Epochs:**
-  ![alt text](image-5.png)
-- **Performance Metrics:**
-  ![alt text](image-6.png)
-- **Confusion Matrix:**
-  ![alt text](image-11.png)
+- **Structure**  
+   ![VGG16 Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-8.png)
+
+- **Loss vs. Epochs and Accuracy vs. Epochs**  
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-5.png)
+
+- **Performance Metrics**  
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-6.png)
+
+- **Confusion Matrix**  
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/3785225b79ab5bca8d772024d60bf1aa379ca015/Brain%20Tumor%20Detection/Images/image-11.png)
 - **Classification Report:**
    ```
                  precision    recall  f1-score   support
