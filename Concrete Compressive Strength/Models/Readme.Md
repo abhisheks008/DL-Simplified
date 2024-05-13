@@ -43,11 +43,9 @@ Then a Keras Sequential model with  Dense Layers was used to compare performance
 Pandas, Numpy, Keras,TensorFlow, ScikitLearn, Seaborn, Matplotlib
 
 ### 📊 **Exploratory Data Analysis Results**
-![Alt Text](Concrete Compressive Strength/Images/Screenshot (243).png)
-![Alt Text](Concrete Compressive Strength/Images/Screenshot (244).png)
 
-
-
+![](https://github.com/abhisheks008/DL-Simplified/blob/main/Concrete%20Compressive%20Strength/Images/Screenshot%20(243).png)
+![](https://github.com/abhisheks008/DL-Simplified/blob/main/Concrete%20Compressive%20Strength/Images/Screenshot%20(244).png)
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
