@@ -1,0 +1,5 @@
+train: ../Train
+val: ../Test
+
+nc: 9
+names: ['anticlockwise', 'backward', 'clockwise', 'down', 'forward', 'left','right','up','wave']
