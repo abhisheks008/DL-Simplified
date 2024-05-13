@@ -24,7 +24,7 @@ We're employing the latest DL architectures for our color detection task:
 1. **Convolutional Neural Network (CNN)**: Known for its process in image classification.
 2. **VGG16**: A state-of-the-art architecture with deep convolutional layers.
 3. **ResNet15V2**: Harnessing the power of residual networks for accurate color recognition.
-4. **CNN with Attention**: CNN with an overhead Attention allowing context into training and using ELU as activation and NADAM as optimizer function to converge faster.
+4. **CNN with Attention**: CNN with an overhead Attention allowing context into training, and using ELU as activation and NADAM as optimizer function, to converge faster.
 
 ## Models Implemented
 
@@ -100,5 +100,7 @@ Let's visualize the accuracy scores of our models:
 In conclusion, the CNN model with Attention emerges as the champion in accurately detecting colors from images.
 
 ## Your Signature
-Model enhanced by: Arihant Bhandari[https://github.com/Arihant-Bhandari]
+
 README enhanced by: Jahnvi sahni[https://github.com/jahnvisahni31]
+
+Model enhanced by: Arihant Bhandari[https://github.com/Arihant-Bhandari]
