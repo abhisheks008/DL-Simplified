@@ -10,7 +10,8 @@ The web application utilizes three main models for brain tumor detection:
 3. **Multilayer Perceptron (MLP) Based on TensorFlow**: An MLP architecture implemented using TensorFlow, serving as a simpler model for comparison.
 
 ### Video Demonstration 🎥
-[![](https://github.com/TheNaiveSamosa/DL-Simplified/blob/700469f82238ca2579e09a5a02c5afb69cfb327c/Brain%20Tumor%20Detection/Web%20App/Screenshot%202024-05-13%20221628.png)](https://github.com/TheNaiveSamosa/DL-Simplified/blob/700469f82238ca2579e09a5a02c5afb69cfb327c/Brain%20Tumor%20Detection/Web%20App/Final.mp4)
+[![](https://github.com/TheNaiveSamosa/DL-Simplified/blob/700469f82238ca2579e09a5a02c5afb69cfb327c/Brain%20Tumor%20Detection/Web%20App/Screenshot%202024-05-13%20221628.png)](https://github.com/TheNaiveSamosa/DL-Simplified/assets/112872086/0979d5eb-5f8f-4e5c-8c64-df81ff0ab470)
+
 
 ### Signature ✒️
 Aditya Khamitkar
