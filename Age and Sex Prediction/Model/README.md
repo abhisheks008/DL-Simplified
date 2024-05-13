@@ -1,4 +1,4 @@
-## AGE AND SEX PREDICTION
+## **AGE AND SEX PREDICTION**
 
 Deep Learning has many applications in the field of computer vision and one such application is that of facial detection & recognition. To this subfield, we have also added the application of age and sex detection.
 
