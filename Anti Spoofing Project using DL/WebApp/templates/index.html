@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siamese Model - Video Upload</title>
+</head>
+<body>
+    <h1>Upload Video</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="video/*">
+        <input type="submit" value="Upload">
+    </form>
+
+    <!-- Button to trigger video processing -->
+    <form action="/process" method="post">
+        <input type="hidden" name="file_path" id="file_path" value="uploadssiamese_flask_app\uploads\0001e96803--6239cf6720237d576aafbe45__Samsung_Galaxy_a22.mp4">
+        <input type="submit" value="Process Video">
+    </form>
+</body>
+</html>
