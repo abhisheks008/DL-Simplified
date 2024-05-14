@@ -37,7 +37,7 @@ We have trained a pre-trained CNN model using the above dataset and adjusted the
 - Gender Distribution<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/GenderDistribution.png)
 
-- Accuracy and Loss Graph for Gender
+- Accuracy and Loss Graph for Gender<br>
 
 Accuracy<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/AccuracyforGender.png)
@@ -45,7 +45,7 @@ Accuracy<br>
 Loss<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/genderloss.png)
 
-- Accuracy and Loss Graph for Age
+- Accuracy and Loss Graph for Age<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/Age.png)
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
