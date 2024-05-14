@@ -1,70 +1,106 @@
-# Colour Detection using DL
-
-## PROJECT TITLE
-
-Colour Detection using DL
-
-## GOAL
-
-To detect 10 different colours using DL techniques. 
-
-## DATASET
-
-The link for the dataset used in this project:  https://www.kaggle.com/datasets/adikurniawan/color-dataset-for-color-recognition
-
-## DESCRIPTION
-
-This project aims to identify ten different colours from the given images.
-
-## WHAT I HAD DONE
-
-1. Data collection: From the link of the dataset given above. 
-2. Data preprocessing: Preprocessed the image in order to have all images in equal shape.
-3. Model selection: Chose traditional CNN along with Image detection architecture VGG16 and ResNet15V2 for Image detection.
-4. Comparative analysis: Compared the accuracy score of all the models.
-
-## MODELS USED
-
-1. CNN
-2. VGG16
-3. ResNet15V2
+## 🌈 Colour Detection using DL (#527)
 
 
-## LIBRARIES NEEDED
+## 💡 Goal
 
-The following libraries are required to run this project:
+In this project, we'll delve into the fascinating world of color detection using Deep Learning techniques. The goal is to accurately identify ten different colors from images.
+
+## 📊 Dataset Exploration
+
+We've sourced our dataset from [Color Dataset for Color Recognition](https://www.kaggle.com/datasets/adikurniawan/color-dataset-for-color-recognition). This dataset contains 10 class of color, each color class contains 25 images.
+
+## 🧾 Description
+The project aims to create a color detection system using deep learning techniques. It involves identifying ten different colors from images. The dataset used for training and testing contains images labeled with various colors. 
+
+## 🧮 What I had done!
+### 🔍 Data Preprocessing
+
+Ensuring uniformity in image shapes and enhancing color contrast to extract meaningful features for our models. Also processed labels into probability distribution arrays for multi-class classification.
+
+### 🧠 Model Selection
+
+We're employing the latest DL architectures for our color detection task:
+
+1. **Convolutional Neural Network (CNN)**: Known for its process in image classification.
+2. **VGG16**: A state-of-the-art architecture with deep convolutional layers.
+3. **ResNet15V2**: Harnessing the power of residual networks for accurate color recognition.
+4. **CNN with Attention**: CNN with an overhead Attention allowing context into training, and using ELU as activation and NADAM as optimizer function, to converge faster.
+
+## Models Implemented
+
+### CNN Model
+
+**Description:**
+- Utilized a traditional Convolutional Neural Network (CNN) architecture.
+- CNNs are well-suited for image classification tasks due to their ability to learn spatial hierarchies.
+
+### VGG16 Model
+
+**Description:**
+- Employed the VGG16 architecture, known for its simplicity and effectiveness.
+- VGG16 consists of 16 convolutional layers and is capable of capturing intricate features in images.
+
+### ResNet50 Model
+
+**Description:**
+- Implemented the ResNet50 architecture, featuring residual connections.
+- ResNet50's residual blocks mitigate the vanishing gradient problem, enabling training of deeper networks.
+
+### CNN Model with Attention
+
+**Description:**
+- Applied overhead attention to the CNN architecture for faster convergence.
+- USed robust functions to counter dying ReLU problem like ELU activation and using NADAM optimizer.
+
+##  Libraries needed
+Here are the libraries needed for this project:
 
 - numpy==1.24.3
 - pandas==1.5.0
 - matplotlib==3.6.0
+- seaborn==0.11.2
+- Pillow==8.4.0
+- opencv-python==4.5.3.56
+- keras==2.6.0
 - tensorflow==2.6.0
+- scikit-learn==0.24.2
 
-## VISUALIZATION
-![cnn](https://github.com/achrekarom12/DL-Simplified/assets/88442486/8336a43a-b9e0-4a74-a7dc-794c3b20f8ec)
-![cnn 2](https://github.com/achrekarom12/DL-Simplified/assets/88442486/e68336fc-a0b3-488d-bce5-37b31fd12540)
+### Exploratory data analysis results
 
+### CNN Model
+![CNN Model](https://github.com/abhisheks008/DL-Simplified/blob/main/Colour%20Detection%20using%20DL/Images/cnn%202.jpg)
 
+### VGG16 Model
+![VGG16 Model](https://github.com/abhisheks008/DL-Simplified/blob/main/Colour%20Detection%20using%20DL/Images/vgg16%202.jpg)
 
-## EVALUATION METRICS
+### ResNet50 Model
+![ResNet16 Model](https://github.com/abhisheks008/DL-Simplified/blob/main/Colour%20Detection%20using%20DL/Images/res%202.jpg)
 
-The evaluation metrics I used to assess the models:
+### CNN with Attention Model
+![CNN with Attention](https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_colour_detect/Colour%20Detection%20using%20DL/Images/cnn_attention.png)
 
-- Accuracy 
-- Loss
+## 📈 Performance Evaluation
 
-
-## RESULTS
-Results on Val dataset:
+Let's visualize the accuracy scores of our models:
 
 | Model      | Accuracy | Loss    |
 |------------|----------|---------|
-| CNN    | 0.9     | 0.326   |
-| VGG16    | 0.825     | 0.154    |
-| ResNet50    | 0.875     | 0.987    |
+| CNN        | 90%      | 0.326   |
+| VGG16      | 82.5%    | 0.154   |
+| ResNet50   | 87.5%    | 0.987   |
+| CNN (Attention)   | 94%    | 0.193   |
 
+## 🚀 Conclusion
 
-## CONCLUSION
-Based on results we can draw following conclusions:
-1. CNN Model: The CNN model achieved the highest accuracy of 90% and a relatively low loss of 0.326 on the validation dataset. This indicates that the CNN model performed well in learning and predicting color classes.
-2. VGG16 Model: The VGG16 model showed an accuracy of 82.5% and a loss of 0.154. While it performed reasonably well, it didn't outperform the CNN model in terms of accuracy.
-3. ResNet50 Model: The ResNet50 model achieved an accuracy of 87.5% but had a relatively high loss of 0.987. This suggests that the model might be overfitting or facing challenges in generalizing to new data.
+1. **CNN Model with Attention**: With an accuracy of 94% and a low loss of 0.193, it's the clear winner in color detection.
+2. **CNN Model**: With an accuracy of 90% and a low loss of 0.326, it's just falls short in color detection.
+3. **VGG16 Model**: While respectable at 82.5% accuracy, it falls short compared to the CNN model.
+4. **ResNet50 Model**: Despite its 87.5% accuracy, its higher loss indicates potential overfitting.
+
+In conclusion, the CNN model with Attention emerges as the champion in accurately detecting colors from images.
+
+## Your Signature
+
+README enhanced by: Jahnvi sahni[https://github.com/jahnvisahni31]
+
+Model enhanced by: Arihant Bhandari[https://github.com/Arihant-Bhandari]
