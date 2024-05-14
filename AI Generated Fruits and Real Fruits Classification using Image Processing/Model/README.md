@@ -48,6 +48,6 @@ PCA-graph
 After evaluating the models, they have all been observed to provide pretty much the same accuracy, with all of them outputting the correct prediction. Both the CNN models have been trained to give 100% accuracy and the SVM model also provides answers that are 100% accurate. The aim has thus been achieved.
 
 ### ✒️ **Your Signature**
-Name: Titiksha Agrawal
-linkedin: https://www.linkedin.com/in/titiksha-agrawal-056004251/
+Name: Titiksha Agrawal<br>
+linkedin: https://www.linkedin.com/in/titiksha-agrawal-056004251/<br>
 github: https://github.com/AgrawalTitiksha
