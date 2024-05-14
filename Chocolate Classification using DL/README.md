@@ -4,7 +4,7 @@
 The objective is to categorize the chocolate depicted in the image as either dark chocolate or white chocolate.
 
 ## 🧵 DATASET
-Here is the link to the dataset utilized in this project👇:
+Here is the link to the dataset utilized in this project👇:<br>
 https://www.kaggle.com/datasets/siddharthmandgi/chocolate-classification
 
 ## 🧾 DESCRIPTION
