@@ -1,83 +1,69 @@
-# Canola Diseases Detection
+## **CANOLA DISEASE CLASSIFICATION USING DEEP LEARNING**
 
-**GOAL**
+### 🎯 **Goal**
 
-To classify the images from the canola disease dataset using a Deep Learning approach.
+The goal of this project is to classify images of Canola plant leaves into healthy and diseased categories using various deep learning models. The purpose is to develop an accurate model that can assist in identifying plant diseases early, aiding in timely interventions for agricultural management.
 
-**DATASET**
+### 🧵 **Dataset**
 
-https://www.kaggle.com/datasets/gregsvein55/canola-diseases
+The dataset used in this project is sourced from Kaggle and consists of images depicting two classes: Diseased and Healthy canola plants.
+[Canola Diseases Dataset on Kaggle](https://www.kaggle.com/datasets/gregsvein55/canola-diseases)
 
-**DESCRIPTION**
+### 🧾 **Description**
 
-The dataset contains images of 2 different classes, namely Diseased and Healthy. There are 322 and 318 images of each type respectively. The task is to classify the images by using a deep learning architecture.
+The project involves building and evaluating multiple deep learning models to accurately classify canola plant images based on their health status. The models range from basic Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) to Transfer Learning using pre-trained models like ResNet.
 
-**WHAT I HAD DONE**
+### 👨‍💻 **What I had done!**
 
-First I imported all the required libraries and dataset for this project. Then I imported the dataset and split it into training, validation and testing sets in the ratio 70:20:10. Then I proceeded to build the model. 
+Data Preparation:
 
-I have developed 4 deep learning models to classify the images. First I used a ANN to classify the images. But I didn't get a good accuracy. Secondly I used a CNN to classify the images, but the model wasn't performing well. Lastly, I used a CNN with MaxPooling layers but I didn't get a satisfactory accuracy score. 
+- Downloaded and organized the Canola diseases dataset.
+- Split the dataset into training, validation, and testing sets.
 
-Then I proceeded with Transfer Learning. I used the [ResNet 50](https://tfhub.dev/google/imagenet/resnet_v2_50/feature_vector/5) model and trained this model on the images from the dataset. I got an accuracy score of 98.43
+**Model Development**:
 
-**MODELS USED**
+- Implemented an ANN model.
+- Developed basic CNN and CNN with MaxPooling layers.
+- Utilized Transfer Learning with the ResNet50 architecture.
 
-The models are:
+**Training and Evaluation**:
 
-1. Artificial Neural Network (ANN)
-2. Convolutional Neural Network (CNN)
-3. Convolutional Neural Network (CNN) with MaxPooling layer
-4. Transfer Learning Model (ResNet)
+- Trained each model on the training data.
+- Evaluated model performance using validation and testing datasets.
 
-**LIBRARIES NEEDED**
+**Visualization and Analysis**:
 
-* kaggle
-* tensorflow
-* split-folders
-* matplotlib
+- Visualized model training curves (loss and accuracy).
+- Analyzed model predictions on sample images.
 
-**VISUALIZATION**
+**Model Deployment**:
 
-### Images of different Rice classes
-![Images of different Rice classes](../Images/images_from_dataset.png)
+- Saved the best-performing model for future use.
 
-### Model 1 (ANN Model) performance graphs
-![Model 1 (ANN Model) performance graphs](../Images/model_1_plot.png)
+### 🚀 **Models Implemented**
 
-### Model 2 (Basic CNN Model) performance graphs
-![Model 2 (Basic CNN Model) performance graphs](../Images/model_2_plot.png)
+- **Artificial Neural Network (ANN)**: Simple feedforward network.
+- **Convolutional Neural Network (CNN)**: Basic CNN architecture.
+- **CNN with MaxPooling**: CNN architecture with MaxPooling layers for feature extraction.
+- **Transfer Learning (ResNet50)**: Utilized ResNet50 pre-trained model for feature extraction.
 
-By viewing the graphs, we can conclude that the model is not performing well. It is overfitting on the training data.
+### 📚 **Libraries Needed**
 
-### Model 3 (CNN Model with MaxPooling layer) performance graphs
-![Model 3 (CNN Model with MaxPooling layer) performance graphs](../Images/model_3_plot.png)
+`Add all the libraries needed in this project in points.`
 
-By adding the MaxPooling layer, the model is now performing better than before.
+### 📊 **Exploratory Data Analysis Results**
 
-### Model 4 (Transfer Learning Model (ResNet)) performance graphs
-![Model 4 (Transfer Learning Model (ResNet)) performance graphs](../Images/model_4_plot.png)
+`INCLUSION OF IMAGES OF THE VISUALIZATION IS MUST (RESULT OF EDA).`
 
-### Prediction
+### 📈 **Performance of the Models based on the Accuracy Scores**
 
-Prediction on a random image from the testing dataset.
+`Add all the algorithms used with their accuracies and results`
 
-![Prediction](../Images/prediction.png)
 
-**ACCURACIES**
+### 📢 **Conclusion**
 
-| Model         | Architecture              | Accuracy in % (on testing data) |
-| ------------- |:-------------------------:|:-------------:|
-| Model 1       | ANN Model                 |50.00          |
-| Model 2       | Basic CNN Model           |95.45          |
-| Model 3       | CNN Model with MaxPooling |93.93          |
-| Model 4       | Transfer Learning Model (ResNet) |98.43          |
+`What's the conclusion derived from this project and also showcase the accuracy results if it's applicable. Be briefer. Use accuracy scores to find the best fitted model among all the developed models for the particular projects.`
 
-**CONCLUSION**
+### ✒️ **Your Signature**
 
-I was successfully able to develop a Deep Learning model that can classify images from the given canola disease dataset of 2 classes.
-
-**Omkar Jahagirdar**
-
-Connect with me on Linkedin: https://www.linkedin.com/in/omkar-jahagirdar/
-
-Check out my Github profile: https://github.com/omkar3602
+`Add your name at the end of the file, along with social media handles if applicable!`
