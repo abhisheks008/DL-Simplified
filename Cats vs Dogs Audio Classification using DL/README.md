@@ -1,73 +1,84 @@
-# Cats vs Dogs Audio Classification using DL
+# 🐱🐶 Cats vs Dogs Audio Classification using DL
 
-## PROJECT TITLE
+## Introduction
+This project focuses on classifying audio clips to determine whether the sound is from a cat 🐱 or a dog 🐶 using Deep Learning techniques. By leveraging advanced neural network architectures, we aim to achieve high accuracy in distinguishing between cat and dog sounds.
 
-Cats vs Dogs Audio Classification using DL
+## Table of Contents
+1. [🎯 Goal](#goal)
+2. [📊 Dataset](#dataset)
+3. [📜 Description](#description)
+4. [🛠️ Project Workflow](#project-workflow)
+5. [🧠 Models Used](#models-used)
+6. [📦 Libraries Needed](#libraries-needed)
+7. [📈 Visualization](#visualization)
+8. [📏 Evaluation Metrics](#evaluation-metrics)
+9. [🏆 Results](#results)
+10. [🔍 Conclusion](#conclusion)
+11. [🔮 Future Work](#future-work)
+12. [🙏 Acknowledgements](#acknowledgements)
 
-## GOAL
+## 🎯 Goal
+The primary objective is to classify sounds as either a cat's meow 🐱 or a dog's bark 🐶 using deep learning models.
 
-To classify the sounds whether its a cat's sound or a dog's sound. 
+## 📊 Dataset
+The dataset used for this project is available on Kaggle: [Audio Cats and Dogs Dataset](https://www.kaggle.com/datasets/mmoreaux/audio-cats-and-dogs).
 
-## DATASET
+## 📜 Description
+This project identifies cat and dog sounds from audio files, training on a dataset containing sounds of both animals. We preprocess these audio files to generate spectrograms, which are then used for model training and evaluation.
 
-The link for the dataset used in this project:  https://www.kaggle.com/datasets/mmoreaux/audio-cats-and-dogs
+## 🛠️ Project Workflow
+1. **Data Collection**: Gathered audio data from the provided dataset link.
+2. **Data Preprocessing**: Preprocessed audio files to generate spectrograms.
+3. **Model Selection**: Utilized CNN, VGG16, ResNet50, and MobileNetV2 architectures.
+4. **Comparative Analysis**: Compared the accuracy and loss of each model.
 
-## DESCRIPTION
+## 🧠 Models Used
+1. **Convolutional Neural Network (CNN)** 
+2. **VGG16** 
+3. **ResNet50** 
+4. **MobileNetV2** 
 
-This project aims to identify the sounds of cats and dogs from the audio files. It is trained on the dataset containing cats and dogs sound.
+## 📦 Libraries Needed
+To run this project, you will need the following libraries:
 
-## WHAT I HAD DONE
+- `numpy==1.24.3` 🐍
+- `pandas==1.5.0` 🐼
+- `matplotlib==3.6.0` 📊
+- `tensorflow==2.6.0` 🧠
 
-1. Data collection: From the link of the dataset given above. 
-2. Data preprocessing: Preprocessed the audios and created their spectograms in order to make predictions.
-3. Model selection: Chose traditional CNN along with Image detection architecture VGG16, ResNet50 and MobileNetV2 for Image detection.
-4. Comparative analysis: Compared the accuracy score of all the models.
+## 📈 Visualization
+#### Spectrogram Samples
+![spectrograms](https://github.com/achrekarom12/DL-Simplified/assets/88442486/60beef49-8cf1-45f8-ab2f-494fdada0eea)
 
-## MODELS USED
+## 📏 Evaluation Metrics
+The models are assessed using the following metrics:
+- **Accuracy** 📊
+- **Loss** 📉
 
-1. CNN
-2. VGG16
-3. ResNet50
-4. MobileNetV2
+## 🏆 Results
+Performance of models on the validation dataset:
 
+| Model       | Accuracy | Loss   |
+|-------------|----------|--------|
+| **CNN**         | 0.94     | 0.203  |
+| **VGG16**       | 0.866    | 0.424  |
+| **ResNet50**    | 0.94     | 0.278  |
+| **MobileNetV2** | 0.91     | 5.678  |
 
-## LIBRARIES NEEDED
+## 🔍 Conclusion
+From the results, we can draw the following conclusions:
+1. **CNN**: Achieved the highest accuracy (0.94) with a low loss (0.203), indicating strong performance in distinguishing between cat and dog sounds.
+2. **VGG16**: Reached an accuracy of 0.866 with a higher loss (0.424). Although effective, it performed slightly worse than the CNN.
+3. **ResNet50**: Also attained a high accuracy (0.94) but with a slightly higher loss (0.278) than the CNN, showing effective classification capabilities.
+4. **MobileNetV2**: Achieved an accuracy of 0.91 but had a significantly higher loss (5.678), suggesting challenges in learning the audio patterns.
 
-The following libraries are required to run this project:
+## 🔮 Future Work
+- **Data Augmentation**: Implement data augmentation techniques to increase the diversity of the training set.
+- **Hyperparameter Tuning**: Perform extensive hyperparameter tuning to improve model performance.
+- **Additional Models**: Explore other deep learning architectures and ensemble methods to enhance accuracy and robustness.
 
-- numpy==1.24.3
-- pandas==1.5.0
-- matplotlib==3.6.0
-- tensorflow==2.6.0
+## 🙏 Acknowledgements
+- The dataset used in this project was provided by [Kaggle](https://www.kaggle.com).
+- Special thanks to the developers of the deep learning frameworks and libraries utilized in this project.
 
-## VISUALIZATION
-#### Spectogram for samples:
-![spectograms](https://github.com/achrekarom12/DL-Simplified/assets/88442486/60beef49-8cf1-45f8-ab2f-494fdada0eea)
-
-
-
-## EVALUATION METRICS
-
-The evaluation metrics I used to assess the models:
-
-- Accuracy 
-- Loss
-
-
-## RESULTS
-Results on Val dataset:
-
-| Model      | Accuracy | Loss    |
-|------------|----------|---------|
-| CNN    | 0.94     | 0.203   |
-| VGG16    | 0.866     | 0.424    |
-| ResNet50    | 0.94     | 0.278    |
-| MobileNetV2    | 0.91     | 5.678    |
-
-
-## CONCLUSION
-Based on results we can draw following conclusions:
-1. CNN achieved the highest accuracy of 0.94 with a relatively low loss of 0.203. This indicates that the CNN model performed well in distinguishing between cat and dog audio samples.
-2. VGG16 achieved an accuracy of 0.866 with a higher loss of 0.424. Although VGG16 performed reasonably well, it showed slightly lower accuracy compared to the CNN model.
-3. ResNet50 also achieved a high accuracy of 0.94, similar to the CNN model, but with a slightly higher loss of 0.278. This suggests that ResNet50 was effective in classifying cat and dog audio samples.
-4. MobileNetV2 achieved an accuracy of 0.91 but with a significantly higher loss of 5.678. This indicates that the MobileNetV2 model struggled to learn the patterns and features necessary for accurate classification.
+Feel free to reach out with any questions or contributions! 😊
