@@ -28,7 +28,8 @@ The dataset is collected from the following link : https://www.kaggle.com/datase
 - **Convolutional Neural Network (CNN)**:
     - **Architecture**: The CNN model consists of several convolutional layers followed by global average pooling and dense layers.
     - **Training**: The model was trained using stochastic gradient descent (SGD) optimizer with a learning rate of 0.001 and momentum of 0.9.
-![Model Summary](summary_model.png)
+      <img width="492" alt="summary_model" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/4b0efeff-f4ff-4ca9-8cd8-e70dca1dc15d">
+
 
 - **Random Forest Classifier**:
     - **Description**: A Random Forest classifier with 100 estimators was trained for comparison purposes.
@@ -41,11 +42,13 @@ The dataset is collected from the following link : https://www.kaggle.com/datase
 ## Results
 - **Performance Comparison**: The performance of the CNN model and Random Forest classifier was compared using accuracy.
 - **Visualization**: Training and validation accuracy and loss curves for the CNN model were plotted.
-![Accuracy graph](plotting_Accuracy.png)
-![Loss](plotting_loss.png)
+<img width="451" alt="plotting_Accuracy" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/25e6523f-10c6-4946-88e1-ac8371994d81">
+<img width="436" alt="plotting_loss" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/523d9882-42c2-4336-8962-4ef1fb9b2cfa">
+
 
 ## Conclusion
 - **Summary**: The CNN model outperformed the Random Forest classifier in terms of accuracy.
 - **Future Work**: Further analysis could include experimenting with different architectures and hyperparameters for both models.
 
-![Metrics](metrics.png)
+<img width="358" alt="metrics" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/905c1c54-86d0-4225-a9ce-346ca278f20f">
+
