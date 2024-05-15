@@ -1,6 +1,6 @@
 # Diabetes Predictor App
 
-This repository contains code for a Diabetes Detection App built using Jupyter notebooks, trained models, and a Streamlit web application.
+This repository contains code for a Diabetes Prediction App built using Deep Learning and a Streamlit web application.
 
 ## Overview
 Diabetes Detection App is a web application that predicts the likelihood of an individual having diabetes based on various health parameters such as glucose level, blood pressure, BMI, and more. It utilizes machine learning models trained on a dataset of diabetes patients.
