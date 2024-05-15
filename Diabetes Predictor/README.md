@@ -9,22 +9,31 @@ Diabetes Detection App is a web application that predicts the likelihood of an i
 - `Notebook/`: Jupyter notebooks containing data exploration, preprocessing, model training, and evaluation.
 - `Models/`: Trained Deep Learning models saved in HDF5 format.
 - `Dataset/`: Contains `.csv` file used for training the deep learning models.
+- `Images/`: Contains snapshots data visualization plots and Streamlit application.
 - `app.py`: Source code for the Streamlit web application.
 
 ## Usage
-1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
-    ```bash
-    git clone https://github.com/
-    ```
-
-2. **Exploring Notebooks**: Navigate to the Notebooks/ directory to explore Jupyter notebooks. These notebooks cover data analysis, preprocessing, model training, and evaluation steps.
-
-3. **Trained Models**: The Models/ directory contains trained Deep Learning models saved in HDF5 format. These models can be loaded and used for making predictions.
-
-4. **Streamlit App:** The app.py contains the source code for the Streamlit web application. To run the app locally, follow the instructions below:
+1. **Exploring Notebooks**: Navigate to the `Notebooks/` directory to explore Jupyter notebooks. These notebooks cover data analysis, preprocessing, model training, and evaluation steps.
+   -  Navigate to the `Notebook/Diabetes_Prediction.ipynb`
+   -  Run all the cells
+2. **Trained Models**: The `Models/` directory contains trained Deep Learning models saved in HDF5 format. These models can be loaded and used for making predictions.
+3. **Streamlit App:** The `app.py` contains the source code for the Streamlit web application. To run the app locally, follow the instructions below:
 
     ```bash
     pip install -r requirements.txt
     streamlit run app.py
     ```
+
+## Contributor:
+<p align="center">
+  <img src="https://github.com/sgvkamalakar.png" height="200" width="200"/>
+</p>
+<p align="center">
+  Kamalakar Satapathi
+</p>
+
+ 
+Connect with me on [![LinkedIn](https://img.shields.io/badge/-Kamalakar_Satapathi-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sgvkamalakar)
+
+Explore my magical codes [![GitHub](https://img.shields.io/badge/-Sgvkamalakar-181717?style=flat-square&logo=github)](https://github.com/sgvkamalakar)
