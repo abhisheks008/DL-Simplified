@@ -30,7 +30,7 @@ The following libraries are necessary to execute this project:
 4. tensorflow==2.6.0
 
 ## 🖼️ VISUALIZATION
-DL-Simplified/Chocolate Classification using DL/Images/acc_cnn.jpg
+<img src="DL-Simplified/Chocolate Classification using DL/Images/acc_cnn.jpg" alt="Image1" >
 ![acc_resnet50](https://github.com/achrekarom12/DL-Simplified/assets/88442486/7a747369-2666-4a94-bbe4-9cdd8c9afe21)<br>
 ![acc_vgg16](https://github.com/achrekarom12/DL-Simplified/assets/88442486/ccef084d-e219-4890-a1af-91b2f832a38e)
 
