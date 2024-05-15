@@ -18,3 +18,23 @@ The models included in this repository are trained on a dataset of diabetes pati
 
 The comparison plot above shows the performance of the ANN, LSTM, and RNN models in predicting diabetes. 
 
+----
+
+# Diabetes Prediction- Notebook
+
+This folder contains Jupyter notebooks related to diabetes prediction using DL models.
+
+## Contents
+
+The notebook `Diabetes Prediction.ipynb` covers the following topics:
+
+- Importing libraries and loading the dataset
+- Exploratory data analysis (EDA)
+- Data preprocessing
+- Splitting the dataset into training and testing sets
+- Training and evaluating an artificial neural network (ANN) model
+- Training and evaluating a long short-term memory (LSTM) model
+- Training and evaluating a recurrent neural network (RNN) model
+- Comparison of model performance
+- Making predictions on new data
+
