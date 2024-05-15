@@ -98,7 +98,7 @@ The Transfer Learning model using ResNet50 achieved the highest accuracy of 98.4
 
 ## ✒️ **Your Signature**
 
-**Lingamuneni Santhosh Siddhardha**
+**Omkar Jahagirdar**
 
-- Connect with me on Linkedin: [Lingamuneni Santhosh Siddhardha](https://www.linkedin.com/in/santhosh-siddhardha-lingamuneni-94b87b214/)
-- Check out my Github profile: [Santhosh-Siddhardha](https://github.com/Santhosh-Siddhardha)
+- Connect with me on Linkedin: [Omkar Jahagirdar](https://www.linkedin.com/in/omkar-jahagirdar/)
+- Check out my Github profile: [Omkar Jahagirdar](https://github.com/omkar3602)
