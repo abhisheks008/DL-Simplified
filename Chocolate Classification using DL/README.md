@@ -31,8 +31,8 @@ The following libraries are necessary to execute this project:
 
 ## 🖼️ VISUALIZATION
 <img src="https://github.com/abhisheks008/DL-Simplified/blob/main/Chocolate%20Classification%20using%20DL/Images/acc_cnn.jpg" alt="Image1" >
-![acc_resnet50](https://github.com/achrekarom12/DL-Simplified/assets/88442486/7a747369-2666-4a94-bbe4-9cdd8c9afe21)<br>
-![acc_vgg16](https://github.com/achrekarom12/DL-Simplified/assets/88442486/ccef084d-e219-4890-a1af-91b2f832a38e)
+<img src="https://github.com/abhisheks008/DL-Simplified/blob/main/Chocolate%20Classification%20using%20DL/Images/acc_cnn.jpg" alt="Image2">
+<img src="https://github.com/abhisheks008/DL-Simplified/blob/main/Chocolate%20Classification%20using%20DL/Images/acc_vgg16.jpg" alt="Image3" >
 
 ## 📋 EVALUATION METRICS
 The evaluation metrics that have been used to assess the models are:
