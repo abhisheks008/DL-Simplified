@@ -95,45 +95,47 @@ There are 11 features and 1304 entries in this dataset. The different features a
 
 
 **Univariate Analysis of Companies with the Price of the Laptop**
-![graph](./Images/Laptop_Companies.png)
+![graph](../Images/Laptop_Companies.png)
 
 **Univariate Analysis of Laptop Screen Display Type with the Price of the Laptop**
-![graph](./Images/IPS_Display_Laptops.png)
+![graph](../Images/IPS_Display_Laptops.png)
 
 **Univariate Analysis of the GPU Brand with the Price of the Laptop**
-![graph](./Images/Laptop_GPU.png)
+![graph](../Images/Laptop_GPU.png)
 
 **Univariate Analysis of the Operating System with the Price of the Laptop**
-![graph](./Images/Laptop_Operating_Systems.png)
+![graph](../Images/Laptop_Operating_Systems.png)
 
 **Univariate Analysis of the Processor Brand with the Price of the Laptop**
-![graph](./Images/Laptop_Processors.png)
+![graph](../Images/Laptop_Processors.png)
 
 **Univariate Analysis of the RAM Size with the Price of the Laptop**
-![graph](./Images/Laptop_RAM_size.png)
+![graph](../Images/Laptop_RAM_size.png)
 
 **Univariate Analysis of the Type of the Laptop with the Price of the Laptop**
-![graph](./Images/Laptop_types.png)
+![graph](../Images/Laptop_types.png)
 
 **Univariate Analysis of the Screen resolution with the Price of the Laptop**
-![graph](./Images/Price_DIstribution_by_screenResolution.png)
+![graph](../Images/Price_DIstribution_by_screenResolution.png)
 
 **Univariate Analysis of the PPI(Pixels per Inches) with the Price of the Laptop**
-![graph](./Images/PPI_Price_Distribution.png)
+![graph](../Images/PPI_Price_Distribution.png)
 
 **Univariate Analysis of the Touchscreen property of the Laptop with the Price of the Laptop**
-![graph](./Images/Touchscreen_Laptops.png)
+![graph](../Images/Touchscreen_Laptops.png)
 
 **Univariate Analysis of the Weight of the Laptop with the Price of the Laptop**
-![graph](./Images/Laptop_Weights.png)
+![graph](../Images/Laptop_Weights.png)
 
 **Correlation heatmap of the features**
 ![Heatmap](../Images/Correlation_Heatmap.png)
 
 **Performance of the ANN model**
+
 ![Training History Plot](../Images/ANN_model_MAE.png) 
 
 **Performance of the RNN model**
+
 ![Training History Plot](../Images/RNN_model_MAE.png)
 
 
