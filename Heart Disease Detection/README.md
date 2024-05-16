@@ -47,6 +47,10 @@ The dataset is collected from the following link : https://www.kaggle.com/datase
 - **Regularization**: No explicit regularization mentioned.
 - **Normalization**: No explicit normalization mentioned.
 
+<img width="451" alt="model1_acc" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/e4810d15-8a3e-47d0-ba9a-3072e1fb8d06">
+<img width="436" alt="model1_loss" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/c249356d-78f2-4ac5-bcec-50694c86929e">
+
+
 ## Model - 2
 
 **Architecture Description:**
@@ -61,6 +65,10 @@ The dataset is collected from the following link : https://www.kaggle.com/datase
 - **Loss Function**: Binary Crossentropy.
 - **Regularization**: Dropout regularization is used to prevent overfitting.
 - **Normalization**: Batch Normalization is applied to stabilize and accelerate training.
+
+<img width="536" alt="model2_acc" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/2fb0c4f2-a5c7-4526-9b34-33c219d7d83b">
+<img width="555" alt="model2_loss" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/6972a33a-eb0e-414e-be34-fe25340a0cee">
+
 
 ## Model - 3
 
@@ -78,8 +86,14 @@ The dataset is collected from the following link : https://www.kaggle.com/datase
 - **Loss Function**: Binary Crossentropy.
 - **Regularization**: Dropout used to prevent overfitting.
 - **Normalization**: Batch Normalization stabilizes and accelerates training.
-- **Random Forest Classifier**:
+
+
+**Random Forest Classifier**:
     - **Description**: A Random Forest classifier with 100 estimators was trained for comparison purposes.
+ 
+<img width="551" alt="model3_acc" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/48df4f82-8674-4c31-af22-5f0da3518ba9">
+<img width="543" alt="model3_loss" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/86826676-4db3-4f1b-91d6-2f0ab1b0b7bf">
+
 
 ## Training and Evaluation
 - **Data Splitting**: The dataset was split into training and testing sets using a 80:20 ratio.
@@ -96,6 +110,7 @@ To provide a conclusion based on the three models provided:
 
 3. **Model 3**: Unlike the first two models, Model 3 employs a simpler architecture with convolutional layers followed by pooling and dense layers. It lacks residual connections and global pooling, which may limit its ability to capture long-range dependencies in sequential data. However, it may still perform adequately for simpler tasks or datasets with less complex patterns.
 
+<img width="680" alt="Result" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/5d2b08d7-1be7-4b87-b597-0c4b44aed4c3">
 
 
 **Conclusion**:
