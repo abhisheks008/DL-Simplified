@@ -14,8 +14,8 @@ The web application utilizes a deep learning model trained for Alzheimer's detec
 - **About Alzheimer's Disease**: Offers information about Alzheimer's disease, including its causes, symptoms, and stages.
 
 ## Video Demo📽️
-[![Thumbnail](https://github.com/aindree-2005/DL-Simplified/blob/a6096b2a7397a27a5ceff3c1a56a0e6bb71b0752/Alzheimers%20Detection/Web-App/thumbnail.png)](https://www.youtube.com/watch?v=zcLqq41QRbU)
-
+[![Thumbnail](thumbnaill.png)](demo.mp4)
+<video controls src="demo.mp4" title="Title"></video>
 
 ## Signature ✒️
 Aindree
