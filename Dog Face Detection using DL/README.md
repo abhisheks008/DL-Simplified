@@ -59,11 +59,8 @@ The following libraries are required to run this project:
 #### Accuracy and loss of Mobilenet SSD model:
 ![Mobilenet_SSD](https://github.com/Rithish5513U/DL-Simplified/blob/main/Dog%20Face%20Detection%20using%20DL/Images/Mobilenet_SSD.png)
 
-#### Accuracy of ResNet50 model:
-![val_acc1](https://github.com/abhisheks008/DL-Simplified/blob/main/Cats%20vs%20Dogs%20Classification%20using%20DL/Images/val_acc1.JPG)
-
-#### Loss of ResNet50 model:
-![val_loss1](https://github.com/abhisheks008/DL-Simplified/blob/main/Cats%20vs%20Dogs%20Classification%20using%20DL/Images/val_loss1.JPG)
+#### Confidence of YOLOv8 Model:
+![F1_curve](https://github.com/Rithish5513U/DL-Simplified/blob/main/Dog%20Face%20Detection%20using%20DL/Images/F1_curve.png)
 
 
 ## 📈 Performance of the Models based on the Accuracy Scores
@@ -76,13 +73,13 @@ The evaluation metrics I used to assess the models:
 | Model      | Accuracy | Loss    |
 |------------|----------|---------|
 | VGG16    | 0.925     | 0.218   |
-| YOLOv8    | 0.925     | 0.218    |
+| YOLOv8    | 0.561     | -    |
 | Mobilenet SSD    | 0.979     | 0.184    |
 
 ## 📢 Conclusion
 Based on the results we can draw the following conclusions:
 1. VGG16: The VGG16 model achieved a higher accuracy of 0.925 and a lower loss of 0.218. It outperformed the YOLOv8 model, indicating that the architecture of VGG16 with its specialized design for object detection could capture more complex features and generalize better.
-2. YOLOv8: The YOLOv8 model achieved an accuracy of 0.728 and a loss of 1.159. It performed reasonably well, but there is room for improvement.
+2. YOLOv8: The YOLOv8 model achieved a F1 Confidence of 0.561. It performed reasonably well, but there is room for improvement.
 3. Mobilenet SSD: The MobileNet SSD model achieved an accuracy of 0.979 and a loss of 0.184. It performed better than both the VGG16 and YOLOv8 models. MobileNet SSD's lightweight architecture and efficient design helped in achieving a high accuracy while maintaining computational efficiency.
 
 ##### Code contributed by: Rithish S
