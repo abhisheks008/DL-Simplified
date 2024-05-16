@@ -16,7 +16,7 @@ The web application utilizes a deep learning model trained for Alzheimer's detec
 ## Video Demo📽️
 [![](https://github.com/aindree-2005/DL-Simplified/blob/a6096b2a7397a27a5ceff3c1a56a0e6bb71b0752/Alzheimers%20Detection/Web-App/thumbnail.png)](https://github.com/aindree-2005/DL-Simplified/blob/282943489b95efc5bcfccfb65c2fbba5d78b856b/Alzheimers%20Detection/Web-App/demo.mp4)
 
-<video controls src=")](https://github.com/aindree-2005/DL-Simplified/blob/282943489b95efc5bcfccfb65c2fbba5d78b856b/Alzheimers%20Detection/Web-App/demo.mp4" title="Title"></video>
+<video controls src="https://github.com/aindree-2005/DL-Simplified/blob/282943489b95efc5bcfccfb65c2fbba5d78b856b/Alzheimers%20Detection/Web-App/demo.mp4" title="Title"></video>
 
 
 ## Signature ✒️
