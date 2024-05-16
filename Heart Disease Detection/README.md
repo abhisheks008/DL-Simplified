@@ -26,6 +26,12 @@ The dataset is collected from the following link : https://www.kaggle.com/datase
 
 ## Model Implementation
 
+- **Convolutional Neural Network (CNN)**:
+    - **Architecture**: The CNN model consists of several convolutional layers followed by global average pooling and dense layers.
+    - **Training**: The model was trained using stochastic gradient descent (SGD) optimizer with a learning rate of 0.001 and momentum of 0.9.
+      <img width="492" alt="summary_model" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/4b0efeff-f4ff-4ca9-8cd8-e70dca1dc15d">
+
+
 ## Model - 1
 
 **Architecture Description:**
@@ -81,6 +87,7 @@ The dataset is collected from the following link : https://www.kaggle.com/datase
 - **Evaluation Metrics**: Accuracy was used as the evaluation metric for both models.
 
 ## Results
+
 To provide a conclusion based on the three models provided:
 
 1. **Model 1**: This model consists of four convolutional blocks with residual connections, followed by global average pooling and dense layers. It employs convolutional layers to capture local patterns in the input sequences, while residual connections facilitate gradient flow and help in mitigating the vanishing gradient problem. The model architecture seems suitable for sequential data processing tasks, especially with its residual connections and global pooling layer.
@@ -97,5 +104,3 @@ To provide a conclusion based on the three models provided:
 - Model 3, while simpler, may struggle with capturing complex patterns in sequential data compared to the other two models.
 
 **The choice of the best model depends on factors such as the complexity of the dataset, computational resources, and the specific requirements of the task at hand.**
-
-
