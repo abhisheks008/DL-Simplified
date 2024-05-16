@@ -48,13 +48,13 @@ This project utilizes a custom CNN architecture, VGG19, ResNet50, InceptionV3, a
 ## 📊 Visualization Results
 
 ### Image Distribution
-![Image Distribution](Images/Screenshot 2024-05-15 200402.png)
+![Image Distribution](Images/1.png)
 
 ### Training Result
 ![Training Result](Images/download.png)
 
 ### Prediction Example
-![Prediction Example](Images/Screenshot 2024-05-16 124430.png)
+![Prediction Example](Images/2.png)
 
 ## 📈 Model Performance based on Accuracy Scores
 
