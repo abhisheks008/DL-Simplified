@@ -2,7 +2,7 @@
 
 This project aims to predict laptop prices using machine kearning and deep learning models. The dataset used in this project contains various features of laptop, including both categorical and numerical variables. It uses different ML and DL models for the task, then chooses the best model based on the accuracy scores.
 
-## **DESCRIPTION**
+## 🧵 **Dataset DESCRIPTION**
 
 There are 11 features and 1304 entries in this dataset. The different features available in this dataset are :-
 
@@ -19,7 +19,7 @@ There are 11 features and 1304 entries in this dataset. The different features a
 - **`Price`** - The price of the laptop in INR.
 
 
-## **WHAT I HAVE DONE**
+## 🧮 **WHAT I HAVE DONE**
 
 * First I imported all the required libraries and dataset for this project.
 * Performed some EDA on the whole dataset.
@@ -34,7 +34,7 @@ There are 11 features and 1304 entries in this dataset. The different features a
 * Then, i have developed ANN and RNN deep learning models and predicted their score which is better than the machine learning algorithms and fit the dataset properly.
 * Finally plotting the graph of visualizing how the model is reducing the mean absolute error with every epoch.
 
-## **MODELS USED**
+## 🚀 **MODELS USED**
 
 **Machine Learning models :-**
 
@@ -81,7 +81,7 @@ There are 11 features and 1304 entries in this dataset. The different features a
     - Optimizer: Adam Optimizer with learning rate as 0.01
     - Loss Function: Mean Squared Error
 
-## **LIBRARIES NEEDED**
+## 📚 **LIBRARIES NEEDED**
 
 * numpy
 * pandas
@@ -91,7 +91,7 @@ There are 11 features and 1304 entries in this dataset. The different features a
 * xgboost
 * tensorflow
 
-## Data Visualization
+## 📊 EDA & Data Visualization
 
 
 **Univariate Analysis of Companies with the Price of the Laptop**
@@ -139,7 +139,7 @@ There are 11 features and 1304 entries in this dataset. The different features a
 ![Training History Plot](../Images/RNN_model_MAE.png)
 
 
-## Results
+### 📈 **Performance of the Models based on the Mean ABsolute Error and R2 Score**
 
 | Model                             | MAE                     | R-squared score        |
 |-----------------------------------|-------------------------|------------------------|
@@ -152,6 +152,15 @@ There are 11 features and 1304 entries in this dataset. The different features a
 | Recurrent Neural Network (RNN)    | 0.17796419696429638     | 0.8617719589519217     |
 
 
-## Conclusions
+## 📢 **Conclusion**
 As the results show, based on the lowest MAE or Higest R-Squared value, XG Boost Regressiom is the best model among all the Machine Learning Models.
 As the results show, based on the lowest MAE or Higest R-Squared value, Recurrent Neural Network is the best model among all the Deep Learning Models.
+
+# ✒️ **Contributor Signature and Details**
+**Gaurav Kumar Singh**
+
+Github - https://github.com/Gaurav-576
+
+LinkedIn - https://www.linkedin.com/in/gaurav-singh-mlops/
+
+Twitter - https://twitter.com/Gaurav_96753
