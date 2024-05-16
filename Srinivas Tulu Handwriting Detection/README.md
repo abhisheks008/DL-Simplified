@@ -25,7 +25,7 @@
 |     DenseNet       |     97%       |
 |    InceptionNet    |     87%       |
 
-# Representation of different cricket shots
+# Representation of different Tulu characters
 ![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/EDA.png)
 
 # Accuracy and plots of all models
