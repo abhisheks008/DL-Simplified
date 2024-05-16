@@ -26,12 +26,6 @@ The dataset is collected from the following link : https://www.kaggle.com/datase
 
 ## Model Implementation
 
-- **Convolutional Neural Network (CNN)**:
-    - **Architecture**: The CNN model consists of several convolutional layers followed by global average pooling and dense layers.
-    - **Training**: The model was trained using stochastic gradient descent (SGD) optimizer with a learning rate of 0.001 and momentum of 0.9.
-      <img width="492" alt="summary_model" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/4b0efeff-f4ff-4ca9-8cd8-e70dca1dc15d">
-
-
 ## Model - 1
 
 **Architecture Description:**
