@@ -26,18 +26,18 @@
 |    InceptionNet    |     87%       |
 
 # Representation of different cricket shots
-![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/2e8e0b207bd08e758fca8e93d5433c73f277ef1e/Cricket%20Shots%20Detection/images/eda_cric.png)
+![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/EDA.png)
 
 # Accuracy and plots of all models
 
 ## InceptionNetV2
-![inv2](https://github.com/the-silent-geek/DL-Simplified/blob/2e8e0b207bd08e758fca8e93d5433c73f277ef1e/Cricket%20Shots%20Detection/images/inception.png)
+![inv2](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/inceptionNet.png)
 
 ## DenseNet
-![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/2e8e0b207bd08e758fca8e93d5433c73f277ef1e/Cricket%20Shots%20Detection/images/dense.png)
+![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/DenseNet.png)
 
 ## EfficientNet
-![effnet](https://github.com/the-silent-geek/DL-Simplified/blob/2e8e0b207bd08e758fca8e93d5433c73f277ef1e/Cricket%20Shots%20Detection/images/efficient.png)
+![effnet](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/effnet.png)
 
 
 # Conclusion
