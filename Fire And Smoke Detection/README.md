@@ -48,8 +48,9 @@ Saving the trained models for future use and predictions.<br>
 
 
 ***Visualization Results***
-![](Images/Basic%20CNN.png)
+![](Images/Fire And Smoke Detection/Images/Screenshot 2024-05-15 200402.png)
 
+![](Images/Fire And Smoke Detection/Images/Screenshot 2024-05-15 200402.png)
 
 ***📈 Model Performance based on Accuracy Scores***
 
