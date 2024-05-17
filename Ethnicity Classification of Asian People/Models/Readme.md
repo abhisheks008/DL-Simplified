@@ -1,10 +1,10 @@
 ## Models
 
 ### Pretrained CNN models
--   **best_vgg16_model.h5**: VGG-16
--   **best_resnet50_model.h5**: ResNet50
--  **best_mobilenetv2_model.h5**: MobileNet V2
--   **best_xception_model.h5**: VGG-16
+-  VGG-16: best_vgg16_model.h5 (129 MB)
+-  ResNet50: best_resnet50_model.h5 (384 MB)
+-  MobileNet V2: best_mobilenetv2_model.h5 (192 MB)
+-  Xception: best_xception_model.h5 (373 MB)
 
 `MobileNet V2` was performing pretty good and with good speed compared to the other models as it has a light weight architecture.
 
@@ -17,9 +17,9 @@
 | *Confusion matrix* |
 
 ### Sklearn classifier models
-- **best_rf_classifier.joblib**: Random Forest classifier
-- **best_sgd_classifier.joblib**: Stochastic Gradient Descent
-- **best_knn_classifier.joblib**: K Nearest Neighbours classifier
+- Random Forest classifier: best_rf_classifier.joblib 
+- Stochastic Gradient Descent: best_sgd_classifier.joblib 
+- K Nearest Neighbours classifier: best_knn_classifier.joblib 
 
 Here `RF` and `SGD` were performing better than `KNN` classifier.
 
