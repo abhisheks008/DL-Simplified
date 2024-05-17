@@ -42,7 +42,7 @@ The following libraries are necessary to execute this project:
 <img src="https://github.com/abhisheks008/DL-Simplified/blob/main/Chocolate%20Classification%20using%20DL/Images/acc_vgg16.jpg" alt="Image3" >
 
 ### CNN with Attention
-<img src="" alt="Image4" >
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_chocolate_detect/Chocolate%20Classification%20using%20DL/Images/acc_CNN-Attention.png" alt="Image4" >
 
 ## 📋 EVALUATION METRICS
 The evaluation metrics that have been used to assess the models are:
