@@ -10,10 +10,10 @@
 
 **MobileNet V2 classification metrics with graphs :**
 
-| ![graphs_MobileNet V2](model_images/mobilenetv2_curves.png) | 
+| ![graphs_MobileNet V2](model_train_images/mobilenetv2_curves.png) | 
 |:--: | 
 | *Loss and Accuracy curves* |
-| ![CM_MobileNet V2](model_images/mobilenetv2_cm.png) | 
+| ![CM_MobileNet V2](model_train_images/mobilenetv2_cm.png) | 
 | *Confusion matrix* |
 
 ### Sklearn classifier models
@@ -25,10 +25,10 @@ Here `RF` and `SGD` were performing better than `KNN` classifier.
 
 **Confusion matrices :**
 
-| ![CM_RF](model_images/rf_cm.png) | 
+| ![CM_RF](model_train_images/rf_cm.png) | 
 |:--: | 
 | **Random Forest** |
-| ![CM_SGD](model_images/sgd_cm.png) | 
+| ![CM_SGD](model_train_images/sgd_cm.png) | 
 | **Stochastic Gradient Descent** |
 
 ***Note: The accuracy of almost all models were very close to 1 or 100%. This is due to the small variation of the dataset images.***
