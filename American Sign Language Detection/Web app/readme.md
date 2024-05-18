@@ -3,10 +3,7 @@
 Welcome to Signify, an American Sign Language (ASL) detection application powered by Flask and TensorFlow. This application allows users to upload images containing ASL hand signs and predicts the corresponding sign using a pre-trained deep learning model.
 
 ## Demo
-
-To see how Signify works, check out the demo video below:
-
-To see how Signify works, check out the demo video [here](demo.mp4)
+To see how Signify works, check out the demo video [here](dhttps://github.com/abhisheks008/DL-Simplified/tree/main/American%20Sign%20Language%20Detection/Web%20app/demo.mp4)
 
 ## Getting Started
 
