@@ -6,11 +6,7 @@ Welcome to Signify, an American Sign Language (ASL) detection application powere
 
 To see how Signify works, check out the demo video below:
 
-<video width="640" height="360" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+To see how Signify works, check out the demo video [here](demo.mp4)
 
 ## Getting Started
 
@@ -23,17 +19,17 @@ These instructions will guide you through setting up and running the Signify Fla
 
 ```bash
 git clone https://github.com/abhisheks008/DL-Simplified
-
+```
 2. Move to this folder and install requirements
 
 ```bash
 cd "American Sign Language Detection"
 pip install -r requirements.txt
-
+```
 3. Move to web app
 ```bash
 cd "Web app"
-
+```
 4. Set the path to your pre-trained model:
 
     Open the `app.py` file and locate the `model_path` variable. Replace `Desktop/DL-Simplified/American Sign Language Detection/models/hand_sign_recognition_inceptionV3.h5` with the path to your pre-trained model.
@@ -42,7 +38,7 @@ cd "Web app"
 
 ```bash
 python app.py
- 
+```
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
