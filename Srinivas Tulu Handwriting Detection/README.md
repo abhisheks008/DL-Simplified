@@ -1,6 +1,35 @@
-# <h1 align = "center"> Tulu Handwriting Detection</h1>
-## Aim of the project: 
-### The project focuses on classification of different Tulu characters using various Deep Learning Algorithms.
+# Srinivas Tulu Handwriting Detection
+
+## 🎯 Goal
+
+The primary objective of this project is to perform image classification using pre trained models. These models are trained to categorize images into 50 classes(total number of characters in Tulu Language).
+
+## 🖼️ Dataset
+
+The dataset includes various handwritten forms of Tulu script, covering a wide range of characters used in the Tulu language. Each sample is labeled with the corresponding Tulu character, enabling applications such as machine learning models for character classification and language analysis.
+
+**Dataset Link**: [Srinivas Tulu Handwriting Dataset](https://www.kaggle.com/datasets/midhun009/tulu-handwritten-dataset)
+
+## 🧾 Description
+
+This project utilizes 3 transfer learning models EfficientNet, DenseNet and InceptionNet for image classification. The pre-trained models leverage transfer learning, enhancing the model's ability to generalize across diverse images.
+
+## 🧮 What I Had Done
+
+1. **Data Preprocessing**:
+   - Resizing images to match the input size (128x128 pixels for pretrained models).
+
+2. **Model Architectures**:
+   - EfficientNet: Leveraging the pretrained EfficientNet model.
+   - InceptionNet: Utilizing the pretrained model with version V2.
+   - DenseNet: Leveraging the powerful DenseNet model.
+
+3. **Model Training**:
+   - Training the models over the image dataset.
+   - Evaluating the models on the validation set to monitor performance.
+
+4. **Plotting Accuracy**
+   - Plotted accuracy and loss vs epochs for each model for better understanding of model perfomance.
 
 ###  Libraries and Frameworks used:
 1. Pandas
@@ -25,19 +54,19 @@
 |     DenseNet       |     97%       |
 |    InceptionNet    |     87%       |
 
-# Representation of different cricket shots
-![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/2e8e0b207bd08e758fca8e93d5433c73f277ef1e/Cricket%20Shots%20Detection/images/eda_cric.png)
+# Representation of different Tulu characters
+![EDA](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/EDA.png)
 
 # Accuracy and plots of all models
 
 ## InceptionNetV2
-![inv2](https://github.com/the-silent-geek/DL-Simplified/blob/2e8e0b207bd08e758fca8e93d5433c73f277ef1e/Cricket%20Shots%20Detection/images/inception.png)
+![inv2](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/inceptionNet.png)
 
 ## DenseNet
-![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/2e8e0b207bd08e758fca8e93d5433c73f277ef1e/Cricket%20Shots%20Detection/images/dense.png)
+![densenet](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/DenseNet.png)
 
 ## EfficientNet
-![effnet](https://github.com/the-silent-geek/DL-Simplified/blob/2e8e0b207bd08e758fca8e93d5433c73f277ef1e/Cricket%20Shots%20Detection/images/efficient.png)
+![effnet](https://github.com/the-silent-geek/DL-Simplified/blob/cda670485339d1659afe3d400e639e51d145db3d/Srinivas%20Tulu%20Handwriting%20Detection/images/effnet.png)
 
 
 # Conclusion
