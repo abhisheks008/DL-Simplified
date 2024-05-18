@@ -42,7 +42,7 @@ The following libraries are necessary to execute this project:
 <img src="https://github.com/abhisheks008/DL-Simplified/blob/main/Chocolate%20Classification%20using%20DL/Images/acc_vgg16.jpg" alt="Image3" >
 
 ### CNN with Attention
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_chocolate_detect/Chocolate%20Classification%20using%20DL/Images/acc_CNN-Attention.png" alt="Image4" >
+<img src="https://github.com/abhisheks008/DL-Simplified/blob/main/Chocolate%20Classification%20using%20DL/Images/acc_CNN-Attention.png" alt="Image4" >
 
 ## 📋 EVALUATION METRICS
 The evaluation metrics that have been used to assess the models are:
@@ -65,5 +65,7 @@ Results on dataset is as follows:
 4. The CNN model with Attention mechanism achieved the highest accuracy **(0.97)** and relatively low loss **(0.388)**, demonstrating *strong performance* and indicated *robust convergence* in distinguishing between images of dark and white chocolate.
 
 ## Your Signature
+
 README enhanced by: Mahi Singh [https://github.com/mahi13singh2004]
+
 Model and README enhanced by: Arihant Bhandari [https://github.com/Arihant-Bhandari]
