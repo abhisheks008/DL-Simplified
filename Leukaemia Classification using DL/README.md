@@ -46,21 +46,40 @@ The following libraries are required to run this project:
 
 ## 🖼️ VISUALIZATION
 
+### EDA: First Look at Images
+
+* **demo 1**
 ![demo 1](https://github.com/abhisheks008/DL-Simplified/blob/main/Leukaemia%20Classification%20using%20DL/Images/demo1.png)
 
+* **demo 2**
 ![demo 2](https://github.com/abhisheks008/DL-Simplified/blob/main/Leukaemia%20Classification%20using%20DL/Images/demo2.png)
 
+* **demo 3**
 ![demo 3](https://github.com/abhisheks008/DL-Simplified/blob/main/Leukaemia%20Classification%20using%20DL/Images/demo3.png)
+
+### Models' Accuracy-Loss Plots
+
+* **Inception**
 
 ![Inception](https://github.com/abhisheks008/DL-Simplified/blob/main/Leukaemia%20Classification%20using%20DL/Images/inception.png)
 
+* **RESNET50**
+
 ![RESNET50](https://github.com/abhisheks008/DL-Simplified/blob/main/Leukaemia%20Classification%20using%20DL/Images/resnet50.png)
+
+* **VGG16**
 
 ![VGG16](https://github.com/abhisheks008/DL-Simplified/blob/main/Leukaemia%20Classification%20using%20DL/Images/vgg16.png)
 
+* **CNN**
+
 ![CNN](https://github.com/abhisheks008/DL-Simplified/blob/main/Leukaemia%20Classification%20using%20DL/Images/cnn.png)
 
+* **Xception**
+
 ![Xception](https://github.com/abhisheks008/DL-Simplified/blob/main/Leukaemia%20Classification%20using%20DL/Images/exception.png)
+
+* **CNN-Attention**
 
 ![CNN-Attention](https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_cancer_classify/Leukaemia%20Classification%20using%20DL/Images/CNN-Attention.png)
 
