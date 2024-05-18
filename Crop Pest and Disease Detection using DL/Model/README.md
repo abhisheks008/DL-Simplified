@@ -30,7 +30,6 @@ The models are:
 
 **LIBRARIES NEEDED**
 
-- kaggle
 - tensorflow
 - matplotlib
 - opencv-python
