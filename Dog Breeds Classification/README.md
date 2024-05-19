@@ -1,25 +1,3 @@
-## Web App for Dog Breeds Classification/https://github.com/abhisheks008/DL-Simplified/issues/551
-
-### Goal 🎯
-
-The main goal of is to provide a user-friendly web application for the identification of dog breed using deep learning models. The purpose of the application is to assist in identifying the dog breed and info about that breed.
-
-### Model(s) used for the Web App 🧮
-
-Out of the three models used for training and testing,model that I have used
-
-->**ResNet50v2**: As, it had the highest accuracy.[text](<Models/ResNet50v2(98%).ipynb>)
-
-### Video Demonstration 🎥
-
-[text](web-app/demo.webm)
-
-### Signature ✒️
-
-Himanshu Choudhary
-[![LinkedIn](https://www.linkedin.com/in/himanshu-choudhary-178618245/)]
-[![Github](https://github.com/Himanshu8850)]
-
 # Dog Breeds Classification/https://github.com/World-of-ML/DL-Simplified/issues/297
 
 to predict correct dog breed labels corresponding to their dog images
