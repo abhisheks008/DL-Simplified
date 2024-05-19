@@ -10,7 +10,7 @@ app.config['UPLOAD_FOLDER'] = 'static/uploads'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
 #Enter your proper path to the output of the model
-model_path = 'DL-Simplified/American Sign Language Detection/models/hand_sign_recognition_inceptionV3.h5'
+model_path = 'DL-Simplified/American Sign Language Detection/models/hand_sign_recognition_VGG16.h5'
 print(f"Loading model from: {model_path}")
 model = tf.keras.models.load_model(model_path)
 print("Model loaded successfully.")
@@ -61,7 +61,6 @@ def upload_file():
                 file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
                 file.seek(0)  # Go back to the start of the file
                 file.save(file_path)
-    
 
                 # Delete the file after use
                 if os.path.exists(file_path):
