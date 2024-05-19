@@ -12,7 +12,7 @@ The web application utilizes a deep learning model trained for Artwork Image Cla
 
 - **Upload Artwork Image Recognition**: Allows users to upload various Artworks.
 - **Prediction Display**: Provides predictions for type of Artworks based on the uploaded Artwork images.
-- **Description about the artwork**: Provides Description about the artwork which has been predicted using Gemini AI API. 
+- **Description about the artwork**: Provides Description about the artwork which has been predicted using Gemini AI. 
 
 **Note:** Ensure to update the paths accordingly based on your local machine's directory structure.
 
