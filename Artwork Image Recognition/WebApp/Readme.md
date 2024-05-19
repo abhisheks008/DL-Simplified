@@ -47,7 +47,7 @@ Artwork Image Recognition
 |- requirements.txt
 ```
 ### Video Demonstration 🎥
-https://github.com/ArkaDutta-Maker/DL-Simplified/assets/52216225/b93b0a61-294d-4464-ba2b-d0e873b93f72
+[![]()](https://github.com/ArkaDutta-Maker/DL-Simplified/assets/52216225/a3799586-d42b-4a7d-956e-9cdb0c8bac23)
 
 ## How to Use
 
