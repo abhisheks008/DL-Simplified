@@ -7,7 +7,7 @@ email : utsab.samadder@gmail.com
 1. Run the HandAnalysis.ipynb file in Google Colab
 2. You will get a best.pt file which is actually the model trained.
 
-Use this code and the best.pt file to to real time tests.
+Use this code and the best.pt file to do real time tests.
 
 ```
 from ultralytics import YOLO
