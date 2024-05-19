@@ -31,7 +31,7 @@ Artwork Image Recognition
 |- Dataset
   |- README.md
 |- Images
-  |- EDA README.md
+  |- README.md
 |- Model
   |- artwokrecognition-resnet152v2-97%.ipynb
   |- README.md
@@ -44,18 +44,20 @@ Artwork Image Recognition
   |- README.md
 |- requirements.txt
 ```
+### Video Demonstration 🎥
+https://github.com/ArkaDutta-Maker/DL-Simplified/assets/52216225/b93b0a61-294d-4464-ba2b-d0e873b93f72
 
 ## How to Use
 
 - **Requirements**: Ensure you have the necessary libraries and dependencies installed. You can find the list of required packages in the requirements.txt file.
 
--**Download Data**: Download the Artwork Image Recognition Dataset from Kaggle mentioned in the dataset section of the project.
+- **Download Data**: Download the Artwork Image Recognition Dataset from Kaggle mentioned in the dataset section of the project.
 
--**Run the Jupyter Notebook**: Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
+- **Run the Jupyter Notebook**: Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
 
--**Training and Evaluation**: Train the models using the provided data and evaluate their performance using metrics such as accuracy and loss.
+- **Training and Evaluation**: Train the models using the provided data and evaluate their performance using metrics such as accuracy and loss.
 
--**Interpret Results**: Analyze the model's performance using the visualizations and metrics provided in the notebook.
+- **Interpret Results**: Analyze the model's performance using the visualizations and metrics provided in the notebook.
 
 ### Signature ✒️
 
