@@ -38,6 +38,8 @@ Artwork Image Recognition
 |- Web App
   |- app.py
   |- templates
+    |- index.html
+    |- layout.html
   |- static
     |- main.css
   |- model.h5
