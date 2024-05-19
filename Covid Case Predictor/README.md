@@ -35,27 +35,27 @@ Since this is a time series dataset, I have chosen to proceed with time series m
 
 ### 📊 **Exploratory Data Analysis Results**
 1. Which country has the highest number of confirmed, active, recovered cases and deaths?
-![](images/EDA1.png)
-![](images/EDA2.png)
-![](images/EDA3.png)
-![](images/EDA4.png)
+![](Images/EDA1.png)
+![](Images/EDA2.png)
+![](Images/EDA3.png)
+![](Images/EDA4.png)
 
 2. How rapidly is the virus spreading?
-![](images/EDA5.png)
+![](Images/EDA5.png)
 
 3. Analysis of US
-![](images/EDA6.png)
+![](Images/EDA6.png)
 
 4. Spread of the virus globally
-![](images/newplot.png)
+![](Images/newplot.png)
 
 
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
-![](images/ARIMA.png)
-![](images/SARIMAX.png)
-![](images/LSTM.png)
+![](Images/ARIMA.png)
+![](Images/SARIMAX.png)
+![](Images/LSTM.png)
 
 
 |                    |   MAPE    |
