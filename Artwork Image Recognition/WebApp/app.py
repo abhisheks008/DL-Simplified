@@ -13,6 +13,7 @@ app = Flask(__name__)
 upload_folder = os.path.join('static', 'uploads')
  
 app.config['UPLOAD'] = upload_folder
+model = tf.keras.models.load_model('model.h5')
 
 classes = ['Abstract art',
  'Abstract expressionism paintings',
@@ -78,5 +79,4 @@ def predict():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    model = tf.keras.models.load_model('model.h5')
     app.run(debug=True)
