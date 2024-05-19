@@ -1,4 +1,4 @@
-## **PROJECT TITLE**
+## **Covid Case Predictor**
 
 ### 🎯 **Goal**
 To predict the number of covid cases for every month.
