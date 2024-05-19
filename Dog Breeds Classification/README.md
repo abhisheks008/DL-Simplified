@@ -1,7 +1,6 @@
 # Dog Breeds Classification/https://github.com/World-of-ML/DL-Simplified/issues/297
+
 to predict correct dog breed labels corresponding to their dog images
-
-
 
 Full name : Aditya Narayan Jha
 
@@ -17,12 +16,11 @@ Approach for this Project :
 
 is a crucial task in computer vision that involves identifying and classifying different regions or objects within an image. In this project, I will explore three different approaches for image segmentation using deep learning models: **VGG19**, **MobileNet** and **ResNet50V2**.
 
-
-`ResNet50V2` 
+`ResNet50V2`
 
 I have implemented a ResNet50V2 model for image classification using Keras. The ResNet50V2 model, pre-trained on the **ImageNet dataset**, serves as a powerful feature extractor. By freezing the pre-trained layers and adding additional layers for classification, we were able to achieve good performance on our image classification task.
 
-`MobileNet` 
+`MobileNet`
 
 By utilizing **transfer learning** with the MobileNet model, we can leverage pre-trained weights and significantly reduce the training time required for our image classification task. This approach is particularly useful when working with limited training data, as we can benefit from the rich representations learned by the base model on a large-scale dataset like ImageNet.
 
@@ -35,9 +33,9 @@ VGG19 is a deep convolutional neural network architecture known for its exceptio
 
 Since the models' high levels of accuracy(90% and above) means that most of their pictures will be almost havinG similar predicted labels with little room for mistake, the anticipated labels for the vegetables are visualised as follows.
 
-**Throughout the project,** 
+**Throughout the project,**
 
-I will preprocess the dataset by resizing the images and splitting it into training,validation and testing sets. For training, I will employ a loss function suitable for image segmentation, such as cross-entropy loss, and optimize the models using technique like  Adam optimization
+I will preprocess the dataset by resizing the images and splitting it into training,validation and testing sets. For training, I will employ a loss function suitable for image segmentation, such as cross-entropy loss, and optimize the models using technique like Adam optimization
 
 **After training the models,**
 
@@ -55,3 +53,5 @@ I will evaluate their performance using appropriate metrics. Additionally, I wil
 
 This project will contribute to advancing the understanding and application of deep learning in the field of computer vision and could potentially find applications in sorting of dog images based on different classes.
 
+**WEB-APP : demo**
+[text](web-app/demo.webm)
