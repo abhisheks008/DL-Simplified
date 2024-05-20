@@ -103,7 +103,7 @@ Details available in the `Dataset` directory
 |:------------------------------------------------------------: |
 | *Statistics for the dataset* |
   
-|![Original image](EDA_Images\Original.png) |![Extracted iamge](EDA_Images\Aligned_cropped.png)                                                |
+|![Original image](./EDA_Images/Original.png) |![Extracted iamge](./EDA_Images/Aligned_cropped.png)                                                |
 |----------------|---------------------
 |*Original image*|*Aligned and cropped image. Done using `MTCNN` lib*| 
 
@@ -116,10 +116,10 @@ Details available in the `Dataset` directory
 
   
 
-| ![graphs_MobileNet V2](/Images/mobilenetv2_curves.png) |
+| ![graphs_MobileNet V2](../Images/mobilenetv2_curves.png) |
 |:--: |
 | *Loss and Accuracy curves* |
-| ![CM_MobileNet V2](/Images/mobilenetv2_cm.png) |
+| ![CM_MobileNet V2](../Images/mobilenetv2_cm.png) |
 | *Confusion matrix* |
 
   
@@ -131,10 +131,10 @@ Details available in the `Dataset` directory
 
   
 
-| ![CM_RF](/Images/rf_cm.png) |
+| ![CM_RF](../Images/rf_cm.png) |
 |:--: |
 | **Random Forest** |
-| ![CM_SGD](/Images/sgd_cm.png) |
+| ![CM_SGD](../Images/sgd_cm.png) |
 | **Stochastic Gradient Descent** |
 
   
@@ -164,7 +164,7 @@ Details available in the `Dataset` directory
 
   
 
-The same training procedure may be followed with a larger dataset with wider variety of face images of different ethnicities. Then the models can generalize well on classifying ethnicities of any real-life image with a fairly good and acceptable accuracy.
+The same training procedure may be followed with ***a larger dataset with wider variety of face images of different ethnicities***. Then the models can generalize well on classifying ethnicities of any real-life image with a fairly good and acceptable accuracy.
 
   
 
