@@ -9,10 +9,15 @@ The dataset used for this project can be found at: [Dataset Link](https://www.ka
 # **🔴 Description:**
 This project focuses on implementing a deep learning model for anti-spoofing. The goal is to accurately differentiate between images of different kind such as real image, replay, prinout, layout and cut out. to enhance security measures. Various algorithms and models will be explored to achieve the desired results.
 
+# **🔴 Visualization:**
+
+![Anti-spoof img3](https://github.com/PABITRA34/pk/assets/98800533/d7ed9d83-3975-4751-977e-2fa790387f02)
+![Anti-spoof img 4](https://github.com/PABITRA34/pk/assets/98800533/5dcdedf3-a71f-49f9-abd3-61a9b3295e7d)
+
+https://github.com/PABITRA34/pk/assets/98800533/a7de0693-70a4-477a-be71-a6108519be34
+
 # **🔴 What I Have Done:**
 To develop the anti-spoofing Web App, the following steps were followed:
-
-
 
 1. Setting Up the Environment
 - Backend (Flask) :
