@@ -12,30 +12,7 @@ This project focuses on implementing a deep learning model for anti-spoofing. Th
 # **🔴 What I Have Done:**
 To develop the anti-spoofing Web App, the following steps were followed:
 
-Folder Structure:
-Anti  Spoofing  Project  using  DL
- |-Anti_Spoofing_Project_using_DL
-    |- Dataset
-      |- cut-out printouts
-      |- live_selfie
-      |- live_video
-      |- printouts
-      |- replay
-      |- README.md
-    |- Images
-      |- Image files
-    |- Model
-      |- anti_spoofing_project_using_dl.ipynb
-      |- siamese_model.h5
-      |- README.md
-    |- Web App
-      |- app.py
-      |- templates
-      |- static
-      |-Uploads
-      |- Anti_Spoofing_final_demo.mp4
-      |- README.md
-    |- requirements.txt
+
 
 1. Setting Up the Environment
 - Backend (Flask) :
@@ -86,9 +63,8 @@ The Siamese model was selected for its unique architecture and its ability to ac
 
 # **🔴 Libraries Needed:**
 The following libraries are required for this project:
-
--Flask
 - TensorFlow
+-  Flask
 - Keras
 - OpenCV
 - NumPy
