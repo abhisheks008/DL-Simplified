@@ -63,6 +63,8 @@ The datasets used in this project are:
 
 By following these steps, the project efficiently predicts BBQ-friendly weather conditions using deep learning models and provides insights into the performance of different approaches.
 
+![work_flow](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/workflow_graph.png)
+
 ### 🚀 **Models Implemented**
 
 ## Artificial Neural Network (ANN):
@@ -132,11 +134,39 @@ By following these steps, the project efficiently predicts BBQ-friendly weather 
 
 ### 📊 **Exploratory Data Analysis Results**
 
-`INCLUSION OF IMAGES OF THE VISUALIZATION IS MUST (RESULT OF EDA).`
+![Distribution plot](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_distribution_plot.jpeg)
+
+![BBQ count](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_bbq_count.jpeg)
+
+![HeatMap](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_heatmap.jpeg)
+
+![PairPlot](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_pairplot.jpeg)
+
+![Pie Chart](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_piechart.jpeg)
+
+![subplot](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_sybplot.jpeg)
+
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
-`Add all the algorithms used with their accuracies and results`
+![Train_val accuracy ann](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_accuracy_ann.jpeg)
+
+![Train_val loss ann](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_loss_ann.jpeg)
+
+![conf matrix ann](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_ann_conf.jpeg)
+
+![Train_val accuracy cnn](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_accuracy_cnn.jpeg)
+
+![Train_val loss cnn](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_loss_cnn.jpeg)
+
+![conf matrix cnn](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_cnn_conf.jpeg)
+
+![Train_val accuracy lstm](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_accuracy_lstm.jpeg)
+
+![Train_val loss lstm](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_loss_lstm.jpeg)
+
+![conf matrix lstm](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_lstm_conf.jpeg)
+
 
 
 ### 📢 **Conclusion**
@@ -155,6 +185,7 @@ Here are the accuracy scores obtained for each model:
 - ConvLSTM Accuracy: [96%]
 
 Based on these accuracy scores, we can determine the best-fitted model among all the developed models for this particular project. We'll choose the model with the highest accuracy score as it indicates better performance in predicting BBQ weather conditions.
+![accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_accuracy_comp.jpeg)
 
 ### ✒️ **Your Signature**
 
