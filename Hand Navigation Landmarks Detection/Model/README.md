@@ -112,17 +112,17 @@ YOLOv8 model has been used here because it is very fast to do Real-time Object D
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
 Model summary (fused): 168 layers, 11129067 parameters, 0 gradients, 28.5 GFLOPs
-                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 2/2 [00:00<00:00,  2.70it/s]
-                   all         47         47      0.994          1      0.995      0.941
-         Anticlockwise         47          7          1          1      0.995      0.938
-              Backward         47          2       0.97          1      0.995      0.995
-             Clockwise         47          4          1          1      0.995      0.967
-                  Down         47          5          1          1      0.995      0.923
-               Forward         47          2          1          1      0.995      0.995
-                  Left         47         10      0.993          1      0.995      0.911
-                 Right         47          6      0.989          1      0.995      0.941
-                    Up         47          3          1          1      0.995      0.874
-                  Wave         47          8      0.994          1      0.995      0.922
+                | Class  |   Images | Instances |     Box(P |         R|      mAP50|  mAP50-95): 100% 2/2 [00:00<00:00,  2.70it/s]
+                |   all   |      47   |      47    |  0.994      |    1    |  0.995   |   0.941|
+        | Anticlockwise  |       47   |       7  |        1     |    1    |  0.995   |   0.938|
+            |  Backward    |     47      |    2   |    0.97       |   1    |  0.995   |   0.995|
+             |Clockwise     |    47      |    4    |      1    |      1   |   0.995   |   0.967 |
+              |    Down   |      47        |  5         | 1        |  1    |  0.995    |  0.923|
+               |Forward  |       47   |       2     |     1     |     1    |  0.995     | 0.995|
+               |   Left     |    47      |   10    |  0.993   |       1   |   0.995     | 0.911|
+                | Right      |   47     |     6  |    0.989  |        1   |   0.995    |  0.941|
+                  |  Up      |   47      |    3       |   1       |   1     | 0.995    |  0.874|
+                  |Wave     |    47    |      8   |   0.994    |      1   |   0.995  |    0.922|
 
 
 ### 📢 **Conclusion**
