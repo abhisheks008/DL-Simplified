@@ -149,23 +149,29 @@ By following these steps, the project efficiently predicts BBQ-friendly weather 
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
+`ANN`
+
 ![Train_val accuracy ann](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_accuracy_ann.jpeg)
 
 ![Train_val loss ann](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_loss_ann.jpeg)
 
 ![conf matrix ann](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_ann_conf.jpeg)
 
+`CNN`
+
 ![Train_val accuracy cnn](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_accuracy_cnn.jpeg)
 
 ![Train_val loss cnn](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_loss_cnn.jpeg)
 
-![conf matrix cnn](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_cnn_conf.jpeg)
+![conf matrix cnn](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_cnn_conf..jpeg)
+
+`CONVLSTM`
 
 ![Train_val accuracy lstm](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_accuracy_lstm.jpeg)
 
 ![Train_val loss lstm](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/train_val_loss_lstm.jpeg)
 
-![conf matrix lstm](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_lstm_conf.jpeg)
+![conf matrix lstm](https://github.com/manishh12/DL-Simplified/blob/main/Weather_prediction/Images/Heathrow_lstm_conf..jpeg)
 
 
 
