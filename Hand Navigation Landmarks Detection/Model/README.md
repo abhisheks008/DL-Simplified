@@ -1,4 +1,4 @@
-## **Hand Navigation Landmark Detection**
+## **Hand Navigation Landmarks Detection**
 
 ### 🎯 **Goal**
 
