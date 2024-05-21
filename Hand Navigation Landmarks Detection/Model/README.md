@@ -1,4 +1,4 @@
-## **PROJECT TITLE**
+## **Hand Navigation Landmark Detection**
 
 ### 🎯 **Goal**
 
