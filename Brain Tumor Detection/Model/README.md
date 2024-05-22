@@ -1,113 +1,185 @@
-# BRAIN TUMOR DETECTION 🧠💻
-## 🎯 Goal
+# 🧠 Brain Tumor Detection using Deep Learning
 
-The primary objective of this project is to develop Convolution models capable of determining whether an individual has a brain tumor or not. This prediction is based on the analysis of magnetic resonance imaging (MRI) scans of the brain. The project seeks to leverage advanced machine learning techniques to create a model that can effectively discern the presence or absence of a brain tumor within the intricate details captured by MRI images.
+## 📝 Abstract
 
-## 🧵 Dataset
+Brain tumors are a serious medical condition affecting both children and adults, constituting 85 to 90 percent of all primary Central Nervous System (CNS) tumors. Annually, around 11,700 people receive a brain tumor diagnosis, with a 5-year survival rate of approximately 34 percent for men and 36 percent for women. Proper treatment, planning, and accurate diagnostics are crucial to improving patient life expectancy.
 
-Dataset Link: [Brain Tumor Detection Dataset](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection)
+This project focuses on automated classification techniques using Deep Learning Algorithms such as Convolutional Neural Network (CNN), Transfer Learning (TL), and Artificial Neural Network (ANN). These techniques offer higher accuracy than manual classification, aiding doctors worldwide in efficient detection and classification of brain tumors.
 
-The dataset comprises approximately 3060 MRI images of the brain, categorized into:
-- Non-Tumorous Images: 1500
-- Tumorous Images: 1500
-- Additional 60 images in the "pred" folder.
+## 🌐 Context
 
-## 🧾 Description
+Brain tumors present complexities in size and location, requiring expertise for accurate analysis. Developing countries often face challenges due to a shortage of skilled doctors and insufficient knowledge about tumors. An automated system on the cloud can address these issues, providing a faster and more accessible solution.
 
-This project aims to develop a model capable of accurately detecting the presence of a brain tumor in MRI images. The dataset is used for training and testing the models.
+## Methodology
 
-## 🧮 What I had done!
+### Project Overview
+The Brain Tumor Detection project aims to develop a deep learning model to classify brain tumor images into different categories. Three different models, a Convolutional Neural Network (CNN), a Multilayer Perceptron (MLP) based on TensorFlow, and a VGG16 transfer learning model, are explored for this task.
 
-1. **Data Preprocessing:**
-   - Load and explore the dataset.
-   - Handle missing data and outliers.
-   - Normalize and resize images.
+### Project Directory Structure
+```
+Brain Tumor Detection
+|- Dataset
+  |- Training Folder
+  |- Testing Folder
+  |- README.md
+|- Images
+  |- EDA README.md
+|- Model
+  |- brain_tumor.ipynb
+  |- README.md
+|- Web App
+  |- app.py
+  |- templates
+  |- demo.mp4
+  |- best_model.h5
+  |- README.md
+|- requirements.txt
+```
 
-2. **Train-Test Split:**
-   - Split the dataset into training (80%) and testing (20%) sets.
+### Methodology
+1. **Importing Libraries:**  
+   - Libraries such as NumPy, Pandas, TensorFlow, and others are imported for data manipulation, visualization, and model building.
 
-3. **Model Training:**
-   - Implement CNN (Convolutional Neural Network).
-   - Utilize pre-trained models: VGG16 and RESNET 50.
-   - Fine-tune models for brain tumor detection.
+2. **Loading the Dataset:**
+   - The training and testing datasets are loaded into dataframes. File paths and labels are extracted for each image in the dataset.
 
-4. **Evaluation:**
-   - Assess model performance on the test set.
-   - Analyze and interpret the results.
+3. **Data Preprocessing:**
+   - Data balance is checked to ensure an even distribution of classes.
+   - The testing dataset is split into validation and test sets.
+   - ImageDataGenerator is used to convert dataframes to numpy arrays for model training.
 
-## 🚀 Models Implemented
+4. **Model Structure:**
+   - Three models are explored: 
+     - CNN: A CNN model is created using Keras Sequential API with convolutional and pooling layers followed by dense layers for classification.
+     - MLP: An MLP model is created with Flatten, Dense, and Dropout layers.
+     - VGG16: A VGG16 transfer learning model is used with a custom dense layer for classification.
 
-- **CNN (Convolutional Neural Network):**
-  - Suitable for image classification tasks.
-  
-- **VGG16:**
-  - Well-known for its simplicity and effectiveness.
-  
-- **RESNET 50:**
-  - Addresses vanishing gradient problem with deep networks.
+5. **Training the Models:**
+   - Each model is compiled using the Adamax optimizer and categorical cross-entropy loss.
+   - Models are trained on the training dataset for a specified number of epochs, with validation data for evaluation.
 
-### Why these algorithms?
-Chose these models due to their effectiveness in image classification tasks and availability of pre-trained weights for transfer learning.
+6. **Model Performance:**
+   - Training and validation loss and accuracy are plotted over epochs to visualize the model's performance.
+   - The best epoch based on validation loss and accuracy is noted for each model.
 
-## 📚 Libraries Needed
+### Model Performance
+#### Convolutional Neural Network (CNN)
+- **Structure**  
+   ![CNN Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-1.png)
 
-- TensorFlow
-- Keras
-- Scikit-learn
-- Matplotlib
-- Pandas
-- Numpy
+- **Loss vs. Epochs and Accuracy vs. Epochs**  
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-2.png)
 
-## 📊 Exploratory Data Analysis Results
+- **Performance Metrics**  
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image.png)
 
-### TUMOROUS BRAIN MRI IMAGES
-<div style="display: grid; grid-template-columns: repeat(3, 200px); gap: 5px; margin-bottom: 20px;">
-  <img src="https://user-images.githubusercontent.com/72621930/219711653-f89efe73-84ae-4b76-aae3-4f175776b767.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219716592-507e25fc-3aa3-40eb-8a88-73ec99d56914.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219711854-6e64f8c8-1a43-469f-ac7e-57cff0c5ce4a.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219712189-12c1172f-5c4f-40b0-9e13-f7e709e9850c.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219712231-6a43351d-747a-4cca-9755-0261cda9a834.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219720376-70ecb711-a8c8-496b-be3b-f1f5b3d00563.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219720379-e72a9146-04e1-41bb-acf3-e82e347019ab.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219720393-1e9ea66e-dbce-4d70-a04e-5b4ee1bbec9f.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219720422-a400acf6-1ce4-47c5-81d2-faabfed37317.jpg" width="200" height="200">
-</div>
+- **Confusion Matrix**  
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-10.png)
 
-### SOME OF THE NON-TUMOROUS BRAIN MRI IMAGES
-<div style="display: grid; grid-template-columns: repeat(3, 200px); gap: 5px;">
-  <img src="https://user-images.githubusercontent.com/72621930/219717582-a8399573-1365-41b9-881d-34962845d91f.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219717613-839ba23c-4cbe-4273-95a9-78e1205384ff.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219717624-9b7aeb0b-4c00-44e4-afe6-0c2f5c8500ac.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219717644-0a572148-ae31-4cae-ab1e-8feacc417a03.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219717672-6a4f85a5-d68b-458a-aeeb-351b7d8e14ee.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219722662-fb86a286-5b53-4874-9be3-1dee25e550b5.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219722703-c45da0bb-c5e9-4fb0-a7c7-5359b6d89790.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219722807-fd2786d6-ddf2-4d12-97c2-ffdbfc5bfe81.jpg" width="200" height="200">
-  <img src="https://user-images.githubusercontent.com/72621930/219722814-f0b7ec73-981f-4dcc-8be4-e9afe831fb72.jpg" width="200" height="200">
-</div>
+- **Classification Report**  
+   ```
+               precision    recall  f1-score   support
 
-## 📈 Performance of the Models based on Accuracy Scores
-| ![CNN Plot](../Images/cnn_plot.png) | ![RESNET50 Plot](../Images/resnet50.png) | ![VGG Plot](../Images/vgg_plot.png) |
-|---|---|---|
+      glioma       0.79      0.93      0.85       151
+  meningioma       0.91      0.76      0.83       164
+     notumor       0.97      0.97      0.97       192
+   pituitary       0.99      0.98      0.99       149
 
-- **CNN:**
-  - Training Accuracy: 95%
-  - Test Accuracy: 92%
+    accuracy                           0.91       656
+   macro avg       0.92      0.91      0.91       656
+   weighted avg    0.92      0.91      0.91       656
+   ```
 
-- **VGG16:**
-  - Training Accuracy: 97%
-  - Test Accuracy: 94%
+#### Multilayer Perceptron (MLP) Based on TensorFlow
+- **Structure**  
+   ![MLP Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-7.png)
 
-- **RESNET 50:**
-  - Training Accuracy: 98%
-  - Test Accuracy: 96%
+- **Loss vs. Epochs and Accuracy vs. Epochs**  
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-3.png)
 
-## 📢 Conclusion
+- **Performance Metrics**  
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-4.png)
 
-The models, especially RESNET 50, performed well in detecting brain tumors from MRI images. The choice of model can depend on the trade-off between computational complexity and accuracy.
+- **Confusion Matrix**  
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-9.png)
 
-## ✒️ Your Signature
+- **Classification Report**  
+   ```
+               precision    recall  f1-score   support
 
-Abhilash S Bharadwaj 📌
+      glioma       0.72      0.78      0.75       151
+  meningioma       0.66      0.71      0.68       164
+     notumor       0.94      0.85      0.89       192
+   pituitary       0.93      0.89      0.91       149
 
-[Abhilash1781](https://github.com/Abhilash1781) 🌐
+    accuracy                           0.81       656
+   macro avg       0.81      0.81      0.81       656
+   weighted avg    0.82      0.81      0.81       656
+   ```
+
+#### VGG16 Transfer Learning Model
+- **Structure**  
+   ![VGG16 Structure](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-8.png)
+
+- **Loss vs. Epochs and Accuracy vs. Epochs**  
+   ![Loss vs. Epochs and Accuracy vs. Epochs](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-5.png)
+
+- **Performance Metrics**  
+   ![Performance Metrics](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-6.png)
+
+- **Confusion Matrix**  
+   ![Confusion Matrix](https://github.com/TheNaiveSamosa/DL-Simplified/blob/ac7f7edf50bc63c90645157f8f38c3f1b85d83d3/Brain%20Tumor%20Detection/Images/image-11.png)
+- **Classification Report:**
+   ```
+                 precision    recall  f1-score   support
+
+      glioma       0.97      0.95      0.96       151
+  meningioma       0.95      0.95      0.95       164
+     notumor       0.99      1.00      1.00       192
+   pituitary       0.97      0.99      0.98       149
+
+    accuracy                           0.97       656
+   macro avg       0.97      0.97      0.97       656
+   weighted avg    0.97      0.97      0.97       656
+   ```
+
+### Conclusion
+The project explores three different models for brain tumor detection. Each model's performance is evaluated based on loss, accuracy, F1-score, and confusion matrix. The best-performing model can be selected for deployment in the Web App directory.
+Based on the provided classification reports, the performance ranking from best to worst is as follows:
+
+1. **VGG16 Transfer Learning Model**
+   - Accuracy: 0.97
+   - F1-score: 0.97
+   - Precision and recall scores are also high for all classes.
+   - This model performed the best among the three.
+
+2. **Convolutional Neural Network (CNN)**
+   - Accuracy: 0.91
+   - F1-score: 0.91
+   - Precision and recall scores are also relatively high.
+   - This model performed well but not as well as VGG16.
+
+3. **Multilayer Perceptron (MLP) Based on TensorFlow**
+   - Accuracy: 0.81
+   - F1-score: 0.81
+   - Precision and recall scores are lower compared to the other two models.
+   - This model performed the worst among the three.
+
+- **Approach:** We used three different models for brain tumor detection: VGG16 transfer learning, a custom CNN, and an MLP based on TensorFlow.
+- **Performance:** VGG16 showed the best performance, with the highest accuracy, F1-score, precision, and recall across all classes. The custom CNN performed well but slightly lower than VGG16. The MLP had the lowest performance among the three models.
+- **Reasons:** VGG16, being a pre-trained model on ImageNet, has learned rich feature representations that are useful for our task. The custom CNN, although designed specifically for this task, might not have been deep enough or trained on enough data compared to VGG16. The MLP, being a simpler model, struggled to learn complex patterns in the data, leading to lower performance.
+
+In conclusion, VGG16 is the most suitable model for this task due to its superior performance, followed by the custom CNN. The MLP, while simpler, is not as effective for this particular problem.
+
+## How to Use
+Requirements: Ensure you have the necessary libraries and dependencies installed. You can find the list of required packages in the requirements.txt file.
+
+Download Data: Download the Brain Tumor MRI Dataset from Kaggle mentioned in the dataset section of the project.
+
+Run the Jupyter Notebook: Open the provided Jupyter Notebook file and run each cell sequentially. Make sure to update any file paths or configurations as needed for your environment.
+
+Training and Evaluation: Train the models using the provided data and evaluate their performance using metrics such as accuracy and loss.
+
+Interpret Results: Analyze the model's performance using the visualizations and metrics provided in the notebook.
+
+Feel free to reach out if you encounter any issues or need further assistance with running the notebook.

@@ -1,0 +1,2 @@
+- Contains the Loss, accuracy, precision and recall curves of CNN models during training
+- Contains the confusion matrices along with the classification reports of all the models trained.
