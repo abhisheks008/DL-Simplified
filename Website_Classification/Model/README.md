@@ -65,12 +65,51 @@ This project focuses on building and training machine learning models to classif
 
 ### 📊 **Exploratory Data Analysis Results**
 
-Include images of the visualization results obtained during the exploration of the dataset, such as count plots showing the distribution of categories.
+## 1. URL Length Boxplot
+
+![URL Length Boxplot](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/url_length_boxplot.png)
+
+## 2. URL Length Distribution
+
+![URL Length Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/url_length_distribution.png)
+
+## 3. Training Dataset Category Distribution
+
+![Training Dataset Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/train_dataset_count_plot.png)
+
+## 4. Test Dataset Category Distribution
+
+![Test Dataset Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/test_dataset_count_plot.png)
+
+## 5. Overall Category Distribution
+
+![Overall Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/category_count_plot.png)
+
+## 6. Category Distribution Pie Chart
+
+![Category Distribution Pie Chart](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/category_pie_chart.png)
+
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
 - **Convolutional Neural Network (CNN) Accuracy**: 81.81%
 - **Bidirectional Long Short-Term Memory (BiLSTM) Accuracy**: 91.55%
+
+
+
+`Accuracy`
+![Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/model_accuracy_plot_cnn.png)
+
+`Loss`
+![Loss](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/model_loss_plot_cnn.png)
+
+
+
+`comparison`
+
+![Comparison](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/comparision.jpeg)
+
+
 
 Compare the accuracy scores of both models to determine the most effective model for URL classification.
 
