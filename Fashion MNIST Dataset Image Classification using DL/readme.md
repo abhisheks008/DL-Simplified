@@ -4,38 +4,44 @@
 This project focuses on implementing an image classification system utilizing deep learning techniques, specifically with Keras—a high-level neural networks API, and the Fashion MNIST dataset. The primary goal is to train a model capable of accurately recognizing pictures of clothing items from grayscale images.
 
 ### 🧵 **Dataset**
-Data source: [FER-DS - Kaggle](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
+Data source: [Fashion MNIST Dataset](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
 
 ### 🧾 **Description**
-
-`Brief description about the project.`
+This project aims to classify images of clothing items into 10 categories (e.g., T-shirt/top, Trouser, Pullover, etc.) using deep learning techniques. The purpose is to demonstrate the application of CNNs in image classification tasks.
 
 ### 🧮 **What I had done!**
-
-`Write down the step by step procedure of how project works using points.`
+- Loaded and preprocessed the Fashion MNIST dataset.
+- Conducted exploratory data analysis (EDA) to understand the dataset.
+- Implemented a CNN model using Keras.
+- Trained and evaluated the CNN model.
+- Analyzed the performance of the model.
+- Designed a web app for the same.
 
 ### 🚀 **Models Implemented**
-
-`List out all the algorithms or models used in this project. Why have you choosed that algorithms should also be stated`
+The following techniques and algorithms were implemented in this project:
+- Convolutional Neural Network (CNN): CNNs are well-suited for image classification tasks due to their ability to capture spatial hierarchies in data.
+- Data Augmentation: Augmenting the training data with techniques such as rotation, width and height shifts, and horizontal flipping helps improve model generalization and prevent overfitting.
+- Early Stopping: Early stopping is a regularization technique used during training to monitor the validation loss and stop training if it doesn't improve for a certain number of epochs, thus preventing overfitting.
 
 ### 📚 **Libraries Needed**
-
-`Add all the libraries needed in this project in points.`
+The following libraries are required to run this project:
+ * numpy
+ * tensorflow
+ * keras
+ * matplotlib
 
 ### 📊 **Exploratory Data Analysis Results**
 
 `INCLUSION OF IMAGES OF THE VISUALIZATION IS MUST (RESULT OF EDA).`
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
-
-`Add all the algorithms used with their accuracies and results`
-
+The performance of the CNN model based on accuracy score is as follows:
+- CNN: 0.895
 
 ### 📢 **Conclusion**
-
-`What's the conclusion derived from this project and also showcase the accuracy results if it's applicable. Be briefer. Use accuracy scores to find the best fitted model among all the developed models for the particular projects.`
+In conclusion, the CNN model achieved an accuracy score of 0.895 on the Fashion MNIST dataset. This project demonstrates the effectiveness of CNNs in image classification tasks.
 
 ### ✒️ **Your Signature**
-
-`Add your name at the end of the file, along with social media handles if applicable!`
-
+Anjali
+* LinkedIn [(https://www.linkedin.com/in/anjali-554ba2220/)]
+* Github [(https://www.github.com/deedGhost)]
