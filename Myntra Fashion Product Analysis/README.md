@@ -9,9 +9,10 @@ The primary objective of this project is to perform image classification to pred
 
 ## 🖼️ Dataset
 
-The dataset used for this project comprises images distributed across two classes: Fire and Non-Fire. As the original dataset allocated for this project was no longer available as open-source, an alternative dataset was utilized.
+The dataset used for this project comprises images scattered across different types,categories,etc. As the original dataset allocated for this project was too heavy to be utilised for scope of this project,an alternative dataset was utilized.
 
-**Dataset Link**: [Image Dataset]([https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small/data])
+**Dataset Link**: 
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small/data
 
 ## 🧾 Description
 
