@@ -11,11 +11,11 @@ The primary objective of this project is to perform image classification to pred
 
 The dataset used for this project comprises images distributed across two classes: Fire and Non-Fire. As the original dataset allocated for this project was no longer available as open-source, an alternative dataset was utilized.
 
-**Dataset Link**: [Dataset]([https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small/data)
+**Dataset Link**: [Image Dataset]([https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small/data])
 
 ## 🧾 Description
 
-This project utilizes a VGG19, ResNet50, InceptionV3, and Xception for image classification. The chosen model are tailored to capture specific features of the dataset like pre-trained VGG19 and ResNet50 models leverage transfer learning, enhancing the model's ability to generalize across diverse images.
+This project utilizes a VGG19, ResNet50, InceptionV3, and Mobilenet for image classification. The chosen model are tailored to capture specific features of the dataset and models leverage transfer learning, enhancing the model's ability to generalize across diverse images.
 
 ## 🧮 What I Had Done
 
@@ -66,7 +66,7 @@ This project utilizes a VGG19, ResNet50, InceptionV3, and Xception for image cla
 
 The image classification project using different models demonstrates effective learning and categorization across 36 classes. The models achieve promising accuracy on both training and validation sets, showcasing their potential for various image processing applications. Our MobileNetV2 scored the highest with 89.8% accuracy, while Inception scored the lowest with 38%.
 
-✒️ Your Signature  
-Keshav Arora
+✒️Your Signature  
+  Keshav Arora
 
 --- 
