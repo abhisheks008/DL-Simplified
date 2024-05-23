@@ -1,11 +1,10 @@
 ## **Fashion MNIST Dataset Image Classification using DL**
 
-### 🎯 **This project focuses on implementing an image classification system utilizing deep learning techniques, specifically with Keras—a high-level neural networks API, and the Fashion MNIST dataset. The primary goal is to train a model capable of accurately recognizing pictures of clothing items from grayscale images.**
-
+### 🎯 **Goal**
+This project focuses on implementing an image classification system utilizing deep learning techniques, specifically with Keras—a high-level neural networks API, and the Fashion MNIST dataset. The primary goal is to train a model capable of accurately recognizing pictures of clothing items from grayscale images.
 
 ### 🧵 **Dataset**
-
-`Add a link to dataset and from where it's taken.`
+Data source: [FER-DS - Kaggle](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
 
 ### 🧾 **Description**
 
