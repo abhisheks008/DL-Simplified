@@ -1,1 +1,2 @@
-
+-> This project focuses on building a Convolutional Neural Network (CNN) for image classification using the Fashion MNIST dataset. It comprises an extensive repository of 70,000 grayscale images, each portraying clothing items in 10 different classes. These images are uniformly structured as 28x28 pixel squares, ensuring consistent and standardized analysis.
+# Data source: [FER-DS - Kaggle](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
