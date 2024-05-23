@@ -11,3 +11,10 @@ Tiger identification is a critical task in wildlife conservation, enabling resea
 ## Project Overview
 This project implements multiple deep learning models to perform the tiger Re-ID task. The models used include DenseNet, VGG16, ResNet50, and EfficientNet. The primary objective is to build and evaluate models on a provided training set and then test their performance on a separate test set. Each test image is used as a query image, and all other images in the test set are considered as the "gallery" or "database." The query results are expected to be a rank-list of the gallery images, indicating the most likely matches.
 
+### Prerequisites
+- Python 3.7+
+- TensorFlow 2.x
+- Keras
+- NumPy
+- OpenCV
+- Matplotlib
