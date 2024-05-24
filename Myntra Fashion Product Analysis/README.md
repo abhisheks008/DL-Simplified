@@ -54,6 +54,14 @@ This project utilizes a VGG19, ResNet50, InceptionV3, and Mobilenet for image cl
 ### Dataset Distribution
 ![Prediction Example](Images/2.png)
 
+### PIE Chart for classes
+![Prediction Example](Images/3.png)
+
+### Accuracy graph of MobileNetV2
+![Prediction Example](Images/4.png)
+
+
+
 ## 📈 Model Performance based on Accuracy Scores
 
 | Model           | Accuracy |
