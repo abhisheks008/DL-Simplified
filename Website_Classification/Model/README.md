@@ -1,7 +1,7 @@
 ## **URL Classification**
 
 ### 🎯 **Goal**
-The main goal of this project is to classify URLs into different categories based on their content. This classification task involves training machine learning models to accurately predict the category of a given URL, such as adult content, arts, business, computers, games, health, home, kids, news, recreation, reference, science, shopping, society, or sports.
+The main goal of this project is to classify URLs into different categories based on their content. This classification task involves training deep learning models to accurately predict the category of a given URL, such as adult content, arts, business, computers, games, health, home, kids, news, recreation, reference, science, shopping, society, or sports.
 
 ### 🧵 **Dataset**
 The dataset used in this project is the [URL Classification Dataset](https://www.kaggle.com/datasets/shaurov/website-classification-using-url/data?select=URL+Classification.csv), which contains URLs along with their corresponding categories.
@@ -27,14 +27,16 @@ This project focuses on building and training machine learning models to classif
    - Applied text preprocessing techniques such as tokenization and padding to prepare the URL text data for model training.
 
 5. **Model Building**:
-   - Utilized two different deep learning models for URL classification:
+   - Utilized three different models for URL classification:
      - Convolutional Neural Network (CNN)
      - Bidirectional Long Short-Term Memory (BiLSTM)
+     - Multinomial Naive Bayes (MNB)
    - Designed and configured the architecture of each model with appropriate layers, activations, and regularization techniques.
 
 6. **Model Training**:
-   - Trained both CNN and BiLSTM models using the preprocessed training data.
+   - Trained CNN and BiLSTM models using the preprocessed training data.
    - Implemented early stopping during training to prevent overfitting and restore the best weights.
+   - Trained MNB model using a pipeline with text preprocessing steps.
 
 7. **Model Evaluation**:
    - Evaluated the trained models using the test data to calculate accuracy and other relevant metrics.
@@ -42,6 +44,7 @@ This project focuses on building and training machine learning models to classif
 
 8. **Visualization of Results**:
    - Plotted model training and validation loss and accuracy curves to visualize the learning process and performance of the models over epochs.
+   - Compared the accuracies of the CNN, BiLSTM, and MNB models using a bar graph.
 
 ### 🚀 **Models Implemented**
 
@@ -55,6 +58,13 @@ This project focuses on building and training machine learning models to classif
 - Compiled the model with suitable loss function and optimizer.
 - Trained the model on the training data and assessed its performance.
 
+### Multinomial Naive Bayes (MNB)
+
+- **Model Pipeline Construction**: Created a pipeline that includes a `CountVectorizer` for tokenizing the text data, a `TfidfTransformer` for transforming token counts to TF-IDF representations, and a `MultinomialNB` classifier for training the model.
+- **Text Vectorization and Transformation**: Used `CountVectorizer` to convert URLs into a matrix of token counts and `TfidfTransformer` to normalize these counts to reflect the importance of each word.
+- **Model Training**: Trained the Multinomial Naive Bayes model on the preprocessed training data, optimizing with Laplace smoothing to handle zero probabilities.
+- **Performance Evaluation**: Evaluated the model's performance using accuracy, precision, recall, and F1-score metrics, and generated confusion matrices to visualize classification results. 
+
 ### 📚 **Libraries Needed**
 
 - Pandas: For data manipulation and analysis.
@@ -62,6 +72,10 @@ This project focuses on building and training machine learning models to classif
 - Seaborn and Matplotlib: For data visualization.
 - Scikit-learn: For machine learning tasks such as dataset splitting and evaluation.
 - Keras (with TensorFlow backend): For building and training deep learning models.
+- CountVectorizer
+- TfidfTransformer
+- MultinomialNB
+- Pipeline
 
 ### 📊 **Exploratory Data Analysis Results**
 
@@ -94,20 +108,26 @@ This project focuses on building and training machine learning models to classif
 
 - **Convolutional Neural Network (CNN) Accuracy**: 81.81%
 - **Bidirectional Long Short-Term Memory (BiLSTM) Accuracy**: 91.55%
+- **Multnominal Naive Bayes (MNB)**: 95.16%
 
 
 
 `Accuracy`
+
 ![Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/model_accuracy_plot_cnn.png)
 
 `Loss`
+
 ![Loss](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/model_loss_plot_cnn.png)
 
 
+`confusion matrix mnb`
+
+![conf_mat](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/confusion_matrix_mnb.png)
 
 `comparison`
 
-![Comparison](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/comparision.jpeg)
+![Comparison](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/model_accuracy_comparison.png)
 
 
 
@@ -115,7 +135,7 @@ Compare the accuracy scores of both models to determine the most effective model
 
 ### 📢 **Conclusion**
 
-In conclusion, this project successfully implemented and trained two deep learning models, CNN and BiLSTM, for URL classification based on content categories. Both models were trained and evaluated using appropriate techniques, and their performance was assessed based on accuracy scores. The results demonstrate the effectiveness of deep learning models in classifying URLs into predefined categories.
+In conclusion, this project successfully implemented and trained deep learning models MNB, CNN and BiLSTM, for URL classification based on content categories. Both models were trained and evaluated using appropriate techniques, and their performance was assessed based on accuracy scores. The results demonstrate the effectiveness of deep learning models in classifying URLs into predefined categories.
 
 ### ✒️ **Your Signature**
 
