@@ -11,9 +11,6 @@ The user interface of the web app is created using Gradio, a library for creatin
 
 ### Video Demonstration 🎥
 
-
-
 ### Signature ✒️
 Anjali
-[LinkedIn](https://www.linkedin.com/in/anjali-554ba2220/)
 
