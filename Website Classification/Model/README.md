@@ -81,27 +81,27 @@ This project focuses on building and training machine learning models to classif
 
 ## 1. URL Length Boxplot
 
-![URL Length Boxplot](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/url_length_boxplot.png)
+![URL Length Boxplot](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/url_length_boxplot.png)
 
 ## 2. URL Length Distribution
 
-![URL Length Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/url_length_distribution.png)
+![URL Length Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/url_length_distribution.png)
 
 ## 3. Training Dataset Category Distribution
 
-![Training Dataset Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/train_dataset_count_plot.png)
+![Training Dataset Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/train_dataset_count_plot.png)
 
 ## 4. Test Dataset Category Distribution
 
-![Test Dataset Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/test_dataset_count_plot.png)
+![Test Dataset Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/test_dataset_count_plot.png)
 
 ## 5. Overall Category Distribution
 
-![Overall Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/category_count_plot.png)
+![Overall Category Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/category_count_plot.png)
 
 ## 6. Category Distribution Pie Chart
 
-![Category Distribution Pie Chart](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/category_pie_chart.png)
+![Category Distribution Pie Chart](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/category_pie_chart.png)
 
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
@@ -114,20 +114,20 @@ This project focuses on building and training machine learning models to classif
 
 `Accuracy`
 
-![Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/model_accuracy_plot_cnn.png)
+![Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/model_accuracy_plot_cnn.png)
 
 `Loss`
 
-![Loss](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/model_loss_plot_cnn.png)
+![Loss](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/model_loss_plot_cnn.png)
 
 
 `confusion matrix mnb`
 
-![conf_mat](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/confusion_matrix_mnb.png)
+![conf_mat](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/confusion_matrix_mnb.png)
 
 `comparison`
 
-![Comparison](https://github.com/manishh12/DL-Simplified/blob/main/Website_Classification/Images/model_accuracy_comparison.png)
+![Comparison](https://github.com/manishh12/DL-Simplified/blob/main/Website%20Classification/Images/model_accuracy_comparison.png)
 
 
 
