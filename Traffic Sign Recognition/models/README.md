@@ -56,12 +56,12 @@ When implementing the Xception model in code, we leverage its sophisticated arch
 Reduced Parameters (22.9M) ,
 Faster Inference Speed (CPU - 39.4, GPU - 5.2)
 
-Visualization of Predicted Labels on test set :-
-![alt text](../images/Xception_prediction/Don't_go_straight.png)
-![alt text](../images/Xception_prediction/go_right_or_straight.png)
-![alt text](../images/Xception_prediction/Roundabout_mandatory.png)
-![alt text](../images/Xception_prediction/roundabout_mandatory2.png)
-![alt text](../images/Xception_prediction/speed_limit_60.png)
+Visualization of Predicted Labels on test set :- <br/>
+![alt text](../images/Xception_prediction/Don't_go_straight.png) <br/>
+![alt text](../images/Xception_prediction/go_right_or_straight.png) <br/>
+![alt text](../images/Xception_prediction/Roundabout_mandatory.png) <br/>
+![alt text](../images/Xception_prediction/roundabout_mandatory2.png) <br/>
+![alt text](../images/Xception_prediction/speed_limit_60.png) <br/>
 ![alt text](../images/Xception_prediction/speed_limit_80Km.png)
 
 ### VGG16
@@ -70,13 +70,13 @@ I will utilize the VGG16 (Visual Geometry Group) architecture, which have deeper
 **Reason for choosing :-** 
  Highest accuracy (90.1%) , less depth (16) , inference speed less when using GPU (CPU - 69.5 , GPU - 4.2)
 
-Visualization of Predicted Labels on test set :-
-![alt text](../images/VGG16_prediction/don't_go_straight.png)
-![alt text](../images/VGG16_prediction/go_right.png)
-![alt text](../images/VGG16_prediction/go_right2.png)
-![alt text](../images/VGG16_prediction/go_right_and_straight.png)
-![alt text](../images/VGG16_prediction/speed_limit_60.png)
-![alt text](../images/VGG16_prediction/speed_limit_80.png)
+Visualization of Predicted Labels on test set :- <br/>
+![alt text](../images/VGG16_prediction/don't_go_straight.png) <br/>
+![alt text](../images/VGG16_prediction/go_right.png) <br/>
+![alt text](../images/VGG16_prediction/go_right2.png) <br/>
+![alt text](../images/VGG16_prediction/go_right_and_straight.png)<br/>
+![alt text](../images/VGG16_prediction/speed_limit_60.png) <br/>
+![alt text](../images/VGG16_prediction/speed_limit_80.png) <br/>
 
 ### ResNet50
 Employing transfer learning with the ResNet50 model enables us to exploit pre-trained weights, significantly reducing the training time required for image classification tasks. This approach is particularly advantageous when dealing with limited training data, as we can leverage the rich representations learned by the base model from a vast dataset like ImageNet.
@@ -84,7 +84,7 @@ Employing transfer learning with the ResNet50 model enables us to exploit pre-tr
 **Reason for choosing :-** 
  Relatively lightweight (98 MB) , High Accuracy (92.1 % Top 5 accuracy), Moderate Parameters (25.6M) , Reasonable Inference Speed on GPU (CPU - 32.1, GPU - 4.7)
 
-Visualization of Predicted Labels on test set :-
+Visualization of Predicted Labels on test set :- <br/>
 ![alt text](../images/ResNet50_prediction/don't_go_straight.png) <br/>
 ![alt text](../images/ResNet50_prediction/go_left_or_straight.png) <br/>
 ![alt text](../images/ResNet50_prediction/go_right-or_straight.png) <br/>
