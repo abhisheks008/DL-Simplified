@@ -10,9 +10,10 @@ The backend of the web app utilizes a convolutional neural network (CNN) model t
 The user interface of the web app is created using Gradio, a library for creating customizable interfaces for machine learning models. Gradio simplifies the process of deploying machine learning models by providing an easy-to-use interface that allows users to interact with the model through a web browser.
 
 ### Video Demonstration 🎥
-[Put your demonstration video link here]
+
+
 
 ### Signature ✒️
 Anjali
-- ![LinkedIn](https://www.linkedin.com/in/anjali-554ba2220/)
+[LinkedIn](https://www.linkedin.com/in/anjali-554ba2220/)
 
