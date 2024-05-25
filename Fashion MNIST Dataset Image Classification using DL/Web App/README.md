@@ -10,7 +10,7 @@ The backend of the web app utilizes a convolutional neural network (CNN) model t
 The user interface of the web app is created using Gradio, a library for creating customizable interfaces for machine learning models. Gradio simplifies the process of deploying machine learning models by providing an easy-to-use interface that allows users to interact with the model through a web browser.
 
 ### Video Demonstration 🎥
-[](https://github.com/deedGhost/DL-Simplified/blob/main/Fashion%20MNIST%20Dataset%20Image%20Classification%20using%20DL/Web%20App/demo.mp4)
+[Demo](https://github.com/deedGhost/DL-Simplified/blob/main/Fashion%20MNIST%20Dataset%20Image%20Classification%20using%20DL/Web%20App/demo.mp4)
 
 ### Signature ✒️
 Anjali
