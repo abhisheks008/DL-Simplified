@@ -20,7 +20,7 @@ jobs:
             const issueCreator = issue.user.login;
             const issueNumber = issue.number;
             const sender = context.payload.sender.login;
-
+            const assignee = context.payload.issue.assignee.login;
             // Define maintainers as a list of usernames who should not trigger this action
             const maintainers = ['maintainer1', 'maintainer2']; // Replace with actual maintainer usernames
 
