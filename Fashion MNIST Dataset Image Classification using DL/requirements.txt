@@ -1,5 +1,8 @@
-numpy
 tensorflow==2.15.0
 keras==2.6.0
 matplotlib
+gradio==2.3.6
+pillow==8.4.0
+numpy==1.21.5
+
 
