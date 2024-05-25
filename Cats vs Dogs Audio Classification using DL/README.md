@@ -10,12 +10,11 @@ This project focuses on classifying audio clips to determine whether the sound i
 4. [🛠️ Project Workflow](#project-workflow)
 5. [🧠 Models Used](#models-used)
 6. [📦 Libraries Needed](#libraries-needed)
-7. [📈 Visualization](#visualization)
-8. [📏 Evaluation Metrics](#evaluation-metrics)
-9. [🏆 Results](#results)
-10. [🔍 Conclusion](#conclusion)
-11. [🔮 Future Work](#future-work)
-12. [🙏 Acknowledgements](#acknowledgements)
+7. [📏 Evaluation Metrics](#evaluation-metrics)
+8. [🏆 Results](#results)
+9. [🔍 Conclusion](#conclusion)
+10. [🔮 Future Work](#future-work)
+11. [🙏 Acknowledgements](#acknowledgements)
 
 ## 🎯 Goal
 The primary objective is to classify sounds as either a cat's meow 🐱 or a dog's bark 🐶 using deep learning models.
@@ -45,10 +44,6 @@ To run this project, you will need the following libraries:
 - `pandas==1.5.0` 🐼
 - `matplotlib==3.6.0` 📊
 - `tensorflow==2.6.0` 🧠
-
-## 📈 Visualization
-#### Spectrogram Samples
-![spectrograms](https://github.com/achrekarom12/DL-Simplified/assets/88442486/60beef49-8cf1-45f8-ab2f-494fdada0eea)
 
 ## 📏 Evaluation Metrics
 The models are assessed using the following metrics:
