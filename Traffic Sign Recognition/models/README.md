@@ -85,11 +85,11 @@ Employing transfer learning with the ResNet50 model enables us to exploit pre-tr
  Relatively lightweight (98 MB) , High Accuracy (92.1 % Top 5 accuracy), Moderate Parameters (25.6M) , Reasonable Inference Speed on GPU (CPU - 32.1, GPU - 4.7)
 
 Visualization of Predicted Labels on test set :-
-![alt text](../images/ResNet50_prediction/don't_go_straight.png)
-![alt text](../images/ResNet50_prediction/go_left_or_straight.png)
-![alt text](../images/ResNet50_prediction/go_right-or_straight.png)
-![alt text](../images/ResNet50_prediction/roundabout_mandatory.png)
-![alt text](../images/ResNet50_prediction/speed_limit_60.png)
+![alt text](../images/ResNet50_prediction/don't_go_straight.png) <br/>
+![alt text](../images/ResNet50_prediction/go_left_or_straight.png) <br/>
+![alt text](../images/ResNet50_prediction/go_right-or_straight.png) <br/>
+![alt text](../images/ResNet50_prediction/roundabout_mandatory.png) <br/>
+![alt text](../images/ResNet50_prediction/speed_limit_60.png) <br/>
 ![alt text](../images/ResNet50_prediction/speed_limit_80.png)
 
 
