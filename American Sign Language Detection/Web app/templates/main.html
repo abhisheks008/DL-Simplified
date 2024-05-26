@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signify</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/png">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            font-size: 18px; /* Increased default font size */
+        }
+
+        header {
+            background-color: #121212;
+            padding: 20px 20px; /* Increased padding */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 28px; /* Increased logo font size */
+            font-weight: bold;
+        }
+
+        .navbar nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar nav ul li {
+            margin-left: 30px; /* Increased margin between navbar items */
+        }
+
+        .navbar nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px; /* Increased padding */
+            background: url('{{ url_for('static', filename='v1-header-1200x600-2.webp') }}') no-repeat center center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-section h1 {
+            font-size: 48px; /* Increased heading font size */
+            margin-bottom: 30px; /* Increased margin */
+        }
+
+        .hero-section p {
+            font-size: 24px; /* Increased paragraph font size */
+            margin-bottom: 40px; /* Increased margin */
+        }
+
+        .upload-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .upload-btn {
+            padding: 15px 30px; /* Increased button padding */
+            font-size: 20px; /* Increased button font size */
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px; /* Increased border radius */
+            cursor: pointer;
+            margin-bottom: 30px; /* Increased margin */
+            transition: all 0.3s ease;
+        }
+
+        .upload-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .upload-btn:hover + .uploaded-image {
+            display: block;
+            transform: scale(1.2);
+        }
+
+        .uploaded-image {
+            display: none;
+            width: 100%;
+            max-width: 800px; /* Increased max-width */
+            height: auto;
+            border: 3px solid #fff; /* Increased border size */
+            border-radius: 8px; /* Increased border radius */
+            transition: transform 0.3s ease;
+        }
+
+        .tips-section {
+            text-align: center;
+            padding: 30px; /* Increased padding */
+        }
+
+        .tips-section p {
+            font-size: 20px; /* Increased paragraph font size */
+            margin-bottom: 30px; /* Increased margin */
+        }
+
+        .tips-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .logo img.logo-img {
+            height: 40px; /* Adjust the height as needed */
+            width: auto; /* Maintain aspect ratio */
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <span>Signify</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Translate American Sign Language to text</h1>
+                <p>Upload an image of hands signing and we'll do our best to translate it to text.</p>
+                <h1>Upload an Image for Prediction</h1>
+                <div class="upload-container">
+                    <form method="post" enctype="multipart/form-data">
+                        <input type="file" name="file" id="fileInput" class="upload-btn">
+                        <button type="submit" class="upload-btn">Upload</button>
+                    </form>
+                    
+                </div>
+                {% if prediction %}
+    <p style="font-size: 30px;">{{ prediction }}</p>
+{% endif %}
+{% if error %}
+    <p style="color: red; font-size: 30px; margin-top: 20px;">Error: {{ error }}</p>
+{% endif %}
+
+            </div>
+        </div>
+        <div class="tips-section">
+            <p>Tips for the best results: Use clear images with good lighting. Images should be cropped to show only the hands. Try different angles and distances for better accuracy.</p>
+            <img src="{{ url_for('static', filename='asl-sign-language-hands.jpg') }}" alt="Hands Signing">
+        </div>
+    </main>
+</body>
+</html>
