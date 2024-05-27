@@ -37,13 +37,13 @@ Also I have made a custom model using one convolutional layer and 2 fully connec
 
 A Deep neural network model which has feature selection and feature training components.
 
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_bangle_defect/Glass-Bangle-Defect-Detection/Images/CNN-Keras.png">
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_bangle_defect/Glass%20Bangle%20Defects%20Detection%20using%20DL/Images/CNN-Keras.png">
 
 #### CNN with Attention
 
 A Deep neural network model which has feature selection and feature training components, with an overhead attention mechanism to introduce probability distributions into training.
 
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_bangle_defect/Glass-Bangle-Defect-Detection/Images/CNN-Keras-Attention.png">
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_bangle_defect/Glass%20Bangle%20Defects%20Detection%20using%20DL/Images/CNN-Keras-Attention.png">
 
 ## Training and Testing of the Model
 ResNet and GoogleNet took approximately 19 minutes each to be fine-tuned and generate accurate results.And the custom model took approximately 30 minutes of computational time. All models were trained on GoogleColab using 12 GB free GPU provided by Colab. CNN-Keras and Attention were trained on Kaggle with GPU-T4 boosting.
