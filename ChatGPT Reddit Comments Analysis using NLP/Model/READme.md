@@ -55,9 +55,12 @@ The following libraries are required to run this project:
 ![image](https://github.com/Diyaa0313/DL-Simplified/blob/main/ChatGPT%20Reddit%20Comments%20Analysis%20using%20NLP/Images/wordcloud2.png)
 
 Epoch vs Loss plots :
-[LSTM](../Images/plot_lstm.png)
-[CNN](../Images/plot_cnn.png)
-[CNN+LSTM](../Images/plot_cnn+lstm.png)
+<b>LSTM</b>
+![image](https://github.com/Diyaa0313/DL-Simplified/blob/main/ChatGPT%20Reddit%20Comments%20Analysis%20using%20NLP/Images/plot_lstm.png)
+<b>CNN</b>
+![image](https://github.com/Diyaa0313/DL-Simplified/blob/main/ChatGPT%20Reddit%20Comments%20Analysis%20using%20NLP/Images/plot_cnn.png)
+<b>CNN+LSTM</b>
+![image](https://github.com/Diyaa0313/DL-Simplified/blob/main/ChatGPT%20Reddit%20Comments%20Analysis%20using%20NLP/Images/plot_cnn%2Blstm.png)
 
 ## EVALUATION METRICS
 
