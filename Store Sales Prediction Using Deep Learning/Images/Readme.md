@@ -1,0 +1,1 @@
+Line Charts and box plots have been used for data visualisation by months

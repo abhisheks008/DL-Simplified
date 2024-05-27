@@ -1,0 +1,11 @@
+packages/libraries required to run the model:
+
+numpy
+panda
+matplotlib
+os
+tensorflow
+keras
+imblearn
+random
+warnings

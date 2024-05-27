@@ -1,0 +1,10 @@
+python == 3.9.0
+numpy == 1.22.4
+pandas == 1.4.2
+seaborn == 0.11.2
+matplotlib == 3.5.1
+sklearn==0.2
+tensorflow == 2.8.2
+keras == 2.8.2
+pytorch_tabnet == 4.1.0
+joblib == 1.3.1
