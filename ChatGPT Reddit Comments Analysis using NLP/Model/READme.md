@@ -47,9 +47,12 @@ The following libraries are required to run this project:
 
 ## VISUALIZATION
 
-[positive sentiment words:](../Images/wordcloud1.png)
-[negative sentiment words:](../Images/wordcloud3.png)
-[neutral sentiment words:](../Images/wordcloud2.png)
+<b>Positive sentiment words:</b>
+![image](https://github.com/Diyaa0313/DL-Simplified/blob/main/ChatGPT%20Reddit%20Comments%20Analysis%20using%20NLP/Images/wordcloud1.png)
+<b>Negative Sentiment words</b>
+![image](https://github.com/Diyaa0313/DL-Simplified/blob/main/ChatGPT%20Reddit%20Comments%20Analysis%20using%20NLP/Images/wordcloud2.png)
+<b>Neutral Sentiment Words</b>
+![image](https://github.com/Diyaa0313/DL-Simplified/blob/main/ChatGPT%20Reddit%20Comments%20Analysis%20using%20NLP/Images/wordcloud2.png)
 
 Epoch vs Loss plots :
 [LSTM](../Images/plot_lstm.png)
