@@ -1,39 +1,82 @@
-Data Preprocessing
-Sentiment Analysis:
+## PROJECT TITLE
 
-A sentiment analyzer is used to assign sentiment scores to each data point.
-Scores are converted to categorical labels:
-Negative: -1
-Neutral: 0
-Positive: 1
-A new column named "category" is added to the dataset containing these labels.
-Text Normalization:
+CHATGPT Reddit Comments Analysis using NLP
 
-Lemmatization and stemming are applied to reduce words to their base or root form.
-This reduces variations of words (e.g., "running", "runs", "ran" become "run").
-Undersampling:
+## GOAL
 
-(Optional) If the dataset has class imbalance (unequal distribution of sentiment classes), undersampling is used to balance the classes.
-This can improve model performance.
-TF-IDF:
+To analyse the sentiments behind each comment and find out the best fitted model to predict it
 
-TF-IDF (Term Frequency-Inverse Document Frequency) is used to represent the text data numerically.
-It considers the importance of a word based on its frequency in a document and its rarity across the corpus.
-Deep Learning Models
-LSTM (Long Short-Term Memory):
+## DATASET
 
-An LSTM model is trained to capture long-term dependencies within the text sequences.
-This is useful for sentiment analysis as sentiment can be influenced by words further back in the sentence.
-CNN (Convolutional Neural Network):
+The link for the dataset used in this project: https://www.kaggle.com/datasets/armitaraz/chatgpt-reddit
 
-A CNN model is trained to identify local patterns within the text data.
-This can be helpful for capturing sentiment expressed through specific phrases or word combinations.
-CNN + LSTM:
+## DESCRIPTION
 
-An ensemble model combining CNN and LSTM is trained.
-This leverages the strengths of both models: CNN for local features and LSTM for long-term dependencies.
+Find out the best fitted model to predict the sentiment
 
-Accuracy scores:
-LSTM:0.90
-CNN:0.88
-CNN+LSTM:0.89
+## WHAT I HAD DONE
+
+1. Data collection: From the link of the dataset given above.
+2. Data preprocessing: Preprocessed the given data
+3. Sentiment Analysis:A sentiment analyzer is used to assign sentiment scores to each data point.Scores are converted to categorical labels:
+   Negative: -1
+   Neutral: 0
+   Positive: 1
+   A new column named "category" is added to the dataset containing these labels.
+4. Text Normalization:Lemmatization and stemming are applied to reduce words to their base or root form.This reduces variations of words (e.g., "running", "runs", "ran" become "run").
+5. Undersampling: If the dataset has class imbalance (unequal distribution of sentiment classes), undersampling is used to balance the classes.
+   This can improve model performance.
+6. TF-IDF (Term Frequency-Inverse Document Frequency) : is used to represent the text data numerically.It considers the importance of a word based on its frequency in a document and its rarity across the corpus.
+7. Model selection: I chose to use LSTM,CNN and CNN+LSTM
+8. Comparative analysis: Compared the accuracy score of all the models.
+
+## MODELS USED
+
+1. LSTM
+2. CNN
+3. CNN+LSTM
+
+## LIBRARIES NEEDED
+
+The following libraries are required to run this project:
+
+- numpy
+- pandas
+- matplotlib
+- tensorflow
+
+## VISUALIZATION
+
+[positive sentiment words:](../Images/wordcloud1.png)
+[negative sentiment words:](../Images/wordcloud3.png)
+[neutral sentiment words:](../Images/wordcloud2.png)
+
+Epoch vs Loss plots :
+[LSTM](../Images/plot_lstm.png)
+[CNN](../Images/plot_cnn.png)
+[CNN+LSTM](../Images/plot_cnn+lstm.png)
+
+## EVALUATION METRICS
+
+The evaluation metrics I used to assess the models:
+
+- Accuracy
+- Loss
+
+## RESULTS
+
+Results on Validation dataset:
+
+| Model    | Accuracy | Loss  |
+| -------- | -------- | ----- |
+| LSTM     | 0.90     | 0.317 |
+| CNN      | 0.88     | 0.364 |
+| CNN+LSTM | 0.89     | 0.34  |
+
+## CONCLUSION
+
+Hence, we observe that LSTM is best fitted model for the sentiment analysis of the comments as it gives the highest accuracy with lowest loss.
+
+## SIGNATURE
+
+Diya Sen
