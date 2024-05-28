@@ -1,0 +1,31 @@
+{
+    "Elbow Fracture": {
+      "Description": "An elbow fracture involves a break in one or more of the bones that constitute the elbow joint, such as the humerus, radius, or ulna. These fractures typically result from direct trauma, falls, or high-impact sports injuries.",
+      "Symptoms": "Significant pain, swelling, bruising, and restricted movement of the elbow. In severe cases, the joint may appear deformed."
+    },
+    "Finger Fracture": {
+      "Description": "A finger fracture is a break in one of the bones of the fingers, known as the phalanges. These fractures commonly occur from direct impact, crushing injuries, or hyperextension.",
+      "Symptoms": "Pain, swelling, bruising, and difficulty moving the affected finger. In some cases, there may be visible deformity or shortening of the finger."
+    },
+    "Forearm Fracture": {
+      "Description": "A forearm fracture involves a break in one or both of the forearm bones, the radius and ulna. Such fractures often result from falls, direct blows, or twisting injuries.",
+      "Symptoms": "Severe pain, swelling, bruising, limited range of motion, and possible deformity if the bones are displaced."
+    },
+    "Humerus Fracture": {
+      "Description": "A humerus fracture is a break in the upper arm bone. It can occur at the proximal end near the shoulder, mid-shaft, or distal end near the elbow. These fractures are usually caused by falls, direct impacts, or high-energy trauma.",
+      "Symptoms": "Severe pain, swelling, bruising, inability to move the shoulder or elbow properly, and potential numbness if nerves are affected."
+    },
+    "Shoulder Fracture": {
+      "Description": "A shoulder fracture typically refers to a break in the clavicle (collarbone), scapula (shoulder blade), or the proximal humerus. These fractures often result from falls, direct trauma, or sports injuries.",
+      "Symptoms": "Pain, swelling, and bruising around the shoulder, along with difficulty moving the arm. In some cases, there may be a visible deformity."
+    },
+    "Wrist Fracture": {
+      "Description": "A wrist fracture is a break in one or more of the bones that form the wrist joint, primarily the radius and ulna, but it can also involve the carpal bones. These fractures commonly occur from falls onto an outstretched hand or direct impacts.",
+      "Symptoms": "Pain, swelling, tenderness, bruising, and difficulty moving the wrist or hand. In severe cases, a deformity may be visible."
+    },
+    "No Fracture": {
+      "Description": "A fracture is a medical condition in which there is a break in the continuity of the bone. This can occur in any bone and can vary in severity, from a thin crack to a complete break that splits the bone into two or more pieces. Fractures commonly result from high-impact injuries such as falls, car accidents, or sports injuries, but can also occur from less severe trauma in individuals with weakened bones due to conditions like osteoporosis.",
+      "Symptoms": "Symptoms of a fracture typically include intense pain at the site of the break, which may worsen with movement. Swelling and bruising around the injured area are common, along with tenderness to touch. The affected limb or area may appear deformed or out of place, and there may be an inability to move the affected limb or bear weight on it. In some cases, a grating sensation or sound (crepitus) can be felt or heard when the broken bone ends rub together. In severe cases, such as open fractures, the bone may be visible through the skin."
+    }
+  }
+  
