@@ -43,9 +43,7 @@ To run the application locally, follow these steps:
 6. Return back to upload additional images or repeat the process as needed.
 
 ## Sample Usage 
-<video height="400" controls>
-  <source src="REC-20240528160557.mp4" type="video/mp4">
-</video>
+[![Watch the video](https://img.youtube.com/vi/YNMzmSki_Xg/0.jpg)](https://www.youtube.com/watch?v=YNMzmSki_Xg)
 
 ## Model Details
 
