@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+PIL
+cv2
+sklearn
+shutil
+os
+keras
+tensorflow

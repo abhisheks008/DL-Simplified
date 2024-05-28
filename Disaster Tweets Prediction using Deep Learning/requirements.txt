@@ -1,0 +1,8 @@
+Tensorflow
+Keras
+NLTK
+Numpy
+SkLearn
+Pandas
+Matplotlib
+SeaBorn

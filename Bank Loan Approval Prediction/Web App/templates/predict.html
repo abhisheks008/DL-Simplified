@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Prediction{% endblock title %}
+
+{% block body %}
+
+<div class="container my-3">
+    <h1>Bank Loan Approval Prediction</h1>
+    <p class="lead py-3 border-bottom">
+        <i><b>Here is your prediction result.</b></i>
+    </p>
+
+    <br><br>
+
+    <p class="display-4 text-dark">Your Personal Loan can be <b>{{ result }}!</b></p>
+    <br><br>
+    
+    <p class="lead"><b><i>The chance of getting a personal loan approved is {{ probability_1}}%</i></b></p>
+    <div class="progress mb-3">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: {{ probability_1 }}%;" aria-valuenow="{{ probability_1 }}" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar bg-light" role="progressbar" style="width: {{ 100 - probability_1 }}%;" aria-valuenow="{{ 100 - probability_1 }}" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <p class="lead"><b><i>The chance of getting a personal loan rejected is {{ probability_0}}%</i></b></p>
+    <div class="progress">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: {{ probability_0 }}%;" aria-valuenow="{{ probability_0 }}" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar bg-light" role="progressbar" style="width: {{ 100 - probability_0 }}%;" aria-valuenow="{{ 100 - probability_0 }}" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <a class="btn btn-secondary text-white col-md-12 my-5" href="/">Back to Home</a>
+</div>
+
+{% endblock body %}

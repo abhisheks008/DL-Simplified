@@ -1,0 +1,10 @@
+tensorflow
+matplotlib.pyplot
+numpy
+pandas
+pytorch
+sebornsplit-folders
+scikit-learn
+ultralytics
+Pillow
+opencv-python-headless
