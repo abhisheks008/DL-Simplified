@@ -42,6 +42,8 @@ To run the application locally, follow these steps:
 5. Wait for the prediction result to appear on the screen, including the bounding box around detected fractures and information about the fracture type.
 6. Return back to upload additional images or repeat the process as needed.
 
+## Sample Usage 
+[](REC-20240528160557.mp4)
 ## Model Details
 
 The bone fracture detection models used in this application are trained on a dataset of X-ray images labeled with fracture and non-fracture classes. The models are implemented using deep learning techniques and are capable of accurately identifying fractures in bone scans.
