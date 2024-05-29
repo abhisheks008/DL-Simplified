@@ -71,7 +71,8 @@ This project utilizes a VGG19, ResNet50, Custom CNN and Mobilenet for image clas
 
 The image classification project using different models demonstrates effective learning and categorization across 5 classes. The models achieve promising accuracy on both training and validation sets, showcasing their potential for various image processing applications. Our ResNet50 scored the highest with 90% accuracy, while MobileNet scored the lowest with 74%.
 This project will aid others to use this this technology to classifiy weather conditions even in adverse times so as to prevent accidents.
-✒️Your Signature  
+
+##✒️Your Signature  
   Keshav Arora
 
 --- 
