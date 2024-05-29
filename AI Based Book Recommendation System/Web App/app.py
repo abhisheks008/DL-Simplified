@@ -19,7 +19,7 @@ st.set_page_config(page_title='Book Recommendation System',
 
 # Execute the IPython Notebook
 
-if not (os.path.exists('model/final_data.csv') and os.path.exists('model/cosine_sim.npy')):
+if not (os.path.exists('dataset/final_data.csv') and os.path.exists('model/cosine_sim.npy')):
     warn = st.warning(
         'Models not found! Running the notebook to create models...')
     pm.execute_notebook(
@@ -39,7 +39,7 @@ def load_models():
     cosine_sim = np.load('model/cosine_sim.npy')
     ncf_model = load_model('model/ncf_model.h5')
     cnn_model = load_model("model/cnn_model.h5")
-    df = pd.read_csv("model/final_data_with_ratings.csv")
+    df = pd.read_csv("dataset/final_data_with_ratings.csv")
     tokenizer = Tokenizer(num_words=5000)
     tokenizer.fit_on_texts(df['Desc'])
     message = st.success('Models loaded successfully!')
