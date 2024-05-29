@@ -5,7 +5,7 @@ Welcome to Signify, an American Sign Language (ASL) detection application powere
 ## Demo
 To see how Signify works, check out the demo video
 
-https://github.com/Adhivp/DL-Simplified/assets/92261845/aef089f7-19f2-410b-89de-ed5528511f47
+https://github.com/Adhivp/DL-Simplified/assets/92261845/caf449f8-cd18-4019-a6ad-81705a6cfa27
 
 ## Getting Started
 
