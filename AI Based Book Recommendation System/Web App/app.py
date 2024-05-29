@@ -23,7 +23,7 @@ if not (os.path.exists('model/final_data.csv') and os.path.exists('model/cosine_
     warn = st.warning(
         'Models not found! Running the notebook to create models...')
     pm.execute_notebook(
-        'recommendation_model.ipynb',
+        'model/recommendation_model.ipynb',
         'output_notebook.ipynb'
     )
     warn.empty()
