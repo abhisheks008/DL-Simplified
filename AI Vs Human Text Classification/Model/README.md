@@ -33,13 +33,58 @@ The models developed are:
 - gensim
 - keras
 
+
+**Exploratory Data Analysis (EDA)**
+
+### Distribution of Human & AI Generated Text
+![Distribution of Human & AI Generated Text](../Images/Distribution_of_Human_AI-Generated_text.png)
+
+### Distribution of Text Lengths
+![Distribution of Text Lengths](../Images/Text_Length.png)
+
+### Distribution of Word Counts
+![Distribution of Word Counts](../Images/Word_Count.png)
+
+### Word Cloud for Human-Written text
+![Word Cloud for Human-Written text](../Images/word_cloud_human.png)
+
+### Word Cloud for AI-Generated text
+![Word Cloud for AI-Generated text](../Images/word_cloud_ai.png)
+
+### Overall Data Description
+![Overall Data Description](../Images/Data_Description.png)
+
+### Conclusions from EDA
+
+#### Text Length
+- **Mean:** Average text length is approximately 2270 characters.
+- **Range:** Text lengths vary widely, from 1 to 18,322 characters.
+
+#### Word Count
+- **Mean:** Average word count is 393 words.
+- **Range:** Word counts range from 0 to 1668 words.
+
+#### Average Word Length
+- **Mean:** Average word length is about 4.76 characters.
+- **Range:** Ranges from 1 to 126 characters, though extreme values likely indicate anomalies.
+
+#### Punctuation Count
+- **Mean:** Average punctuation count per text is 48.
+- **Range:** Punctuation counts range from 0 to 388.
+
+#### Lexical Diversity
+- **Mean:** Average lexical diversity is 0.51.
+- **Range:** Ranges from 0 (no unique words) to 1 (all words are unique).
+
+
+
 **Model Performances**
 
 ### Model 1 (ANN Model) Performance Graphs
 ![Model 1 (ANN Model) performance graphs](../Images/ANN_Performance.png)
 
 ### Model 2 (LSTM MODEL) Performance Graphs
-![Model 2 (Basic CNN Model) performance graphs](../Images/LSTM_Performance.png)
+![Model 2 (LSTM Model) performance graphs](../Images/LSTM_Performance.png)
 
 
 **CONCLUSION**
