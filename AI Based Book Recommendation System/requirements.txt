@@ -6,3 +6,5 @@ keras
 tf-keras
 transformers
 torch
+streamlit
+papermill

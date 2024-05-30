@@ -1,4 +1,3 @@
-
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
@@ -19,12 +18,12 @@ st.set_page_config(page_title='Book Recommendation System',
 
 # Execute the IPython Notebook
 
-if not (os.path.exists('dataset/final_data.csv') and os.path.exists('model/cosine_sim.npy')):
+if not (os.path.exists('AI Based Book Recommendation System/dataset/final_data.csv') and os.path.exists('AI Based Book Recommendation System/model/cosine_sim.npy')):
     warn = st.warning(
-        'Models not found! Running the notebook to create models...')
+        'Models not found! Running the notebook to create models.')
     pm.execute_notebook(
-        'model/recommendation_model.ipynb',
-        'output_notebook.ipynb'
+        'AI Based Book Recommendation System/model/recommendation_model.ipynb',
+        'AI Based Book Recommendation System/output_notebook.ipynb'
     )
     warn.empty()
 
@@ -36,10 +35,10 @@ else:
 
 @st.cache_resource()
 def load_models():
-    cosine_sim = np.load('model/cosine_sim.npy')
-    ncf_model = load_model('model/ncf_model.h5')
-    cnn_model = load_model("model/cnn_model.h5")
-    df = pd.read_csv("dataset/final_data_with_ratings.csv")
+    cosine_sim = np.load('AI Based Book Recommendation System/model/cosine_sim.npy')
+    ncf_model = load_model('AI Based Book Recommendation System/model/ncf_model.h5')
+    cnn_model = load_model("AI Based Book Recommendation System/model/cnn_model.h5")
+    df = pd.read_csv("AI Based Book Recommendation System/dataset/final_data_with_ratings.csv")
     tokenizer = Tokenizer(num_words=5000)
     tokenizer.fit_on_texts(df['Desc'])
     message = st.success('Models loaded successfully!')

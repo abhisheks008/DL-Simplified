@@ -60,13 +60,18 @@ This project aims to improve upon an existing book recommendation system by inte
   - Provides top-N recommendations based on content similarity.
 
 ### Steps to run the project
+* Clone the repository
+```bash
+git clone https://github.com/abhisheks008/DL-Simplified.git
+
 1. Run the following command to install the required packages:
 ```bash
-pip install -r requirements.txt
+pip install -r "AI Based Book Recommendation System\requirements.txt"
 ```
 2. Run the following command to start the streamlit app:
 ```bash
-streamlit run app.py
+cd DL-Simplified
+streamlit run "AI Based Book Recommendation System\Web App\app.py"
 ```
 **Note:** The app will be running on the local server. You can access it by clicking on the link provided in the terminal.
 > In case of error while running the app, try executing the `recommendation_model.ipynb` file to generate the model and then run the app again.
