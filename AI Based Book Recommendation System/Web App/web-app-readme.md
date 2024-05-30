@@ -10,7 +10,11 @@ The main goal of this project is to develop an AI-based book recommendation syst
 
 ### Video Demonstration 🎥
 
-<video controls src="AI Based Book Recommendation System/Assets/Video_Demonstration.mp4" title="Title"></video>
+
+https://github.com/Sanjeev-Kumar78/DL-Simplified/assets/62820550/effb0f67-8831-45b7-a677-5944202ff512
+
+
+
 
 ### Signature ✒️
 
