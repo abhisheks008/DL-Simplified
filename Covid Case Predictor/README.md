@@ -5,9 +5,10 @@ To predict the number of covid cases for every month.
 
 ### 🧵 **Dataset**
 https://www.kaggle.com/datasets/imdevskp/corona-virus-report/data
+https://www.kaggle.com/datasets/gpreda/covid-world-vaccination-progress/data
 
 ### 🧾 **Description**
-The project focuses on exploring the data on the COVID-19 pandemic and forecast the number of confirmed cases in steps of 30 days(1 month).
+The project focuses on exploring the data on the COVID-19 pandemic and forecast the number of vaccinations in steps of 30 days(1 month).
 
 ### 🧮 **What I had done!**
 
@@ -49,6 +50,12 @@ Since this is a time series dataset, I have chosen to proceed with time series m
 4. Spread of the virus globally
 ![](Images/newplot.png)
 
+5. Most widley used vaccines
+![](Images/EDA8.png)
+
+6. Most proactive country in vaccinations
+![](Images/EDA7.png)
+
 
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
@@ -58,16 +65,16 @@ Since this is a time series dataset, I have chosen to proceed with time series m
 ![](Images/LSTM.png)
 
 
-|                    |   MAPE    |
+|                    |   RMSE    |
 |--------------------|---------------|
-|      ARIMA        |     14%       |  
-|     SARIMAX       |     11%       |
-|    LSTM    |     57%       |
-|    BiLSTM    |     58%       |   
+|      ARIMA        |     10.34       |  
+|     SARIMAX       |     9.72       |
+|    LSTM    |     1.85     |
+|    BiLSTM    |     2.07      |   
 
 
 ### 📢 **Conclusion**
-BiLSTM model performs better comparative to other models used on the above dataset.
+LSTM model performs better comparative to other models used on the above dataset.
 
 
 
