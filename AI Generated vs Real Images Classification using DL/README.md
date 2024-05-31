@@ -47,23 +47,33 @@ models used:
 
 - Real Art
 
-[]
+<img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/85220_africa-21787_1920.rev.1600192341.jpg">
+
+<img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/beautiful-scenery-in-autumn-season-illustration-ai-generative-free-free-photo.jpg">
 
 - AI Art
 
-[]
+<img src = "ttps://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1000_F_563719058_JXnzcPV4GRpWqmF5sqnqmbJ7ow3ca3DS.jpg">
+
+<img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1WA1ZUTaiGV9YO5lVEPPFhA.png">
 
 - CNN
 
-[]
+<img src = "">
+
+<img src = "">
 
 - Xception
 
-[]
+<img src = "">
+
+<img src = "">
 
 - VGG16
 
-[]
+<img src = "">
+
+<img src = "">
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
@@ -74,6 +84,7 @@ Metrics:
 | ResNet-50 | 60.96% | 0.6848 |
 | inception | 76.71%  | 0.4543 | 
 | CNN | % | 0. |
+| CNN with Attention | % | 0. |
 | Xception | 75.34%  | 0.5466 | 
 | VGG16 | 78.77% | 0.5400 |
 
