@@ -6,6 +6,10 @@ The main objective of this project is to predict future frames in a sequence of 
 ### 🧵 **Dataset**
 The dataset used in this project is the Moving MNIST dataset, which consists of sequences of handwritten digits moving within a frame. Each sequence contains multiple frames, and the goal is to predict the subsequent frames based on the previous ones.
 
+Dataset:
+
+![sample](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/datset.jpeg)
+
 ### 🧾 **Description**
 
 This project involves building a ConvLSTM model to predict future frames in Moving MNIST sequences. It includes data preprocessing, model creation, training, evaluation, and prediction on unseen examples.
@@ -55,12 +59,61 @@ This project involves building a ConvLSTM model to predict future frames in Movi
 
 ### 📊 **Exploratory Data Analysis Results**
 
-Include images of the visualization results obtained during the exploration of the dataset, such as sample frames from Moving MNIST sequences.
+## Dataset
+
+![Dataset](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/datset.jpeg)
+
+This image represents the dataset used in the project.
+
+
+## Average Intensity Over Time
+
+![Average Intensity Over Time](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/avg_intensity_over_time.png)
+
+This plot illustrates the average pixel intensity over time.
+
+
+## Frame Intensity Distributions
+
+![Frame Intensity Distributions](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/frame_intensity_distributions.png)
+
+This plot displays the intensity distributions across frames.
+
+## Intensity Histogram
+
+![Intensity Histogram](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/intensity_histogram.png)
+
+This histogram illustrates the distribution of pixel intensities in the dataset.
+
+
+## Mean and Standard Deviation Frames
+
+![Mean and Standard Deviation Frames](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/mean_std_frames.png)
+
+This image shows the mean and standard deviation frames of the dataset.
 
 ### 📈 **Performance of the Model**
 
 - **Convolutional LSTM (ConvLSTM) Loss**: Training loss decreased from 0.0694 to 0.0237 over 41 epochs.
 - **Convolutional LSTM (ConvLSTM) Accuracy**: Training accuracy reached 92.11%, while validation accuracy stabilized around 93.2%.
+
+## Accuracy Plot
+
+![Accuracy Plot](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/accuracy_plot.png)
+
+## Loss Plot
+
+![Loss Plot](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/loss_plot.png)
+
+This plot showcases the training and validation loss  and Accuracy over epochs.
+
+  ## Result
+
+![Result](https://github.com/manishh12/DL-Simplified/blob/main/Framing%20the%20Future/Images/Result.jpeg)
+
+This image shows the final result or output of the project.
+
+
 
 ### 📢 **Conclusion**
 
