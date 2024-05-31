@@ -1,7 +1,3 @@
-Here's the enhanced README.md with the added details:
-
----
-
 # Breast Cancer Detection using Deep Learning with Ultrasound Imaging
 
 ## 📝 Abstract
@@ -63,6 +59,8 @@ Breast Cancer Detection App/
 |- requirements.txt
 |- README.md
 ```
+## Demo Image
+![Demo](https://github.com/TheNaiveSamosa/DL-Simplified/blob/cff14deb16166e5140d8b86435530f6b711cf60c/Breast%20Cancer%20Detection%20using%20DL%20with%20WebApp/Images/Demo%20webpage.png)
 
 ## 🙌 Acknowledgments
 
