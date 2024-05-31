@@ -1,0 +1,20 @@
+names:
+- Anticlockwise-dLyJ
+- Backward
+- Clockwise
+- Down
+- Forward
+- Left
+- Right
+- Up
+- Wave
+nc: 9
+roboflow:
+  license: CC BY 4.0
+  project: handlandmark
+  url: https://universe.roboflow.com/nit-raipur-szo7o/handlandmark/dataset/1
+  version: 1
+  workspace: nit-raipur-szo7o
+test: /content/Yolov8HandSign/datasets/HandLandmark-1/test/images
+train: /content/Yolov8HandSign/datasets/HandLandmark-1/train/images
+val: /content/Yolov8HandSign/datasets/HandLandmark-1/valid/images
