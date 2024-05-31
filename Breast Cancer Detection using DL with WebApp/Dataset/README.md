@@ -18,9 +18,21 @@ Welcome to the Breast Cancer Ultrasound Images Dataset repository. This dataset 
 2. **Dataset Structure**: Once downloaded, ensure the dataset is organized in the following structure within this directory:
 
 ```
-Breast Cancer Ultrasound Images Dataset/
-|- images/
-  |- [Ultrasound Image Files]
+Breast Cancer Detection App/
+|- dataset/
+  |- benign
+  |- normal
+  |- malignant
+|- Model/
+  |- best_breast_cancer_detection_model.h5
+  |- Breast_Cancer_Detection_Notebook.ipynb
+|- webapp/
+  |- templates/
+  |- static/
+  |- webapp.py
+|- Images/
+  |- [Image files]
+|- requirements.txt
 |- README.md
 ```
 
