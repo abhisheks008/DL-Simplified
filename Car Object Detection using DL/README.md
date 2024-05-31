@@ -49,13 +49,13 @@ The following libraries are required to run this project:
 
 ## 📊 Exploratory Data Analysis Results
 #### Accuracy and Loss of VGG16 Model:
-![vgg_acc](https://github.com/Rithish5513U/DL-Simplified/blob/main/Dog%20Face%20Detection%20using%20DL/Images/vgg_acc.png)
+![vgg_acc](https://github.com/Rithish5513U/DL-Simplified/blob/main/Car%20Object%20Detection%20using%20DL/Images/vgg_acc.png)
 
 #### Accuracy and Loss of Mobilenet SSD model:
-![mobilenet_acc](https://github.com/Rithish5513U/DL-Simplified/blob/main/Dog%20Face%20Detection%20using%20DL/Images/Mobilenet_SSD.png)
+![mobilenet_acc](https://github.com/Rithish5513U/DL-Simplified/blob/main/Car%20Object%20Detection%20using%20DL/Images/mobilenet_acc.png)
 
 #### Confidence of YOLOv8 Model:
-![yolo_f1_curve](https://github.com/Rithish5513U/DL-Simplified/blob/main/Dog%20Face%20Detection%20using%20DL/Images/F1_curve.png)
+![yolo_f1_curve](https://github.com/Rithish5513U/DL-Simplified/blob/main/Car%20Object%20Detection%20using%20DL/Images/yolo_f1_curve.png)
 
 
 ## 📈 Performance of the Models based on the Accuracy Scores
