@@ -16,18 +16,18 @@ We employed three different deep learning models to classify the ultrasound imag
 
 ## Results
 ### Confusion Matrices
-![Confusion Matrices](path_to_confusion_matrices_image)
+![Confusion Matrices](https://github.com/TheNaiveSamosa/DL-Simplified/blob/e80b165685e6968ff28b574720aafee891b33516/Breast%20Cancer%20Detection%20using%20DL%20with%20WebApp/Images/Confusion%20Matrices.png)
 
 ### Training and Validation Loss & Accuracy
 
 #### MLP
-![MLP Loss and Accuracy](path_to_mlp_loss_accuracy_image)
+![MLP Loss and Accuracy](https://github.com/TheNaiveSamosa/DL-Simplified/blob/e80b165685e6968ff28b574720aafee891b33516/Breast%20Cancer%20Detection%20using%20DL%20with%20WebApp/Images/MLP.png)
 
 #### VGG16
-![VGG16 Loss and Accuracy](path_to_vgg16_loss_accuracy_image)
+![VGG16 Loss and Accuracy](https://github.com/TheNaiveSamosa/DL-Simplified/blob/e80b165685e6968ff28b574720aafee891b33516/Breast%20Cancer%20Detection%20using%20DL%20with%20WebApp/Images/VGG16.png)
 
 #### ResNet50
-![ResNet50 Loss and Accuracy](path_to_resnet50_loss_accuracy_image)
+![ResNet50 Loss and Accuracy](https://github.com/TheNaiveSamosa/DL-Simplified/blob/e80b165685e6968ff28b574720aafee891b33516/Breast%20Cancer%20Detection%20using%20DL%20with%20WebApp/Images/ResNet50.png)
 
 ### Classification Reports
 
