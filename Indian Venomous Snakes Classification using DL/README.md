@@ -48,15 +48,15 @@ models used:
 - #### **Venomous**
 
 <p align="center">
-  <img src="path/to/your/image1.png" height="200px" width="200px" />
-  <img src="path/to/your/image2.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/ven1.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/ven2.png" height="200px" width="200px" />
 </p>
 
 - #### **Non Venomous**
 
 <p align="center">
-  <img src="path/to/your/image1.png" height="200px" width="200px" />
-  <img src="path/to/your/image2.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/NV1.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/NV2.png" height="200px" width="200px" />
 </p>
 
 - #### **CNN**
