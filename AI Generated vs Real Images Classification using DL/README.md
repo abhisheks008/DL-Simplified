@@ -53,7 +53,7 @@ models used:
 
 - AI Art
 
-<img src = "ttps://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1000_F_563719058_JXnzcPV4GRpWqmF5sqnqmbJ7ow3ca3DS.jpg">
+<img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1000_F_563719058_JXnzcPV4GRpWqmF5sqnqmbJ7ow3ca3DS.jpg">
 
 <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1WA1ZUTaiGV9YO5lVEPPFhA.png">
 
@@ -83,8 +83,8 @@ Metrics:
 |--------|---------------------|--------------------------|
 | ResNet-50 | 60.96% | 0.6848 |
 | inception | 76.71%  | 0.4543 | 
-| CNN | % | 0. |
-| CNN with Attention | % | 0. |
+| CNN | 67.81% | 0.6443 |
+| CNN with Attention | 69.86% | 0.6037 |
 | Xception | 75.34%  | 0.5466 | 
 | VGG16 | 78.77% | 0.5400 |
 
