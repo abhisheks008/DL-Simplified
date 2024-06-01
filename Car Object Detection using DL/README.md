@@ -1,4 +1,4 @@
-# Dog Face Detection using DL
+# Car Object Detection using DL
 
 ## PROJECT TITLE
 
