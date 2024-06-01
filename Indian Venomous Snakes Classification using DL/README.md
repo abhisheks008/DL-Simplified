@@ -62,36 +62,36 @@ models used:
 - #### **CNN**
 
 <p align="center">
-  <img src="path/to/your/image1.png" height="200px" width="200px" />
-  <img src="path/to/your/image2.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/CNN%20Loss.png" height="200px" width="200px" />
 </p>
 
 - #### **InceptionV3**
 
 <p align="center">
-  <img src="path/to/your/image1.png" height="200px" width="200px" />
-  <img src="path/to/your/image2.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/InceptionV3%20Accuracy.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/InceptionV3%20Loss.png" height="200px" width="200px" />
 </p>
 
 - #### **VGG16**
 
 <p align="center">
-  <img src="path/to/your/image1.png" height="200px" width="200px" />
-  <img src="path/to/your/image2.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/VGG16%20Accuracy.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/VGG16%20Loss.png" height="200px" width="200px" />
 </p>
 
 - #### **EfficientNetB7**
 
 <p align="center">
-  <img src="path/to/your/image1.png" height="200px" width="200px" />
-  <img src="path/to/your/image2.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/EfficientNetB7%20Accuracy.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/EfficientNetB7%20Loss.png" height="200px" width="200px" />
 </p>
 
 - #### **RESNET50**
 
 <p align="center">
-  <img src="path/to/your/image1.png" height="200px" width="200px" />
-  <img src="path/to/your/image2.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/RESNET50%20Accuracy.png" height="200px" width="200px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/RESNET50%20Loss.png" height="200px" width="200px" />
 </p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
