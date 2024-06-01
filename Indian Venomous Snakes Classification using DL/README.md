@@ -30,7 +30,7 @@ models used:
 - Xception
 - VGG16
 - CNN-Keras
-- Inception
+- InceptionV3
 
 ### 📚 **Libraries Needed**
 
@@ -45,50 +45,74 @@ models used:
 ### 📊 **Exploratory Data Analysis Results**
 
 
-- #### Venomous
+- #### **Venomous**
 
-<img src = "">
+<p align="center">
+  <img src="path/to/your/image1.png" height="200px" width="200px" />
+  <img src="path/to/your/image2.png" height="200px" width="200px" />
+</p>
 
-- #### Non Venomous
+- #### **Non Venomous**
 
-<img src = "">
+<p align="center">
+  <img src="path/to/your/image1.png" height="200px" width="200px" />
+  <img src="path/to/your/image2.png" height="200px" width="200px" />
+</p>
 
-- #### CNN
+- #### **CNN**
 
-<img src = "">
+<p align="center">
+  <img src="path/to/your/image1.png" height="200px" width="200px" />
+  <img src="path/to/your/image2.png" height="200px" width="200px" />
+</p>
 
-<img src = "">
+- #### **InceptionV3**
 
-- #### Xception
+<p align="center">
+  <img src="path/to/your/image1.png" height="200px" width="200px" />
+  <img src="path/to/your/image2.png" height="200px" width="200px" />
+</p>
 
-<img src = "">
+- #### **VGG16**
 
-<img src = "">
+<p align="center">
+  <img src="path/to/your/image1.png" height="200px" width="200px" />
+  <img src="path/to/your/image2.png" height="200px" width="200px" />
+</p>
 
-- #### VGG16
+- #### **EfficientNetB7**
 
-<img src = "">
+<p align="center">
+  <img src="path/to/your/image1.png" height="200px" width="200px" />
+  <img src="path/to/your/image2.png" height="200px" width="200px" />
+</p>
 
-<img src = "">
+- #### **RESNET50**
+
+<p align="center">
+  <img src="path/to/your/image1.png" height="200px" width="200px" />
+  <img src="path/to/your/image2.png" height="200px" width="200px" />
+</p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
-#### Metrics:
+#### Metrics: 
+
+We used Validation and Testing **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 60.96% | 0.6848 |
-| inception | 76.71%  | 0.4543 | 
-| CNN | % | 0. |
-| CNN with Attention | % | 0. |
-| Xception | 75.34%  | 0.5466 | 
-| VGG16 | 78.77% | 0.5400 |
+| ResNet-50 | 65.17% | 0.6405 |
+| InceptionV3 | 86.89%  | 0.3523 | 
+| CNN | 74.44% | 0.5768 |
+| VGG16 | 75.28% | 0.5027 |
+| EfficientNetB7 | 60.67% | 0.6833 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-VGG16 and inception work well on the dataset.
+InceptionV3 and VGG16 work well on the dataset, while the custom CNN, being much lighter, falls just a bit short.
 
 ### ✒️ **Your Signature**
 
