@@ -24,7 +24,11 @@ The provided code snippet showcases the key features of the web application for 
 This code structure enables seamless integration of deep learning models into a user-friendly web interface for breast cancer detection using ultrasound imaging.
 
 ### Video Demonstration 🎥
-[![]()]()
+
+
+https://github.com/TheNaiveSamosa/DL-Simplified/assets/112872086/8405b383-6a54-416f-a594-e29339151cbf
+
+
 
 ### Signature ✒️
 Aditya Khamitkar (TheNaiveSamosa)
