@@ -13,10 +13,6 @@ The CT Brain Object Detection Dataset is a comprehensive collection of CT brain 
 ## Accessing the Dataset
 The dataset is stored in the "files" folder, which is further organized into subfolders corresponding to the type of brain disease. Each subfolder contains CT scans of individuals with the respective condition in both .jpg and .dcm formats.
 
-Additionally, the dataset includes a file with the extension .csv, which provides essential information for each media file:
-- **dcm:** Link to access the .dcm file
-- **jpg:** Link to access the .jpg file
-- **type:** Name of the brain disease observed in the CT scan
 
 ## Commercial Usage
 For commercial purposes, the full version of the dataset offers a more extensive collection of brain scans featuring individuals with diverse conditions. To obtain access to the complete dataset, interested parties can submit a request on TrainingData.
