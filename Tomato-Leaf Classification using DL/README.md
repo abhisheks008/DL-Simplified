@@ -66,8 +66,8 @@ models used:
 - #### **CNN**
 
 <p align="center">
-  <img src="" height="400px" width="400px" />
-  <img src="" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **InceptionV3**
@@ -120,17 +120,19 @@ We used Validation and Testing **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | % |  |
-| InceptionV3 | %  |  | 
-| CNN | % |  |
-| VGG16 | % |  |
-| EfficientNetB7 | % |  |
-| DenseNet-121 | % |  |
-| Xception | % |  |
+| ResNet-50 | 10.00% | 14.5063 |
+| InceptionV3 | 84.30%  | 0.5310 | 
+| CNN | 98.00% | 0.0657 |
+| VGG16 | 92.70% | 0.2489 |
+| EfficientNetB7 | 10.00% | 2.3026 |
+| DenseNet-121 | 93.60% | 0.1880 |
+| Xception | 88.90% | 0.3858 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
+
+Pre-trained models like **DenseNet-121** and **VGG16** worked well. **CNN** was the clear winner owing to its significantly higher accuracy and minimal loss as well as its minimal architecture.
 
 ### ✒️ **Your Signature**
 
