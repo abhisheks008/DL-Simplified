@@ -1,0 +1,8 @@
+Python (Python 3.x recommended)
+NumPy
+Pandas
+Seaborn
+Matplotlib
+TensorFlow
+NLTK
+Gensim
