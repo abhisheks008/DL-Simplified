@@ -32,7 +32,7 @@ The goal of this project is to develop robust predictive models that can assist 
 - Split data into training and testing sets.
 - Reshape data for input into neural networks.
 
-2.Define the Models
+2. Define the Models
 - Define the architectures for CNN, LSTM, and GRU models using TensorFlow and Keras.
 - Compile the models with appropriate loss functions and optimizers.
 
@@ -62,7 +62,7 @@ The goal of this project is to develop robust predictive models that can assist 
 - Advantage: CNNs can automatically and adaptively learn spatial hierarchies from the input data, making them well-suited for extracting features from time-series sensor data.
 - Reason for Selection: We chose CNNs to exploit their ability to capture local patterns in time-series data, which is crucial for understanding the condition of different components in the turbofan engine.
 
-2.Long Short-Term Memory (LSTM) Network
+2. Long Short-Term Memory (LSTM) Network
 - Purpose: LSTM networks are a type of recurrent neural network (RNN) designed to model temporal sequences and long-range dependencies in sequential data.
 - Advantage: LSTMs can remember important information over long sequences and are less prone to the vanishing gradient problem, which allows them to learn dependencies over longer time periods.
 - Reason for Selection: We chose LSTM networks to effectively model the temporal dependencies in the sensor data, capturing how the condition of the engine evolves over time.
@@ -83,30 +83,31 @@ The goal of this project is to develop robust predictive models that can assist 
 ### 📊 Exploratory Data Analysis Results
 
 **Box Plot**
-![Screenshot 2024-06-02 164818](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/5dc87a22-6137-4f04-a7a9-7a7e3320577d)
-![Screenshot 2024-06-02 164803](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/3ebe59c1-aba9-4a9e-9a23-dde92f08b076)
-
-**Correlation Heat-map**
-![Screenshot 2024-06-02 164744](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/a9c5e290-b20c-48ab-8e33-3e8cb48a5e4b)
 ![Screenshot 2024-06-02 164615](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/01ca6492-1d71-4a57-9bf8-f276e3854c98)
 ![Screenshot 2024-06-02 164556](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/0472d44d-4a50-4721-8446-b9bb4b990c8d)
+
+**Correlation Heat-map**
+![Screenshot 2024-06-02 164818](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/5dc87a22-6137-4f04-a7a9-7a7e3320577d)
+![Screenshot 2024-06-02 164803](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/3ebe59c1-aba9-4a9e-9a23-dde92f08b076)
+![Screenshot 2024-06-02 164744](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/a9c5e290-b20c-48ab-8e33-3e8cb48a5e4b)
+
 
 ### 📈 Performance of the Models based on the Accuracy Scores
 
 1. Long Short-Term Memory (LSTM) Network
-Training Loss: 1904.8676
-Validation Loss: 2103.3062
-Test Loss: 2128.7546
+- Training Loss: 1904.8676
+- Validation Loss: 2103.3062
+- Test Loss: 2128.7546
 
 2. Gated Recurrent Unit (GRU) Network
-Training Loss: 1412.1937
-Validation Loss: 1215.8657
-Test Loss: 1183.5233
+- Training Loss: 1412.1937
+- Validation Loss: 1215.8657
+- Test Loss: 1183.5233
 
 3. Convolutional Neural Network (CNN)
-Training Loss: 2012.3456
-Validation Loss: 2102.3423
-Test Loss: 2234.3453
+- Training Loss: 2012.3456
+- Validation Loss: 2102.3423
+- Test Loss: 2234.3453
 
 **Summary of Results**
 - LSTM : LSTM networks effectively model the temporal dependencies in the sensor data, capturing how the condition of the engine evolves over time.
