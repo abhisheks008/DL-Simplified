@@ -71,16 +71,57 @@ This project involves building and comparing different neural network models to 
 
 ### 📊 **Exploratory Data Analysis Results**
 
-Visualizations include:
-- Distribution of emotions.
-- Word count, character count, and average word length distributions.
-- Top 20 most common words.
+### Emotion Distribution
+![Emotion Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/emotion_distribution.png)
+
+### Average Word Length
+![Average Word Length](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/Average_Word_Length.png)
+
+### Character Count Distribution
+![Character Count Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/Character_Count_distribution.png)
+
+### Top 20 Common Words
+![Top 20 Common Words](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/Top20_Common_words.png)
+
+### Word Count Distribution
+![Word Count Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/Word_Count_distribution.png)
+
+### Combined Emotion Distribution
+![Combined Emotion Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/combined_emotion_distribution.png)
+
+
+
+
+
+
 
 ### 📈 **Performance of the Models**
 
 - **CNN Accuracy**: 95.94%
 - **ANN Accuracy**: 94.21%
 - **RNN Accuracy**: 94.44%
+- 
+### ANN Model Accuracy
+![ANN Model Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/ann_model_accuracy_plot.png)
+
+### ANN Model Loss
+![ANN Model Loss](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/ann_model_loss_plot.png)
+
+### CNN Model Accuracy
+![CNN Model Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/cnn_model_accuracy_plot.png)
+
+### CNN Model Loss
+![CNN Model Loss](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/cnn_model_loss_plot.png)
+
+
+### RNN Model Accuracy
+![RNN Model Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/rnn_model_accuracy_plot.png)
+
+### RNN Model Loss
+![RNN Model Loss](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/rnn_model_loss_plot.png)
+
+### Model Comparison
+![Model Comparison](https://github.com/manishh12/DL-Simplified/blob/main/Emotion%20Classifier/Images/model_comparison.png)
 
 ### 📢 **Conclusion**
 
