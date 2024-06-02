@@ -83,8 +83,9 @@ The goal of this project is to develop robust predictive models that can assist 
 ### 📊 Exploratory Data Analysis Results
 
 **Box Plot**
-![Screenshot 2024-06-02 164615](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/01ca6492-1d71-4a57-9bf8-f276e3854c98)
 ![Screenshot 2024-06-02 164556](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/0472d44d-4a50-4721-8446-b9bb4b990c8d)
+![Screenshot 2024-06-02 164615](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/01ca6492-1d71-4a57-9bf8-f276e3854c98)
+
 
 **Correlation Heat-map**
 ![Screenshot 2024-06-02 164818](https://github.com/jeet-Abhi123/Road-Safety-Data-Analysis-Power-BI-/assets/143840497/5dc87a22-6137-4f04-a7a9-7a7e3320577d)
