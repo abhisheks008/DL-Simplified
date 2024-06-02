@@ -8,13 +8,13 @@ The NASA C-MAPSS dataset (Commercial Modular Aero-Propulsion System Simulation) 
 ### Models
 We have implemented the following models for RUL prediction:
 
-- Convolutional Neural Network (CNN)
+- Convolutional Neural Network (CNN) <br>
 CNNs are effective in capturing spatial hierarchies in data. In this project, CNNs are used to automatically learn and extract meaningful features from the time-series sensor data, which are then used to predict the RUL of the engines.
 
-- Long Short-Term Memory Network (LSTM)
+- Long Short-Term Memory Network (LSTM) <br>
 LSTMs are a type of recurrent neural network (RNN) that are well-suited for learning from sequential data due to their ability to maintain long-term dependencies. LSTMs are used to capture the temporal dependencies in the time-series data, providing robust predictions for the RUL of the engines.
 
-- Gated Recurrent Unit (GRU)
+- Gated Recurrent Unit (GRU) <br>
 GRUs are a variant of RNNs similar to LSTMs but with a simplified architecture. GRUs effectively capture temporal dependencies with fewer parameters, making them computationally efficient. GRUs are employed to process the sequence of sensor readings and predict the RUL.
 
 ### Libraries Used
