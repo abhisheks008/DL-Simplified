@@ -45,35 +45,54 @@ models used:
 ### 📊 **Exploratory Data Analysis Results**
 
 
-- Real Art
+- **Real Art**
 
-<img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/85220_africa-21787_1920.rev.1600192341.jpg">
+<p align="center">
+  <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/85220_africa-21787_1920.rev.1600192341.jpg"> height="400px" width="400px" />
+  <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/beautiful-scenery-in-autumn-season-illustration-ai-generative-free-free-photo.jpg"> height="400px" width="400px" />
+</p>
 
-<img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/beautiful-scenery-in-autumn-season-illustration-ai-generative-free-free-photo.jpg">
+- **AI Art**
 
-- AI Art
+<p align="center">
+  <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1WA1ZUTaiGV9YO5lVEPPFhA.png" height="400px" width="400px" />
+  <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1000_F_563719058_JXnzcPV4GRpWqmF5sqnqmbJ7ow3ca3DS.jpg" height="400px" width="400px" />
+</p>
 
-<img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1000_F_563719058_JXnzcPV4GRpWqmF5sqnqmbJ7ow3ca3DS.jpg">
+- **CNN**
 
-<img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/1WA1ZUTaiGV9YO5lVEPPFhA.png">
+<p align="center">
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+</p>
 
-- CNN
+- **Inception-Resnet-V2**
 
-<img src = "">
+<p align="center">
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+</p>
 
-<img src = "">
+- **Xception**
 
-- Xception
+<p align="center">
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+</p>
 
-<img src = "">
+- **VGG16**
 
-<img src = "">
+<p align="center">
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+</p>
 
-- VGG16
+- **DenseNet121**
 
-<img src = "">
-
-<img src = "">
+<p align="center">
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+</p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
@@ -81,10 +100,10 @@ Metrics:
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 60.96% | 0.6848 |
+| DenseNet-121 | 76.03% | 0.4916 |
 | inception | 76.71%  | 0.4543 | 
 | CNN | 67.81% | 0.6443 |
-| CNN with Attention | 69.86% | 0.6037 |
+| Inception-Resnet-V2 | 80.82% | 0.5000 |
 | Xception | 75.34%  | 0.5466 | 
 | VGG16 | 78.77% | 0.5400 |
 
