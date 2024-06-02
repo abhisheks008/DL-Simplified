@@ -30,4 +30,6 @@ For further inquiries or assistance, please feel free to contact us.
 
 [Download Full Dataset](https://www.kaggle.com/datasets/trainingdatapro/computed-tomography-ct-of-the-brain)
 
+[Download Link to Dataset: after applying Data Augmentation](https://www.kaggle.com/datasets/sangemjayaprakash/gssoc-ct-augumented-ds)
+
 This README.md file is intended to provide a comprehensive overview of the CT Brain Object Detection Dataset, facilitating easy navigation and utilization for research and development purposes.
