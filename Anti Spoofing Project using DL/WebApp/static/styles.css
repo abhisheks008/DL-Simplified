@@ -1,0 +1,50 @@
+/* Styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the h1 */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+/* Styles for the form */
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Styles for the input[type="file"] */
+input[type="file"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styles for the submit button hover state */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

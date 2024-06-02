@@ -1,0 +1,6 @@
+tensorflow
+matplotlib
+opencv-python
+numpy
+random
+shutil

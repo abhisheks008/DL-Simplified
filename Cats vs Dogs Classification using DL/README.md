@@ -4,33 +4,48 @@
 
 Cats vs Dogs Classification using DL
 
-## GOAL
+## 🎯 Goal
 
-Create a DL model which will identify the Cats and Dogs. 
+The aim is to create a deep-learning model that will identify cats and dogs in the image. 
 
-## DATASET
+## 🧵 Dataset
 
 The link for the dataset used in this project: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification and https://www.kaggle.com/datasets/tongpython/cat-and-dog
 
-## DESCRIPTION
+## 🧾 Description
+The main goal of the project is to develop a deep-learning model that can accurately predict and identify cats and dogs in the given image based on various features.
 
-This project aims to identify the cats and dogs in the image. It is trained on the dataset containing cats and dogs.
+## 🧮 What I had done!
 
-## WHAT I HAD DONE
+1. Data collection: The data is loaded from the links provided above and its structure is 
+   explore 
+2. Data preprocessing: The data is then preprocessed, where steps such as setting batch 
+   size, and image size, converting the image type to a specific type, and scaling are 
+   done 
+   to prepare the data for model training
+3. Model selection: Three models were developed: Convolutional Neural Network (CNN) with 
+   Visual Geometry Group 16 (VGG16) and Residual Network with 50 layers (ResNet50) for 
+   image detection.  
+4. Comparative analysis: The developed models are compared based on their accuracy.
 
-1. Data collection: From the link of the dataset given above. 
-2. Data preprocessing: Preprocessed the image in order to have all images in equal shape.
-3. Model selection: Chose traditional CNN along with Image detection architecture VGG16 and ResNet50 for Image detection.
-4. Comparative analysis: Compared the accuracy score of all the models.
+## 🚀 MODELS USED
 
-## MODELS USED
+ 1. CNN: CNN is chosen for classifying cats and dogs because of their ability to learn 
+    hierarchical features from raw pixel data automatically. CNN networks are built 
+    for capturing significant spatial patterns as well as characteristics and so are   
+    designed for tasks relating to image comprehension. As a result of their property of 
+    spatial invariance, the variation of an object’s size or position can be handled 
+    easily.
+2. VGG16: VGG16 learns intricate hierarchical features from raw pixel data, enabling 
+   discrimination between visual categories. It uses small convolutional filters which 
+   maintains its simplicity and effectiveness for tasks like distinguishing between cats 
+   and dogs.
+3. ResNet50: ResNet50 has a unique architecture comprising 50 layers which helps it to 
+   effectively capture complex hierarchical features from images, making them adaptable to 
+   discriminate between images like cats and dogs.
 
-1. CNN
-2. VGG16
-3. ResNet50
 
-
-## LIBRARIES NEEDED
+## 📚 LIBRARIES NEEDED
 
 The following libraries are required to run this project:
 
@@ -39,24 +54,31 @@ The following libraries are required to run this project:
 - matplotlib==3.6.0
 - tensorflow==2.6.0
 
-## VISUALIZATION
-#### Best performing model accuracy:
-![val_acc3](https://github.com/achrekarom12/DL-Simplified/assets/88442486/b48589ab-83e6-4ce7-86df-eebdbe35921f)
+## 📊 Exploratory Data Analysis Results
+#### Accuracy of CNN model:
+![val_acc2](https://github.com/abhisheks008/DL-Simplified/blob/main/Cats%20vs%20Dogs%20Classification%20using%20DL/Images/val_acc2.JPG)
 
-#### Best performing model loss:
-![val_loss3](https://github.com/achrekarom12/DL-Simplified/assets/88442486/55072c0f-1fdb-433a-87be-c442c25d84a7)
+#### Loss of CNN model:
+![val_loss2](https://github.com/abhisheks008/DL-Simplified/blob/main/Cats%20vs%20Dogs%20Classification%20using%20DL/Images/val_loss2.JPG)
+
+#### Accuracy of VGG16 model:
+![val_acc3](https://github.com/abhisheks008/DL-Simplified/blob/main/Cats%20vs%20Dogs%20Classification%20using%20DL/Images/val_acc3.JPG)
+
+#### Loss of VGG16 model:
+![val_loss3](https://github.com/abhisheks008/DL-Simplified/blob/main/Cats%20vs%20Dogs%20Classification%20using%20DL/Images/val_loss3.JPG)
+
+#### Accuracy of ResNet50 model:
+![val_acc1](https://github.com/abhisheks008/DL-Simplified/blob/main/Cats%20vs%20Dogs%20Classification%20using%20DL/Images/val_acc1.JPG)
+
+#### Loss of ResNet50 model:
+![val_loss1](https://github.com/abhisheks008/DL-Simplified/blob/main/Cats%20vs%20Dogs%20Classification%20using%20DL/Images/val_loss1.JPG)
 
 
-## EVALUATION METRICS
-
+## 📈 Performance of the Models based on the Accuracy Scores
 The evaluation metrics I used to assess the models:
 
 - Accuracy 
 - Loss
-
-
-## RESULTS
-Results on Val dataset:
 
 | Model      | Accuracy | Loss    |
 |------------|----------|---------|
@@ -65,8 +87,12 @@ Results on Val dataset:
 | ResNet50    | 0.735     | 1.688    |
 
 
-## CONCLUSION
-Based on results we can draw following conclusions:
+## 📢 Conclusion
+Based on the results we can draw the following conclusions:
 1. CNN: The CNN model achieved an accuracy of 0.728 and a loss of 1.159. It performed reasonably well, but there is room for improvement.
-2. VGG16: The VGG16 model achieved a higher accuracy of 0.925 and a lower loss of 0.218. It outperformed the basic CNN model, indicating that the deeper architecture of VGG16 with more trainable parameters was able to capture more complex features and generalize better.
-3. ResNet50: The ResNet50 model achieved an accuracy of 0.735 and a loss of 1.688. It performed slightly better than the basic CNN model but was outperformed by VGG16. ResNet50's residual connections helped in mitigating the vanishing gradient problem and allowed for the training of deeper networks.
+2. VGG16: The VGG16 model achieved a higher accuracy of 0.925 and a lower loss of 0.218. It outperformed the basic CNN model, indicating that the deeper architecture of VGG16 with more trainable parameters could capture more complex features and generalize better.
+3. ResNet50: The ResNet50 model achieved an accuracy of 0.735 and a loss of 1.688. It performed slightly better than the basic CNN model but was outperformed by VGG16. ResNet50's residual connections helped mitigate the vanishing gradient problem and allowed for the training of deeper networks.
+
+✒️ Author
+  ##### Code contributed by: Abhishek Sharma
+  ##### Email: abhishek.opensource@gmail.com

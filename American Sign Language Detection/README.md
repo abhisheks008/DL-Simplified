@@ -1,3 +1,4 @@
+# New enanchements has been made in the model , please check it below
 # American Sign Language Detection/https://github.com/World-of-ML/DL-Simplified/issues/312
 to predict correct sign language labels corresponding to their corresponding sign images
 
@@ -34,6 +35,13 @@ To implement InceptionV3, we start by loading the pre-trained model, which comes
 
 I will utilize the **VGG16** (Visual Geometry Group) architecture, which have deeper and complex structures. These models are renowned for their exceptional performance on various image recognition tasks. By leveraging the pre-trained weights of VGG, I can benefit from the learned features and fine-tune the network for image segmentation on the Lemon Quality Dataset.
 
+`new models implemented with new approach for enanchement`
+- ResNet101V2
+- ResNet50V2
+- MobileNetV3Large
+- MobileNetV3Small
+- InceptionV3
+- NASNetMobile
 
 **Accuracy Comparison**
 
@@ -45,6 +53,18 @@ I will utilize the **VGG16** (Visual Geometry Group) architecture, which have de
 | MobileNet | 97% |
 
 Since the models' decent levels of accuracy(88% and above) means that most of their pictures will be almost havinG similar predicted labels with a small room for mistake, the anticipated labels for the sign image labels are as are visualised as follows.
+
+`new models accuracy`
+| Rank | Model Name       | Test Accuracy | Trained Model Size | Training Accuracy | Training Loss |
+|------|------------------|---------------|--------------------|-------------------|---------------|
+| 1    | MobileNetV3Small | 100.0%        | 19.1MB             | 96.97%            | 0.1574        |
+| 2    | NASNetMobile     | 100.0%        | 67.1MB             | 97.96%            | 0.1058        |
+| 3    | MobileNetV3Large | 100.0%        | 48.6MB             | 97.98%            | 0.1026        |
+| 4    | InceptionV3      | 100.0%        | 287.8MB            | 98.65%            | 0.0712        |
+| 5    | ResNet50V2       | 100.0%        | 308.6MB            | 98.67%            | 0.0625        |
+| 6    | ResNet101V2      | 100.0%        | 537.5MB            | 98.74%            | 0.0605        |
+
+- ranking based on Trained Model size
 
 **Throughout the project,** 
 
@@ -60,8 +80,17 @@ I will evaluate their performance using appropriate metrics. Additionally, I wil
 
 ## after evaluation, `MobileNet` or `VGG16` model looks to be the best fit model in this case of American Sign Language Classification .
 
+## New models conclusian after enanchement
+- All models achieve a remarkable test accuracy of 100.0%, demonstrating their effectiveness in classification tasks.
+  - MobileNetV3Small stands out with a compact size of 19.1MB, offering high accuracy while minimizing resource usage, making it suitable for memory-constrained environments.
+  - NASNetMobile and MobileNetV3Large also deliver impressive accuracy with moderate model sizes, providing versatility in deployment scenarios.
+  - InceptionV3, ResNet50V2, and ResNet101V2, although larger in size, exhibit robust performance, with ResNet101V2 achieving the highest training accuracy of 98.74%.
 
 **Future Scope**
 
 This project will contribute to advancing the understanding and application of deep learning in the field of computer vision and could potentially find applications in sorting of sign languages in different classes.
 
+### ✒️ Improvements in this project is made by **Adhithyan VP**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adhithyanvp)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/AdhiVp3)](https://x.com/AdhiVp3)

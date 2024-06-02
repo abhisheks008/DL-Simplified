@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signify</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/png">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        header {
+            background-color: #121212;
+            padding: 20px 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .navbar nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar nav ul li {
+            margin-left: 30px;
+        }
+
+        .navbar nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('{{ url_for('static', filename='v1-header-1200x600-2.webp') }}') no-repeat center center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .hero-section p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .upload-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .upload-space {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .upload-space:hover {
+            background-color: #0056b3;
+        }
+        
+        .upload-btn {
+            --glow-color: #007bff;
+            --glow-spread-color: rgba(0, 123, 255, 0.781);
+            --enhanced-glow-color: #0056b3;
+            --btn-color: #0056b3;
+            border: .25em solid var(--glow-color);
+            padding: 1em 3em;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: var(--btn-color);
+            border-radius: 8px;
+            outline: none;
+            cursor: pointer;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 1em .25em var(--glow-color),
+                        0 0 4em 1em var(--glow-spread-color),
+                        inset 0 0 .75em .25em var(--glow-color);
+            text-shadow: 0 0 .5em var(--glow-color);
+            position: relative;
+        }
+
+        .upload-btn::after {
+            pointer-events: none;
+            content: "";
+            position: absolute;
+            top: 120%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: var(--glow-spread-color);
+            filter: blur(2em);
+            opacity: .7;
+            transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+        }
+
+        .upload-btn:hover {
+            color: #fff;
+            background-color: var(--glow-color);
+            box-shadow: 0 0 1em .25em var(--glow-color),
+                        0 0 4em 2em var(--glow-spread-color),
+                        inset 0 0 .75em .25em var(--glow-color);
+        }
+
+        .upload-btn:active {
+            color: #fff;
+            box-shadow: 0 0 0.6em .25em var(--glow-color),
+                        0 0 2.5em 2em var(--glow-spread-color),
+                        inset 0 0 .5em .25em var(--glow-color);
+        }
+
+        .uploaded-image {
+            display: none;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border: 3px solid #fff;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .tips-section {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .tips-section p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .tips-section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .logo img.logo-img {
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .loading-screen {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+            flex-direction: column;
+        }
+
+        .loading-screen.active {
+            display: flex;
+        }
+
+        .loader {
+            width: 8em;
+            height: 8em;
+        }
+
+        .loader__eye1,
+        .loader__eye2,
+        .loader__mouth1,
+        .loader__mouth2 {
+            animation: eye1 3s ease-in-out infinite;
+        }
+
+        .loader__eye1,
+        .loader__eye2 {
+            transform-origin: 64px 64px;
+        }
+
+        .loader__eye2 {
+            animation-name: eye2;
+        }
+
+        .loader__mouth1 {
+            animation-name: mouth1;
+        }
+
+        .loader__mouth2 {
+            animation-name: mouth2;
+            visibility: hidden;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: hsl(var(--hue), 90%, 10%);
+                --fg: hsl(var(--hue), 90%, 90%);
+            }
+        }
+
+        @keyframes eye1 {
+            from {
+                transform: rotate(-260deg) translate(0, -56px);
+            }
+
+            50%,
+            60% {
+                animation-timing-function: cubic-bezier(0.17, 0, 0.58, 1);
+                transform: rotate(-40deg) translate(0, -56px) scale(1);
+            }
+
+            to {
+                transform: rotate(225deg) translate(0, -56px) scale(0.35);
+            }
+        }
+
+        @keyframes eye2 {
+            from {
+                transform: rotate(-260deg) translate(0, -56px);
+            }
+
+            50% {
+                transform: rotate(40deg) translate(0, -56px) rotate(-40deg) scale(1);
+            }
+
+            52.5% {
+                transform: rotate(40deg) translate(0, -56px) rotate(-40deg) scale(1, 0);
+            }
+
+            55%,
+            70% {
+                animation-timing-function: cubic-bezier(0, 0, 0.28, 1);
+                transform: rotate(40deg) translate(0, -56px) rotate(-40deg) scale(1);
+            }
+
+            to {
+                transform: rotate(150deg) translate(0, -56px) scale(0.4);
+            }
+        }
+
+        @keyframes mouth1 {
+            from {
+                animation-timing-function: ease-in;
+                stroke-dasharray: 0 351.86;
+                stroke-dashoffset: 0;
+            }
+
+            25% {
+                animation-timing-function: ease-out;
+                stroke-dasharray: 175.93 351.86;
+                stroke-dashoffset: 0;
+            }
+
+            50% {
+                animation-timing-function: steps(1, start);
+                stroke-dasharray: 175.93 351.86;
+                stroke-dashoffset: -175.93;
+                visibility: visible;
+            }
+
+            75%,
+            to {
+                visibility: hidden;
+            }
+        }
+
+        @keyframes mouth2 {
+            from {
+                animation-timing-function: steps(1, end);
+                visibility: hidden;
+            }
+
+            50% {
+                animation-timing-function: ease-in-out;
+                visibility: visible;
+                stroke-dashoffset: 0;
+            }
+
+            to {
+                stroke-dashoffset: -351.86;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('form');
+            const loadingScreen = document.querySelector('.loading-screen');
+
+            form.addEventListener('submit', function() {
+                loadingScreen.classList.add('active');
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <span>Signify</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Translate American Sign Language to text</h1>
+                <p>Upload an image of hands signing and we'll do our best to translate it to text.</p>
+                <h1>Upload an Image for Prediction</h1>
+                <div class="upload-container">
+                    <form method="post" enctype="multipart/form-data">
+                        <input type="file" name="file" id="fileInput" class="upload-space" accept="image/*">
+                        <button type="submit" class="upload-btn">Upload</button>
+                    </form>
+                </div>
+                {% if prediction != "" and prediction is not none %}
+                    <p style="font-size: 30px;">{{ prediction }}</p>
+                {% endif %}
+
+                {% if error %}
+                    <p style="color: red; font-size: 30px; margin-top: 20px;">Error: {{ error }}</p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="tips-section">
+            <p>Tips for the best results: Use clear images with good lighting. Images should be cropped to show only the hands. Try different angles and distances for better accuracy.</p>
+            <img src="{{ url_for('static', filename='asl-sign-language-hands.jpg') }}" alt="Hands Signing">
+        </div>
+    </main>
+    <div class="loading-screen">
+        <div>
+            <svg height="108px" width="108px" viewBox="0 0 128 128" class="loader">
+                <defs>
+                    <clipPath id="loader-eyes">
+                        <circle transform="rotate(-40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye1"></circle>
+                        <circle transform="rotate(40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye2"></circle>
+                    </clipPath>
+                    <linearGradient y2="1" x2="0" y1="0" x1="0" id="loader-grad">
+                        <stop stop-color="#000" offset="0%"></stop>
+                        <stop stop-color="#fff" offset="100%"></stop>
+                    </linearGradient>
+                    <mask id="loader-mask">
+                        <rect fill="url(#loader-grad)" height="128" width="128" y="0" x="0"></rect>
+                    </mask>
+                </defs>
+                <g stroke-dasharray="175.93 351.86" stroke-width="12" stroke-linecap="round">
+                    <g>
+                        <rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(193,90%,50%)"></rect>
+                        <g stroke="hsl(193,90%,50%)" fill="none">
+                            <circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
+                            <circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
+                        </g>
+                    </g>
+                    <g mask="url(#loader-mask)">
+                        <rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(223,90%,50%)"></rect>
+                        <g stroke="hsl(223,90%,50%)" fill="none">
+                            <circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
+                            <circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

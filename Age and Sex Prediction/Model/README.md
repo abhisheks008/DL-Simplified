@@ -1,96 +1,87 @@
-# DL Simplified
-Deep Learning has many application in the field of computer vision and one such application is Facial Detection & Recognition in which we also coined the work for age and sex detection 
+## **AGE AND SEX PREDICTION**
 
-## ✨Age and Sex Detection✨
+Deep Learning has many applications in the field of computer vision and one such application is that of facial detection & recognition. To this subfield, we have also added the application of age and sex detection.
 
-### Aim 
-The objective of the project is to Create a DL based model which can detect gender and age using facial images. Convolutional Neural Network is used to classify the images. There are 2 output types namely, gender(M or F) and age.
+### 🎯 **Goal**
 
-### Datasets
-I have used Kaggle's [EMİRHAN BULUT](https://www.kaggle.com/datasets/emirhanai/age-and-sex-prediction-by-artificial-intelligence) which has used  [UTKFace](https://www.kaggle.com/datasets/jangedoo/utkface-new) dataset. 
+The objective of this project is to create a DL model which can detect gender and age using any input facial images. A Convolutional Neural Network is used to classify the images. There are 2 output types: gender (M/F) and age.
 
-##### About Dataset
-The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). Images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. Dataset could be used on a variety of tasks, e.g., face detection, age estimation, age progression/regression, landmark localization, etc.
+### 🧵 **Dataset**
 
-dataset image sample - 
+I have used Kaggle's [EMİRHAN BULUT](https://www.kaggle.com/datasets/emirhanai/age-and-sex-prediction-by-artificial-intelligence) dataset, which in turn is based on the [UTKFace](https://www.kaggle.com/datasets/jangedoo/utkface-new) dataset.
 
+### 🧾 **Description**
+
+The dataset consists of over 20,000 facial images with annotations for age, gender, and ethnicity. The dataset is a large-scale face-image dataset with images of people aged 0 to 116 years. Images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. The dataset can be used to implement a variety of other tasks, such as face detection, age estimation, age progression/regression, landmark localization, etc.
+
+Dataset Image Sample<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/OneoftheDatasetImage.png)
 
-### Approach
-In the notebook we have trained an pretrained CNN model using the above dataset  and adjusting the algorithm. It also uses Convolutional Layers from Convolutional Neural Networks and compare the accuracy for age and gender and it also figure out the loss during model training. We have trained the model with large variation of images which covers pose, facial expression, illumination,  occlusion, resolution, etc so that we can enhance the accuracy of the model.
+### 🧮 **What I have done!**
 
+We have trained a pre-trained CNN model using the above dataset and adjusted the algorithm as per the requirements. The model uses Convolutional Layers from Convolutional Neural Networks and compares the accuracy for age and gender. It also figures out the loss during model training. We have trained the model with a large variation of images covering different poses, facial expressions, illumination, occlusion, resolution, etc in order to enhance the accuracy of the model.
 
-Model Used 
+### 🚀 **Models Implemented**
 
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/ModelUsed.png)
 
 
-### Output
+### 📊 **Exploratory Data Analysis Results**
 
-- Frequency Distribution of age of images used in dataset.
-
+- Frequency Distribution of age in images used in the dataset<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/AgeDistribution.png)
 
-- Grid View of few Images used in Dataset 
-
+- Grid View of a few images used in the dataset<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/DatasetPlot.png)
 
-- Gender Distribution 
-
+- Gender Distribution<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/GenderDistribution.png)
 
+- Accuracy and Loss Graph for Gender<br>
 
-- Accuracy and Loss Graph for Gender 
-Accuracy
-
+Accuracy<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/AccuracyforGender.png)
 
-Loss 
-
+Loss<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/genderloss.png)
 
-- Accuracy and Loss Graph for Age
-
+- Accuracy and Loss Graph for Age<br>
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/Age.png)
 
+### 📈 **Performance of the Models based on the Accuracy Scores**
 
+Testing on a random image from indices 1 - 23708, you can also test by changing index of the image used for test, variable name and image_index.
 
-## Testing 
-Testing on random image from index 1-23708, you can also test by changing index of the image used for test, variable name image_index.
+- Test Image
 
-- Test Image 
-
-Original Gender: Male Original Age: 10
-
-Predicted Gender: Male Predicted Age: 11
+Original Gender: Male<br>
+Original Age: 10<br>
+Predicted Gender: Male<br>
+Predicted Age: 11<br>
 
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/test1.png)
 
-
 - Test Image 
 
-Original Gender: Male Original Age: 25
-
-Predicted Gender: Male Predicted Age: 24
+Original Gender: Male<br>
+Original Age: 25<br>
+Predicted Gender: Male<br>
+Predicted Age: 24<br>
 
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/test2.png)
 
-
-
 - Test Image 
 
-Original Gender: Female Original Age: 29
-
-Predicted Gender: Female Predicted Age: 29
+Original Gender: Female<br>
+Original Age: 29<br>
+Predicted Gender: Female<br>
+Predicted Age: 29<br>
 
 ![image](https://raw.githubusercontent.com/ASHISHKUMAR2411/DL-Simplified/main/Age%20and%20Sex%20Prediction/Images/test3.png)
 
+### 📢 **Conclusion**
+We can vary the number of epochs to get more accuracy on models. So far, we have achieved an accuracy of more than 95%.
 
-
-
-## Conclusion
-We can vary the number of epochs to get more accuracy on models, here we have achieved the accuracy of more than 95% 
-
-
-## License
-MIT
+### ✒️ **Your Signature**
+Name: Ashish Kumar<br>
+License: MIT
