@@ -52,11 +52,14 @@ models used:
 <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/EDA-1.png">
 <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/eda.png">
 
+</br>
+
 <p align="center">
   <figure>
     <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/healthy%20leaf.png" height="400px" width="400px" alt="healthy tomato leaf" />
     <figcaption>Healthy Tomato Leaf</figcaption>
   </figure>
+  </br>
   <figure>
     <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/diseased%20leaf.png" height="400px" width="400px" alt="diseased tomato leaf" />
     <figcaption>Diseased Tomato Leaf</figcaption>
