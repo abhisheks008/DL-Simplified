@@ -48,8 +48,8 @@ models used:
 - **Real Art**
 
 <p align="center">
-  <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/85220_africa-21787_1920.rev.1600192341.jpg"> height="400px" width="400px" />
-  <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/beautiful-scenery-in-autumn-season-illustration-ai-generative-free-free-photo.jpg"> height="400px" width="400px" />
+  <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/85220_africa-21787_1920.rev.1600192341.jpg" height="400px" width="400px" />
+  <img src = "https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/beautiful-scenery-in-autumn-season-illustration-ai-generative-free-free-photo.jpg" height="400px" width="400px" />
 </p>
 
 - **AI Art**
@@ -62,39 +62,48 @@ models used:
 - **CNN**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
 </p>
 
 - **Inception-Resnet-V2**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/Inception-Resnet-V2%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/Inception-Resnet-V2%20Loss.png" height="400px" width="400px" />
 </p>
 
 - **Xception**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
 </p>
 
 - **VGG16**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
 </p>
 
 - **DenseNet121**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/DenseNet%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/DenseNet%20Loss.png" height="400px" width="400px" />
+</p>
+
+- **Inception**
+
+<p align="center">
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/Inception%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/AI_vs_REAL/AI%20Generated%20vs%20Real%20Images%20Classification%20using%20DL/Images/Inception%20Loss.png" height="400px" width="400px" />
 </p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
+
+We used Validation Loss and Accuracy as metrics for evaluation.
 
 Metrics:
 
@@ -111,7 +120,7 @@ Metrics:
 
 We conclude the following:
 
-VGG16 and inception work well on the dataset.
+Inception-ResNet-V2 works exceptionally well with higher accuracy and moderate loss.
 
 ### ✒️ **Your Signature**
 
