@@ -1,0 +1,10 @@
+tensorflow
+scikit-learn
+pandas
+numpy
+keras
+tf-keras
+transformers
+torch
+streamlit
+papermill

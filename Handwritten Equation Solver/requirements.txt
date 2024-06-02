@@ -1,0 +1,9 @@
+tensorflow==2.12.0
+streamlit
+streamlit-drawable-canvas==0.9.3
+opencv-python==4.7.0.68
+numpy
+pandas
+matplotlib
+scikit-learn
+seaborn

@@ -1,0 +1,5 @@
+numpy==1.26.2
+pandas==2.1.4
+matplotlib==3.8.2
+tensorflow==2.16.1
+ultralytics==8.2.14
