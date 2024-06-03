@@ -2,7 +2,7 @@
 
 ### 🎯 **Goal**
 
-The objective of this project is to classify images of almonds grown in different regions into four varieties of Turkic almond species.
+The objective of this project is to classify images of almonds from various regions into four distinct varieties of Turkic almond species.
 
 ### 🧵 **Dataset**
 
