@@ -1,0 +1,8 @@
+Required packages/libraries to run the project in other machines:
+
+numpy==1.23.1
+pandas==1.4.3
+matplotlib==3.1
+keras==2.9.0
+sklearn==0.20
+tensorflow==2.9.0

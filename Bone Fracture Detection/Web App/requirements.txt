@@ -1,0 +1,3 @@
+Flask==3.0.3
+opencv_python==4.9.0.80
+ultralytics==8.1.47

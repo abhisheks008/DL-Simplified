@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+
+<div class="container my-3">
+    <h1>Bank Loan Approval Prediction</h1>
+    <p class="lead py-3 border-bottom">
+        <i><b>Enter required necessary fields and get to know whether your Personal Loan will be approved or not based on out prediction.</b></i>
+    </p>
+
+    <form action='/' method='POST' class="my-5">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputAge">Age</label>
+                <input type="number" class="form-control" id="inputAge" name="age" min="21" max="80"
+                    placeholder="Example: 25" required>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputExp">Work Experience in years</label>
+                <input type="number" class="form-control" id="inputExp" name="exp" min="0" max="90"
+                    placeholder="Example: 3" required>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputIncome">Amount of annual income (in thousands)</label>
+                <input type="number" step="any" class="form-control" id="inputIncome" name="income" min="8" max="10000"
+                    placeholder="Example: 20" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputFamily">Number of Family Members</label>
+                <input type="number" class="form-control" id="inputFamily" name="family" min="1" max="10"
+                    placeholder="Example: 4" required>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputEducation">Education Level</label>
+                <select id="inputEducation" name="education" class="form-control" required>
+                    <option value="" disabled selected>Choose...</option>
+                    {% for level in education_levels %}
+                    <option value="{{ level.value }}">{{ level.label }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputZip">ZIP Code</label>
+                <select id="inputZip" name="zip" class="form-control" required>
+                    <option value="" disabled selected>Choose...</option>
+                    {% for zip in zip_codes %}
+                    <option value="{{ zip }}">{{ zip }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputcc">Average monthly credit card spendings (in thousands)</label>
+                <input type="number" step="any" class="form-control" id="inputcc" name="cc" min="0" max="100"
+                    placeholder="Example: 2.5" required>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputMor">Mortgage of house (in thousands)</label>
+                <input type="number" step="any" class="form-control" id="inputMor" name="mortage" min="0" max="1000"
+                    placeholder="Example: 101" required>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputSA">Do you have Securities Account?</label>
+                <select id="inputSA" name="securityAccount" class="form-control" required>
+                    <option value="" disabled selected>Choose...</option>
+                    <option value=1>Yes</option>
+                    <option value=0>No</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputCD">Do you have Certificate of Deposit account?</label>
+                <select id="inputCD" name="CD" class="form-control" required>
+                    <option value="" disabled selected>Choose...</option>
+                    <option value=1>Yes</option>
+                    <option value=0>No</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputOnline">Do you use Online Banking?</label>
+                <select id="inputOnline" name="OnlineBanking" class="form-control" required>
+                    <option value="" disabled selected>Choose...</option>
+                    <option value=1>Yes</option>
+                    <option value=0>No</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputCredit">Do you use Credit Card?</label>
+                <select id="inputCredit" name="CreditCard" class="form-control" required>
+                    <option value="" disabled selected>Choose...</option>
+                    <option value=1>Yes</option>
+                    <option value=0>No</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-warning font-weight-bold col-md-12 my-3">Predict for Bank Loan
+            Approval</button>
+    </form>
+</div>
+
+{% endblock body %}

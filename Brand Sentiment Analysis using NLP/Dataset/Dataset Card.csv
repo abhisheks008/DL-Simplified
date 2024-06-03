@@ -1,0 +1,4 @@
+Dataset description,"Users assessed tweets related to various brands and products, providing evaluations on whether the sentiment conveyed was positive, negative, or neutral. Additionally, if the tweet conveyed any sentiment, contributors identified the specific brand or product targeted by that emotion."
+Columns,"tweet_text
+emotion_in_tweet_is_directed_at
+is_there_an_emotion_directed_at_a_brand_or_product"
