@@ -60,9 +60,24 @@ This project involves preprocessing the dataset, performing exploratory data ana
 
 ### 📊 **Exploratory Data Analysis Results**
 
-Visualizations include:
-- Distribution of protocol types, services, flags, and attack types.
-- Heatmap visualization of feature correlations.
+- Attack Type Distribution
+![Attack Type Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/attack_type.png)
+- Flag Distribution
+![Flag Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/flag.png)
+- Logged-in Users Distribution
+![Logged-in Users Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/logged_in.png)
+- Protocol Type Distribution
+![Protocol Type Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/protocol_type.png)
+
+- Service Distribution
+![Service Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/service.png)
+
+- Target Distribution
+![Target Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/target.png)
+
+- Correlation Heatmap
+![Correlation Heatmap](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/correlation_heatmap.png)
+
 
 ### 📈 **Performance of the Models**
 
@@ -70,9 +85,24 @@ Visualizations include:
 - **Deep NN Accuracy**: 99.84%
 - **CNN Accuracy**: 99.83%
 
+
+-ANN
+![ANN Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/ann_accuracy.png)
+![ANN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/ann_loss.png)
+
+-DNN
+![Deep NN Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/deep_accuracy.png)
+![Deep NN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/deep_loss.png)
+
+-CNN
+![CNN Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/cnn_accuracy.png)
+![CNN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/cnn_loss.png)
+
 ### 📢 **Conclusion**
 
-In conclusion, this project successfully developed an Intrusion Detection System (IDS) using machine learning models trained on the KDD Cup 1999 dataset. The CNN model achieved the highest accuracy among the three models, demonstrating its effectiveness in detecting various types of network attacks.
+In conclusion, this project successfully developed an Intrusion Detection  using deep learning models trained on the KDD Cup 1999 dataset. 
+![Model Comparison](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/model_comparison.png)
+
 
 ### ✒️ **Your Signature**
 
