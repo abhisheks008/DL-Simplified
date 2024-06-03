@@ -71,7 +71,9 @@ Use evaluation metrics such as accuracy, precision, recall, and F1-score to asse
 Following is the attached image
 ![Alt Text](https://github.com/jahnvisahni31/DL-Simplified/raw/main/tuav_fire_detection_using_dl/images/model_Accuracy.png)
 
-CONTRIBUTED BY
-Full name : Jahnvi sahni
-GitHub Profile Link : https://github.com/jahnvisahni31
-Email ID : jahnvisahni98@gmail.com
+## Contribution
+**Full name** : Jahnvi sahni
+<br>
+**GitHub Profile Link** : https://github.com/jahnvisahni31
+<br>
+**Email ID** : jahnvisahni98@gmail.com 
