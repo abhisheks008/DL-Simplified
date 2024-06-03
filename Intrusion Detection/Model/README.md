@@ -85,16 +85,21 @@ This project involves preprocessing the dataset, performing exploratory data ana
 - **Deep NN Accuracy**: 99.84%
 - **CNN Accuracy**: 99.83%
 
+<br>
 
--ANN
+
+- ANN
+
 ![ANN Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/ann_accuracy.png)
 ![ANN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/ann_loss.png)
 
--DNN
+- DNN
+  
 ![Deep NN Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/deep_accuracy.png)
 ![Deep NN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/deep_loss.png)
 
--CNN
+- CNN
+  
 ![CNN Accuracy](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/cnn_accuracy.png)
 ![CNN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Intrusion%20Detection/Images/cnn_loss.png)
 
