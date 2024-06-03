@@ -124,7 +124,7 @@ We used Validation and Testing **Loss** and **Accuracy** as metrics.
 
 We conclude the following:
 
-**DenseNet-121**, **Xception**, **VGG16**, **InceptionV3** and **CNN**, with **DenseNet-121** being the clear winner.
+**DenseNet-121**, **Xception**, **VGG16**, **InceptionV3** and **CNN** work exceptionally well, with **DenseNet-121** being the clear winner.
 
 ### ✒️ **Your Signature**
 
