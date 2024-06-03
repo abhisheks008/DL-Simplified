@@ -1,4 +1,4 @@
-## **Tomato-Leaf Classification using DL**
+## **Speech Sentiment Analysis using DL**
 
 ### 🎯 **Goal**
 
@@ -12,7 +12,7 @@ There are '250' files in train and '110' files in test.
 
 ### 🧾 **Description**
 
-The project deals with multi-class classification, classifying audio as images into 3 categories.
+The project deals with multi-class classification, classifying audio as images into 3 categories: Positive,Negative or Neutral emotion.
 
 ### 🧮 **What I had done!**
 
@@ -51,21 +51,12 @@ models used:
 
 - #### **Exploratory Data Analysis**
 
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/EDA-1.png">
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/eda.png">
-
 <br>
 
 <p align="center">
-  <figure>
-    <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/healthy%20leaf.png" height="400px" width="400px" alt="healthy tomato leaf" />
-    <figcaption>Healthy Tomato Leaf</figcaption>
-  </figure>
-  <br>
-  <figure>
-    <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/diseased%20leaf.png" height="400px" width="400px" alt="diseased tomato leaf" />
-    <figcaption>Diseased Tomato Leaf</figcaption>
-  </figure>
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **CNN**
@@ -125,19 +116,19 @@ We used Validation and Testing **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | % |  |
-| InceptionV3 | %  |  | 
-| CNN | % |  |
-| VGG16 | % |  |
-| EfficientNetB7 | % |  |
-| DenseNet-121 | % |  |
-| Xception | % |  |
+| ResNet-50 | 48.00% | 1.0630 |
+| InceptionV3 | 84.00%  | 0.4533 | 
+| CNN | 94.00% | 0.2254 |
+| VGG16 | 90.00% | 0.3243 |
+| EfficientNetB7 | 42.00% | 1.0812 |
+| DenseNet-121 | 82.00% | 0.7257 |
+| Xception | 86.00% | 0.5171 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+**CNN** works exceptionally well for the task, with the **highest accuracy and minimal loss**, achieving this with a simple architecture. Other models which can be considered are **InceptionV3**, **DenseNet-121** and **Xception**.
 
 ### ✒️ **Your Signature**
 
