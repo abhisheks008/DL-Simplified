@@ -132,7 +132,7 @@ We used Validation **Loss** and **Accuracy** as metrics.
 
 We conclude the following:
 
-VGG16 and DenseNet-121 work well, with CNN falling just a bit short. DenseNet121 proved to be the better choice amongst all.
+VGG16, Inception, Xception and DenseNet-121 work well, with CNN falling just a bit short. DenseNet-121 proved to be the better choice amongst all.
 
 ### ✒️ **Your Signature**
 
