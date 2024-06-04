@@ -50,17 +50,11 @@ Algorithms used in the MobileNet SSD model include:
 - Here we are using the YOLOv8 model, which is an object detection model known for its speed and accuracy.
 - YOLO models are based on convolutional neural networks (CNNs) and employ a single neural network to predict bounding boxes and class probabilities directly from full images in a single evaluation.
 
-| Original Traffic Video 1  | Original Traffic Video 2 |
+| Original Traffic Video | MobileNet SSD Object Detection |
 | ---- | ---- |
-| ![Original Video](https://github.com/theiturhs/DL-Simplified/assets/96874023/761a40d4-e279-4bb1-841c-699fd3523f01) | ![27260-362770008_tiny](https://github.com/theiturhs/DL-Simplified/assets/96874023/7087b170-9807-4343-a734-78f895306813) |
-| MobileNet SSD Object Detection | MobileNet SSD Object Detection |
-| ![mobileNet_SSD_output_video1](https://github.com/theiturhs/DL-Simplified/assets/96874023/319f8fd2-b0f3-4901-a8f3-be79750efd1e) | ![mobileNet_SSD_output_video2](https://github.com/theiturhs/DL-Simplified/assets/96874023/214e5034-891d-4148-8ede-31f19c8256e6) |
-| Faster R-CNN Object Detection | Faster R-CNN Object Detection |
-| ![frcnn_output_video1](https://github.com/theiturhs/DL-Simplified/assets/96874023/ec9f8bb1-148b-4041-b231-11730b0183c4) | ![frcnn_output_video2 (1)](https://github.com/theiturhs/DL-Simplified/assets/96874023/2a1d17cf-4198-49b1-a365-5a43941de1ce) |
-| YOLOv8 Object Detection | YOLOv8 Object Detection |
-| ![yolo_output_video](https://github.com/theiturhs/DL-Simplified/assets/96874023/2cc67bd2-bd94-4b8d-95b3-23798c947036) | ![yolo_output_video2](https://github.com/theiturhs/DL-Simplified/assets/96874023/db726be4-2915-461e-b0ac-0b2f7bd3b054) |
-
-
+| <img src="https://github.com/theiturhs/DL-Simplified/assets/96874023/761a40d4-e279-4bb1-841c-699fd3523f01" width="450"/> | <img src="https://github.com/theiturhs/DL-Simplified/assets/96874023/bd1b6839-7a5c-4ad2-ac30-4805bd6bf3d0" width="450" /> |
+| Faster R-CNN Object Detection | YOLOv8 Object Detection |
+| <img src="https://github.com/theiturhs/DL-Simplified/assets/96874023/ec9f8bb1-148b-4041-b231-11730b0183c4" width="450" /> | <img src="https://github.com/theiturhs/DL-Simplified/assets/96874023/2cc67bd2-bd94-4b8d-95b3-23798c947036" width="450" />
 
 ### 📚 **Libraries Needed**
 
@@ -97,8 +91,6 @@ Here is the object detection implementation on images
 | ![Faster RCNN Image 2](https://github.com/theiturhs/DL-Simplified/assets/96874023/ecbb1cb9-becd-4349-ab92-5e8f0d5bcdc5) | ![YOLOv8 Image 2](https://github.com/theiturhs/DL-Simplified/assets/96874023/4540bd42-dcef-4328-add4-4f260a88dca1) |
 
 
-
-
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
 On the basis of detection done by these models, we can summarize them as:
@@ -107,6 +99,12 @@ On the basis of detection done by these models, we can summarize them as:
 2. In Faster RCNN, the accuracy with which it detects objects is greater than other two models, but it takes longer time to produce results.
 3. In YOLOv8, it has better accuracy score as well as it takes less time than Faster RCNN to produce results.
 
+Here are more video implementation of YOLOv8
+
+| Video for Object Detection | Video: Object Detection |
+| ---- | ---- |
+| <img src="https://github.com/theiturhs/DL-Simplified/assets/96874023/5151d65a-b54e-40f5-ab63-8491ef6b8577" width="500"/> | <img src="https://github.com/theiturhs/DL-Simplified/assets/96874023/b9ce65dc-1255-47e9-8029-ee6e65084f52" width="500" /> |
+| <img src="https://github.com/theiturhs/DL-Simplified/assets/96874023/f0ad6e08-236d-4d85-9d6d-e44fcf4ed888" width="500"/> | <img src="https://github.com/theiturhs/DL-Simplified/assets/96874023/ba0c77f1-a522-40b7-86b3-119b3f992e6d" width="500" /> |
 
 ### 📢 **Conclusion**
 
