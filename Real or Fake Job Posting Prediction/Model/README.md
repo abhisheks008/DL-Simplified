@@ -90,6 +90,12 @@ Fake job postings tend to have:
 ### ANN Model Training Performance
 ![ANN Model Training Performance](../Images/ANN.png)
 
+### LSTM Model Training Performance
+![LSTM Model Training Performance](../Images/LSTM.png)
+
+### CNN Model Training Performance
+![CNN Model Training Performance](../Images/CNN.png)
+
 ### BiLSTM Model Training Performance
 ![BiLSTM Model Training Performance](../Images/BiLSTM.png)
 
@@ -98,19 +104,33 @@ Fake job postings tend to have:
 ### ANN Model Confusion Matrix
 ![ANN Model Confusion Matrix](../Images/ann_cm.png)
 
+### LSTM Model Confusion Matrix
+![LSTM Model Confusion Matrix](../Images/lstm_cm.png)
+
+### CNN Model Confusion Matrix
+![CNN Model Confusion Matrix](../Images/CNN_cm.png)
+
 ### BiLSTM Model Confusion Matrix
-![BiLSTM Model Confusion Matrix](../Images/bilstm_cm.png)
+![BiLSTM Model Confusion Matrix](../Images/BiLSTM_cm.png)
 
-**CONCLUSION**
 
-Both ANN and LSTM models were successfully built and trained to classify job postings as real or fake. The LSTM model exhibited slightly better performance with an accuracy of around 98% on the test dataset. 
+
+
+
 
 ### Overall Findings
 - **Imbalanced Dataset:** The dataset had a significant imbalance between real and fake job postings, which was addressed using SMOTE.
 - **Feature Importance:** Features such as the presence of a company logo, specific job functions, experience, and education levels were important indicators of job posting authenticity.
 - **Text Analysis:** Text analysis revealed distinct patterns in fake job postings, which were leveraged for classification.
+- **Model Comparison:** All models performed exceptionally well, with the BiLSTM model slightly outperforming the others. This can be attributed to its ability to capture bidirectional sequential dependencies in the data.
+- **Accuracy:** The BiLSTM model achieved the highest accuracy at 98.82%, followed by the LSTM model at 98.77%, CNN at 98.03%, and ANN at 97.96%.
+- **Loss:** The BiLSTM model had the lowest loss at 0.0487, indicating better model convergence.
+- **Classification Report:** All models showed high precision, recall, and F1-scores, indicating effective classification of both classes.
 
-Both models provide a robust foundation for detecting fraudulent job postings, and the insights gained from EDA can be used to further refine and improve model performance.
+**CONCLUSION**
+
+All models provide a robust foundation for detecting fraudulent job postings, and the insights gained from EDA can be used to further refine and improve model performance. While all models demonstrated strong performance in detecting patterns within the data, the BiLSTM model's superior ability to capture and leverage bidirectional dependencies resulted in the highest accuracy and best overall performance. This suggests that for this particular dataset and task, models that can capture sequential patterns in both forward and backward directions offer a significant advantage.
+
 
 **Connect with Me**
 
