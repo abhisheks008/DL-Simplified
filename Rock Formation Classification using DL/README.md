@@ -1,4 +1,4 @@
-## **Speech Sentiment Analysis using DL**
+## **Rock Formation Classification using DL**
 
 ### 🎯 **Goal**
 
