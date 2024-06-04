@@ -22,6 +22,8 @@ To achieve our goals, the following steps were implemented:
 
 - Images were resized to a fixed size of 224x224 pixels.
 
+- Limited images from 10000 to 7500.
+
 - Custom and pre-trained models were used for this task.
 
 ### 🚀 **Models Implemented**
@@ -51,61 +53,63 @@ models used:
 
 - #### **Exploratory Data Analysis**
 
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/EDA.png">
+
 <br>
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Negative%20EDA.png" height="400px" width="250px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Neutral%20EDA.png" height="400px" width="250px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Positive%20EDA.png" height="400px" width="250px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/Igneous.png" height="400px" width="250px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/Metamorphic.png" height="400px" width="250px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/Sedimentary.png" height="400px" width="250px" />
 </p>
 
 - #### **CNN**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **InceptionV3**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **VGG16**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **EfficientNetB7**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/EfficientNetB7%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/EfficientNetB7%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/EfficientNetB7%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/EfficientNetB7%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **RESNET50**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/RESNET50%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/RESNET50%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/RESNET50%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/RESNET50%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **DenseNet-121**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/DENSENET121%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/DENSENET121%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/DENSENET121%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/DENSENET121%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **Xception**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/rocks-classify/Rock%20Formation%20Classification%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
 </p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
@@ -116,19 +120,19 @@ We used Validation **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 48.00% | 1.0630 |
-| InceptionV3 | 84.00%  | 0.4533 | 
-| CNN | 94.00% | 0.2254 |
-| VGG16 | 90.00% | 0.3243 |
-| EfficientNetB7 | 42.00% | 1.0812 |
-| DenseNet-121 | 82.00% | 0.7257 |
-| Xception | 86.00% | 0.5171 |
+| ResNet-50 | 27.73% | 11.6480 |
+| InceptionV3 | 56.09%  | 0.9833 | 
+| CNN | 54.76% | 0.9459 |
+| VGG16 | 59.73% | 0.9362 |
+| EfficientNetB7 | 37.51% | 1.0937 |
+| DenseNet-121 | 61.87% | 0.8813 |
+| Xception | 58.76% | 0.9247 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+VGG16 and DenseNet-121 work well, with CNN falling just a bit short. DenseNet121 proved to be the better choice amongst all.
 
 ### ✒️ **Your Signature**
 
