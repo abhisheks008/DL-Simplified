@@ -127,7 +127,7 @@ We used Validation and Testing **Loss** and **Accuracy** as metrics.
 
 We conclude the following:
 
-
+DenseNet121, Xception, InceptionV3 and VGG16 work exceptionally well, with DenseNet121 being the clear winner.
 
 ### ✒️ **Your Signature**
 
