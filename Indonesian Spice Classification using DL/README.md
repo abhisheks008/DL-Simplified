@@ -127,7 +127,7 @@ We used Validation and Testing **Loss** and **Accuracy** as metrics.
 |--------|---------------------|--------------------------|
 | ResNet-50 | 2.92% | 15.6477 |
 | InceptionV3 | 85.64%  | 0.5840 | 
-| CNN | 98.00% | 0.0657 |
+| CNN | 77.88% | 0.9821 |
 | VGG16 | 87.25% | 0.5719 |
 | EfficientNetB7 | 3.53% | 3.4381 |
 | DenseNet-121 | 92.17% | 0.2818 |
