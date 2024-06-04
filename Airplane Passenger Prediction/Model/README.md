@@ -43,8 +43,26 @@ This project involves time series analysis and forecasting on the AirPassengers 
 - **TensorFlow**
 - **Keras**
 
+
 ### 📊 **Exploratory Data Analysis Results**
 
+#### Data
+![Data](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/Data.png)
+
+#### Autocorrelation
+![Autocorrelation](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/Autocorrelation.png)
+
+#### Boxplot
+![Boxplot](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/boxplot.png)
+
+#### Monthly Boxplot
+![Monthly Boxplot](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/boxplot_monthly.png)
+
+#### Decomposed Plot
+![Decomposed Plot](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/decomposed_plot.png)
+
+#### Histogram
+![Histogram](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/histogram.png)
 
 
 ### 📈 **Performance of the Models**
@@ -56,9 +74,32 @@ This project involves time series analysis and forecasting on the AirPassengers 
 - **LSTM**: MAPE - 86.57
 - **Prophet**: MAPE - 93.39
 
+  
+#### Naive Forecast
+![Naive Forecast](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/Naiveforec.png)
+
+
+#### SSA Forecast
+![SSA Forecast](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/SSA_forecast.png)
+
+#### Exponential Smoothing
+![Exponential Smoothing](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/expo.png)
+
+
+#### LSTM Loss
+![LSTM Loss](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/lstm_loss.png)
+
+
+#### Prophet
+![Prophet](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/prophet.png)
+
 ### 📢 **Conclusion**
 
 The project successfully applied various time series forecasting models to the AirPassengers dataset and evaluated their performance based on Mean Absolute Percentage Error (MAPE). 
+
+
+#### MAPE Comparison with Values
+![MAPE Comparison with Values](https://github.com/manishh12/DL-Simplified/blob/main/Airplane%20Passenger%20Prediction/Images/mape_comparison_with_values.png)
 ### ✒️ **Your Signature**
 
 [Manish Kumar Gupta]
