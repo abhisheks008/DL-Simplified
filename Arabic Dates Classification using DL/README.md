@@ -51,8 +51,9 @@ models used:
 
 - #### **Exploratory Data Analysis**
 
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/display.png"/>
-
+<p align="center">
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/display.png" align="center"/>
+</p>
 
 <p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/EDA.png" height="400px" width="400px" />
