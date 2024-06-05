@@ -51,61 +51,59 @@ models used:
 
 - #### **Exploratory Data Analysis**
 
-<br>
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/display.png"/>
 
-<p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Negative%20EDA.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Neutral%20EDA.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Positive%20EDA.png" height="400px" width="400px" />
-</p>
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/EDA.png"/>
+
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/pie%20distribution.png"/>
 
 - #### **CNN**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/tomato-leaf/Tomato-Leaf%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **InceptionV3**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **VGG16**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **EfficientNetB7**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/EfficientNetB7%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/EfficientNetB7%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/EfficientNetB7%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/EfficientNetB7%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **RESNET50**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/RESNET50%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/RESNET50%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/RESNET50%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/RESNET50%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **DenseNet-121**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/DENSENET121%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/DENSENET121%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/DenseNet121%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/DenseNet121%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **Xception**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
 </p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
