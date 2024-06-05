@@ -116,19 +116,19 @@ We used Validation **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 48.00% | 1.0630 |
-| InceptionV3 | 84.00%  | 0.4533 | 
-| CNN | 94.00% | 0.2254 |
-| VGG16 | 90.00% | 0.3243 |
-| EfficientNetB7 | 42.00% | 1.0812 |
-| DenseNet-121 | 82.00% | 0.7257 |
-| Xception | 86.00% | 0.5171 |
+| ResNet-50 | 12.05% | 14.1762 |
+| InceptionV3 | 90.36%  | 0.3815 | 
+| CNN | 83.13% | 0.7560 |
+| VGG16 | 97.29% | 0.1368 |
+| EfficientNetB7 | 18.37% | 2.1760 |
+| DenseNet-121 | 96.99% | 0.1515 |
+| Xception | 94.58% | 0.1908 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+VGG16, DenseNet-121, InceptionV3 and CNN work exceptionally well, with **VGG16** and **DenseNet-121** being the ideal choice.
 
 ### ✒️ **Your Signature**
 
