@@ -57,6 +57,31 @@ models used:
 - autogluon
 - matplotlib
 
+
+### Visualization
+
+#### Adenopathy Distribution
+![Adenopathy_Distribution](Images/Adenopathy_Distribution.png)
+
+#### Age Distribution
+![Age_Distribution](Images/Age_Distribution.png)
+
+#### Age Distribution by Smoking Status
+![Age_Distribution_by_Smoking_Status](Images/Age_Distribution_by_Smoking_Status.png)
+
+#### Gender Distribution
+![Gender_Distribution](Images/Gender_Distribution.png)
+
+#### MLP Model Accuracy
+![MLP_Model_Accuracy](Images/MLP_Model_Accuracy.png)
+
+#### MosaicPlot
+![MosaicPlot](Images/MosaicPlot.png)
+
+#### Thyroid Cancer Recurrence Dataset EDA
+![Thyroid_Cancer_Recurrence_Dataset_EDA](Images/Thyroid_Cancer_Recurrence_Dataset_EDA.png)
+
+
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
 Metrics:
