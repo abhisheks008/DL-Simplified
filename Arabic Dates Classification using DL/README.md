@@ -53,9 +53,11 @@ models used:
 
 <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/display.png"/>
 
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/EDA.png"/>
 
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/pie%20distribution.png"/>
+<p align="center">
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/EDA.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/dates-classify/Arabic%20Dates%20Classification%20using%20DL/Images/pie%20distribution.png" height="400px" width="400px" />
+</p>
 
 - #### **CNN**
 
