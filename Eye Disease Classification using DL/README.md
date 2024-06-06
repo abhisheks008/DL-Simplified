@@ -45,14 +45,14 @@ models used:
 ### 📊 **Exploratory Data Analysis Results**
 
 
-- #### **Venomous**
+- #### **EDA**
 
 <p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/ven1.png" height="400px" width="400px" />
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/ven2.png" height="400px" width="400px" />
 </p>
 
-- #### **Non Venomous**
+- #### **DenseNet-121**
 
 <p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/NV1.png" height="400px" width="400px" />
@@ -80,7 +80,7 @@ models used:
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
 </p>
 
-- #### **EfficientNetB7**
+- #### **MobileNet**
 
 <p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/snake_classify/Indian%20Venomous%20Snakes%20Classification%20using%20DL/Images/EfficientNetB7%20Accuracy.png" height="400px" width="400px" />
