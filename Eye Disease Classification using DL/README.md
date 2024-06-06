@@ -10,7 +10,7 @@ The dataset consists of 4 subdirectories under the dataset, each having approxim
 
 ### 🧾 **Description**
 
-The project deals with multiclass classification classification, classifying images into 4 categories: Normal, Cataract, Glaucoma, and Diabetic Retinopathy.
+The project deals with multiclass classification, classifying images into 4 categories: Normal, Cataract, Glaucoma, and Diabetic Retinopathy.
 
 ### 🧮 **What I had done!**
 
@@ -31,8 +31,10 @@ models used:
 - ResNet-50
 - Xception
 - VGG16
-- CNN-Keras
+- CNN
 - InceptionV3
+- DenseNet-121
+- MobileNet
 
 ### 📚 **Libraries Needed**
 
