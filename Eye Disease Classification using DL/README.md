@@ -6,11 +6,11 @@ The objective of this project is to classify images of eyes into 4 categories: N
 
 ### 🧵 **Dataset**
 
-The dataset consists of 4 subdirectories under the dataset, each having approximately 1000 images totalling to 
+The dataset consists of 4 subdirectories under the dataset, each having approximately 1000 images totalling to 4217.
 
 ### 🧾 **Description**
 
-The project deals with binary classification, classifying images into the two classes: Venomous or Non-Venomous
+The project deals with binary classification, classifying images into 4 categories: Normal, Cataract, Glaucoma, and Diabetic Retenopathy.
 
 ### 🧮 **What I had done!**
 
@@ -102,17 +102,19 @@ We used Validation and Testing **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 65.17% | 0.6405 |
-| InceptionV3 | 86.89%  | 0.3523 | 
-| CNN | 74.44% | 0.5768 |
-| VGG16 | 75.28% | 0.5027 |
-| EfficientNetB7 | 60.67% | 0.6833 |
+| ResNet-50 | 23.06% | 12.4005 |
+| InceptionV3 | 87.68%  | 0.3861 | 
+| CNN | 87.68% | 0.4260 |
+| VGG16 | 91.79% | 0.2457 |
+| MobileNet | 90.52% | 0.2863 |
+| DenseNet-121 | 92.42% | 0.2208 |
+| Xception | 89.42% | 0.3184 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-InceptionV3 and VGG16 work well on the dataset, while the custom CNN, being much lighter, falls just a bit short.
+InceptionV3, CNN, DenseNet-121, MobileNet and VGG16 as well as Xception performed exceptionally well, with **VGG16**, **MobileNet** and **Densenet-121** being the ideal choice.
 
 ### ✒️ **Your Signature**
 
