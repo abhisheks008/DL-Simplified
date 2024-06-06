@@ -49,13 +49,12 @@ models used:
 
 - #### **Exploratory Data Analysis**
 
-<br>
-
 <p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Negative%20EDA.png" height="400px" width="400px" />
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Neutral%20EDA.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Positive%20EDA.png" height="400px" width="400px" />
 </p>
+
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/Positive%20EDA.png"/>
 
 - #### **CNN**
 
@@ -114,19 +113,19 @@ We used Validation **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 54.88% | 7.2728 |
-| InceptionV3 | 54.88%  | 7.2728 | 
-| CNN | 90.24% | 0.5969 |
-| VGG16 | 100.00% | 0.0579 |
-| MobileNet | 100.00% | 0.0023 |
-| DenseNet-121 | 100.00% | 0.0635 |
-| Xception | 98.78% | 0.0586 |
+| ResNet-50 | 48.78% | 8.1656 |
+| InceptionV3 | 98.37%  | 0.0386 | 
+| CNN | 94.31% | 0.4778 |
+| VGG16 | 100.00% | 0.0249 |
+| MobileNet | 100.00% | 0.0030 |
+| DenseNet-121 | 100.00% | 0.0100 |
+| Xception | 100.00% | 0.0036 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-MobileNet, VGG16, CNN, Xception and DenseNet-121 work exceptionally well, with **MobileNet**, **VGG16** and **DenseNet-121** being the ideal choice for this task.
+MobileNet, VGG16, CNN, Xception and DenseNet-121 work exceptionally well, with **MobileNet**, **Xception**, **VGG16** and **DenseNet-121** being the ideal choice for this task.
 
 ### ✒️ **Your Signature**
 
