@@ -32,7 +32,7 @@ models used:
 - CNN-Keras
 - InceptionV3
 - DenseNet-121
-- EfficientNetB7
+- MobileNet
 
 ### 📚 **Libraries Needed**
 
@@ -78,7 +78,7 @@ models used:
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
 </p>
 
-- #### **EfficientNetB7**
+- #### **MobileNet**
 
 <p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/EfficientNetB7%20Accuracy.png" height="400px" width="400px" />
@@ -114,19 +114,19 @@ We used Validation **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 48.00% | 1.0630 |
-| InceptionV3 | 84.00%  | 0.4533 | 
-| CNN | 94.00% | 0.2254 |
-| VGG16 | 90.00% | 0.3243 |
-| EfficientNetB7 | 42.00% | 1.0812 |
-| DenseNet-121 | 82.00% | 0.7257 |
-| Xception | 86.00% | 0.5171 |
+| ResNet-50 | 54.88% | 7.2728 |
+| InceptionV3 | 54.88%  | 7.2728 | 
+| CNN | 90.24% | 0.5969 |
+| VGG16 | 100.00% | 0.0579 |
+| MobileNet | 100.00% | 0.0023 |
+| DenseNet-121 | 100.00% | 0.0635 |
+| Xception | 98.78% | 0.0586 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+MobileNet, VGG16, CNN, Xception and DenseNet-121 work exceptionally well, with **MobileNet**, **VGG16** and **DenseNet-121** being the ideal choice for this task.
 
 ### ✒️ **Your Signature**
 
