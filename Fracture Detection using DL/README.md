@@ -58,59 +58,59 @@ models used:
 - #### **EDA**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Cataract.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Diabetic%20Retinopathy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/Fracture.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/Not%20fractured.png" height="400px" width="400px" />
 </p>
 
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/EDA.png"/>
+<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/EDA.png"/>
 
 - #### **DenseNet-121**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/DENSENET121%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/DENSENET121%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/DenseNet121%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/DenseNet121%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **CNN**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **InceptionV3**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **VGG16**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **MobileNet**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/MobileNet%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/MobileNet%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/MobileNet%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/MobileNet%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **RESNET50**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/RESNET50%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/RESNET50%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/RESNET50%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/RESNET50%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **Xception**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/fracture/Fracture%20Detection%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
 </p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
@@ -124,7 +124,7 @@ We used  **Loss** and **Accuracy** as metrics.
 | ResNet-50 | 38.74% | 9.8734 | 44.92% | 8.8777 |
 | InceptionV3 | 61.26%  | 6.1766 | 55.08% | 7.1615 |
 | CNN | 99.87% | 0.0100 | 100.00% | 0.0037 |
-| VGG16 | 94.63% | 0.1482 | 95.01% | 0.1515 |
+| VGG16 | 94.63% | 0.1482 | 96.16% | 0.1142 |
 | MobileNet | 99.21% | 0.0346 | 100.00% | 0.0156 |
 | DenseNet-121 | 94.50% | 0.1413 | 95.03% | 0.1494 |
 | Xception | 98.82% | 0.0541 | 100.00% | 0.0170 |
