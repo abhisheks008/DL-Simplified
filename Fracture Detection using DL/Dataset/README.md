@@ -6,5 +6,7 @@ The dataset consists of 3 subdirectories under the bone_fracture_binary_classifi
 **Appropriate image count**
 
 Train images images: 9165
+
 Validation images: 764
+
 Test images: 443
