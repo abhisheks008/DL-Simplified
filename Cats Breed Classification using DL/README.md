@@ -6,7 +6,7 @@ The objective of this project is to classify images of cats into 5 breeds, namel
 
 ### 🧵 **Dataset**
 
-The dataset consists of 5 subdirectories: siamese, ragdoll, bengal, domestic_shorthair and maine_coon under cat_v1 directory, totalling to images.
+The dataset consists of 5 subdirectories: siamese, ragdoll, bengal, domestic_shorthair and maine_coon under cat_v1 directory, totalling to 951 images.
 
 ### 🧾 **Description**
 
@@ -133,20 +133,20 @@ We used Validation **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 10.00% | 14.5063 |
-| InceptionV3 | 84.30%  | 0.5310 | 
-| CNN | 98.00% | 0.0657 |
-| VGG16 | 92.70% | 0.2489 |
-| MobileNet | 10.00% | 2.3026 |
-| DenseNet-121 | 93.60% | 0.1880 |
-| Xception | 88.90% | 0.3858 |
-| NASNetMobile | 88.90% | 0.3858 |
+| ResNet-50 | 22.66% | 12.4663 |
+| InceptionV3 | 83.59%  | 0.4896 | 
+| CNN | 35.94% | 2.2302 |
+| VGG16 | 78.12% | 0.6243 |
+| MobileNet | 88.28% | 0.4559 |
+| DenseNet-121 | 85.16% | 0.5082 |
+| Xception | 82.81% | 0.4810 |
+| NASNetMobile | 87.50% | 0.4133 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+**NASNetMobile**, **Xception**, **MobileNet** and **DenseNet-121** work exceptionally on given task.
 
 ### ✒️ **Your Signature**
 
