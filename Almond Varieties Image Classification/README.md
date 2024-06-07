@@ -56,7 +56,7 @@ A total of 1556 images of the four varieties were captured.
 ### 📢 Conclusion
 This project successfully demonstrates the use of advanced deep learning models to classify different varieties of almonds. By leveraging InceptionV3, VGG19, and ResNet50, the project highlights the effectiveness and performance of these architectures in image classification tasks.
 
-###Accuracy Results
+### Accuracy Results
 1. InceptionV3
 	- Training Accuracy: 99.75%
 	- Validation Accuracy: 99.65%
@@ -73,7 +73,7 @@ Based on the accuracy scores, InceptionV3 is the best-fitted model for this proj
 - InceptionV3: Best performance with near-perfect accuracy, suitable for deployment.
 - VGG19: High accuracy but slightly lower than InceptionV3, still very reliable.
 - ResNet50: Underperformed in this context, likely due to training issues or data requirements.
-- In conclusion, InceptionV3 is recommended for practical applications in almond variety classification due to its superior accuracy and efficiency.
+In conclusion, InceptionV3 is recommended for practical applications in almond variety classification due to its superior accuracy and efficiency.
 
 ## ✒️ Contributor
 ### Name : Abhijeet Kaithwas
