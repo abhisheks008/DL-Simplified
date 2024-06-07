@@ -2,7 +2,7 @@
 
 ### 🎯 **Goal**
 
-The objective of this project is to classify images of cats into 5 breeds, namely, siamese, ragdoll, bengal, domestic shorthair and maine coon.
+The objective of this project is to classify images of cats into 5 breeds, namely: siamese, ragdoll, bengal, domestic shorthair and maine coon.
 
 ### 🧵 **Dataset**
 
@@ -18,6 +18,8 @@ To achieve our goals, the following steps were implemented:
 
 - Images were loaded using keras.utils and normalized to the range 0 to 1.
 
+- Implemented class balancing by loading 170 images per class.
+
 - Labels were loaded and one-hot encoded into probability distributions.
 
 - Images were resized to a fixed size of 224x224 pixels.
@@ -31,7 +33,7 @@ models used:
 - ResNet-50
 - Xception
 - VGG16
-- CNN-Keras
+- CNN
 - InceptionV3
 - DenseNet-121
 - MobileNet
@@ -53,11 +55,11 @@ models used:
 - #### **Exploratory Data Analysis**
 
 <p align="center">
-  <img src="" height="400px" width="400px" />
-  <img src="" height="400px" width="400px" />
-  <img src="" height="400px" width="400px" />
-  <img src="" height="400px" width="400px" />
-  <img src="" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/cat-classify/Cats%20Breed%20Classification%20using%20DL/Images/bengal.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/cat-classify/Cats%20Breed%20Classification%20using%20DL/Images/domestic%20shorthair.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/cat-classify/Cats%20Breed%20Classification%20using%20DL/Images/maine%20coon.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/cat-classify/Cats%20Breed%20Classification%20using%20DL/Images/ragdoll.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/cat-classify/Cats%20Breed%20Classification%20using%20DL/Images/siamese.png" height="400px" width="400px" />
 </p>
 
 <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/cat-classify/Cats%20Breed%20Classification%20using%20DL/Images/EDA.png">
