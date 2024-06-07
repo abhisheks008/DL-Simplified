@@ -1,4 +1,5 @@
-PROJECT TITLE
+# **Almond Varieties Image Classification**
+
 ### 🎯 Goal
 The primary goal of this project is to develop an accurate and efficient image classification system capable of distinguishing between different varieties of almonds. By leveraging advanced deep learning models, the project aims to provide a robust solution for the automated identification of almond varieties, which can be beneficial for various applications in agriculture, food industry, and quality control.
 
@@ -24,7 +25,7 @@ Model Implementations: Utilizes three prominent CNN models:
 - VGG19: Characterized by its deep yet simple architecture, using 3x3 convolutional layers to achieve excellent image recognition performance.
 - ResNet50: Employs residual learning to train very deep networks, addressing the vanishing gradient problem and achieving high accuracy.
 
-🚀 Models Implemented
+### 🚀 Models Implemented
 - **InceptionV3**: Chosen for its balance between efficiency and accuracy, making it suitable for large-scale image classification with moderate computational resources.
 - **VGG19**: Selected for its simplicity and high performance in tasks requiring detailed feature extraction, making it a strong baseline model.
 - **ResNet50**: Opted for its ability to train very deep networks without suffering from vanishing gradients, allowing for the capture of intricate image details necessary for accurate classification of almond varieties.
