@@ -8,6 +8,12 @@ The objective of this project is to classify images of x-ray scans of bones, int
 
 The dataset consists of 3 subdirectories under the bone_fracture_binary_classification directory, train, test and val, all three with 2 subdirectories: fracture and not-fractured; train with approximately 9200 images, val with approximately 850 and test with approximately 600 images respectively.
 
+**Appropriate image count**
+
+Train images images: 9165
+Validation images: 764
+Test images: 443
+
 ### 🧾 **Description**
 
 The project deals with binary classification, classifying images into 2 categories: fracture and not-fractured bone x-ray scans.
@@ -111,23 +117,23 @@ models used:
 
 #### Metrics: 
 
-We used Validation **Loss** and **Accuracy** as metrics.
+We used  **Loss** and **Accuracy** as metrics.
 
-| Models | Accuracy | Loss |
-|--------|---------------------|--------------------------|
-| ResNet-50 | 23.06% | 12.4005 |
-| InceptionV3 | 87.68%  | 0.3861 | 
-| CNN | 87.68% | 0.4260 |
-| VGG16 | 91.79% | 0.2457 |
-| MobileNet | 90.52% | 0.2863 |
-| DenseNet-121 | 92.42% | 0.2208 |
-| Xception | 89.42% | 0.3184 |
+| Models | Validation Accuracy | Validation Loss | Test Accuracy | Test Loss |
+|--------|---------------------|--------------------------| ---------------------|--------------------------|
+| ResNet-50 | 38.74% | 9.8734 | 44.92% | 8.8777 |
+| InceptionV3 | 61.26%  | 6.1766 | 55.08% | 7.1615 |
+| CNN | 99.87% | 0.0100 | 100.00% | 0.0037 |
+| VGG16 | 94.63% | 0.1482 | 95.01% | 0.1515 |
+| MobileNet | 99.21% | 0.0346 | 100.00% | 0.0156 |
+| DenseNet-121 | 94.50% | 0.1413 | 95.03% | 0.1494 |
+| Xception | 98.82% | 0.0541 | 100.00% | 0.0170 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+**CNN**, **Xception**, **DenseNet-121**, **VGG16** and **MobileNet** are all up to the task and are ideal for this.
 
 ### ✒️ **Your Signature**
 
