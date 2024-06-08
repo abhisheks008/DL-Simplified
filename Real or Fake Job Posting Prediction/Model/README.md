@@ -15,7 +15,7 @@ The dataset consists of job postings labeled as either real or fake. It includes
 
 **WHAT I DID**
 
-I conducted extensive data preprocessing tasks, including text cleaning, tokenization, and feature extraction using Word2Vec. The dataset was split into training and testing sets, and both Artificial Neural Network (ANN) and Long Short-Term Memory (LSTM) models were constructed for classification.
+I conducted extensive data preprocessing tasks, including text cleaning, tokenization, and feature extraction using Word2Vec. The dataset was split into training and testing sets, and  ANN , LSTM , CNN and BiLSTM models were constructed for classification.
 
 **MODELS USED**
 
@@ -23,6 +23,9 @@ The models developed are:
 
 1. Artificial Neural Network (ANN)
 2. Long Short-Term Memory (LSTM)
+3. Convolutional Neural Network (CNN)
+4. Bidirectional Long Short-Term Memory (BiLSTM)
+
 
 **LIBRARIES NEEDED**
 
