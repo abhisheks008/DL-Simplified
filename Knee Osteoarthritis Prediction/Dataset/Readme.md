@@ -1,0 +1,3 @@
+The link for the dataset used in this project:  https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity/data
+
+The dataset consists of four subdirectories: train, test, auto test and val (test and auto_test are the same). All four contain 5 subdirectories, each representing a severity of osteoarthritis. The test and auto_test subdirectory contains 1346 images in total, while the train subdirectory contains 5778 images in total and the val subdirectory contains 826 images in total.
