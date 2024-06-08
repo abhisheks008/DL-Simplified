@@ -132,7 +132,7 @@ We used Validation **Loss** and **Accuracy** as metrics.
 | InceptionV3 | 83.59%  | 0.4896 | 
 | CNN | 35.94% | 2.2302 |
 | VGG16 | 78.12% | 0.6243 |
-| MobileNet | 88.28% | 0.4559 |
+| MobileNet | 90.62% | 0.3220 |
 | DenseNet-121 | 85.16% | 0.5082 |
 | Xception | 82.81% | 0.4810 |
 | NASNetMobile | 87.50% | 0.4133 |
