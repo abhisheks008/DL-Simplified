@@ -80,7 +80,7 @@ models used:
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
 </p>
 
-- #### **EfficientNetB7**
+- #### **MobileNet**
 
 <p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/speech-sentiment/Speech%20Sentiment%20Analysis%20using%20DL/Images/EfficientNetB7%20Accuracy.png" height="400px" width="400px" />
@@ -116,19 +116,19 @@ We used Validation **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| ResNet-50 | 48.00% | 1.0630 |
-| InceptionV3 | 84.00%  | 0.4533 | 
-| CNN | 94.00% | 0.2254 |
-| VGG16 | 90.00% | 0.3243 |
-| EfficientNetB7 | 42.00% | 1.0812 |
-| DenseNet-121 | 82.00% | 0.7257 |
-| Xception | 86.00% | 0.5171 |
+| ResNet-50 | 20.52% | 12.8102 |
+| InceptionV3 | 96.86%  | 0.1006 | 
+| CNN | 94.90% | 0.3179 |
+| VGG16 | 96.21% | 0.1311 |
+| MobileNet | 98.69% | 0.0488 |
+| DenseNet-121 | 98.43% | 0.0451 |
+| Xception | 97.78% | 0.0834 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+All models except RESNET-50 work exceptionally well, and **DenseNet-121**, **Xception**, **VGG16**, **InceptionV3** and **mobileNet** are ideal choices. Customizing CNN for the task can also be considered a better alternative, due to flexibility in convolutional layers allowing capture of more complex features in a simple yet robust architecture.
 
 ### ✒️ **Your Signature**
 
