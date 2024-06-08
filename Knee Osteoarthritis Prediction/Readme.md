@@ -43,3 +43,15 @@ models used:
 - Numpy
 
 - Matplotlib
+
+We used Validation and Testing **Loss** and **Accuracy** as metrics.
+
+| Models | Accuracy | Loss |
+|--------|---------------------|--------------------------|
+| ResNet-50 | % |  |
+| InceptionV3 | %  |  | 
+| CNN | % |  |
+| VGG16 | % |  |
+| EfficientNetB7 | % |  |
+| DenseNet-121 | % |  |
+| Xception | % |  |
