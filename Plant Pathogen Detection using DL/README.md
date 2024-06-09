@@ -8,7 +8,7 @@ The objective of this project is to classify images of Plants into 5 categories:
 
 The dataset consists of 5 subdirectories dealing with Healthy, Virus, Bacteria, Fungi and Pests: each carrying approximately 8000 images totalling to approximately 40000 images.
 
-We downsampled to approximately 1000 images per class totalling to 10000 images.
+We downsampled to approximately 1000 images per class totalling to 5000 images.
 
 ### 🧾 **Description**
 
@@ -54,61 +54,62 @@ models used:
 - #### **EDA**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Cataract.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Diabetic%20Retinopathy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Glaucoma.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Normal.png" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
 </p>
 
-<img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/EDA.png"/>
+<img src=""/>
 
 - #### **DenseNet-121**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/DENSENET121%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/DENSENET121%20Loss.png" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
 </p>
 
 - #### **CNN**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
 </p>
 
 - #### **InceptionV3**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
 </p>
 
 - #### **VGG16**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
 </p>
 
 - #### **MobileNet**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/MobileNet%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/MobileNet%20Loss.png" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
 </p>
 
 - #### **NASNetMobile**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/RESNET50%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/RESNET50%20Loss.png" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
 </p>
 
 - #### **Xception**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/eye-disease/Eye%20Disease%20Classification%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
+  <img src="" height="400px" width="400px" />
 </p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
@@ -119,19 +120,19 @@ We used Validation **Loss** and **Accuracy** as metrics.
 
 | Models | Accuracy | Loss |
 |--------|---------------------|--------------------------|
-| NASNetMobile | 23.06% | 12.4005 |
-| InceptionV3 | 87.68%  | 0.3861 | 
-| CNN | 87.68% | 0.4260 |
-| VGG16 | 91.79% | 0.2457 |
-| MobileNet | 90.52% | 0.2863 |
-| DenseNet-121 | 92.42% | 0.2208 |
-| Xception | 89.42% | 0.3184 |
+| NASNetMobile | 94.67% | 0.1586 |
+| InceptionV3 | 93.47%  | 0.2511 | 
+| CNN | 91.20% | 0.2696 |
+| VGG16 | 97.20% | 0.1099 |
+| MobileNet | 97.33% | 0.0917 |
+| DenseNet-121 | 97.73% | 0.0754 |
+| Xception | 95.20% | 0.1823 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+All models worked exceptionally well on the task, and the ideal models for this are: **Xception**, **VGG16**, **MobileNet** and **DenseNet-121**.
 
 ### ✒️ **Your Signature**
 
