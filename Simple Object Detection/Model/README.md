@@ -41,15 +41,98 @@ This project involves analyzing the Simple Object Detection Dataset to understan
 
 ### 📊 **Exploratory Data Analysis Results**
 
-[Results and insights obtained from the exploratory data analysis phase]
+
+
+
+## Distribution
+
+![Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/Distribution.png)
+
+
+
+## Box Size Distribution
+
+![Box Size Distribution](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/box-size-didtribution.png)
+
+## Histogram of X-Max
+
+![Histogram of X-Max](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/histogram-xmax.png)
+
+## Histogram of X-Min
+
+![Histogram of X-Min](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/histogram-xmin.png)
+
+## Histogram of Y-Max
+
+![Histogram of Y-Max](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/histogram-ymax.png)
+
+## Histogram of Y-Min
+
+![Histogram of Y-Min](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/histogram-ymin.png)
+
+## Plot
+
+![Plot](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/plot.png)
+
+## Size Location
+
+![Size Location](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/size-location.png)
+
+
 
 ### 📈 **Performance of the Models**
 
-[Comparison of the performance metrics (mAP, accuracy, speed) for each implemented model]
+## ANN Loss
+
+![ANN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/ANN_loss.png)
+
+## ANN Mean Absolute Error
+
+![ANN Mean Absolute Error](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/ANN_mae.png)
+
+## CNN Loss
+
+![CNN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/CNN_loss.png)
+
+## CNN Mean Absolute Error
+
+![CNN Mean Absolute Error](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/CNN_mae.png)
+
+## DNN Loss
+
+![DNN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/DNN_loss.png)
+
+## DNN Mean Absolute Error
+
+![DNN Mean Absolute Error](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/DNN_mae.png)
+
+## LSTM Loss
+
+![LSTM Loss](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/LSTM_loss.png)
+
+## LSTM Mean Absolute Error
+
+![LSTM Mean Absolute Error](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/LSTM_mae.png)
+
+## RNN Loss
+
+![RNN Loss](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/RNN_loss.png)
+
+## RNN Mean Absolute Error
+
+![RNN Mean Absolute Error](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/RNN_mae.png)
 
 ### 📢 **Conclusion**
 
 The project successfully explored various object detection models and techniques using the Simple Object Detection Dataset. By comparing the performance of different models, valuable insights were gained into their strengths and weaknesses, aiding in informed decision-making for future object detection tasks.
+
+## Comparison Bar Graph - Validation Loss
+
+![Comparison Bar Graph - Validation Loss](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/comparison_bar_graph_val_loss.png)
+
+## Comparison Bar Graph - Validation Mean Absolute Error
+
+![Comparison Bar Graph - Validation Mean Absolute Error](https://github.com/manishh12/DL-Simplified/blob/main/Simple%20Object%20Detection/Images/comparison_bar_graph_val_mae.png)
 
 ### ✒️ **Your Signature**
 
