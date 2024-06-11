@@ -2,7 +2,7 @@
 
 ### 🎯 **Goal**
 
-The objective of this project is to predict 15 essential facial keypoints like center of eyes, edgepoints of eyebrows and so on by using images.
+The objective of this project is to predict 15 essential facial key-points like center of eyes, edge-points of eyebrows and so on by using images.
 
 ### 🧵 **Dataset**
 
@@ -19,6 +19,8 @@ To achieve our goals, the following steps were implemented:
 - Images were loaded using keras.utils and normalized to the range 0 to 1.
 
 - Labels were used to lock onto features for each image.
+
+- Features have been normalized using a MinMaxScaler.
 
 - Images were resized to a fixed size of 96X96 pixels.
 
@@ -114,21 +116,21 @@ models used:
 
 We used Validation and Test **Mean Squared Error (MSE)** and **Mean Absolute Error (MAE)** as metrics.
 
-| Models | Validation MSE | Validation MAE | Validation MSE | Validation MAE |
+| Models | Validation MSE | Validation MAE | Test MSE | Test MAE |
 |--------|---------------------|--------------------------|---------------------|--------------------------|
-| NASNetMobile | 94.67% | 0.1586 |  |  |
-| InceptionV3 | 93.47%  | 0.2511 |  |  | 
-| CNN | 91.20% | 0.2696 |  |  |
-| VGG16 | 97.20% | 0.1099 |  |  |
-| MobileNet | 97.33% | 0.0917 |  |  |
-| DenseNet-121 | 97.73% | 0.0754 |  |  |
-| Xception | 95.20% | 0.1823 |  |  |
+| ResNet-50 | 0.0022 | 0.0221 | 0.0020 | 0.0218 |
+| InceptionV3 | 0.0023  | 0.0277 | 0.0021 | 0.0273 | 
+| CNN | 0.0015 | 0.0213 | 0.0013 | 0.0214 |
+| VGG16 | 0.0022 | 0.0262 | 0.0019 | 0.0253 |
+| MobileNet | 0.0023 | 0.0278 | 0.0022 | 0.0280 |
+| DenseNet-121 | 0.0019 | 0.0245 | 0.0017 | 0.0240 |
+| Xception | 0.0019 | 0.0240 | 0.0018 | 0.0239 |
 
 ### 📢 **Conclusion**
 
 We conclude the following:
 
-
+All models work well on the task, with **CNN**, **DenseNet-121**, **Xception**, **VGG-16** and **Resnet-50** are ideal for this.
 
 ### ✒️ **Your Signature**
 
