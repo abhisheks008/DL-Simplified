@@ -54,60 +54,58 @@ models used:
 - #### **EDA**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/Bacteria.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/Fungi.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/Pests.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/Virus.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/Healthy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/EDA%201.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/EDA%202.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/Prediction%20image.png" height="400px" width="400px" />
 </p>
 
 - #### **DenseNet-121**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/DENSENET121%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/DENSENET121%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/DENSENET121%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/DENSENET121%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **CNN**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/CNN%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/CNN%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **InceptionV3**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/InceptionV3%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/InceptionV3%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **VGG16**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/VGG16%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/VGG16%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **MobileNet**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/MobileNet%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/MobileNet%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/MobileNet%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/MobileNet%20Loss.png" height="400px" width="400px" />
 </p>
 
-- #### **NASNetMobile**
+- #### **ResNet-50**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/NASNetMobile%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/NASNetMobile%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/RESNET50%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/RESNET50%20Loss.png" height="400px" width="400px" />
 </p>
 
 - #### **Xception**
 
 <p align="center">
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
-  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/plant-pathogen/Plant%20Pathogen%20Detection%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/Xception%20Accuracy.png" height="400px" width="400px" />
+  <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/Xception%20Loss.png" height="400px" width="400px" />
 </p>
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
