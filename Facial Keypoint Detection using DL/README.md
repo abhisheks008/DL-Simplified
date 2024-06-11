@@ -30,7 +30,7 @@ To achieve our goals, the following steps were implemented:
 
 models used:
 
-- NASNetMobile
+- ResNet-50
 - Xception
 - VGG16
 - CNN
@@ -53,9 +53,16 @@ models used:
 
 - #### **EDA**
 
+##### Images with Actual Keypoints
+
 <p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/EDA%201.png" height="400px" width="400px" />
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/EDA%202.png" height="400px" width="400px" />
+</p>
+
+##### Image with Predicted Keypoints
+
+<p align="center">
   <img src="https://github.com/Arihant-Bhandari/DL-Simplified/blob/facial-keypoint/Facial%20Keypoint%20Detection%20using%20DL/Images/Prediction%20image.png" height="400px" width="400px" />
 </p>
 
@@ -128,7 +135,7 @@ We used Validation and Test **Mean Squared Error (MSE)** and **Mean Absolute Err
 
 We conclude the following:
 
-All models work well on the task, with **CNN**, **DenseNet-121**, **Xception**, **VGG-16** and **Resnet-50** are ideal for this.
+All models work well on the task; **CNN**, **DenseNet-121**, **Xception**, **VGG-16** and **Resnet-50** are ideal for this.
 
 ### ✒️ **Your Signature**
 
