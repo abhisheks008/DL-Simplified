@@ -9,7 +9,8 @@ The CVC-ClinicDB database consists of two different types of images:
 - **Original Images:** These are the original frames extracted from colonoscopy videos, showcasing the regions of interest where polyps may be present.
 - **Polyp Mask Images:** These images contain the ground truth masks corresponding to the polyp regions in the original images. Each mask highlights the exact area covered by the polyp in the respective frame.
 
-![Dataset Example](https://github.com/your-username/your-repo-name/path-to-image/Screenshot%202024-06-04%20124007.png)
+![Screenshot 2024-06-04 124007](https://github.com/Kaushal-11/DL-Simplified/assets/121329391/3f327ee2-b952-45b0-9383-3a672c9b1114)
+
 
 ## Accessing the Dataset 📥
 
