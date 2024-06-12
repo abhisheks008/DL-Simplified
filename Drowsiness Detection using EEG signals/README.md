@@ -40,6 +40,8 @@ The dataset for this project can be accessed from the following link: https://fi
 - **Regularization**: No explicit regularization mentioned.
 - **Normalization**: No explicit normalization mentioned.
 
+<img width="551" alt="model_acc1" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/f0305d23-55da-4e17-bc43-7eb603c8ddea">
+<img width="543" alt="model_loss1" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/1847bc5c-a839-478e-869b-976ba858d4fc">
 
 ### Model - 2
 
@@ -56,6 +58,8 @@ The dataset for this project can be accessed from the following link: https://fi
 - **Regularization**: Dropout regularization is used to prevent overfitting.
 - **Normalization**: Batch Normalization is applied to stabilize and accelerate training.
 
+<img width="545" alt="model_acc2" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/a8dcef05-042d-4156-8855-03500c83cf85">
+<img width="542" alt="model_loss2" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/0cd8d2cf-00d8-4e0b-a9b7-cd1d53c33267">
 
 ### Model - 3
 
@@ -74,6 +78,8 @@ The dataset for this project can be accessed from the following link: https://fi
 - **Regularization**: Dropout used to prevent overfitting.
 - **Normalization**: Batch Normalization stabilizes and accelerates training.
 
+<img width="544" alt="model_acc3" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/acf310f0-1c3c-4c79-9c28-496a15229f5b">
+<img width="541" alt="model_loss3" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/b95b3d8a-4a41-44b5-989b-fc4fc8c2d876">
 
 
 ## Training and Evaluation
@@ -91,9 +97,10 @@ To provide a conclusion based on the three models provided:
 
 3. **Model 3**: Unlike the first two models, Model 3 employs a simpler architecture with convolutional layers followed by pooling and dense layers. It lacks residual connections and global pooling, which may limit its ability to capture long-range dependencies in sequential data. However, it may still perform adequately for simpler tasks or datasets with less complex patterns.
 
+<img width="704" alt="Result" src="https://github.com/KamakshiOjha/DL-Simplified/assets/114620432/72e9bab2-ca14-4fef-a9ee-118fd6053c23">
 
 **Conclusion**:
-- Model 1 appears to be the most comprehensive and robust among the three, thanks to its use of residual connections and global pooling.
+- Model 1 is the most comprehensive and robust among the three, due to use of residual connections and global pooling.
 - Model 2 may suffer from vanishing gradients during training due to the absence of residual connections but could still perform reasonably well with proper tuning.
 - Model 3, while simpler, may struggle with capturing complex patterns in sequential data compared to the other two models.
 
