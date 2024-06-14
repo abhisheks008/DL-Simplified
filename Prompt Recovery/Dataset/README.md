@@ -96,4 +96,4 @@ Refer to the **baseline_models** directory for implementations and usage instruc
 ## References
 
 For more information on the competition, datasets, and evaluation criteria, please refer to the
-Kaggle competition page.
+Kaggle competition page=[Dataset](https://www.kaggle.com/competitions/llm-prompt-recovery)
