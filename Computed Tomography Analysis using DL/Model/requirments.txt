@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+cv2
+PIL
+sklearn
+tensorflow
+IPython
+pydicom
