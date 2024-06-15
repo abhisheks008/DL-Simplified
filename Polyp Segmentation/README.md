@@ -91,3 +91,33 @@ Detailed results and visualizations are provided for each model, showcasing thei
   ![Training and Validation Loss, Accuracy](https://github.com/Kaushal-11/DL-Simplified/assets/121329391/8288a12a-e16a-45c5-8569-6d3decebe27f)
 - **Result**:
   ![Result](https://github.com/Kaushal-11/DL-Simplified/assets/121329391/289c9cfe-15be-444e-8c94-e6c43fc1fdb6)
+
+## Model Performance📊
+
+### U-Net
+- **Accuracy:** 0.94052
+- **F1 Score:** 0.55769
+- **Jaccard Index:** 0.44812
+- **Recall:** 0.60501
+- **Precision:** 0.61600
+
+### ResUNet
+- **Accuracy:** 0.95242
+- **F1 Score:** 0.64726
+- **Jaccard Index:** 0.53020
+- **Recall:** 0.63822
+- **Precision:** 0.75802
+
+### DeepLabV3+
+- **Accuracy:** 0.94905
+- **F1 Score:** 0.58536
+- **Jaccard Index:** 0.47407
+- **Recall:** 0.52060
+- **Precision:** 0.78002
+
+## Conclusion 🎗️
+
+Based on the evaluation metrics, the **ResUNet** model demonstrates the best overall performance for medical image segmentation tasks. The reasons for selecting ResUNet as the best model is as follows,
+
+ResUNet combines the advantages of U-Net with residual connections, which enhance its capability to learn complex features and prevent vanishing gradient issues. This makes ResUNet a robust and efficient choice for high-accuracy medical image segmentation tasks.
+
