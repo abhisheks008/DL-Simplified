@@ -1,0 +1,5 @@
+The link for the dataset used in this project:  https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity/data
+
+The dataset consists of four subdirectories: train, test, auto test and val (test and auto_test are the same). All four contain 5 subdirectories, each representing a severity of osteoarthritis. The test and auto_test subdirectory contains 1346 images in total, while the train subdirectory contains 5778 images in total and the val subdirectory contains 826 images in total.
+
+So what we have basically done is combined all these images totalling in only 5 sub categories ranging from Grade 0 to grade 4. This makes it simple for the model and we can split it into train, test, val data later on withing the function and is also useful in case we want to apply K fold cross validation.
