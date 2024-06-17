@@ -34,6 +34,8 @@
 <ul>
     <li>Convolution Neural Network using MaxPooling layers</li>
     <li>Artificial Neural Networks</li>
+    <li>Xception</li>
+    <li>ResNet50</li>
 </ul>
 
 ### The project also contains a Python script. It performs two functions:
@@ -43,7 +45,7 @@
 ### Details:
 > Convolutional Neural Network
 <ul>
-    <li>Accuracy: 100%</li>
+    <li>Accuracy: 90.85%</li>
     <li>Activation Functions: Rectified Linear Unit, Sigmoid</li>
     <li>Input Size of images: (200, 200)</li>
     <li>MaxPooling layers used: 3</li>
@@ -52,15 +54,29 @@
 
 > Artificial Neural Network
 <ul>
-    <li>Accuracy: 100%</li>
+    <li>Accuracy: 98.02%</li>
     <li>Activation Functions: Rectified Linear Unit, Softmax</li>
     <li>Input Size of images: (200, 200)</li>
     <li>Dense layers used: 2</li>
 </ul>
 
+>ResNet50
+<ul>
+    <li>Accuracy: 98.60%</li>
+    <li>Activation Functions: Rectified Linear Unit, Sigmoid</li>
+    <li>Input Size of images: (200, 200)</li>
+    <li>MaxPooling layers used: 3</li>
+    <li>Filters applied: 3</li>
+</ul>
 
-
-
+>Xception
+<ul>
+    <li>Accuracy: 98.70%</li>
+    <li>Activation Functions: Rectified Linear Unit, Sigmoid</li>
+    <li>Input Size of images: (200, 200)</li>
+    <li>MaxPooling layers used: 3</li>
+    <li>Filters applied: 3</li>
+</ul>
 
 
 
