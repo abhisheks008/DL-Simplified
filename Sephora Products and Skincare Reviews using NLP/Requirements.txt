@@ -1,0 +1,15 @@
+os
+itertools
+PIL
+re
+nltk
+torch==2.0.1
+torchvision==0.15.0
+torchaudio==0.8.1
+numpy==1.24.3
+pandas==1.5.0
+matplotlib==3.6.0
+segmentation-models==1.0.1
+tensorflow
+transformers==4.11.3
+scipy==1.7.3

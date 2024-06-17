@@ -1,0 +1,10 @@
+Pandas
+Numpy 
+Matplotlib
+Seaborn
+Tensorflow
+Keras
+sklearn
+shutil
+pillow
+pickle

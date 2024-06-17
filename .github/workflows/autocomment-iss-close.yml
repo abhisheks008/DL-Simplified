@@ -1,0 +1,37 @@
+name: Comment on Issue Close
+
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  greet-on-close:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Greet User
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            const issueCreator = issue.user.login;
+            const issueNumber = issue.number;
+            const sender = context.payload.sender.login;
+            const assignee = context.payload.issue.assignee.login;
+            // Define maintainers as a list of usernames who should not trigger this action
+            const maintainers = ['maintainer1', 'maintainer2']; // Replace with actual maintainer usernames
+
+            // Check if the issue was closed by a maintainer
+            if (!maintainers.includes(sender)) {
+              const greetingMessage = `Hello @${assignee}! Your issue #${issueNumber} has been closed. Thank you for your contribution!`;
+              
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: greetingMessage
+              });
+            }

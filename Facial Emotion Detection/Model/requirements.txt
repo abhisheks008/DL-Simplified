@@ -1,0 +1,5 @@
+numpy==1.23.5
+matplotlib==3.7.1
+scikit-learn==1.2.2
+tensorflow==2.15.0
+keras_cv==0.8.1

@@ -1,0 +1,10 @@
+Pandas
+Numpy
+Matplotlib
+Seaborn
+Tensorflow
+Keras
+visualkeras
+pickle
+pillow
+opendatasets

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bone Fracture Detection</title>
+    <link rel = "stylesheet" href = "./static/home.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/" method="post" enctype="multipart/form-data" autocomplete="off">
+            <h1>Upload Image</h1>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="file">Input image</label>
+                <input type="file" id="file" accept = "image/*" name="Input Image" class="form-control" required>
+            </div>
+            <input type="submit" class="btn" value="Upload">
+         </form>
+    </div>
+</body>
+</html>

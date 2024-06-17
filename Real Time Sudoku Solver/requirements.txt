@@ -1,0 +1,5 @@
+keras==2.3.1
+numpy==1.22.0
+opencv-python==4.2.0.34
+scipy==1.4.1
+import-ipynb==0.1.3

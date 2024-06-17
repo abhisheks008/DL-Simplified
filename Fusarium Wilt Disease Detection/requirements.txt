@@ -1,0 +1,7 @@
+python
+numpy
+pandas
+imageio
+tensorflow
+sklearn
+keras

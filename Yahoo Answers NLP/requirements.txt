@@ -1,0 +1,13 @@
+python
+pandas
+numpy
+matplotlib
+tensorflow
+pytorch
+keras
+sklearn
+nltk
+contractions
+time
+warnings
+string

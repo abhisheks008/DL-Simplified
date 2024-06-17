@@ -1,0 +1,7 @@
+TensorFlow
+Keras
+OpenCV
+Matplotlib
+NumPy
+Pandas
+Seaborn

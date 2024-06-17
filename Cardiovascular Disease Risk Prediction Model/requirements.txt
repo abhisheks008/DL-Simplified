@@ -1,0 +1,8 @@
+kaggle
+tensorflow
+tensorflow_hub
+split-folders
+matplotlib
+numpy
+pandas
+seaborn
