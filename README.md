@@ -49,19 +49,13 @@ Now the model is saved in keras format and performance analysis is performed lik
 
 ### 🚀 **`Models Implemented`**
  ---
-I have used two different models 
+I have used two different models: 
 - Fully Connected Neural Network.
 - Multi-Layer LSTM Architecture.
 
 
 ### 📈 **`Performance of the Models based on the Accuracy Scores`**
 ---
-<style>
-    th{
-        color : black;
-        background-color:yellow;
-    }
-</style>
 <table style = "border: 1px solid black;">
     <tr>
         <th>S.No</th>
