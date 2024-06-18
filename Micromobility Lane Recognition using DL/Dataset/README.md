@@ -1,4 +1,5 @@
-The Dataset was so messed up so here's an organzied csv file that contains all the image paths and their labels:
+The dataset was so messed up,
+so here's an organzied csv file that contains all the image paths and their labels:
 
 **Organized_dataset.csv**
 
