@@ -1,16 +1,16 @@
 # **Pet's Facial Expression Detection**
 
 ### 🎯 Goal
-The goal of this project is to develop an advanced image classification system that can accurately identify the facial expressions of pets using cutting-edge deep learning techniques.
+This project aims to develop an advanced image classification system that can accurately identify the facial expressions of pets using cutting-edge deep learning techniques.
 
 ### Purpose
 Understanding pet emotions through their facial expressions can significantly enhance the bond between pets and their owners. This project aims to leverage advanced AI models to detect and classify various facial expressions in pets, aiding in better care and understanding of pets' emotional states.
 
 ### 🧵 Dataset
-The dataset used in this project is : https://www.kaggle.com/datasets/anshtanwar/pets-facial-expression-dataset
+The dataset used in this project is: https://www.kaggle.com/datasets/anshtanwar/pets-facial-expression-dataset
 
 ### 🧾 Description
-This project focuses on developing a sophisticated image classification system to identify different facial expressions in pets using deep learning techniques. The system leverages three state-of-the-art convolutional neural network (CNN) architectures: EfficientNet and ResNet50, along with Vision Transformer (ViT) architecture, each known for their robustness and high performance in image recognition tasks.
+This project focuses on developing a sophisticated image classification system to identify different facial expressions in pets using deep learning techniques. The system leverages three state-of-the-art convolutional neural network (CNN) architectures: EfficientNet and ResNet50, and Vision Transformer (ViT) architecture, each known for their robustness and high performance in image recognition tasks.
 
 ### 🚀 Models Implemented
 - ViT Transformer: Utilizes the transformer architecture for image classification, providing state-of-the-art accuracy.
@@ -60,5 +60,5 @@ The model's performance was evaluated using accuracy and F1 scores.
 The ResNet50 model proved to be the best-fitted model for this task, achieving the highest accuracy and demonstrating robustness in classification.
 
 ## ✒️ Contributor
-- Name : Khushi Kalra
-- Github : https://www.github.com/abckhush
+- Name: Khushi Kalra
+- Github: https://www.github.com/abckhush
