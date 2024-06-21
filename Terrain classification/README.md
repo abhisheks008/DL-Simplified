@@ -70,7 +70,7 @@ The following table briefly specify the Augmentation Strategies that were used
  ## Performance Comparison:
  | Model type | Top 1 Accuracy | Top 5 Accuracy | Trained from scratch ? |
  | ---------- | -------------- | -------------- | ---------------------- |
- | DeepViT    | 77.60          | 99.4           | ✅                     |
+ | DeepViT    | 87.60          | 99.4           | ✅                     |
  | EfficientNet B3| 89.2       | 99.7           | ❌                     |
  | DeiT 3     | 88.011         | 99.87          | ❌                     |
  | YoloV8     | 85.55          | 99.6           | ❌                     |
@@ -80,6 +80,9 @@ The following table briefly specify the Augmentation Strategies that were used
 # Conclusion
 From this we can 
 DeiT3 and EfficientNetV3 achieved the highest top-1 accuracy (88.011% and 89.2%, respectively) followed by YoloV8 (85.55%). All models achieved very high top-5 accuracy (above 99%).
-DeepViT, despite being trained from scratch, achieved a competitive top-1 accuracy (77.60%) compared to models using pre-trained weights (transfer learning).
+DeepViT, despite being trained from scratch, achieved a competitive top-1 accuracy (87.60%) compared to models using pre-trained weights (transfer learning).
 EfficientNetV3 and DeiT3 benefited significantly from transfer learning, showcasing their potential for further improvement with more training data.
 The choice of optimal model depends on the specific needs. EfficientNetV3 is a good balance between accuracy and trainability if computational resources are limited. DeiT3 might be preferred for its remarkable training efficiency, especially if large datasets are available. YoloV8 could be considered for its versatility beyond just classification tasks.
+
+## TODO List
+
