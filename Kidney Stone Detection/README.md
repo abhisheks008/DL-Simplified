@@ -44,6 +44,11 @@ This project involves the development and comparison of three deep learning arch
 
 ## 📊 Exploratory Data Analysis Results
 ![EDA Results]
+![1](https://github.com/SayantikaLaskar/DL-Simplified/assets/127471376/314defef-03d5-47ab-b571-58631966e368)
+
+![image](https://github.com/SayantikaLaskar/DL-Simplified/assets/127471376/547c0a6a-4296-40d8-a04d-559a49223c7b)
+
+
 - Distribution of images across different classes.
 - Sample images from each class.
 - Data augmentation examples.
@@ -57,5 +62,6 @@ This project involves the development and comparison of three deep learning arch
 The ResNet-like model achieved the highest accuracy of X.XX%, making it the best fit for classifying kidney conditions among the three developed models. This project demonstrates the effectiveness of deep learning models in medical image classification and highlights the potential of automated diagnosis tools in healthcare.
 
 ## ✒️ Your Signature
-*GitHub: https://github.com/SayantikaLaskar 
-*LinkedIn: https://www.linkedin.com/in/sayantika-laskar-098aa2250/
+*GitHub: https://github.com/SayantikaLaskar*
+
+*LinkedIn: https://www.linkedin.com/in/sayantika-laskar-098aa2250/*
