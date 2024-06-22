@@ -31,11 +31,10 @@ The main goal of the project is to develop a deep-learning model that can accura
 ## 🚀 MODELS USED
 
  1.  YOLOv5(You Only Look Once, version 5): This model is chosen for land cover classification due to its high accuracy and efficiency. Designed for real-time classification, it is ideal for applications requiring quick and precise results. YOLOv5's CNN architecture effectively learns and identifies spatial patterns, ensuring robust classification of various land cover types. Its end-to-end learning approach simplifies the classification pipeline, enhancing performance and reliability.
+
+ 2. RetinaNet: RetinaNet is chosen for land cover classification due to its high accuracy and robustness. It is designed for real-time classification, making it ideal for applications requiring precise results. RetinaNet's Focal Loss function effectively handles class imbalance, ensuring accurate classification of diverse land cover types. Its deep learning architecture captures intricate spatial patterns, enhancing performance and reliability.
  
- 2. VGG16: VGG16 is chosen for landcover detection due to its pre-trained architecture on ImageNet, deep layers for learning intricate patterns, availability in frameworks like TensorFlow, and suitability for transfer learning, enabling effective model training even with limited data.
-
- 3. RetinaNet: RetinaNet is chosen for land cover classification due to its high accuracy and robustness. It is designed for real-time classification, making it ideal for applications requiring precise results. RetinaNet's Focal Loss function effectively handles class imbalance, ensuring accurate classification of diverse land cover types. Its deep learning architecture captures intricate spatial patterns, enhancing performance and reliability.
-
+ 3. VGG16: VGG16 is chosen for landcover detection due to its pre-trained architecture on ImageNet, deep layers for learning intricate patterns, availability in frameworks like TensorFlow, and suitability for transfer learning, enabling effective model training even with limited data.
 
 ## 📚 LIBRARIES NEEDED
 
