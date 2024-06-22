@@ -124,7 +124,7 @@ The evaluation metrics I used to assess the models were epoch loss
 Based on the results we can draw the following conclusions:
 1. YOLOv5: The YOLOv5 model had an epoch loss of 0.020. This loss was lower compared to RetinaNet, hence it outperformed the RetinaNet model.
 
-2.RetinaNet: I was successfully able to train YOLO using my GPU. However, that was not the case with RetinaNet. My GPU ran out of memory so I had to train this model using CPU. This had an epoch loss of 7.188. This was higher than the YOLOv5 model.  
+2. RetinaNet: I was successfully able to train YOLO using my GPU. However, that was not the case with RetinaNet. My GPU ran out of memory so I had to train this model using CPU. This had an epoch loss of 7.188. This was higher than the YOLOv5 model.  
 
 3. VGG16: I initially attempted to use VGG as one of my models. However, later in the process, I realized that VGG was ideal for object detection and not classification. Therefore, this model would work properly only if there was 1 class. But, in my case, I had 9 classes, so I could not continue using this model.
    
