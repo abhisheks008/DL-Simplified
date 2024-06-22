@@ -91,7 +91,7 @@ The following libraries are required to run this project:
 
 ## 📊 Exploratory Data Analysis Results
 
-#### Confidence of YOLOv8 Model:
+#### YOLOv5 Model:
 
 ![yolo_f1_curve](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/yolo_F1_curve.png)
 
@@ -101,9 +101,16 @@ The following libraries are required to run this project:
 
 ![yolo_results](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/yolo_results.png)
 
+#### RetinaNet Model:
+
+![retinanet_epoch_loss](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/retinanet_epoch_loss.png)
+
+![retinanet_epoch_mAP](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/retinanet_epoch_mAP.png)
+
+![retinanet_regression_loss](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/retinanet_regression_loss.png)
 
 ## 📈 Performance of the Models based on the Accuracy Scores
-The evaluation metrics I used to assess the models was epoch loss
+The evaluation metrics I used to assess the models were epoch loss
 
 | Model      | Accuracy | Loss    |
 |------------|----------|---------|
