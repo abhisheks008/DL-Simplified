@@ -112,11 +112,11 @@ The following libraries are required to run this project:
 ## 📈 Performance of the Models based on the Accuracy Scores
 The evaluation metrics I used to assess the models were epoch loss
 
-| Model      | Accuracy | Loss    |
-|------------|----------|---------|
-| VGG16    | 0.923     | 0.237   |
-| YOLOv8    | 0.700     | -    |
-| Mobilenet SSD    | 0.969     | 0.193    |
+| Model      | Epoch Loss |
+|------------|----------|
+| YOLOv5    | 0.020     |
+| RetinaNet    | 7.188 |
+| VGG16   |    -     |
 
 ## 📢 Conclusion
 Based on the results we can draw the following conclusions:
