@@ -1,31 +1,31 @@
 # Global Land Cover Mapping using Image Processing
 
-## PROJECT TITLE
+## Project Title
 
-Global Land COver Mapping using Image Processing
+Global Land Cover Mapping using Image Processing
 
 ## 🎯 Goal
 
-The aim is to create a deep-learning model that will detect and classify the different types of landcover. 
+The aim is to create a deep-learning model that will detect and classify the different types of land cover. 
 
 ## 🧵 Dataset
 
 The link for the dataset used in this project: https://www.kaggle.com/datasets/aletbm/global-land-cover-mapping-openearthmap
 
 ## 🧾 Description
-The main goal of the project is to develop a deep-learning model that can accurately predict the type of landcover in a given image based on various land features.
+The main goal of the project is to develop a deep-learning model that can accurately predict the type of land cover in a given image based on various land features.
 
 ## 🧮 What I had done!
 
 1. Data collection: The data is loaded from the links provided. 
-    It was my first time dealing with .tif images, so I spent a fair bit of time to explore the dataset. 
+    It was my first time dealing with .tif images, so I spent a fair bit of time exploring the dataset. 
 2. Data preprocessing: The data is then preprocessed, where steps such as setting batch 
    size, and image size, converting the image type to a specific type, and scaling are 
    done. 
    As I was dealing with .tif images where each image has 3 layers and the labels for each class had to be extracted separately.
    I used the DBScan clustering technique to draw bounding boxes around the clusters of a specific class.
 3. Model training: I have taken YOLOv5, VGG16 and RetinaNet models to train the dataset. 
-4. Comparative analysis: The developed model performances are analysed based on their 
+4. Comparative analysis: The developed model performances are analyzed based on their 
    accuracy.
 
 ## 🚀 MODELS USED
@@ -111,7 +111,7 @@ The evaluation metrics I used to assess the models was epoch loss
 Based on the results we can draw the following conclusions:
 1. VGG16: The VGG16 model achieved a higher accuracy of 0.923 and a lower loss of 0.237. It outperformed the YOLOv8 model, indicating that the architecture of VGG16 with its specialized design for object detection could capture more complex features and generalize better.
 2. YOLOv8: The YOLOv8 model achieved a F1 Confidence of 0.700. It performed reasonably well, but there is room for improvement.
-3. Mobilenet SSD: The MobileNet SSD model achieved an accuracy of 0.969 and a loss of 0.193. It performed better than both the VGG16 and YOLOv8 models. MobileNet SSD's lightweight architecture and efficient design helped in achieving a high accuracy while maintaining computational efficiency.
+3. Mobilenet SSD: The MobileNet SSD model achieved an accuracy of 0.969 and a loss of 0.193. It performed better than both the VGG16 and YOLOv8 models. MobileNet SSD's lightweight architecture and efficient design helped in achieving high accuracy while maintaining computational efficiency.
 
 ##### Code contributed by: Arismita Mukherjee
 ##### Email: arismita08.m@gmail.com
