@@ -18,13 +18,16 @@ The main goal of the project is to develop a deep-learning model that can accura
 ## 🧮 What I had done!
 
 1. Data collection: The data is loaded from the links provided. 
-    It was my first time dealing with .tif images, so I spent a fair bit of time exploring the dataset. 
-2. Data preprocessing: The data is then preprocessed, where steps such as setting batch 
+    It was my first time dealing with .tif images, so I spent a fair bit of time exploring the dataset.
+   
+2. Data preprocessing: The data is then preprocessed, where steps such as setting batch
    size, and image size, converting the image type to a specific type, and scaling are 
-   done. 
-   As I was dealing with .tif images where each image has 3 layers and the labels for each class had to be extracted separately.
+   done.
+   As I was dealing with .tif images where each image has 3 layers and the labels for each class had to be        extracted separately.
    I used the DBScan clustering technique to draw bounding boxes around the clusters of a specific class.
-3. Model training: I have taken YOLOv5, VGG16 and RetinaNet models to train the dataset. 
+   
+3. Model training: I have taken YOLOv5, VGG16, and RetinaNet models to train the dataset.
+   
 4. Comparative analysis: The developed model performances are analyzed based on their 
    accuracy.
 
@@ -120,7 +123,9 @@ The evaluation metrics I used to assess the models were epoch loss
 ## 📢 Conclusion
 Based on the results we can draw the following conclusions:
 1. YOLOv5: The YOLOv5 model had an epoch loss of 0.020. This loss was lower compared to RetinaNet, hence it outperformed the RetinaNet model.
+
 2.RetinaNet: I was successfully able to train YOLO using my GPU. However, that was not the case with RetinaNet. My GPU ran out of memory so I had to train this model using CPU. This had an epoch loss of 7.188. This was higher than the YOLOv5 model.  
+
 3. VGG16: I initially attempted to use VGG as one of my models. However, later in the process, I realized that VGG was ideal for object detection and not classification. Therefore, this model would work properly only if there was 1 class. But, in my case, I had 9 classes, so I could not continue using this model.
    
 ##### Code contributed by: Arismita Mukherjee
