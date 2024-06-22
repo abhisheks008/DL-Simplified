@@ -91,11 +91,15 @@ The following libraries are required to run this project:
 
 ## 📊 Exploratory Data Analysis Results
 
-#### Accuracy and Loss of Mobilenet SSD model:
-![mobilenet_acc](https://github.com/Rithish5513U/DL-Simplified/blob/main/Car%20Object%20Detection%20using%20DL/Images/mobilenet_acc.png)
-
 #### Confidence of YOLOv8 Model:
-![yolo_f1_curve](https://github.com/Rithish5513U/DL-Simplified/blob/main/Car%20Object%20Detection%20using%20DL/Images/yolo_f1_curve.png)
+
+![yolo_f1_curve](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/yolo_F1_curve.png)
+
+![yolo_confusion_matrix](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/yolo_confusion_matrix.png)
+
+![yolo_labels](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/yolo_labels.jpg)
+
+![yolo_results](https://github.com/ArismitaM/DL-Simplified/blob/main/Global%20Land%20Cover%20Mapping%20using%20Image%20Processing/Images/yolo_results.png)
 
 
 ## 📈 Performance of the Models based on the Accuracy Scores
@@ -109,9 +113,9 @@ The evaluation metrics I used to assess the models was epoch loss
 
 ## 📢 Conclusion
 Based on the results we can draw the following conclusions:
-1. VGG16: The VGG16 model achieved a higher accuracy of 0.923 and a lower loss of 0.237. It outperformed the YOLOv8 model, indicating that the architecture of VGG16 with its specialized design for object detection could capture more complex features and generalize better.
-2. YOLOv8: The YOLOv8 model achieved a F1 Confidence of 0.700. It performed reasonably well, but there is room for improvement.
-3. Mobilenet SSD: The MobileNet SSD model achieved an accuracy of 0.969 and a loss of 0.193. It performed better than both the VGG16 and YOLOv8 models. MobileNet SSD's lightweight architecture and efficient design helped in achieving high accuracy while maintaining computational efficiency.
-
+1. YOLOv5: The YOLOv5 model had an epoch loss of 0.020. This loss was lower compared to RetinaNet, hence it outperformed the RetinaNet model.
+2.RetinaNet: I was successfully able to train YOLO using my GPU. However, that was not the case with RetinaNet. My GPU ran out of memory so I had to train this model using CPU. This had an epoch loss of 7.188. This was higher than the YOLOv5 model.  
+3. VGG16: I initially attempted to use VGG as one of my models. However, later in the process, I realized that VGG was ideal for object detection and not classification. Therefore, this model would work properly only if there was 1 class. But, in my case, I had 9 classes, so I could not continue using this model.
+   
 ##### Code contributed by: Arismita Mukherjee
 ##### Email: arismita08.m@gmail.com
