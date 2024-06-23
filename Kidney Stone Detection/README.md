@@ -54,9 +54,9 @@ This project involves the development and comparison of three deep learning arch
 - Data augmentation examples.
 
 ## 📈 Performance of the Models based on the Accuracy Scores
-- **VGG-like Model**: Accuracy - X.XX%
-- **CNN with Spatial Attention**: Accuracy - X.XX%
-- **ResNet-like Model**: Accuracy - X.XX%
+- **VGG-like Model**: Accuracy - 40.79%
+- **CNN with Spatial Attention**: Accuracy - 90.82%
+- **ResNet-like Model**: Accuracy - 97.77%
 
 ## 📢 Conclusion
 The ResNet-like model achieved the highest accuracy of X.XX%, making it the best fit for classifying kidney conditions among the three developed models. This project demonstrates the effectiveness of deep learning models in medical image classification and highlights the potential of automated diagnosis tools in healthcare.
