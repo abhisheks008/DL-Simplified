@@ -23,6 +23,12 @@ This web app helps users determine the authenticity of news articles by leveragi
 **License:**
 MIT License 
 
+**Demonstration video!!**
+
+https://github.com/AKing-283/DL-Simplified/assets/154039781/f45b5719-008a-4d38-ac6a-bbd6871a3892
+
+
+
 **Folder Structure:**
 1. Use saved model of H5 format as in `app.py` we have loaded the saved model's path of this format.
    If you want you can change the format according to your interest. 
@@ -30,13 +36,5 @@ MIT License
 3. A new seperate file(`feedback.csv`) will be created by the app.py which contains the feedbacks and 
    gets updated automatically when user will provide the feedback.
 4. `app.py` is the main python program file which contains the program of flask . We will be getting output by running command:
-```bash 
+  ```bash 
 python3 app.py ```
-   
-Here's the working/demonstration video of this project:  
-https://drive.google.com/file/d/1tvCMvsuau2wLdaosdzREhyWz7T-88IZR/view?usp=sharing
-
-
-
-
-
