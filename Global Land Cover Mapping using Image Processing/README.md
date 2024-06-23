@@ -129,5 +129,5 @@ Based on the results we can draw the following conclusions:
 3. **VGG16:** I initially attempted to use VGG as one of my models. However, later in the process, I realized that VGG was ideal for object detection and not classification. Therefore, this model would work properly only if there was 1 class. But, in my case, I had 9 classes, so I could not continue using this model.
    
 ##### Code contributed by: Arismita Mukherjee
-#### LinkedIn: www.linkedin.com/in/arismita-mukherjee-4068542bb
+##### LinkedIn: www.linkedin.com/in/arismita-mukherjee-4068542bb
 ##### Email: arismita08.m@gmail.com
