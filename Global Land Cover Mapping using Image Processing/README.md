@@ -1,57 +1,35 @@
-# Land Cover Classification
+# Global Land Cover Mapping using Image Processing
 
-## 📊 Analyzing Dataset
+## Project Title
 
-I analyzed the [data set](https://www.kaggle.com/datasets/aletbm/global-land-cover-mapping-openearthmap).
-The dataset contains .tif images (geospatial satellite images) and the labels are in colour-coded format.
-There are 3 directories under in the data - `test`, `train`, and `val` (stands for validation)
-- **Training set:** Used to train the model.
-- **Validation set:** Used to evaluate the model during training and tune hyperparameters.
-- **Test set:** Used to evaluate the model's performance after training is complete.
+Global Land Cover Mapping using Image Processing
 
-**This is an image present in the dataset under the directory images/train**
+## 🎯 Goal
 
-![Screenshot from 2024-05-18 19-19-43](https://github.com/abhisheks008/DL-Simplified/assets/146760434/82b95f82-e6b5-4265-89d6-e97c12b849dd)
+The aim is to create a deep-learning model that will detect and classify the different types of land cover. 
 
-**Each image has 3 layers (RGB), so below are the layers of the above image:**
+## 🧵 Dataset
 
-Red Channel
-![Screenshot from 2024-05-18 19-20-01](https://github.com/abhisheks008/DL-Simplified/assets/146760434/ec853ed6-b71c-4bbe-93ee-58ecce692b45)
+The link for the dataset used in this project: https://www.kaggle.com/datasets/aletbm/global-land-cover-mapping-openearthmap
 
-Green Channel
-![Screenshot from 2024-05-18 19-20-09](https://github.com/abhisheks008/DL-Simplified/assets/146760434/6e521154-e053-455d-9846-b7e324a8ec1e)
+## 🧾 Description
+The main goal of the project is to develop a deep-learning model that can accurately predict the type of land cover in a given image based on various land features.
 
-Blue Channel
-![Screenshot from 2024-05-18 19-20-16](https://github.com/abhisheks008/DL-Simplified/assets/146760434/77b834e0-ea67-4a78-9917-144f9f9f39df)
+## 🧮 What I had done!
 
-**There is a corresponding label/train which has 1 layer with coloured label**
-
-Colour(Hex)  | Class|
--------------|----------|
-#800000	     |	Bareland |
-#00FF24	     |	Rangeland |
-#949494	     |	Developed space |
-#FFFFFF	     |	Road |
-#226126	     |	Tree |
-#0045FF	     |	Water |
-#4BB549	     |	Agriculture land |
-#DE1F07	     |	Building |
-
-![Screenshot from 2024-05-18 19-20-38](https://github.com/abhisheks008/DL-Simplified/assets/146760434/f87a5c3e-2ad7-495d-8472-aee35c3e30e8)
-
-## 🧵 Clustering (using DBScan)
-
-Label displaying class 2 (Rangeland)
-![Screenshot from 2024-05-31 10-43-17](https://github.com/abhisheks008/DL-Simplified/assets/146760434/cd5a808e-760d-465d-877e-a85fe76979e8)
-
-Clusters drawn on the label using DBScan
-![Screenshot from 2024-05-31 10-44-34](https://github.com/abhisheks008/DL-Simplified/assets/146760434/096187d0-1fcb-489c-9161-d28ca9d8d6c1)
-
-Drawing bounding boxes around clusters
-![Screenshot from 2024-06-01 11-00-27](https://github.com/abhisheks008/DL-Simplified/assets/146760434/a9867f79-698b-48ef-8751-cf118fb138a5)
-
-So, the `clustering.py` file draws clusters for each class and makes bounding boxes around them. The coordinates of the boxes are used to generate labels and these labels are converted into YOLO format for training.
-The YOLO format labels are then converted into Pascal VOC format for RetinaNet training.
+1. **Data collection:** The data is loaded from the links provided. 
+    It was my first time dealing with .tif images, so I spent a fair bit of time exploring the dataset.
+   
+2. **Data preprocessing:** The data is then preprocessed, where steps such as setting batch
+   size, and image size, converting the image type to a specific type, and scaling are 
+   done.
+   As I was dealing with .tif images where each image has 3 layers and the labels for each class had to be        extracted separately.
+   I used the DBScan clustering technique to draw bounding boxes around the clusters of a specific class.
+   
+3. **Model training:** I have taken YOLOv5, VGG16, and RetinaNet models to train the dataset.
+   
+4. **Comparative analysis:** The developed model performances are analyzed based on their 
+   accuracy.
 
 ## 🚀 MODELS USED
 
@@ -61,7 +39,59 @@ The YOLO format labels are then converted into Pascal VOC format for RetinaNet t
  
  3. **VGG16:** VGG16 is chosen for landcover detection due to its pre-trained architecture on ImageNet, deep layers for learning intricate patterns, availability in frameworks like TensorFlow, and suitability for transfer learning, enabling effective model training even with limited data.
 
-## 🧮  Exploratory Data Analysis Results
+## 📚 LIBRARIES NEEDED
+
+The following libraries are required to run this project:
+- absl-py==2.1.0
+- astunparse==1.6.3
+- charset-normalizer==3.3.2
+- cligj==0.7.2
+- Cython==3.0.10
+- flatbuffers==24.3.25
+- gast==0.5.4
+- google-pasta==0.2.0
+- grpcio==1.64.1
+- h5py==3.11.0
+- idna==3.7
+- keras==3.3.3
+- keras-resnet==0.2.0
+- libclang==18.1.1
+- Markdown==3.6
+- markdown-it-py==3.0.0
+- MarkupSafe==2.1.5
+- mdurl==0.1.2
+- mkl-service==2.4.0
+- ml-dtypes==0.3.2
+- namex==0.0.8
+- opencv-python==4.10.0.84
+- opt-einsum==3.3.0
+- optree==0.11.0
+- ply==3.11
+- progressbar2==4.4.2
+- protobuf==4.25.3
+- Pygments==2.18.0
+- PyQt5==5.15.10
+- pyscilab==1.0.7.dev1
+- python-utils==3.8.2
+- requests==2.32.3
+- rich==13.7.1
+- scilab2py==0.6.2
+- tensorboard==2.13.0
+- tensorboard-data-server==0.7.2
+- tensorflow==2.13.1
+- tensorflow-estimator==2.13.0
+- tensorflow-io-gcs-filesystem==0.34.0
+- tensorrt==10.1.0
+- tensorrt-cu12==10.1.0
+- tensorrt-cu12-bindings==10.1.0
+- tensorrt-cu12-libs==10.1.0
+- termcolor==2.4.0
+- typing_extensions==4.12.2
+- urllib3==2.2.2
+- Werkzeug==3.0.3
+- wrapt==1.16.0
+
+## 📊 Exploratory Data Analysis Results
 
 #### YOLOv5 Model:
 
@@ -92,8 +122,12 @@ The evaluation metrics I used to assess the models were epoch loss
 
 ## 📢 Conclusion
 Based on the results we can draw the following conclusions:
-1. **YOLOv5:** The YOLOv5 model had an epoch loss of 0.020. This loss was lower compared to RetinaNet, hence it outperformed the RetinaNet model. I could use my GPU to train this model as it used 3.07GB out of the 4GB memory my system has. I was able to train with 5000 epochs on my terminal and 100 epochs in jupyter notebook.
+1. **YOLOv5:** The YOLOv5 model had an epoch loss of 0.020. This loss was lower compared to RetinaNet, hence it outperformed the RetinaNet model.
 
-2. **RetinaNet:** I was successfully able to train YOLO using my GPU. However, that was not the case with RetinaNet. My GPU ran out of memory so I had to train this model using CPU. It could train to a maximum of 10 epochs using the CPU. This had an epoch loss of 7.188. This was higher than the YOLOv5 model.  
+2. **RetinaNet:** I was successfully able to train YOLO using my GPU. However, that was not the case with RetinaNet. My GPU ran out of memory so I had to train this model using CPU. This had an epoch loss of 7.188. This was higher than the YOLOv5 model.  
 
-3. **VGG16:** I initially attempted to use VGG as one of my models. However, later in the process, I realized that VGG was ideal for object detection and not classification. Therefore, this model would work properly only if there was 1 class. But, in my case, I had 9 classes (including 'Null' as a class), so I could not continue using this model.
+3. **VGG16:** I initially attempted to use VGG as one of my models. However, later in the process, I realized that VGG was ideal for object detection and not classification. Therefore, this model would work properly only if there was 1 class. But, in my case, I had 9 classes, so I could not continue using this model.
+   
+##### Code contributed by: Arismita Mukherjee
+##### LinkedIn: www.linkedin.com/in/arismita-mukherjee-4068542bb
+##### Email: arismita08.m@gmail.com
