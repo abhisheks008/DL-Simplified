@@ -5,9 +5,9 @@
 I analyzed the [data set](https://www.kaggle.com/datasets/aletbm/global-land-cover-mapping-openearthmap).
 The dataset contains .tif images (geospatial satellite images) and the labels are in colour-coded format.
 There are 3 directories under in the data - `test`, `train`, and `val` (stands for validation)
-- Training set: Used to train the model.
-- Validation set: Used to evaluate the model during training and tune hyperparameters.
-- Test set: Used to evaluate the model's performance after training is complete.
+- **Training set:** Used to train the model.
+- **Validation set:** Used to evaluate the model during training and tune hyperparameters.
+- **Test set:** Used to evaluate the model's performance after training is complete.
 
 **This is an image present in the dataset under the directory images/train**
 
@@ -92,8 +92,8 @@ The evaluation metrics I used to assess the models were epoch loss
 
 ## 📢 Conclusion
 Based on the results we can draw the following conclusions:
-1. **YOLOv5:** The YOLOv5 model had an epoch loss of 0.020. This loss was lower compared to RetinaNet, hence it outperformed the RetinaNet model. I could use my GPU to train this model as it ised 3.07GB out of the 4GB memory my system has. I was able to train with 5000 epochs on my terminal and 100 epochs in jupyter notebook.
+1. **YOLOv5:** The YOLOv5 model had an epoch loss of 0.020. This loss was lower compared to RetinaNet, hence it outperformed the RetinaNet model. I could use my GPU to train this model as it used 3.07GB out of the 4GB memory my system has. I was able to train with 5000 epochs on my terminal and 100 epochs in jupyter notebook.
 
-2. **RetinaNet:** I was successfully able to train YOLO using my GPU. However, that was not the case with RetinaNet. My GPU ran out of memory so I had to train this model using CPU.It could train to a maximum of 10 epochs using CPU. This had an epoch loss of 7.188. This was higher than the YOLOv5 model.  
+2. **RetinaNet:** I was successfully able to train YOLO using my GPU. However, that was not the case with RetinaNet. My GPU ran out of memory so I had to train this model using CPU. It could train to a maximum of 10 epochs using the CPU. This had an epoch loss of 7.188. This was higher than the YOLOv5 model.  
 
 3. **VGG16:** I initially attempted to use VGG as one of my models. However, later in the process, I realized that VGG was ideal for object detection and not classification. Therefore, this model would work properly only if there was 1 class. But, in my case, I had 9 classes (including 'Null' as a class), so I could not continue using this model.
