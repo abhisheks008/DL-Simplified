@@ -1,6 +1,62 @@
- # American Sign Language Detection
+# American Sign Language Detection
 ![image](https://github.com/aditya0929/DL-Simplified/assets/127277877/c149f669-ed35-4751-87bd-b148495fafc4)
 
+## Enhanched models deatils
+### 🧮 **What I had done!**
+
+- I have imported various pretrained models from TensorFlow and added a softmax classification layer with 28 classifications.
+
+### 🚀 **Models Implemented**
+
+- ResNet101V2
+- ResNet50V2
+- MobileNetV3Large
+- MobileNetV3Small
+- InceptionV3
+- NASNetMobile
+
+### 📚 **Libraries Needed**
+
+- pandas
+- Pillow
+- numpy
+- tensorflow
+- matplotlib
+
+### 📊 **Exploratory Data Analysis Results**
+
+#### Folder: train
+- Total images: 165670
+- Images per label: 5996 each
+
+#### Folder: test
+- Total images: 112
+- Images per label: 4 each
+
+### 📈 **Performance of the Models based on the Accuracy Scores**
+
+| Rank | Model Name       | Test Accuracy | Trained Model Size | Training Accuracy | Training Loss |
+|------|------------------|---------------|--------------------|-------------------|---------------|
+| 1    | MobileNetV3Small | 100.0%        | 19.1MB             | 96.97%            | 0.1574        |
+| 2    | NASNetMobile     | 100.0%        | 67.1MB             | 97.96%            | 0.1058        |
+| 3    | MobileNetV3Large | 100.0%        | 48.6MB             | 97.98%            | 0.1026        |
+| 4    | InceptionV3      | 100.0%        | 287.8MB            | 98.65%            | 0.0712        |
+| 5    | ResNet50V2       | 100.0%        | 308.6MB            | 98.67%            | 0.0625        |
+| 6    | ResNet101V2      | 100.0%        | 537.5MB            | 98.74%            | 0.0605        |
+
+- ranking based on Trained Model size
+
+### 📢 **Conclusion**
+
+- All models achieve a remarkable test accuracy of 100.0%, demonstrating their effectiveness in classification tasks.
+  - MobileNetV3Small stands out with a compact size of 19.1MB, offering high accuracy while minimizing resource usage, making it suitable for memory-constrained environments.
+  - NASNetMobile and MobileNetV3Large also deliver impressive accuracy with moderate model sizes, providing versatility in deployment scenarios.
+  - InceptionV3, ResNet50V2, and ResNet101V2, although larger in size, exhibit robust performance, with ResNet101V2 achieving the highest training accuracy of 98.74%.
+
+### ✒️ Enhancements done by **Adhithyan VP**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adhithyanvp)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/AdhiVp3)](https://x.com/AdhiVp3)
 
 **SOCIAL SUMMER OF CODE 2023**
 github link - [aditya0929](https://github.com/aditya0929)

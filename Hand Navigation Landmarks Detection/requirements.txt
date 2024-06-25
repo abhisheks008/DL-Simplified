@@ -1,0 +1,4 @@
+Ultralytics 
+YOLOv8.2.18  
+Python-3.10.12 
+torch-2.2.1+cu121

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="/static/result.css">
+</head>
+<body>
+    <div class='container'>
+        <div class='image'>
+            <img src="{{ url_for('serve_image', filename=filename) }}" />
+        </div>
+        <div class="information">
+            <h1 class="h1">{{class_name}}</h1>
+            <p class="desc">{{desc}}</p>
+            <br>
+            <p class="sympt">{{sympt}}</p>
+        </div>
+        <button class="button" onclick="window.location.href='/'">Return</button>
+    </div>
+</body>
+</html>

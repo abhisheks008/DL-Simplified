@@ -1,0 +1,7 @@
+Python (Python 3.x recommended)
+NumPy
+Pandas
+Seaborn
+Matplotlib
+TensorFlow
+keras

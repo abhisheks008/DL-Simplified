@@ -77,7 +77,7 @@ Here are the libraries needed for this project:
 ![ResNet16 Model](https://github.com/abhisheks008/DL-Simplified/blob/main/Colour%20Detection%20using%20DL/Images/res%202.jpg)
 
 ### CNN with Attention Model
-![CNN with Attention](https://github.com/Arihant-Bhandari/DL-Simplified/blob/enhance_colour_detect/Colour%20Detection%20using%20DL/Images/cnn_attention.png)
+![CNN with Attention](https://github.com/abhisheks008/DL-Simplified/blob/main/Colour%20Detection%20using%20DL/Images/cnn_attention.png)
 
 ## 📈 Performance Evaluation
 

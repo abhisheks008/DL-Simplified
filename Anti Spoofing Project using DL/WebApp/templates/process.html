@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Status</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        body {
+            background-image: url('https://blog.dormakaba.com/tachyon/2020/04/Blog_In-Post-pictures_022.jpg?fit=1024,1024');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: aqua ;   text-align: center;">Result of Spoof Detection</h1>
+    
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                {% if message %}
+                    <div class="alert alert-success" role="alert">
+                        {{ message }}
+                    </div>
+                {% endif %}
+                {% if predicted_label %}
+                    <div class="alert alert-info" role="alert">
+                        Predicted label: {{ predicted_label }}
+                    </div>
+                {% elif error %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error }}
+                    </div>
+                {% endif %}
+                <a href="/" class="btn btn-primary mt-3">Go Back</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
