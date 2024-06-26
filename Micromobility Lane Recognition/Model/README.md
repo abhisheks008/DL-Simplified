@@ -119,7 +119,9 @@ While VGG16 took so much time so it was concluded.
 Full name:- Basma Mahmoud                      
 Github ID:- https://github.com/Basma2423  
 Email ID :- mayarbasma2423@gmail.com  
-Participant Role :- Contributor / GSSOC (Girl Script Summer of Code ) - 2024
+Participant Role :- Participant / GSSOC (Girl Script Summer of Code ) - 2024                                        
+  
+  
 
 
 Helping Reference for the README.md file: https://github.com/abhisheks008/DL-Simplified/blob/main/Rick%20and%20Morty%20Character%20Image%20Detection/Models/README.md
