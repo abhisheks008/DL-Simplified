@@ -17,7 +17,7 @@ This project involves classifying sugarcane leaf diseases using various machine 
 
 1. **Data Loading and Exploration:**
    - Loaded the dataset and explored its structure.
-   - Understand the distribution of the samples in the dataset through visualization.
+   - Understanding the distribution of the samples in the dataset through visualization.
 
 2. **Data Splitting:**
    - Split the dataset into training, validation, and test sets using a ratio of 60:20:20.
@@ -27,7 +27,7 @@ This project involves classifying sugarcane leaf diseases using various machine 
    - Applied data augmentation techniques like rotation, zoom, and flip to increase the diversity of the training data.
 
 4. **Model Development:**
-   - Built a custom convolutional neural network (CNN) model using Keras.
+   - Built and trained a custom convolutional neural network (CNN) model using Keras.
    - Trained 3 pre-trained models such as VGG16, IncepetionV3 and MobileNetV2.
    - To get the best out of the models, I implemented an ensemble learning approach to combine the predictions of multiple models.
 
