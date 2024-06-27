@@ -97,6 +97,6 @@ This project successfully developed a model for highly accurately classifying su
 
 Developed by **Atharv Pal**
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/atharv-pal17/) | [GitHub]([your-github-profile](https://github.com/atharv1707))
+Connect with me on [LinkedIn](https://www.linkedin.com/in/atharv-pal17/) | [GitHub](https://github.com/atharv1707)
 
 ---
