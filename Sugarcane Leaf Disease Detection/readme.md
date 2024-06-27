@@ -1,5 +1,5 @@
 
-# <h1 align = "center"> Sugarcane Leaf Disease Classification</h1>
+# <h1 align = "center"> Sugarcane Leaf Disease Detection</h1>
 
 ### 🎯 **Goal**
 
