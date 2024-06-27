@@ -1,1 +1,11 @@
-This proejcts require the following
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+keras
+sklearn
+tensorflow
+cv2
+splitfolders
+PIL
