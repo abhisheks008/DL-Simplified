@@ -1,0 +1,14 @@
+names:
+- 'Null'
+- Bare
+- Range
+- Developed
+- Road
+- Tree
+- Water
+- Agriculture
+- Building
+nc: 9
+path: /home/arismita/ML/yolov5_training/landcover
+train: /home/arismita/ML/yolov5_training/landcover/train
+val: /home/arismita/ML/yolov5_training/landcover/val
