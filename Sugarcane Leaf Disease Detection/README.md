@@ -71,7 +71,9 @@ This project involves classifying sugarcane leaf diseases using various machine 
 **INCLUSION OF IMAGES OF THE VISUALIZATION IS MUST (RESULT OF EDA)**
 
 - Distribution of images across different disease categories.
+  
   ![bar_graph_distribution](https://github.com/atharv1707/DL-Simplified/assets/77221646/5be69072-61a1-4660-84d8-0143f5102acf)
+  
   ![pie_chart_distribution](https://github.com/atharv1707/DL-Simplified/assets/77221646/83f0c51c-5f96-4655-943d-7c059620a10e)
 
 - Sample images from the dataset with their respective labels.
