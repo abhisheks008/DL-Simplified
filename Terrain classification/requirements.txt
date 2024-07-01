@@ -1,0 +1,11 @@
+torch
+torchvision > 0.16.0
+tqdm
+pillow
+numpy
+pandas
+matplotlib
+sklearn
+seaborn
+timm
+rich
