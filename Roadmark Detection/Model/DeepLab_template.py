@@ -1,5 +1,5 @@
-!pip install tensorflow
-!pip install segmentation-models
+#!pip install tensorflow
+#!pip install segmentation-models
 
 import tensorflow as tf
 import numpy as np
