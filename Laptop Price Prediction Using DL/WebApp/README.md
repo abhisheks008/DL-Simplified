@@ -59,3 +59,10 @@ We welcome contributions to improve this project! If you're interested in contri
     ```
 
 7. **Create a Pull Request**: Go to the original repository on GitHub and create a pull request from your forked repository's branch. Provide a clear description of your changes and the reason for the contribution.
+
+## Deployed Web Application
+
+The web application is deployed using Streamlit Cloud. You can access it using the following link:
+
+[**Laptop Price Prediction Web App**](https://laptop-price-predictor-deep-learning.streamlit.app/)
+
