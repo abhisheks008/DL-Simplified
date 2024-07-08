@@ -5,7 +5,7 @@ pillow
 numpy
 pandas
 matplotlib
-sklearn
+scikit-learn
 seaborn
 timm
 rich

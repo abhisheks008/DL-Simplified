@@ -1,4 +1,0 @@
-train: Dataset/Landscape Classification/Training Data  # Path to training data folder
-val:   # Path to validation data folder
-nc: 5                          # Number of classes (replace with your actual number)
-names: ['coast', 'desert', 'forest', 'glacier', 'mountain']  # List of class names (replace with your actual names)
