@@ -13,6 +13,7 @@ This repository contains the code and resources for rice image classification us
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
+- [Visualization](#visualization)
 - [License](#license)
 
 ## Introduction
@@ -119,6 +120,7 @@ Validation, train and test:
 
 ![Validation, train, test](https://github.com/SayantikaLaskar/DL-Simplified/assets/127471376/4dd91341-1cbb-47ff-b3af-7eb3101b555b)
 
+## VISUALIZATION:
 
 **Performance matrices:**
 
