@@ -23,6 +23,12 @@ The dataset contains historical stock price data for Tesla. It includes features
 - Pandas: For data manipulation and analysis.
 - Matplotlib: For plotting and visualizing data.
 
+### 📊 Data Visualization
+<img width="547" alt="CandlestickPlot" src="https://github.com/user-attachments/assets/5e26b33d-5a92-4690-ba61-825aa055523b">
+<img width="574" alt="FanChart" src="https://github.com/user-attachments/assets/ac1f7bf4-e7f7-47b7-b5f9-f66f49763fcd">
+<img width="581" alt="3D_SurfacePlot" src="https://github.com/user-attachments/assets/68e35dc8-be4b-4e71-9c97-7b0607c6164e">
+<img width="586" alt="MovingAverage" src="https://github.com/user-attachments/assets/91c6c640-004f-43c5-b039-cf5b0d4a50d6">
+
 ### 📊 Exploratory Data Analysis Results
 1. Data Visualization: Plotting the historical stock prices to understand the trends and patterns. Plots are in the `Images` folder.
 2. Statistical Summary: Providing a summary of the data to get insights into the mean, median, standard deviation, etc.
