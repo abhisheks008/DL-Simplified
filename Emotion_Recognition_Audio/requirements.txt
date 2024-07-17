@@ -1,0 +1,8 @@
+pandas==1.5.3
+numpy==1.23.5
+seaborn==0.12.2
+matplotlib==3.7.1
+librosa==0.10.0
+IPython==8.13.2
+scikit-learn==1.2.2
+tensorflow==2.12.0
