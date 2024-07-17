@@ -38,8 +38,8 @@ This project aims to implement and compare several deep learning models to autom
 
 ### 📊 **Exploratory Data Analysis Results**
 
-![Distribution of Essay Scores](../Images/Score Distribution.png)
-![Distribution of Essay Length](../Images/Length Distribution.png)
+![Distribution of Essay Scores](<../Images/Score Distribution.png>)
+![Distribution of Essay Length](<../Images/Length Distribution.png>)
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
