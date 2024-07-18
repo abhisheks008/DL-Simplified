@@ -1,7 +1,0 @@
-__pycache__
-
-*.json
-*.csv 
-*.txt
-
-!requirements.txt
