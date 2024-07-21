@@ -1,0 +1,7 @@
+## Prerequisites
+To run this project, you need to have Python installed along with the following packages:
+
+TensorFlow
+Keras
+NumPy
+Pandas
