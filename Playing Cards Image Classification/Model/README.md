@@ -46,7 +46,7 @@ This project aims to implement and compare several deep learning models to class
 ### 📈 **Performance of the Models based on Accuracy Scores**
 
 - **Basic CNN**: Accuracy - 74%  
-- **AlexNet**: Accuracy - 71X%  
+- **AlexNet**: Accuracy - 71%  
 
 ### 📢 **Conclusion**
 
