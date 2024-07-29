@@ -24,9 +24,9 @@ GRAD-CAM, which stands for Gradient-weighted Class Activation Mapping, is a tech
 Since ML techniques like CNN are essentially "Black Boxes", it is hard for us to understand why it made that choice. Using GRAD-CAM we are able to explain why the CNN model made that particular choice that it did. It helps us to visually understand the "why" of the classification through a heatmap. So basically it helps us to understand visually on what features the CNN model is basing its decision on.
 
 #### Results
-In the [code](https://github.com/AMS003010/DL-Simplified/blob/grad-cam-visualizer/GRAD CAM Visualizer/Model/grad_cam_visualizer.ipynb), the `Xception` model(which is a prebuilt model in keras) is loaded and the below image is taken as input and the `imagenet` weights are loaded.
+In the [code](https://github.com/AMS003010/DL-Simplified/blob/grad-cam-visualizer/GRAD%20CAM%20Visualizer/Model/grad_cam_visualizer.ipynb), the `Xception` model(which is a prebuilt model in keras) is loaded and the below image is taken as input and the `imagenet` weights are loaded.
 
-![dog_cat.png](https://github.com/AMS003010/DL-Simplified/blob/grad-cam-visualizer/GRAD CAM Visualizer/Images/dog_and_cat.png)
+![dog_cat.png](https://github.com/AMS003010/DL-Simplified/blob/grad-cam-visualizer/GRAD%20CAM%20Visualizer/Images/dog_and_cat.png)
 
 The model predicts it to be a 'golden_retriever' below
 
