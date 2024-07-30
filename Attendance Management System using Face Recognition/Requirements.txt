@@ -1,0 +1,18 @@
+Requirements - 
+
+Install following Packages -
+Numpy
+Keras
+deepface
+PIL
+tkinter
+cv2
+os
+tensorflow
+mtcnn
+
+
+install the following and store in same working folder
+1) dlib-19.24.1-cp311-cp311-win_amd64.whl
+2) facenet_keras.h5
+3) vgg_face_weights.h5
