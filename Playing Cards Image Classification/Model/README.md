@@ -10,7 +10,7 @@ The dataset used for this project is sourced from [Kaggle](https://www.kaggle.co
 
 ### 🧾 **Description**
 
-This project aims to implement and compare several deep learning models to classify playing cards. It involves preprocessing image data, applying data augmentation techniques, training models such as basic CNNs and AlexNet and evaluating their performance using accuracy metrics.
+This project aims to implement and compare several deep learning models to classify playing cards. It involves preprocessing image data, applying data augmentation techniques, training models such as basic CNNs, AlexNet and EfficientNet and evaluating their performance using accuracy metrics.
 
 ### 🧮 **What I have done!**
 
@@ -19,13 +19,15 @@ This project aims to implement and compare several deep learning models to class
 - Implemented three models:
   - **Basic CNN**: A simple convolutional neural network with custom architecture.
   - **AlexNet**: A deep convolutional network known for its success in image classification tasks.
+  - **EfficientNet**: A family of convolutional neural networks (CNNs) designed for image classification tasks.
 - Conducted exploratory data analysis (EDA) to understand the dataset's characteristics.
 - Evaluated model performance using accuracy scores.
 
 ### 🚀 **Models Implemented**
 
 - **Basic CNN**: A custom convolutional neural network designed for image classification tasks.
-- **AlexNet**: A well-known deep learning model with a VGG architecture adapted for playing card classification.
+- **AlexNet**: A well-known deep learning model with a AlexNet architecture adapted for playing card classification.
+- **EfficientNetB0**: Base model of EfficientNet known for its efficiency in terms of both computational resources and accuracy. 
 
 ### 📚 **Libraries Needed**
 
@@ -47,10 +49,11 @@ This project aims to implement and compare several deep learning models to class
 
 - **Basic CNN**: Accuracy - 74%  
 - **AlexNet**: Accuracy - 71%  
+- **EfficientNet**: Accuracy - 95%  
 
 ### 📢 **Conclusion**
 
-Based on the evaluation results, both the models performed fairly well. Further fine-tuning and experimentation with other models or techniques may provide additional insights.
+Based on the evaluation results, all of the models performed fairly well. Efficient net outperformed CNN and AlexNet with an accuracy of 95%. Further fine-tuning and experimentation with other models or techniques may provide additional insights.
 
 ### ✒️ **Your Signature**
 
