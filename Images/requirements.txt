@@ -1,9 +1,0 @@
-tensorflow==2.x.x
-numpy
-pandas
-matplotlib
-scikit-learn
-pickle
-keras
-opencv-python
-seaborn
