@@ -4,14 +4,13 @@
 <p><h4>## Approach</h4><br>
 We implemented three different models to identify the readings:<br>
 1.Custom CNN<br>
-2.resNet50 (Transfer Learning)<br>
-3.CNN with RNN features</p>
+2.ResNet50 (Transfer Learning)<br>
+3.RNN with CNN features</p>
 
 <p><h4>## Exploratory Data Analysis (EDA)</h4><br>
 The dataset consists of images of BP monitor readings. We performed EDA to understand the data distribution and characteristics.<br>
 Each image is annotated with bounding boxes indicating the reading areas.</p>
-<h4>## Dependencies</h4><br>
-See <a href=" BP Monitor Reading/requirements.txt">requirements.txt </a>for a list of required packages.</p>
+
 <h4>## Models</h4>
 
 <h4>## 1.Custom CNN</h4>
@@ -32,7 +31,7 @@ Training: 20 epochs, Adam optimizer, Mean Squared Error loss.<br>
 Performance: Training accuracy: 0.82, Validation accuracy: 0.78.</p>
 
 <h4>## Results</h4>
-<br>
+
 Based on the training and validation accuracies of the models:<br>
 <p>
 1.The Custom CNN model achieved a final training accuracy of 78.12% and a validation accuracy of 84.38%.<br>
