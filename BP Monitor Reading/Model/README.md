@@ -11,7 +11,7 @@ We implemented three different models to identify the readings:<br>
 The dataset consists of images of BP monitor readings. We performed EDA to understand the data distribution and characteristics.<br>
 Each image is annotated with bounding boxes indicating the reading areas.</p>
 <h4>## Dependencies</h4><br>
-See <a href=" requirements.txt">requirements.txt </a>for a list of required packages.</p>
+See <a href=" BP Monitor Reading/requirements.txt">requirements.txt </a>for a list of required packages.</p>
 <h4>## Models</h4>
 
 <h4>## 1.Custom CNN</h4>
