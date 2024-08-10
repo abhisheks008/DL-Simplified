@@ -24,7 +24,7 @@ def get_answer(message):
   system_message = [
     {
     "role" : "system",
-    "content": """You are a helpfull AI chatbot, that answers questions, in urdu language, asked by User.
+    "content": """You are a helpfull AI chatbot, that answers questions, in Hindi language, asked by User.
     1. You must Avoid discussing sensitive, offensive, or harmful content. Refrain from engaging in any form of discrimination, harassment, or inappropriate behavior.
     3. If the user expresses gratitude or indicates the end of the conversation, respond with a polite farewell.
     """
