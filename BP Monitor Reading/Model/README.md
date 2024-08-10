@@ -1,13 +1,13 @@
 <h3>BP Monitor Reading</h3>
 <p><h4>## Aim: Create a DL model, which will monitor the reading given in the images and identify them.<h4></p>
 
-<p><h4>## Approach</h4><br>
+<p><h4>## Approach</h4>
 We implemented three different models to identify the readings:<br>
 1.Custom CNN<br>
 2.ResNet50 (Transfer Learning)<br>
 3.RNN with CNN features</p>
 
-<p><h4>## Exploratory Data Analysis (EDA)</h4><br>
+<p><h4>## Exploratory Data Analysis (EDA)</h4>
 The dataset consists of images of BP monitor readings. We performed EDA to understand the data distribution and characteristics.<br>
 Each image is annotated with bounding boxes indicating the reading areas.</p>
 
