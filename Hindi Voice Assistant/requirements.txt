@@ -1,0 +1,6 @@
+streamlit
+groq
+streamlit_float
+audio_recorder_streamlit
+dotenv
+gtts
