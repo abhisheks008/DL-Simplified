@@ -41,9 +41,9 @@ The dataset used in this project consists of bird species images. It includes:
 
 Link : https://www.kaggle.com/datasets/veeralakrishna/200-bird-species-with-11788-images
 
+✒️ Your Signature
 
-License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Feel free to reach out if you have any questions or suggestions!
+Vivek Prakash
+GitHub: https://github.com/IkkiOcean
+LinkedIn: https://www.linkedin.com/in/vivek-prakash-b46830283/
