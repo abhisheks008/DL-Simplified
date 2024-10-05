@@ -62,10 +62,11 @@ Below are some visualizations derived from the dataset (example EDA images must 
 
 **📈 Performance of the Models based on the Accuracy Scores**
 
-Model	Accuracy
-InceptionResNetV2	97.07%
-InceptionV3	88.7%	97.38%
-VGG16	98.78%
+Model	| Accuracy
+--- | --- 
+InceptionResNetV2	| 97.07%
+InceptionV3	| 97.38%
+VGG16	| 98.78%
 
 The table above shows the performance of each model based on the key metric.
 
