@@ -47,11 +47,6 @@ Each of these models was chosen based on their proven track record in image clas
 	•	scipy
 	•	Pandas
 
-<<<<<<< Updated upstream
-✒️ Your Signature
-
-
-=======
 **📊 Exploratory Data Analysis Results**
 
 Below are some visualizations derived from the dataset (example EDA images must be included here):
@@ -82,7 +77,6 @@ In conclusion, VGG16 is the best-fitted model for this bird species classificati
 
 **✒️ Your Signature**
 
->>>>>>> Stashed changes
 Vivek Prakash
 GitHub: https://github.com/IkkiOcean
 LinkedIn: https://www.linkedin.com/in/vivek-prakash-b46830283/
