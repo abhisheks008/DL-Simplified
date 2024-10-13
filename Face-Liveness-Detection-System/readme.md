@@ -25,7 +25,7 @@ To run this project, ensure you have the following dependencies installed. You c
 ```bash
 pip install -r requirements.txt
 ```
-
+Download the Dataset xml files and model from [haarcascade_profileface](https://github.com/opencv-java/face-detection/blob/master/resources/haarcascades/haarcascade_profileface.xml) and [model](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat)
 ### Running the Main File ▶️
 
 To run the main file and start the liveness detection process, follow these steps:
@@ -57,4 +57,3 @@ your_project_directory/
 ## Contributing 🤝
 
 contributor:**Pratik Wayal**. Feel free to connect: [GitHub](https://github.com/pratikwayal01). All contributions are welcome! 🌟
-
