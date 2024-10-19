@@ -1,0 +1,13 @@
+*Requirements for Running the Project*
+
+Python 3.x
+Python libraries:
+1. streamlit
+2. streamlit-webrtc
+3. opencv-python
+4. mediapipe
+5. keras
+6. numpy
+
+-->A pre-trained Keras model (model.h5) and a NumPy labels file (labels.npy), both included in the project.
+-->A webcam to capture live video input.
