@@ -1,6 +1,0 @@
-pandas==1.5.3
-numpy==1.23.5
-torch==1.13.1
-transformers==4.28.1
-scikit-learn==1.2.2
-nltk==3.7
