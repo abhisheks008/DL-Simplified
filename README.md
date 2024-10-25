@@ -1,7 +1,7 @@
-<div align="center">
-  <h1>DEEP LEARNING SIMPLIFIED 💻🧠</h1>
-  <h3>Website for Deep Learning Simplified Repo: <a href="https://tinyurl.com/deep-learning-simplified">Click Here!🎯</a></h3>
-</div>
+# 💻🧠 DEEP LEARNING SIMPLIFIED
+Welcome to **Deep Learning Simplified**! 🎉 This open-source repository is a comprehensive collection of deep learning projects, ranging from beginner to advanced levels. Our aim is to demystify deep learning concepts and provide a hands-on platform for contributors to start or deepen their journey into the fascinating world of neural networks. Whether you're a seasoned machine learning expert or just getting started, there's something here for everyone! 🚀
+
+Check out the official **Deep Learning Simplified** website for more information: [Click Here! 🎯](https://tinyurl.com/deep-learning-simplified)
 
 <div align="center">
 
@@ -16,6 +16,19 @@
 ![Github Repo Size](https://img.shields.io/github/repo-size/abhisheks008/DL-Simplified?style=for-the-badge&color=aqua)
 
 </div>
+
+## 📑 Table of Contents
+- [Introduction](#-deep-learning-simplified)
+- [Welcome Contributors! 🔴](#-welcome-contributors)
+- [Project Structure 📝](#structure-of-the-projects-)
+- [Workflow 🧮](#-workflow)
+- [Open Source Programs ❄️](#️open-source-programs)
+- [New to Open Source? 🤔](#-new-to-open-source-programsevents)
+- [Achievements 🏆](#-achievements-of-this-project-repo-)
+- [Project Admin](#project-admin)
+- [Top Contributors ✨](#top-contributors)
+- [Star This Project ⭐](#give-this-project-a-star)
+- [Contact 📬](#contact)
 
 ![](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
 
