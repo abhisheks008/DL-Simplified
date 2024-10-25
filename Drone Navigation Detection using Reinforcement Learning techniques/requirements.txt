@@ -1,0 +1,7 @@
+numpy==1.24.0
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.2
+pandas==2.0.3
+gym==0.21.0
+stable-baselines3==1.8.2
