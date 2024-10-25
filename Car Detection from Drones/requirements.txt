@@ -1,6 +1,0 @@
-numpy
-pandas
-cv2
-cvzone
-tensorflow
-ultralytics

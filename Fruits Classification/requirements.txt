@@ -1,6 +1,0 @@
-python
-tensorflow
-pandas
-numpy
-plotly
-matplotlib

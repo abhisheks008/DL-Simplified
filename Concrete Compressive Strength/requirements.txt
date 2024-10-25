@@ -1,7 +1,0 @@
-Tensorflow
-Keras
-Seaborn
-Numpy
-Pandas
-ScikitLearn
-The above libraries are needed
