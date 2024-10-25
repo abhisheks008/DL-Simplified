@@ -1,18 +1,16 @@
 ## **Online Food Delivery Preferences**
 
 ### 🎯 **Goal**
-
-`The project focuses on two primary objectives:
+The project focuses on two primary objectives:
 
 Predict whether customers will place future orders using CNN, RNN, and a hybrid RNN+LSTM model based on demographic data such as age, occupation, monthly income, and family size.
 Perform sentiment analysis on customer reviews to better understand customer experiences, using DNN, LSTM, and GRU models to classify the reviews as positive or negative.
-`
 
 ### 🧵 **Dataset**
 
 Link : https://www.kaggle.com/datasets/benroshan/online-food-delivery-preferencesbangalore-region/data
 
-`The dataset consists of 388 entries with 55 columns, providing detailed insights into customer preferences and experiences in online food delivery. Key variables include:
+The dataset consists of 388 entries with 55 columns, providing detailed insights into customer preferences and experiences in online food delivery. Key variables include:
 
 1. **Demographics**: Age, gender, marital status, occupation, income, and education levels.
 2. **Geographical Data**: Latitude, longitude, pin codes.
@@ -21,21 +19,20 @@ Link : https://www.kaggle.com/datasets/benroshan/online-food-delivery-preference
 5. **Challenges**: Common issues such as late deliveries, hygiene concerns, wrong orders, missing items, and delivery delays.
 6. **User Feedback**: Reviews, Google Maps accuracy, politeness of delivery personnel, and the influence of ratings.
 7. **Outcome**: Whether this consumer will buy again or not (e.g., "Output").
-`
 
 ### 🧾 **Description**
 
-`This project is divided into two main tasks:
+This project is divided into two main tasks:
 
 Customer Reordering Behavior Prediction:
 For predicting whether a customer will reorder, CNN, RNN, and RNN+LSTM models were used. These models are trained on the structured dataset containing demographic data and behavioral factors.
 
 Sentiment Analysis of Customer Reviews:
-For text-based sentiment analysis, DNN, LSTM, and GRU models were developed. These models aim to classify customer reviews as positive or negative, helping businesses understand customer satisfaction more effectively..`
+For text-based sentiment analysis, DNN, LSTM, and GRU models were developed. These models aim to classify customer reviews as positive or negative, helping businesses understand customer satisfaction more effectively.
 
 ### 🧮 **What I had done!**
 
-`1) Data Preprocessing:
+1) Data Preprocessing:
 -Removed missing and irrelevant data (e.g., 'Nil' reviews).
 -Tokenized reviews and converted them into sequences suitable for deep learning models.
 
@@ -54,11 +51,10 @@ For text-based sentiment analysis, DNN, LSTM, and GRU models were developed. The
 5) Evaluation and Comparison:
 -Compared models using accuracy, precision, recall, and F1-score.
 -Identified the most accurate models for each task.
-`
 
 ### 🚀 **Models Implemented**
 
-`For Customer Reordering Prediction:
+For Customer Reordering Prediction:
 CNN (Convolutional Neural Network): Captures local patterns and relationships in structured data such as demographic information.
 RNN (Recurrent Neural Network): Captures sequential dependencies between behavioral factors, though it can suffer from vanishing gradients.
 RNN + LSTM (Hybrid Model): Handles long-term dependencies more effectively than standard RNNs, providing more accurate predictions for reordering behavior.
@@ -67,12 +63,10 @@ For Sentiment Analysis:
 DNN (Deep Neural Network): A feedforward network used for simple yet effective sentiment classification.
 LSTM (Long Short-Term Memory): Captures long-term dependencies in reviews, making it suitable for longer texts.
 GRU (Gated Recurrent Unit): An efficient variant of LSTM, offering similar capabilities with fewer parameters.
-`
 
 ### 📚 **Libraries Needed**
-`
 1. **os**  
-- Provides functions for interacting with the operating system (e.g., file and directory management).  
+   - Provides functions for interacting with the operating system (e.g., file and directory management).  
 
 2. **pandas**  
    - Used for data manipulation and analysis, especially with DataFrames.  
@@ -92,7 +86,6 @@ GRU (Gated Recurrent Unit): An efficient variant of LSTM, offering similar capab
 7. **scikit-learn (sklearn)**  
    - A machine learning library providing tools for:
      - Data preprocessing (e.g., LabelEncoder, StandardScaler)  
-     - Model creation (e.g., LogisticRegression)  
      - Model evaluation (e.g., classification_report, accuracy_score)  
      - Train-test data splitting (e.g., train_test_split)  
 
@@ -104,15 +97,24 @@ GRU (Gated Recurrent Unit): An efficient variant of LSTM, offering similar capab
      - Model creation using Sequential  
      - Neural network layers (e.g., Dense, LSTM, GRU, Dropout)  
      - Regularization techniques (e.g., L2 regularizers)  
-     - Text processing tools (e.g., Tokenizer, pad_sequences) .`
+     - Text processing tools (e.g., Tokenizer, pad_sequences).
 
 ### 📊 **Exploratory Data Analysis Results**
 
-`![Age Group](https://github.com/Pratzybha/Images/blob/main/Images/AgeGroup.png)
+**Demographic  Details**
+![Age Group](https://github.com/Pratzybha/Images/blob/main/Images/AgeGroup.png)
 ![Demographic  Details](https://github.com/Pratzybha/Images/blob/main/Images/DemographicDetails.png)
+
+**Correlation Calculation**
 ![Correlation Calculation](https://github.com/Pratzybha/Images/blob/main/Images/CorrelationCalculation.png)
+
+**Features That Influence Users To Use Online Food Delivery**
 ![Features That Influence Users To Use Online Food Delivery](https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%201.png)
+
+**Features That Discourage Users To Use Online Food Delivery**
 ![Features That Discourage Users To Use Online Food Delivery](https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%202.png)
+
+**Time Factor**
 ![Time Factor](https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%203.png)
 `
 
@@ -130,15 +132,16 @@ GRU (Gated Recurrent Unit): An efficient variant of LSTM, offering similar capab
 
 ### 📢 **Conclusion**
 
-`The project successfully demonstrates the potential of deep learning models for both customer behavior prediction and sentiment analysis.
+The project successfully demonstrates the potential of deep learning models for both customer behavior prediction and sentiment analysis.
 
 The RNN + LSTM Hybrid model provided the best performance for sentiment analysis, achieving an accuracy of 92.3%.
 The LSTM model effectively predicted reordering behavior with 92% accuracy.
 These insights help food delivery companies better understand customer preferences and enhance their service quality.
-`
 
 ### ✒️ **Your Signature**
 
-`Your Name: [Pratibha Balgi]
-GitHub: [https://github.com/Pratzybha]
-LinkedIn: [https://www.linkedin.com/in/pratibhabalgi2410/]`
+Your Name: Pratibha Balgi  
+
+GitHub: https://github.com/Pratzybha
+
+LinkedIn: https://www.linkedin.com/in/pratibhabalgi2410/
