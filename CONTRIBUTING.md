@@ -1,57 +1,184 @@
-# 🎇Contributing Guidelines
+# Contributing Guidelines 🎇
 
 This documentation contains a set of guidelines to help you during the contribution process. 
 
 I'm happy to welcome all the contributions from anyone willing to add new scripts to this repository. Thank you for helping out and remember,
 **no contribution is too small.**
 
+<br>
 
-## 💻Before Contributing
+# Code of Conduct 📃
+
+Please read and follow our [Code of Conduct](https://github.com/abhisheks008/DL-Simplified/blob/main/Code_of_conduct.md)
+
+<br>
+
+# <h1 align="center">Star our Repository ⭐</h1>
+
+### <div align = "center" style = "display:flex; justify-content:space-evenly; gap:100px;" > [![Stars](https://img.shields.io/github/stars/abhisheks008/DL-Simplified?style=for-the-badge&logo=github)](https://github.com/abhisheks008/DL-Simplified/stargazers) [![Forks](https://img.shields.io/github/forks/abhisheks008/DL-Simplified?style=for-the-badge&logo=github)](https://github.com/abhisheks008/DL-Simplified/network/members) [![Issues](https://img.shields.io/github/issues/abhisheks008/DL-Simplified?style=for-the-badge&logo=github)](https://github.com/abhisheks008/DL-Simplified/issues) [![PRs Open](https://img.shields.io/github/issues-pr/abhisheks008/DL-Simplified?style=for-the-badge&logo=github)](https://github.com/abhisheks008/DL-Simplified/pulls) [![PRs Closed](https://img.shields.io/github/issues-pr-closed/abhisheks008/DL-Simplified?style=for-the-badge&logo=github&color=2cbe4e)](https://github.com/abhisheks008/DL-Simplified/pulls?q=is%3Apr+is%3Aclosed)</div>
+
+<br>
+
+# Need Help With The Basics? 🤔
+
+If you're new to Git and GitHub, no worries! Here are some useful resources:
+
+- [Forking a Repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repository](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)
+- [How to Create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting Started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+- [Learn GitHub from Scratch](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources)
+
+<br>
+
+# Before Contributing 📩
 
 Welcome to [Deep Learning Simplified](https://github.com/abhisheks008/DL-Simplified). - an open-source repository, containing beginner to advance level deep learning projects for the contributors, who are willing to start their journey in Deep Learning. Devfolio URL, https://devfolio.co/projects/deep-learning-simplified-f013. Before sending your pull requests, make sure that you **read the whole guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
 
+<br>
 
-## 🙌Contribution
+# Contribution 🙌
 
 Any contribution is accepted, from fixing grammatical mistakes to implementing complex algorithms. Please read this section if you are contributing your work.
 
+<br>
 
-### 🔖Steps to Contribute
+# First Pull Request ✨
 
-Following are the steps to guide you:
+1. **Star this repository**
+    Click on the top right corner marked as **Stars** at last.
 
-* Step 1: Fork the repo and Go to your Git terminal and  clone it on your machine.
-* Step 2: Add a upstream link to main branch in your cloned repo
-    ```
-    git remote add upstream https://github.com/abhisheks008/DL-Simplified.git
-    ```
-* Step 3: Keep your cloned repo upto date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
-    ```
-    git pull upstream main https://github.com/abhisheks008/DL-Simplified.git
-    ```
-* Step 4: Create your feature branch (This is a necessary step, so don't skip it)
-    ```
-    git checkout -b <feature-name>
-    ```
-* Step 5: Commit all the changes (Write commit message as "Small Message")
-    ```
-    git commit -m "Write a meaningful but small commit message"
-    ```
-* Step 6: Push the changes for review
-    ```
-    git push origin <branch-name>
-    ```
-* Step 7: Create a PR on Github. (Don't just hit the create a pull request button, you must write a PR message to clarify why and what are you contributing)
+2. **Fork this repository**
+    Click on the top right corner marked as **Fork** at second last.
 
+3. **Clone the forked repository**
 
-### 🔨Note:
+```bash
+git clone https://github.com/<your-github-username>/DL-Simplified.git
+```
+  
+4. **Navigate to the project directory**
+
+```bash
+cd DL-Simplified
+```
+
+5. **Create a new branch**
+
+```bash
+git checkout -b <your_branch_name>
+```
+
+6. **To make changes**
+
+```bash
+git add .
+```
+
+7. **Now to commit**
+
+```bash
+git commit -m "add comment according to your changes or addition of features inside this"
+```
+
+8. **Push your local commits to the remote repository**
+
+```bash
+git push -u origin <your_branch_name>
+```
+
+9. **Create a Pull Request**
+
+10. **Congratulations! 🎉 you've made your contribution**
+
+<br>
+
+# Alternatively, contribute using GitHub Desktop 🖥️
+
+1. **Open GitHub Desktop:**
+  Launch GitHub Desktop and log in to your GitHub account if you haven't already.
+
+2. **Clone the Repository:**
+- If you haven't cloned the project repository yet, you can do so by clicking on the "File" menu and selecting "Clone Repository."
+- Choose the project repository from the list of repositories on GitHub and clone it to your local machine.
+
+3.**Switch to the Correct Branch:**
+- Ensure you are on the branch that you want to submit a pull request for.
+- If you need to switch branches, you can do so by clicking on the "Current Branch" dropdown menu and selecting the desired branch.
+
+4. **Make Changes:**
+- Make your changes to the code or files in the repository using your preferred code editor.
+
+5. **Commit Changes:**
+- In GitHub Desktop, you'll see a list of the files you've changed. Check the box next to each file you want to include in the commit.
+- Enter a summary and description for your changes in the "Summary" and "Description" fields, respectively. Click the "Commit to <branch-name>" button to commit your changes to the local branch.
+
+6. **Push Changes to GitHub:**
+- After committing your changes, click the "Push origin" button in the top right corner of GitHub Desktop to push your changes to your forked repository on GitHub.
+
+7. **Create a Pull Request:**
+- Go to the GitHub website and navigate to your fork of the project repository.
+- You should see a button to "Compare & pull request" between your fork and the original repository. Click on it.
+
+8. **Review and Submit:**
+- On the pull request page, review your changes and add any additional information, such as a title and description, that you want to include with your pull request.
+- Once you're satisfied, click the "Create pull request" button to submit your pull request.
+
+9. **Wait for Review:**
+Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
+
+<br>
+
+# For Help And Support 💬
+
+- Admin Github Profile:- Abhishek Sharma
+- Contact :- [Email](abhishek.opensource@gmail.com)
+
+<br>
+
+# Good Coding Practices 🧑‍💻
+
+1. **Follow the Project's Code Style**
+
+   - Maintain consistency with the existing code style (indentation, spacing, comments).
+   - Use meaningful and descriptive names for variables, functions, and classes.
+   - Keep functions short and focused on a single task.
+   - Avoid hardcoding values; instead, use constants or configuration files when possible.
+
+2. **Write Clear and Concise Comments**
+
+   - Use comments to explain why you did something, not just what you did.
+   - Avoid unnecessary comments that state the obvious.
+   - Document complex logic and functions with brief explanations to help others understand your thought -process.
+
+3. **Keep Code DRY (Don't Repeat Yourself)**
+
+   - Avoid duplicating code. Reuse functions, methods, and components whenever possible.
+   - If you find yourself copying and pasting code, consider creating a new function or component.
+
+4. **Write Tests**
+
+   - Write unit tests for your functions and components.
+   - Ensure your tests cover both expected outcomes and edge cases.
+   - Run tests locally before making a pull request to make sure your changes don’t introduce new bugs.
+
+5. **Code Reviews and Feedback**
+
+   - Be open to receiving constructive feedback from other contributors.
+   - Conduct code reviews for others and provide meaningful suggestions to improve the code.
+   - Always refactor your code based on feedback to meet the project's standards.
+
+<br>
+
+# Note: 🔨
 
 > - Do not edit/delete someone else's code in this repository. You can only insert new files/folder in this repository.
 
   > - Give a meaningful name to whatever file or folder you are adding. (For e.g., if you have written a Deep Learning code on Loan Prediction, then loan_prediction.py is one example of valid name)
 
+<br>
 
-## 🔑Guidelines
+# Guidelines 🔑
 
 1. Welcome to this repository, if you are here as open source program participant/contributor.
 2. Participants / contributors have to **comment** on issues they would like to work on, and mentors or the PA (Project Administrator) will assign you.
@@ -73,8 +200,9 @@ Following are the steps to guide you:
 18. Make sure your solution to any issue is better in terms of performance and other parameters in comparison to the previous work.
 19. We all are here to learn. You are allowed to make mistakes. That's how you learn, right!.
 
+<br>
 
-### 🧲Pull Requests Review Criteria
+# Pull Requests Review Criteria 🧲
 
 1. Please fill the **[PR Template](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/pull_request_template.md)** properly while making a Pull Request.
 2. You must add your code .ipynb file into the respective **folders**.
@@ -85,8 +213,21 @@ Following are the steps to guide you:
 6. For any queries or discussions, please feel free to drop a message.
 7. Pull Requests will be reviewed based on code quality, documentation, and adherence to coding standards.
 
+<br>
 
-## 📍Other points to remember while submitting your work:
+# Issue Report Process 📌
+
+To report an issue, follow these steps:
+
+1. Navigate to the project's issues section :- [Issues](https://github.com/abhisheks008/DL-Simplified/issues/new/choose)
+2. Please kindly choose the appropriate template according to your issue.
+3. Provide a clear and concise description of the issue.
+4. Wait until someone looks into your report.
+5. Begin working on the issue only after you have been assigned to it. 🚀
+
+<br>
+
+# Other points to remember while submitting your work: 📍
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
@@ -103,8 +244,9 @@ We want your work to be readable by others; therefore, we encourage you to note 
 - Do not update the [README.md](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/readme_template.md) and [Contributing_Guidelines.md](https://github.com/World-of-ML/DL-Simplified/blob/main/CONTRIBUTING.md).
 - Avoid importing external libraries for basic algorithms (based on Time Complexity). Only use those libraries for complicated algorithms. **Usage of NumPy is highly recommended.** 
 
+<br>
 
-## 📖Resources
+# Resources 📖
 
 1. Markdown : Markdown is a lightweight markup language like HTML, with plain text formatting syntax. 
   * [Markdown Cheat-Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -113,15 +255,10 @@ We want your work to be readable by others; therefore, we encourage you to note 
   * [Videos to get started](https://www.youtube.com/watch?v=xAAmje1H9YM&list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW)
   * [Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
+<br>
 
-## 🤔Need more help?
+# Thank you for contributing 💗
 
-You can refer to the following articles on basics of Git and Github and also contact me, in case you are stuck:
-- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)
-- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
-- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
-- [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
+We truly appreciate your time and effort to help improve our project. Feel free to reach out if you have any questions or need guidance. Happy coding! 🚀
 
-
-🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
+##
