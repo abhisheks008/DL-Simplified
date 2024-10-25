@@ -52,20 +52,20 @@ This project involves the development of a Deepfake Images Detector by implement
 ### 📊 **Exploratory Data Analysis Results**
 
 #### 1. Class Distribution Plots
+![Train_Class_Distribution_Plot](https://github.com/user-attachments/assets/9aa980c2-b190-4ae5-9510-27bee969e605)
+![Validation_Class_Distribution_Plot](https://github.com/user-attachments/assets/97ed9944-fac6-42b0-9bf3-0cb952a84471)
+![Test_Class_Distribution_Plot](https://github.com/user-attachments/assets/dd4a478e-850f-45fd-96a5-122c56bc374c)
 
-<div>
-  <img src="Images/Train_Class_Distribution_Plot.png" width="400">
-  <img src="Images/Validation_Class_Distribution_Plot.png" width="400">
-  <img src="Images/Test_Class_Distribution_Plot.png" width="400">
-</div>
 
 #### 2. Sample Dataset Images
 
-<img src="Images/Sample_Images.png" width="800">
+![Sample_Images](https://github.com/user-attachments/assets/c6414bcd-9923-4170-80a0-1dc3323da936)
+
 
 #### 3. Pixel Distribution
 
-<img src="Images/Pixel_Distribution.png" width="500">
+![Pixel_Distribution](https://github.com/user-attachments/assets/6498bc4a-9745-4d51-96e1-e8855fae7189)
+
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
