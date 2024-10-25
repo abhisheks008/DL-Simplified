@@ -70,7 +70,6 @@ GRU (Gated Recurrent Unit): An efficient variant of LSTM, offering similar capab
 `
 
 ### 📚 **Libraries Needed**
-
 `
 1. **os**  
 - Provides functions for interacting with the operating system (e.g., file and directory management).  
@@ -119,16 +118,15 @@ GRU (Gated Recurrent Unit): An efficient variant of LSTM, offering similar capab
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
-`| Model      | Accuracy |
-|------------|----------|
-| CNN        | 90%      |
-| RNN        | 92%      |
-| RNN + LSTM | 92.3%    |
-| DNN        | 84%      |
-| LSTM       | 92%      |
-| GRU        | 88%      |
+| Model        | Accuracy |
+|--------------|----------|
+| CNN          | 90%      |
+| RNN          | 92%      |
+| RNN + LSTM   | 92.3%    |
+| DNN          | 84%      |
+| LSTM         | 92%      |
+| GRU          | 88%      |
 
-`
 
 ### 📢 **Conclusion**
 
