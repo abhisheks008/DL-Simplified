@@ -1,0 +1,9 @@
+pandas==1.5.3
+numpy==1.23.5
+shap==0.42.1
+scikit-learn==1.2.0  # If using machine learning models
+matplotlib==3.7.0    # For data visualization
+seaborn==0.12.2      # For enhanced visualization
+tensorflow==2.14.0   # If using TensorFlow for deep learning models
+keras==2.14.0        # If using Keras as part of TensorFlow
+jupyter==1.0.0       # To work with notebooks
