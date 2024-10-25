@@ -3,8 +3,7 @@
 **Goal** 🎯 : 
 The main objective of this project is to detect the intensity of cyclones happening all around the world using satellite image data.
 
-**DATASET** ℹ️ : 
-[https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021](url)
+**DATASET** ℹ️ : https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021
 
 **DESCRIPTION**: 
 The project consists of an image dataset of cyclones 🌀 containing infrared and raw satellite images from INSAT-3D. It also consists of a **.CSV** file containing the intensity of the cyclones. It comprises a model built using the Inception_v3 model.
