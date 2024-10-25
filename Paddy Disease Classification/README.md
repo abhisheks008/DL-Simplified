@@ -52,9 +52,13 @@ I began by exploring the dataset, understanding the different disease categories
 - matplotlib
 - seaborn
 
-### SCREENSHOTS
+### EDA
 
 - ![EDA](./Image/newplot.png)
+
+### MODELS COMPARISON GRAPHS 
+Include accuracy and loss graphs for CNN , MobileNetV2 and EfficientNetB4 models.
+
 - ![efficientnet](./Image/efficient2.png)
 - ![cnn](./Image/output.png)
 - ![mobilenetv2](./Image/mobilev2.png)
@@ -66,8 +70,6 @@ I began by exploring the dataset, understanding the different disease categories
 | EfficientNetB4  | 97.6%   
 | MobileNetV2     | 94.2%
 
-### MODELS COMPARISON GRAPHS 
-- Include accuracy and loss graphs for CNN , MobileNetV2 and EfficientNetB4 models.
 
 ## CONCLUSION
 
