@@ -1,0 +1,1 @@
+As the dataset is very huge, you can directly download the dataset from Kaggle here: https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
