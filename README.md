@@ -1,4 +1,9 @@
+<div align="center">
+
 # 💻🧠 DEEP LEARNING SIMPLIFIED
+
+</div>
+
 Welcome to **Deep Learning Simplified**! 🎉 This open-source repository is a comprehensive collection of deep learning projects, ranging from beginner to advanced levels. Our aim is to demystify deep learning concepts and provide a hands-on platform for contributors to start or deepen their journey into the fascinating world of neural networks. Whether you're a seasoned machine learning expert or just getting started, there's something here for everyone! 🚀
 
 Check out the official **Deep Learning Simplified** website for more information: [Click Here! 🎯](https://tinyurl.com/deep-learning-simplified)
