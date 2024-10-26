@@ -1,0 +1,10 @@
+# requirements.txt
+
+tensorflow==2.10.0        # For neural network building and training
+numpy==1.23.0             # For numerical operations
+matplotlib==3.5.2         # For visualizing generated images
+Pillow==9.1.1             # Image processing library
+scipy==1.8.0              # For advanced mathematical functions and optimization
+
+# Optional dependencies
+tqdm==4.64.0              # For displaying progress bars during training
