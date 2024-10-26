@@ -1,1 +1,0 @@
-You get the dataset here: https://www.kaggle.com/datasets/utkarshsaxenadn/landscape-recognition-image-dataset-12k-images/

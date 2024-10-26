@@ -1,2 +1,0 @@
-pip install tensorflow==2.12.0
-pip install keras_preprocessing==1.1.2
