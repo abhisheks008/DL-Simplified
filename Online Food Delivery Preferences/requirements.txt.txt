@@ -1,0 +1,10 @@
+Libraries used -
+
+matplotlib
+numpy
+os
+pandas
+scipy
+seaborn
+sklearn
+tensorflow ​
