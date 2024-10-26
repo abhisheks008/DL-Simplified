@@ -7,14 +7,14 @@
 ---
 
 ## 🌟 Table of Contents
-- [Project Overview](#project-overview)
-- [How It Works](#how-it-works)
-- [Model Architecture](#model-architecture)
-- [Training Process](#training-process)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [🎯 Project Overview](#project-overview)
+- [⚙️ How It Works](#how-it-works)
+- [🧠 Model Architecture](#model-architecture)
+- [🏋️ Training Process](#training-process)
+- [🚀 Usage](#usage)
+- [🎉 Results](#results)
+- [🤝 Contributing](#contributing)
+- [📜 License](#license)
 
 ---
 
