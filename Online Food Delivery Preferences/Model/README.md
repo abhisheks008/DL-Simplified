@@ -119,7 +119,7 @@ GRU (Gated Recurrent Unit): An efficient variant of LSTM, offering similar capab
 **Features That Discourage Users To Use Online Food Delivery**
 ![Features That Discourage Users To Use Online Food Delivery](https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%202.png)
 
-<h2>Time Factor</h2>
+**Time Factor**
 ![Time Factor](https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%203.png)
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
