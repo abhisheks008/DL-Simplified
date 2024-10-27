@@ -1,15 +1,40 @@
-## 📊 Dataset Used
+## 📊 Synthetic Dataset Used
 
-The dataset used for training the GAN model consists of artistic images collected from various online sources. This dataset typically includes a diverse range of artwork styles, encompassing paintings, sketches, and digital art.
+In this model, a synthetic dataset consisting of 1,000 images was generated, each with a resolution of 28x28 pixels and three color channels (RGB). The images were created using random noise, simulating artistic patterns. This dataset serves as a foundation for training the GAN, allowing for the evaluation of its ability to produce diverse and visually appealing art-like images. 
 
-### Dataset Characteristics:
-- **Size**: The dataset contains thousands of images to ensure a rich learning experience for the model.
-- **Image Dimensions**: Each image is resized to a uniform dimension (e.g., 28x28 or 64x64 pixels) to standardize input for the GAN.
-- **Diversity**: Images represent various artistic styles, enhancing the generator's ability to produce unique art.
+### Visualization of the Synthetic Dataset
 
-### Data Preprocessing:
-Before training, the dataset is preprocessed, including:
-- **Normalization**: Pixel values are scaled to the range [0, 1].
-- **Augmentation**: Techniques such as rotation, flipping, and color adjustments are applied to increase variability and improve model robustness.
+Below is a sample of the generated synthetic images:
 
-This dataset enables the GAN to learn diverse artistic features, resulting in the generation of unique synthetic images.
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate synthetic dataset
+def generate_synthetic_data(num_samples, img_shape):
+    return np.random.rand(num_samples, *img_shape)
+
+# Generate and display sample images
+synthetic_data = generate_synthetic_data(1000, (28, 28, 3))
+
+# Plotting the synthetic images
+plt.figure(figsize=(10, 5))
+for i in range(10):
+    plt.subplot(2, 5, i + 1)
+    plt.imshow(synthetic_data[i])
+    plt.axis('off')
+plt.show()
+```
+## 📊 Dataset Characteristics
+
+The synthetic dataset consists of 1,000 RGB images, each measuring 28x28 pixels. The images are generated using random noise, resulting in diverse and unique artistic patterns. This randomness contributes to the dataset's variability, making it suitable for training Generative Adversarial Networks (GANs) to create visually appealing outputs.
+
+### Data Preprocessing
+
+Before feeding the data into the GAN, several preprocessing steps were performed:
+
+1. **Normalization**: The pixel values were scaled to a range between 0 and 1 to facilitate better training convergence.
+2. **Reshaping**: Images were reshaped to ensure they meet the input requirements of the GAN model.
+3. **Data Augmentation**: While not applied here, techniques such as rotation, flipping, and scaling could be incorporated to enhance the dataset's diversity.
+
+These preprocessing steps help improve the GAN's performance and stability during training.
