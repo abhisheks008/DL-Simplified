@@ -104,28 +104,23 @@ GRU (Gated Recurrent Unit): An efficient variant of LSTM, offering similar capab
 
 ### 📊 **Exploratory Data Analysis Results**
 
-<h2>Demographic  Details</h2>
-![Age Group]
-(https://github.com/Pratzybha/Images/blob/main/Images/AgeGroup.png)
+**Demographic  Details**
 
-![Demographic  Details]
-(https://github.com/Pratzybha/Images/blob/main/Images/DemographicDetails.png)
+![Age Group](https://github.com/Pratzybha/Images/blob/main/Images/AgeGroup.png)
 
-<h2>Correlation Calculation</h2>
-![Correlation Calculation]
-(https://github.com/Pratzybha/Images/blob/main/Images/CorrelationCalculation.png)
+![Demographic  Details](https://github.com/Pratzybha/Images/blob/main/Images/DemographicDetails.png)
 
-<h2>Features That Influence Users To Use Online Food Delivery</h2>
-![Features That Influence Users To Use Online Food Delivery]
-(https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%201.png)
+**Correlation Calculation**
+![Correlation Calculation](https://github.com/Pratzybha/Images/blob/main/Images/CorrelationCalculation.png)
 
-<h2>Features That Discourage Users To Use Online Food Delivery</h2>
-![Features That Discourage Users To Use Online Food Delivery]
-(https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%202.png)
+**Features That Influence Users To Use Online Food Delivery**
+![Features That Influence Users To Use Online Food Delivery](https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%201.png)
+
+**Features That Discourage Users To Use Online Food Delivery**
+![Features That Discourage Users To Use Online Food Delivery](https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%202.png)
 
 <h2>Time Factor</h2>
-![Time Factor]
-(https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%203.png)
+![Time Factor](https://github.com/Pratzybha/Images/blob/main/Images/FeaturesOnlineDelivery%203.png)
 
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
