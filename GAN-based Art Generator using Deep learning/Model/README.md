@@ -40,6 +40,15 @@ The project implements a GAN with a generator to create art-like images and a di
 | Inception  | 91%      | 0.09 |
 | MobileNet  | 89%      | 0.11 |
 
+### Model Analysis
+
+- **VGG16**: Achieved **90% accuracy**; effective feature extraction for artistic images.
+- **ResNet50**: Best performer with **92% accuracy**; strong depth through skip connections.
+- **Inception**: Close second at **91% accuracy**; excels with multi-scale features.
+- **MobileNet**: Slightly lower at **89% accuracy**; prioritizes efficiency over performance.
+
+**Summary**: ResNet50 is the best model for artistic image generation.
+
 ## 📢 Conclusion
 The GAN-based art generator effectively creates unique, visually appealing art-like images, demonstrating promising results across multiple model architectures. Fine-tuning the model could lead to even more sophisticated outputs.
 
