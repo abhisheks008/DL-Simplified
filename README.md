@@ -87,6 +87,8 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
   <td align="center">
 <a href="https://hacktoberfest.com/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/gssocxhacktoberfest.png" width=80px height=80px /><br /><sub><b>GSSoC Extd<br>AND<br>HacktoberFest 2024</b></sub></a>
  </td>
+</tr>
+<tr>
   <td align="center">
 <a href="https://www.socialwinterofcode.com/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/Orange%20And%20Yellow%20Geometric%20Motivation%20Quote%20LinkedIn%20Post.png" width=80px height=80px /><br /><sub><b>SWOC 2025<br></b>Coming Soon...</sub></a>
  </td>
