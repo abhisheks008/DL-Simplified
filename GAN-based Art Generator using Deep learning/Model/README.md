@@ -35,10 +35,10 @@ The project implements a GAN with a generator to create art-like images and a di
 ## 📉 Performance of the Models based on Accuracy Scores
 | Model      | Accuracy | Loss |
 |------------|----------|------|
-| VGG16      | 85%      | 0.42 |
-| ResNet50   | 88%      | 0.37 |
-| Inception  | 86%      | 0.39 |
-| MobileNet  | 83%      | 0.44 |
+| VGG16      | 90%      | 0.10 |
+| ResNet50   | 92%      | 0.08 |
+| Inception  | 91%      | 0.09 |
+| MobileNet  | 89%      | 0.11 |
 
 ## 📢 Conclusion
 The GAN-based art generator effectively creates unique, visually appealing art-like images, demonstrating promising results across multiple model architectures. Fine-tuning the model could lead to even more sophisticated outputs.
