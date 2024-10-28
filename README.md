@@ -1,7 +1,12 @@
 <div align="center">
-  <h1>DEEP LEARNING SIMPLIFIED 💻🧠</h1>
-  <h3>Website for Deep Learning Simplified Repo: <a href="https://tinyurl.com/deep-learning-simplified">Click Here!🎯</a></h3>
+
+# 💻🧠 DEEP LEARNING SIMPLIFIED
+
 </div>
+
+Welcome to **Deep Learning Simplified**! 🎉 This open-source repository is a comprehensive collection of deep learning projects, ranging from beginner to advanced levels. Our aim is to demystify deep learning concepts and provide a hands-on platform for contributors to start or deepen their journey into the fascinating world of neural networks. Whether you're a seasoned machine learning expert or just getting started, there's something here for everyone! 🚀
+
+Check out the official **Deep Learning Simplified** website for more information: [Click Here! 🎯](https://tinyurl.com/deep-learning-simplified)
 
 <div align="center">
 
@@ -16,6 +21,19 @@
 ![Github Repo Size](https://img.shields.io/github/repo-size/abhisheks008/DL-Simplified?style=for-the-badge&color=aqua)
 
 </div>
+
+## 📑 Table of Contents
+- [Introduction](#-deep-learning-simplified)
+- [Welcome Contributors! 🔴](#-welcome-contributors)
+- [Project Structure 📝](#structure-of-the-projects-)
+- [Workflow 🧮](#-workflow)
+- [Open Source Programs ❄️](#️open-source-programs)
+- [New to Open Source? 🤔](#-new-to-open-source-programsevents)
+- [Achievements 🏆](#-achievements-of-this-project-repo-)
+- [Project Admin](#project-admin)
+- [Top Contributors ✨](#top-contributors)
+- [Star This Project ⭐](#give-this-project-a-star)
+- [Contact 📬](#contact)
 
 ![](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
 
@@ -49,22 +67,30 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 <table>
 <tr>
   <td align="center">
-<a href="https://ssoc.getsocialnow.co/#"><img width="100px" src="https://github.com/World-of-ML/DL-Simplified/assets/68724349/67bf9f12-3031-495d-a884-76c1c6437707" /><br /><sub><b>SSOC 2022</b></sub></a>
+<a href="https://ssoc.getsocialnow.co/#"><img width="80px" src="https://github.com/World-of-ML/DL-Simplified/assets/68724349/67bf9f12-3031-495d-a884-76c1c6437707" /><br /><sub><b>SSOC 2022</b></sub></a>
  </td>
   <td align="center">
-<a href="https://hack2skill.com/hack/ssoc"><img width="100px" src="https://github.com/World-of-ML/DL-Simplified/assets/68724349/67bf9f12-3031-495d-a884-76c1c6437707"><br /><sub><b>SSOC 2023</b></sub></a>
+<a href="https://hack2skill.com/hack/ssoc"><img width="80px" src="https://github.com/World-of-ML/DL-Simplified/assets/68724349/67bf9f12-3031-495d-a884-76c1c6437707"><br /><sub><b>SSOC 2023</b></sub></a>
  </td>
  <td align="center">
-<a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>SWOC 2023</b></sub></a>
+<a href="https://swoc.getsocialnow.co/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/Orange%20And%20Yellow%20Geometric%20Motivation%20Quote%20LinkedIn%20Post.png" width=80px height=80px /><br /><sub><b>SWOC 2023</b></sub></a>
  </td>
   <td align="center">
-<a href="https://www.codepeak.tech/"><img src="https://github.com/World-of-ML/Play-With-Python/blob/main/Assets/Screenshot%202022-12-02%20190456.png" width=100px height=100px /><br /><sub><b>CodePeak 2023</b></sub></a>
+<a href="https://www.codepeak.tech/"><img src="https://github.com/World-of-ML/Play-With-Python/blob/main/Assets/Screenshot%202022-12-02%20190456.png" width=80px height=80px /><br /><sub><b>CodePeak 2023</b></sub></a>
  </td>
   <td align="center">
-<a href="https://swoc.getsocialnow.co/"><img src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE" width=100px height=100px /><br /><sub><b>SWOC 2024</b></sub></a>
+<a href="https://swoc.getsocialnow.co/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/Orange%20And%20Yellow%20Geometric%20Motivation%20Quote%20LinkedIn%20Post.png" width=80px height=80px /><br /><sub><b>SWOC 2024</b></sub></a>
  </td>
   <td align="center">
-<a href="https://gssoc.girlscript.tech/"><img src="https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1630597186826/girlscriptsoc_logo?e=1722470400&v=beta&t=riGIryHFCH81TLbHmS3YZhyuz4ymzuYKgIXY0MpP14M" width=100px height=100px /><br /><sub><b>GSSoC 2024</b></sub></a>
+<a href="https://gssoc.girlscript.tech/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/gssoc24.png" width=80px height=80px /><br /><sub><b>GSSoC 2024</b></sub></a>
+ </td>
+  <td align="center">
+<a href="https://hacktoberfest.com/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/gssocxhacktoberfest.png" width=80px height=80px /><br /><sub><b>GSSoC Extd<br>AND<br>HacktoberFest 2024</b></sub></a>
+ </td>
+</tr>
+<tr>
+  <td align="center">
+<a href="https://www.socialwinterofcode.com/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/Orange%20And%20Yellow%20Geometric%20Motivation%20Quote%20LinkedIn%20Post.png" width=80px height=80px /><br /><sub><b>SWOC 2025<br></b>Coming Soon...</sub></a>
  </td>
 </tr>
 </table>
