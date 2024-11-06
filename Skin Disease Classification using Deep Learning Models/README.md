@@ -46,10 +46,10 @@ The following are the classes included in the dataset:
 We visualized the data to understand the sample characteristics for each class of skin disease. The following plots illustrate sample images and the class distribution:
 
 1. **Data Visualization**
-   ![Data Visualization](../Images/data_visualization.png)
+   ![Data Visualization](Images/data_visualization.png)
 
 2. **Class Distribution**
-   ![Class Distribution](../Images/class_distribution.png)
+   ![Class Distribution](Images/class_distribution.png)
 
 ## 🧠 Models Used
 
@@ -81,11 +81,11 @@ We compared each model on the following metrics:
 The following plots provide a comparative visualization for each model's performance:
 
 1. **Loss**
-   ![Loss Plot](../Images/loss_plot.png)
+   ![Loss Plot](Images/loss_plot.png)
 2. **Accuracy**
-   ![Accuracy Plot](../Images/accuracy_plot.png)
+   ![Accuracy Plot](Images/accuracy_plot.png)
 3. **Top-2 Accuracy**
-   ![Top-2 Accuracy Plot](../Images/top2_accuracy_plot.png)
+   ![Top-2 Accuracy Plot](Images/top2_accuracy_plot.png)
 
 ## 🚀 How to Run
 
@@ -101,5 +101,5 @@ To replicate this analysis, clone the repository and follow these steps:
 
 Developed by **Prashant Kumar Mishra**  
 GitHub: [Profile Link](https://github.com/pacificrm)  
-LinkedIn: [Prashant Kumar Mishra](https://www.linkedin.com/in/pacificrm)
+LinkedIn: [Prashant Kumar Mishra](https://www.linkedin.com/in/pacificrm)  
 Kaggle : [Profile Link](https://www.kaggle.com/pacificrm)
