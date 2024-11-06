@@ -96,3 +96,10 @@ To replicate this analysis, clone the repository and follow these steps:
    pip install -r requirements.txt
    ```
 2. Now you can run each cell of Notebook.
+
+## 🤝 Contributor
+
+Developed by **Prashant Kumar Mishra**  
+GitHub: [Profile Link](https://github.com/pacificrm)  
+LinkedIn: [Prashant Kumar Mishra](https://www.linkedin.com/in/pacificrm)
+Kaggle : [Profile Link](https://www.kaggle.com/pacificrm)
