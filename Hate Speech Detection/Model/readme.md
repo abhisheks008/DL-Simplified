@@ -17,6 +17,8 @@ The notebook builds a hate speech detection model based on text data, leveraging
 To run this notebook, install the following dependencies:
 ```bash
 pip install numpy pandas matplotlib seaborn nltk scikit-learn tensorflow
+```
+
 
 ## Contents of the Notebook 
 
