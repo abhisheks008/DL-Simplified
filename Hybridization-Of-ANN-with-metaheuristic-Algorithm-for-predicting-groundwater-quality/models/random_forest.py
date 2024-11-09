@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, accuracy_score
 import matplotlib.pyplot as plt
 
 # Load and preprocess data
-data = pd.read_csv('Ground Water .csv')
+data = pd.read_csv('../Ground Water .csv')
 
 # Fill NaN values in numeric columns with median
 numeric_columns = data.select_dtypes(include='number').columns
