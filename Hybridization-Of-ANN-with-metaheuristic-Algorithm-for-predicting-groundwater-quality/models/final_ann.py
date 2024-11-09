@@ -10,7 +10,7 @@ from sklearn.metrics import average_precision_score
 from sklearn.metrics import mean_squared_error
 
 
-data = pd.read_csv('Ground Water .csv')
+data = pd.read_csv('../Ground Water .csv')
 
 
 
