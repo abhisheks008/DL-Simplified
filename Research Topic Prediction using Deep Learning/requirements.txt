@@ -1,0 +1,14 @@
+warnings
+nltk
+pandas
+numpy
+matplotlib
+scikit-learn
+CountVectorizer
+TfidfVectorizer
+TfidfTransformer
+MultiOutputClassifier
+LinearSVC
+accuracy_score
+confusion_matrix
+classification_report
