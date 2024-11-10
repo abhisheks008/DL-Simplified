@@ -47,6 +47,28 @@ This repository consists of various machine learning projects, and all of the pr
 **Dataset** - This folder stores the dataset used in this project. If the dataset cannot be uploaded to this folder due to its large size, then put a README.md file inside the Dataset folder and include the link to the collected dataset. That'll work!<br><br>
 **Images** - This folder is used to store the images generated during the data analysis, data visualization, and data segmentation of the project.<br><br>
 **Model** - This folder will contain your project file (that is .ipynb file) whether it's for analysis or prediction. In addition to the project file, it should also have a **'README.md'** using this [template](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/readme_template.md) and **'requirements.txt'** file that includes all necessary add-ons and libraries for the project.</br></br>
+
+```
+Project Folder
+|- Dataset
+   |- dataset.csv (dataset used for the particula project)
+   |- README.md (brief about the dataset)
+|- Images
+   |- img1.png
+   |- img2.png
+   |- img3.png
+|- Model
+   |- project_folder.ipynb
+   |- README.md
+|- Web App (Only if you are implementing any GUI, optional one)
+   |- templates
+   |- static
+   |- app.py
+   |- demo.mp4
+   |- README.md
+|- requirements.txt
+```
+
 Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplified/blob/main/Code_of_conduct.md) and [Contributing Guidelines](https://github.com/abhisheks008/DL-Simplified/blob/main/CONTRIBUTING.md) while contributing in this project repository.
 
 ## 🧮 Workflow
