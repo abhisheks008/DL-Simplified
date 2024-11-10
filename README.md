@@ -111,6 +111,9 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
  </td>
 </tr>
 <tr>
+   <td align="center">
+<a href="https://ieee-igdtuw.github.io/IEEE-IGDTUW-Official-Website/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/ieee-igdtuw.png" width=80px height=80px /><br /><sub><b>IEEE IGDTUW</br>Week of Code 2024<br></b></sub></a>
+ </td>
   <td align="center">
 <a href="https://www.socialwinterofcode.com/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/Orange%20And%20Yellow%20Geometric%20Motivation%20Quote%20LinkedIn%20Post.png" width=80px height=80px /><br /><sub><b>SWOC 2025<br></b>Coming Soon...</sub></a>
  </td>
@@ -131,6 +134,7 @@ You can refer to the following articles on the basics of Git and Github.
 :one: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Summer of Code, for the year 2022.** </br>
 :two: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Winter of Code, for the year 2023.** </br>
 :three: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Summer of Code, for the year 2023.** </br>
+4️⃣ **Recognized as the "🥇 TOP PROJECT ADMIN" for GirlScript Summer of Code, for the year 2024.** </br>
 
 *************************************************************
 
