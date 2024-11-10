@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  3 08:39:20 2023
-
-@author: Jens Bender
-"""
 
 from flask import Flask, render_template, request, jsonify
 from flask_wtf import FlaskForm
