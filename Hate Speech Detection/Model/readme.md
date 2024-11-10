@@ -1,4 +1,4 @@
-## **PROJECT TITLE**
+## **Hate Speech Detection**
 
 ### 🎯 **Goal**
 
