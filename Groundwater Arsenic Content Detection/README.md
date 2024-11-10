@@ -1,6 +1,8 @@
 Groundwater Arsenic Content Detection
+
 🎯 Goal
 To develop an accurate prediction model for arsenic contamination in groundwater using a hybrid approach that combines Artificial Neural Networks (ANN) with the Whale Optimization Algorithm (WOA) and also using third method random forest classifier. This project aims to help water management authorities and public health officials identify potential arsenic contamination risks before they pose a threat to human health.
+
 🧵 Dataset
 The dataset contains groundwater quality parameters collected from various locations, including:
 
@@ -11,6 +13,7 @@ Chemical composition indicators
 
 🧾 Description
 This project addresses the critical issue of arsenic contamination in groundwater through advanced machine learning techniques. By combining the predictive power of Backpropagation Neural Networks (BPNN) with the optimization capabilities of the Whale Optimization Algorithm (WOA), we create a robust system for predicting arsenic levels in groundwater. This hybrid approach allows for better understanding of the complex relationships between environmental factors and arsenic contamination.
+
 🧮 What I had done!
 
 Data Collection and Preprocessing
@@ -122,5 +125,7 @@ Recommendation for implementation in groundwater management systems
 Stuti Sharma
 
 GitHub: https://github.com/Stuti333
+
 LinkedIn: https://www.linkedin.com/in/stuti-sharma-94057122b/
+
 Email: stutiemailbox@gmail.com
