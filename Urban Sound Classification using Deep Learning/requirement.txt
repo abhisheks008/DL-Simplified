@@ -1,0 +1,8 @@
+
+IPython
+librosa
+utils
+numpy
+pandas
+matplotlib
+opencv 
