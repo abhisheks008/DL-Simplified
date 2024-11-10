@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Recommended Animes</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='main.css') }}"
+    />
+  </head>
+  <body>
+    <div
+      class="heading text-center text-[3rem] font-bold mt-5 mb-2 text-[#00CC99]"
+    >
+      <p>Recommended Anime</p>
+      <a
+        class="text-sm text-gray-400 hover:underline hover:text-[#00CC99] underline-offset-4"
+        href="{{ url_for('home') }}"
+        >&lt; Go back to Home</a
+      >
+    </div>
+    <div class="w-full text-white">
+      {% if recommendation_type == "user_based" %} {% if animes is none %}
+      <p class="flex items-center justify-center">{{ message }}</p>
+      {% elif animes.empty %}
+      <p class="flex items-center justify-center">{{ message }}</p>
+      {% else %}
+      <div class="animes w-full flex animeContainer">
+        <div class="flex flex-wrap justify-center">
+          {% for anime in animes.iterrows() %}
+          <div class="card_super_container relative">
+            <div
+              class="peer card_container w-[14rem] flex flex-col rounded-lg overflow-hidden shadow-2xl pb-2 m-3 bg-[#2A2D30] group hover:bg-[#1e2022] cursor-pointer"
+            >
+              <div
+                class="relative img w-[100%] flex justify-center h-[15rem] bg-gray-400"
+              >
+                <img
+                  src="{{ anime[1]['anime_image_url'] }}"
+                  alt="{{ anime[1]['Name'] }}"
+                  class="w-full object-fill group-hover:brightness-50 mix-blend-normal group-hover:mix-blend-multiply bg-gradient-to-t from-[#1e2022]/100 from-10% to-transparent"
+                />
+                <div
+                  class="absolute h-full w-full group-hover:bg-gradient-to-t from-[#1e2022]/100 from-10% via-[#1e2022]/40 to-[#1e2022]/30"
+                ></div>
+
+                <div
+                  class="meta absolute bottom-0 text-black flex w-full justify-between px-2 text-[0.7rem] font-semibold"
+                >
+                  <div class="flex gap-1">
+                    <p class="bg-white px-1 rounded-sm">
+                      <span><i class="bx bxs-user mr-1"></i></span>{{
+                      anime[1]['n'] }}
+                    </p>
+                    <p class="bg-[#7AFCFD] px-1 rounded-sm">
+                      {{ anime[1]['Rating'] }}
+                    </p>
+                  </div>
+                  <div class="flex">
+                    <p class="bg-[#cdcdcd] px-1 rounded-sm">
+                      {{ anime[1]['Episodes']}}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="meta_info py-2 mt-2 px-2 w-[100%] text-[1rem] flex flex-col justify-between h-full"
+              >
+                <div>
+                  <p class="text-[0.9rem] font-semibold">
+                    {% set anime_name = anime[1]['anime_name']|trim %} {% if
+                    anime_name|length > 18 %} {{ anime_name[:17] }} ... {% else
+                    %} {{ anime_name }} {% endif %}
+                  </p>
+                </div>
+
+                <div class="flex items-center gap-2 mt-1">
+                  <p class="font-normal text-[0.8rem] text-gray-400">
+                    {{ anime[1]['Type'] }}
+                  </p>
+                  <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                  <p class="font-normal text-[0.8rem] text-gray-400">
+                    {{ anime[1]['Aired'].split("-")[0] }}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-gray-300 p-5 hidden peer-hover:flex flex-col gap-4 dynamicContainer w-96 rounded-lg bg-[#4E515E] absolute z-10 top-0"
+            >
+              <p
+                class="text-white anime_name text-[1.1rem] font-medium max-w-[80%]"
+              >
+                {{ anime[1]['anime_name'] }}
+              </p>
+              <div class="anime_meta flex justify-between items-center">
+                <div class="flex gap-3 text-[0.9rem] items-center">
+                  <p class="score font-semibold">
+                    <i class="bx bxs-star" style="color: #e6ad45"></i> {{
+                    anime[1]['Score'] }}
+                  </p>
+                  <p
+                    class="font-semibold rating px-3 rounded-lg bg-white text-black"
+                  >
+                    {{ anime[1]['Rating'] }}
+                  </p>
+                </div>
+                <div>
+                  <p
+                    class="type px-2 bg-yellow-500 rounded-lg text-black font-semibold text-[0.9rem]"
+                  >
+                    {{ anime[1]['Type'] }}
+                  </p>
+                </div>
+              </div>
+              <p
+                class="anime_synopsis text-[0.9rem] h-[5rem] overflow-y-scroll"
+              >
+                {{ anime[1]['Synopsis'] }}
+              </p>
+              <div class="anime_info text-[0.9rem] flex flex-col gap-[1px]">
+                <p>
+                  Other names:
+                  <span class="text-white">{{ anime[1]['Native name'] }}</span
+                  >,<span class="text-white ml-1"
+                    >{{ anime[1]['English Name'] }}</span
+                  >
+                </p>
+                <p>
+                  Aired: <span class="text-white">{{ anime[1]['Aired'] }}</span>
+                </p>
+                <p>
+                  Status:
+                  <span class="text-white">{{ anime[1]['Status'] }}</span>
+                </p>
+                <p>
+                  Genres:
+                  <span class="text-white">{{ anime[1]['Genres'] }}</span>
+                </p>
+              </div>
+              <div class="text-[1.1rem] text-black flex gap-2">
+                <a
+                  href="https://myanimelist.net/anime/{{anime[1]['anime_id']}}"
+                  target="_blank"
+                  class="flex justify-center gap-1 items-center watch_now w-[70%] rounded-3xl bg-[#CAE962] hover:bg-[#a9c54e] py-2 text-center"
+                >
+                  <span class="h-min"><i class="bx bx-play"></i></span>
+                  <span> Watch now</span>
+                </a>
+                <button
+                  class="add_btn bg-white rounded-full w-10 font-bold flex justify-center items-center"
+                >
+                  <span><i class="bx bx-plus"></i></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %} {% elif recommendation_type == "item_based" %} {% if animes is
+      none %}
+      <p class="flex items-center justify-center">{{ message }}</p>
+      {% elif animes.empty %}
+      <p class="flex items-center justify-center">No recommendations found for this anime.</p>
+      {% else %}
+      <div class="animes w-full flex">
+        <div class="flex flex-wrap justify-center">
+          {% for anime in animes.iterrows() %}
+          <div class="group/super card_super_container relative cursor-pointer">
+            <div
+              class="peer card_container w-[14rem] flex flex-col rounded-lg overflow-hidden shadow-2xl pb-2 m-3 bg-[#2A2D30] group hover:bg-[#1e2022] cursor-pointer"
+            >
+              <div
+                class="relative img w-[100%] flex justify-center h-[15rem] bg-gray-400"
+              >
+                <img
+                  src="{{ anime[1]['anime_image_url'] }}"
+                  alt="{{ anime[1]['Name'] }}"
+                  class="w-full object-fill group-hover:brightness-50 mix-blend-normal group-hover:mix-blend-multiply bg-gradient-to-t from-[#1e2022]/100 from-10% to-transparent"
+                />
+                <div
+                  class="absolute h-full w-full group-hover:bg-gradient-to-t from-[#1e2022]/100 from-10% via-[#1e2022]/40 to-[#1e2022]/30"
+                ></div>
+                <div
+                  class="meta absolute bottom-0 text-black flex w-full justify-between px-2 text-[0.7rem] font-semibold"
+                >
+                  <div class="flex gap-1">
+                    <p class="bg-white px-1 rounded-sm">
+                      <span></span>{{ anime[1]['Similarity'] }}
+                    </p>
+                    <p class="bg-[#7AFCFD] px-1 rounded-sm">
+                      {{ anime[1]['Rating'] }}
+                    </p>
+                  </div>
+                  <div class="flex">
+                    <p class="bg-[#cdcdcd] px-1 rounded-sm">
+                      {{ anime[1]['Episodes']}}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="meta_info py-2 px-2 w-[100%] text-[1.1rem] flex flex-col justify-between h-full"
+              >
+                <div>
+                  <p class="text-[0.9rem] font-semibold">
+                    {% set anime_name = anime[1]['Name']|trim %} {% if
+                    anime_name|length > 18 %} {{ anime_name[:17] }} ... {% else
+                    %} {{ anime_name }} {% endif %}
+                  </p>
+                </div>
+
+                <div class="flex items-center gap-2 mt-1">
+                  <p class="font-normal text-[0.8rem] text-gray-400">
+                    {{ anime[1]['Type'] }}
+                  </p>
+                  <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                  <p class="font-normal text-[0.8rem] text-gray-400">
+                    {{ anime[1]['Aired'].split("-")[0] }}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-gray-300 p-5 hidden flex-col gap-4 dynamicContainer w-96 rounded-lg bg-[#4E515E] absolute z-10 top-0"
+            >
+              <p
+                class="text-white anime_name text-[1.1rem] font-medium max-w-[80%]"
+              >
+                {{ anime[1]['Name'] }}
+              </p>
+              <div class="anime_meta flex justify-between items-center">
+                <div class="flex gap-3 text-[0.9rem] items-center">
+                  <p class="score font-semibold">
+                    <i class="bx bxs-star" style="color: #e6ad45"></i> {{
+                    anime[1]['Score'] }}
+                  </p>
+                  <p
+                    class="font-semibold rating px-3 rounded-lg bg-white text-black"
+                  >
+                    {{ anime[1]['Rating'] }}
+                  </p>
+                </div>
+                <div>
+                  <p
+                    class="type px-2 bg-yellow-500 rounded-lg text-black font-semibold text-[0.9rem]"
+                  >
+                    {{ anime[1]['Type'] }}
+                  </p>
+                </div>
+              </div>
+              <p
+                class="anime_synopsis text-[0.9rem] h-[5rem] overflow-y-scroll"
+              >
+                {{ anime[1]['Synopsis'] }}
+              </p>
+              <div class="anime_info text-[0.9rem] flex flex-col gap-[1px]">
+                <p>
+                  Other names:
+                  <span class="text-white">{{ anime[1]['Native name'] }}</span
+                  >,<span class="text-white ml-1"
+                    >{{ anime[1]['English Name'] }}</span
+                  >
+                </p>
+                <p>
+                  Aired: <span class="text-white">{{ anime[1]['Aired'] }}</span>
+                </p>
+                <p>
+                  Status:
+                  <span class="text-white">{{ anime[1]['Status'] }}</span>
+                </p>
+                <p>
+                  Genres:
+                  <span class="text-white">{{ anime[1]['Genres'] }}</span>
+                </p>
+              </div>
+              <div class="text-[1.1rem] text-black flex gap-2">
+                <a
+                  href="https://myanimelist.net/anime/{{anime[1]['anime_id']}}"
+                  target="_blank"
+                  class="flex justify-center gap-1 items-center watch_now w-[70%] rounded-3xl bg-[#CAE962] hover:bg-[#a9c54e] py-2 text-center"
+                >
+                  <span class="h-min"><i class="bx bx-play"></i></span>
+                  <span> Watch now</span>
+                </a>
+                <button
+                  class="add_btn bg-white rounded-full w-10 font-bold flex justify-center items-center"
+                >
+                  <span><i class="bx bx-plus"></i></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %} {% endif %}
+      <a
+        class="mb-24 block text-center text-2xl mt-3 hover:underline hover:underline-offset-8 mx-auto text-[#00CC99] active:underline active:underline-[#00CC99] active:underline-offset-1"
+        href="{{ url_for('home') }}"
+        >Go back to Home</a
+      >
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const dynamicContainers =
+          document.querySelectorAll(".dynamicContainer");
+
+        const cards = document.querySelectorAll(".card_super_container");
+
+        let currentHoveredCard = null;
+        let dynamicContainerTimeout;
+
+        cards.forEach((card) => {
+          let dynamicContainerInsideCard =
+            card.querySelector(".dynamicContainer");
+
+          card.addEventListener("mouseenter", (e) => {
+            if (currentHoveredCard) {
+              let previousDynamicContainer =
+                currentHoveredCard.querySelector(".dynamicContainer");
+              previousDynamicContainer.style.display = "none";
+              clearTimeout(dynamicContainerTimeout);
+            }
+
+            currentHoveredCard = card;
+
+            dynamicContainerInsideCard.style.display = "flex";
+
+            dynamicContainerTimeout = setTimeout(() => {
+              dynamicContainerInsideCard.style.display = "none";
+            }, 5000);
+          });
+
+          card.addEventListener("mouseleave", () => {
+            dynamicContainerInsideCard.style.display = "none";
+            clearTimeout(dynamicContainerTimeout);
+          });
+
+          dynamicContainerInsideCard.addEventListener("mouseenter", () => {
+            clearTimeout(dynamicContainerTimeout);
+            dynamicContainerInsideCard.style.display = "flex";
+          });
+
+          dynamicContainerInsideCard.addEventListener("mouseleave", () => {
+            dynamicContainerTimeout = setTimeout(() => {
+              dynamicContainerInsideCard.style.display = "none";
+            }, 5000);
+          });
+        });
+
+        function positionDynamicContainers() {
+          dynamicContainers.forEach((dynamicContainer) => {
+            const dynamicContentRect =
+              dynamicContainer.previousElementSibling.getBoundingClientRect();
+            const containerRect =
+              dynamicContainer.parentElement.getBoundingClientRect();
+            const spaceOnLeft = dynamicContentRect.left;
+            const spaceOnRight = window.innerWidth - dynamicContentRect.right;
+            const dynamicContainerWidth = "384";
+
+            console.log(dynamicContainerWidth);
+
+            if (spaceOnLeft >= dynamicContainerWidth) {
+              dynamicContainer.style.left = `-${dynamicContainerWidth - 30}px`;
+              dynamicContainer.style.right = "auto";
+            } else if (spaceOnRight >= dynamicContainerWidth) {
+              dynamicContainer.style.right = `-${dynamicContainerWidth}px`;
+              dynamicContainer.style.left = "auto";
+            } else {
+              // If there is not enough space on either side, you can choose to center the element or handle it as per your requirement.
+              dynamicContainer.style.left = "50%";
+              dynamicContainer.style.transform = "translateX(-50%)";
+            }
+          });
+        }
+
+        // Call the positionDynamicContainers function initially and on window resize
+        positionDynamicContainers();
+        window.addEventListener("resize", positionDynamicContainers);
+        // In this modified code, we calculate the available space on the left and right of the dynamic content using dynamicContentRect.left and window.innerWidth - dynamicContentRect.right, respectively. We then compare this space with the width of the dynamicContainer. Based on the available space, we set the left and right CSS properties of the dynamicContainer to position it accordingly.
+        // Now, the dynamicContainer will be positioned based on the available space between the dynamic content and the window's left and right edges.
+      });
+    </script>
+  </body>
+</html>

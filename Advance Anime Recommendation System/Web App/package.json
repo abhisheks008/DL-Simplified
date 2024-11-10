@@ -1,0 +1,22 @@
+{
+  "name": "anime-recommendation-system",
+  "version": "1.0.0",
+  "description": "anime recommendation system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unreal0901/anime-recommendation-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unreal0901/anime-recommendation-system/issues"
+  },
+  "homepage": "https://github.com/unreal0901/anime-recommendation-system#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

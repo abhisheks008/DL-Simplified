@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Anime Recommendation App</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='main.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Anime Recommendation App</h1>
+      <form
+        id="recommendation_form"
+        action="{{ url_for('recommend') }}"
+        method="post"
+      >
+        <label for="recommendation_type" class=""
+          >Select Recommendation Type:</label
+        >
+        <select id="recommendation_type" name="recommendation_type" required>
+          <option value="">-- Select Recommendation Type --</option>
+          <option value="user_based">User-based</option>
+          <option value="item_based">Item-based</option>
+        </select>
+
+        <div id="user_id_input" style="display: none">
+          <label for="user_id">Enter User ID:</label>
+          <input type="text" id="user_id" name="user_id" />
+        </div>
+
+        <div id="anime_name_input" style="display: none">
+          <label for="anime_name">Enter Anime Name:</label>
+          <input
+            type="text"
+            id="anime_name"
+            name="anime_name"
+            list="anime_list"
+          />
+          <datalist id="anime_list"></datalist>
+        </div>
+
+        <div id="num_recommendations_input" style="display: none">
+          <label for="num_recommendations">Number of Recommendations:</label>
+          <input
+            type="number"
+            id="num_recommendations"
+            name="num_recommendations"
+            value="10"
+          />
+        </div>
+
+        <input type="submit" value="Get Recommendations" />
+      </form>
+      {% if error_message %}
+      <p>{{ error_message }}</p>
+      {% endif %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // Show/hide the user_id, anime_name, and num_recommendations input fields based on the selected recommendation type
+      document
+        .getElementById("recommendation_type")
+        .addEventListener("change", function () {
+          console.log("Change event triggered.");
+          const userIdInput = document.getElementById("user_id_input");
+          const animeIdInput = document.getElementById("anime_name_input");
+          const numRecommendationsInput = document.getElementById(
+            "num_recommendations_input"
+          );
+
+          if (this.value === "user_based") {
+            userIdInput.style.display = "block";
+            animeIdInput.style.display = "none";
+            numRecommendationsInput.style.display = "block";
+          } else if (this.value === "item_based") {
+            userIdInput.style.display = "none";
+            animeIdInput.style.display = "block";
+            numRecommendationsInput.style.display = "block";
+          } else {
+            userIdInput.style.display = "none";
+            animeIdInput.style.display = "none";
+            numRecommendationsInput.style.display = "none";
+          }
+        });
+
+      // Add event listener to the anime_name input field for autocomplete suggestions
+      $("#anime_name").on("input", function () {
+        const input = this.value.toLowerCase();
+        const dataList = document.getElementById("anime_list");
+
+        // Send AJAX request to the server to get anime name suggestions
+        $.ajax({
+          url: `/autocomplete`,
+          data: { term: input },
+          dataType: "json",
+          success: function (data) {
+            dataList.innerHTML = ""; // Clear previous options
+            data.forEach(function (animeName) {
+              const option = document.createElement("option");
+              option.value = animeName;
+              dataList.appendChild(option);
+            });
+          },
+          error: function () {
+            console.error("Failed to fetch anime name suggestions.");
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
