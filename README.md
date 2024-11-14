@@ -135,6 +135,7 @@ You can refer to the following articles on the basics of Git and Github.
 :two: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Winter of Code, for the year 2023.** </br>
 :three: **Recognized as the "🥇 TOP PROJECT ADMIN" for Social Summer of Code, for the year 2023.** </br>
 4️⃣ **Recognized as the "🥇 TOP PROJECT ADMIN" for GirlScript Summer of Code, for the year 2024.** </br>
+5️⃣ **Recognized as the "🥇 TOP PROJECT ADMIN" for GirlScript Summer of Code Extended x HacktoberFest, for the year 2024.** </br>
 
 *************************************************************
 
