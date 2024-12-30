@@ -118,7 +118,10 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 <a href="https://kwoc.kossiitkgp.org/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/koss.png" width=80px height=80px /><br /><sub><b>KWOC 2024</b></sub></a>
  </td>
   <td align="center">
-<a href="https://www.socialwinterofcode.com/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/Orange%20And%20Yellow%20Geometric%20Motivation%20Quote%20LinkedIn%20Post.png" width=80px height=80px /><br /><sub><b>SWOC 2025<br></b>Coming Soon...</sub></a>
+<a href="https://www.socialwinterofcode.com/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/Orange%20And%20Yellow%20Geometric%20Motivation%20Quote%20LinkedIn%20Post.png" width=80px height=80px /><br /><sub><b>SWOC 2025<br></sub></a>
+ </td>
+   <td align="center">
+<a href="https://winterofcode.tech/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/woc.png" width=80px height=80px /><br /><sub><b>Winter of Code 4.0<b></sub></a>
  </td>
 </tr>
 </table>
