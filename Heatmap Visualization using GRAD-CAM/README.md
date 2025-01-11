@@ -38,20 +38,77 @@ Convolutional Neural Networks are often considered "black-box" models because it
 The heatmap helps to understand what part of the image influenced the model’s prediction the most. This visualization is critical in areas like model debugging, improving model fairness, and ensuring that models are focusing on the correct features.
 
 ## Example Visualizations:
+The following outputs are generated as part of the Grad-CAM process. Each input image is processed through the **Xception**, **ResNet50**, and **VGG19** models, and the respective Grad-CAM heatmaps are shown as outputs.
 
-The following outputs are generated as part of the Grad-CAM process:
+### Input Image 1: **Snow Leopard**
+   ![input_image_1.jpg](./images/input_image_1.jpg)  
+   This is the original input image that was processed by all three models for classification.
 
-1. **input_image.jpg**:  ![input_image.jpg](./images/input_image.jpg)
-   This is the original image that is input into the model for classification. The image is typically of an object that the model will classify (e.g., an animal, vehicle, etc.).
+1. **xception_output_1.png**:  
+   ![xception_output_1.png](./images/xception_output_1.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the Xception model.
 
-2. **xception_output.png**:  ![xception_output.png](./images/xception_output.png)
-   This output shows the Grad-CAM heatmap overlaid on the original image, which was processed by the Xception model. Like the other models, it indicates the areas that played a significant role in the model’s prediction.
+2. **resnet50_output_1.png**:  
+   ![resnet50_output_1.png](./images/resnet50_output_1.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the ResNet50 model.
 
-3. **resnet50_output.png**:  ![resnet50_output.png](./images/resnet50_output.png)
-   This output shows the Grad-CAM heatmap overlaid on the original image, which was processed by the ResNet50 model. It highlights the regions of the image that influenced the model's decision.
+3. **vgg19_output_1.png**:  
+   ![vgg19_output_1.png](./images/vgg19_output_1.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the VGG19 model.
 
-4. **vgg19_output.png**:  ![vgg19_output.png](./images/vgg19_output.png)
-   This output shows the Grad-CAM heatmap overlaid on the original image, which was processed by the VGG19 model. It highlights the important regions that influenced the classification decision made by VGG19.
+---
+
+### Input Image 2: **Monument Pillar**
+   ![input_image_2.jpg](./images/input_image_2.jpg)  
+   This is the original input image that was processed by all three models for classification.
+
+1. **xception_output_2.png**:  
+   ![xception_output_2.png](./images/xception_output_2.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the Xception model.
+
+2. **resnet50_output_2.png**:  
+   ![resnet50_output_2.png](./images/resnet50_output_2.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the ResNet50 model.
+
+3. **vgg19_output_2.png**:  
+   ![vgg19_output_2.png](./images/vgg19_output_2.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the VGG19 model.
+
+---
+
+### Input Image 3: **War Plane (SR 71)**
+   ![input_image_3.jpg](./images/input_image_3.jpg)  
+   This is the original input image that was processed by all three models for classification.
+
+1. **xception_output_3.png**:  
+   ![xception_output_3.png](./images/xception_output_3.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the Xception model.
+
+2. **resnet50_output_3.png**:  
+   ![resnet50_output_3.png](./images/resnet50_output_3.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the ResNet50 model.
+
+3. **vgg19_output_3.png**:  
+   ![vgg19_output_3.png](./images/vgg19_output_3.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the VGG19 model.
+
+---
+
+### Input Image 4: **Skyscrapers**
+   ![input_image_4.jpg](./images/input_image_4.jpg)  
+   This is the original input image that was processed by all three models for classification.
+
+1. **xception_output_4.png**:  
+   ![xception_output_4.png](./images/xception_output_4.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the Xception model.
+
+2. **resnet50_output_4.png**:  
+   ![resnet50_output_4.png](./images/resnet50_output_4.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the ResNet50 model.
+
+3. **vgg19_output_4.png**:  
+   ![vgg19_output_4.png](./images/vgg19_output_4.png)  
+   This output shows the Grad-CAM heatmap overlaid on the original image, processed by the VGG19 model.
 
 ## Requirements
 
