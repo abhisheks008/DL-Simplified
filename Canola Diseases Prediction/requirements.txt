@@ -1,5 +1,0 @@
-kaggle
-tensorflow
-tensorflow_hub
-split-folders
-matplotlib
