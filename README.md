@@ -123,6 +123,23 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
    <td align="center">
 <a href="https://winterofcode.tech/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/woc.png" width=80px height=80px /><br /><sub><b>Winter of Code 4.0<b></sub></a>
  </td>
+   <td align="center">
+<a href="https://iwoc3.live/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/iwoc2025.png" width=80px height=80px /><br /><sub><b>IWOC 2025<b></sub></a>
+ </td>
+   <td align="center">
+<a href="https://www.jwoc.in/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/jwoc2025.svg" width=80px height=80px /><br /><sub><b>JWOC 2025<b></sub></a>
+ </td>
+   <td align="center">
+<a href="https://codepeak.technology/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/codepeak2025.png" width=80px height=80px /><br /><sub><b>CodePeak 2025<b></sub></a>
+ </td>
+</tr>
+<tr>
+   <td align="center">
+<a href="https://dwoc.io/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/dwoc2025.webp" width=80px height=80px /><br /><sub><b>DWOC 2025<b></sub></a>
+   </td>
+   <td align="center">
+<a href=""><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/github.webp" width=80px height=80px /><br /><sub><b>GitRecQuest v1.0.0<b></sub></a>
+   </td>
 </tr>
 </table>
 
