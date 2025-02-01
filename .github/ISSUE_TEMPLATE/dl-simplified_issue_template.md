@@ -1,22 +1,3 @@
----
-name: DL-Simplified_issue_template
-about: Describe this issue template's purpose here.
-title: ''
-labels: Up For Grabs
-assignees: ''
-
----
-
----
-name: DL-Simplified Issue Template
-about: This is the issue template that is going to be used while creating any issues
-  in this repo.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 ### Deep Learning Simplified Repository (Proposing new issue)
 :red_circle: **Project Title** : </br>
 :red_circle: **Aim** : </br>
