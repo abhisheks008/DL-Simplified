@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Camera AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Security Camera AI Monitor</h1>
+        <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" alt="Security Feed">
+        </div>
+        <div class="stats">
+            <h2>Detection Statistics</h2>
+            <div id="detection-log"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

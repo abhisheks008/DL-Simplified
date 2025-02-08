@@ -1,0 +1,11 @@
+image_id,class,bbox_x,bbox_y,bbox_width,bbox_height,score,is_weapon,environment,lighting
+000000000001,person,120,150,80,200,0.95,false,indoor,bright
+000000000002,knife,250,300,40,15,0.88,true,indoor,dim
+000000000003,backpack,180,220,60,90,0.92,false,indoor,bright
+000000000004,scissors,300,280,25,70,0.85,true,outdoor,bright
+000000000005,person,90,100,100,220,0.97,false,outdoor,bright
+000000000006,baseball_bat,200,150,30,120,0.89,true,outdoor,dim
+000000000007,suitcase,150,200,100,150,0.91,false,indoor,bright
+000000000008,person,280,180,90,210,0.94,false,indoor,dim
+000000000009,bottle,220,260,40,80,0.87,false,outdoor,bright
+000000000010,handbag,160,190,70,85,0.90,false,indoor,bright
