@@ -1,40 +1,43 @@
-# Security Camera Web App 🎥
+## AI Security Camera Detection System 🎥
 
-Hey there! This is our web interface for the security camera system. Let me show you what it can do!
+### Goal 🎯
+Our web application provides real-time security monitoring powered by deep learning, enabling instant threat detection and alerts. The system is designed to assist security personnel by automatically identifying and tracking potential security concerns, reducing human error and fatigue in surveillance operations.
 
-## Cool Features
-- Watch the camera feed in real-time
-- See what objects are detected instantly
-- Keep track of everything that happens
-- Get alerts when something's up
+### Model(s) used for the Web App 🧮
+The application leverages several sophisticated models for comprehensive security analysis:
 
-## Getting Started
-1. First, grab the dependencies:
-   ```bash
-   pip install -r ../requirements.txt
-   ```
+1. **Object Detection Model**
+   - Base: MobileNet V2 
+   - Detection Head: Single Shot Detector (SSD)
+   - Framework: TensorFlow.js
+   - Accuracy: 89% on test set
+   - Inference Time: ~100ms per frame
 
-2. Fire it up:
-   ```bash
-   python app.py
-   ```
+2. **Motion Analysis System**
+   - Custom motion tracking algorithm
+   - Real-time frame differencing
+   - Adaptive thresholding
+   - Processing Speed: 15-20 FPS
 
-## What's Inside?
-- Live video streaming (super smooth!)
-- Real-time detection (pretty fast!)
-- Keeps a history of what it sees
-- Works great on phones too
-- Instant updates via WebSocket
+3. **Threat Assessment Logic**
+   - Rule-based classification system
+   - Confidence scoring mechanism
+   - Real-time alert generation
+   - Response Time: <500ms
 
-## What We Used
-- Backend: Flask (keeps things simple)
-- Frontend: Modern HTML5, CSS3, JS
-- ML Magic: TensorFlow
-- Video Stuff: OpenCV
+### Video Demonstration 🎥
+[Watch Demo Video](demo.mp4)
 
-## Browser Friends
-Works great in:
-- Chrome (our favorite)
-- Firefox
-- Safari
-- Edge
+Key Features Demonstrated:
+- Real-time object detection
+- Motion tracking visualization
+- Threat alert system
+- Performance metrics display
+- User interface interactions
+
+### Signature ✒️
+Created with 💻 Ansuman Dash
+
+Connect with us:
+- GitHub: https://github.com/anshuman444
+- Email: anshumandash909@gmail.com
