@@ -178,6 +178,6 @@ The same training procedure may be followed with ***a larger dataset with wider 
 
 Connect with me :)
 
--  `LinkedIn` : [subhranil-nandy](www.linkedin.com/in/subhranil-nandy)
+-  `LinkedIn` : [subhranil-nandy](https://www.linkedin.com/in/subhranil-nandy/)
 
 -  `GitHub` : [Subhranil2004](https://github.com/Subhranil2004)
