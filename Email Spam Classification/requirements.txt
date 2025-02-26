@@ -1,9 +1,0 @@
-nltk
-spacy
-keras
-tensorflow
-pandas
-sklearn
-matplotlib
-
-These are all the libraries. Steps to install and import are given in the notebook

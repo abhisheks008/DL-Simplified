@@ -1,1 +1,0 @@
-[Click here](https://www.kaggle.com/datasets/mehaksingal/personal-identification-image-dataset-for-india) to check the dataset.

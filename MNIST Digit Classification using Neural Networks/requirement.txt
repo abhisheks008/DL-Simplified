@@ -1,6 +1,0 @@
-numpy == 1.24.3
-pandas==1.5.0
-matplotlib==3.6.0
-tensorflow==2.6.0
-Keras
-seaborn == 0.13.0
