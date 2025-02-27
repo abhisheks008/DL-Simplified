@@ -45,6 +45,13 @@ pip install librosa numpy pandas tensorflow matplotlib seaborn
 - Achieved **96.6% accuracy** on emotion classification.
 - Effective in emotion-based music recommendation.
 
+## 📂 Datasets
+You can download the datasets from Google Drive:
+
+- [FER Dataset](https://drive.google.com/drive/folders/1FxptaxkxhxB930HSxEqxzUpS_hWUyAJF?usp=sharing)
+- [278k Emotion Labeled Spotify Songs](https://drive.google.com/drive/folders/1FxptaxkxhxB930HSxEqxzUpS_hWUyAJF?usp=sharing)
+- [Music Information Retrieval Dataset](https://drive.google.com/drive/folders/1FxptaxkxhxB930HSxEqxzUpS_hWUyAJF?usp=sharing)
+
 ## 📜 License
 This project is open-source and available for further development and enhancements. Contributions are welcome!
 
