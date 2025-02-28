@@ -1,4 +1,0 @@
-matplotlib
-tensorflow
-random
-shutil

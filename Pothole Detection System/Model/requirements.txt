@@ -1,6 +1,0 @@
-The following libraries are required to run this project:
-
-1. keras==2.13.1
-2. matplotlib==3.7.4
-3. numpy==1.24.3
-4. tensorflow==2.13.0

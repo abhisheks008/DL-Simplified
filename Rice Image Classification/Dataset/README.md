@@ -1,1 +1,0 @@
-I have fetched the Rice Imge Dataset from, https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset, for building and developing this Project. You guys can check out the dataset from the given link.

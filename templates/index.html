@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            margin: 20px auto;
+            padding: 15px;
+            border: 1px solid #ddd;
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        img {
+            margin-top: 20px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            max-width: 100%;
+            height: auto;
+        }
+        .result-container {
+            margin-top: 20px;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .real {
+            color: green;
+        }
+        .fake {
+            color: red;
+        }
+        .error {
+            color: red;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Deepfake Detection System</h2>
+    
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if label %}
+        {% if "Error" in label %}
+            <p class="error">{{ label }}</p>
+        {% else %}
+            <h3>Prediction Result:</h3>
+            <p class="result-container {% if 'Real' in label %}real{% else %}fake{% endif %}">
+                Prediction: <strong>{{ label }}</strong>
+            </p>
+
+            {% if output_image %}
+                <h3>Processed Output:</h3>
+                <img src="{{ output_image }}" alt="Processed Image with Bounding Box and Label" width="400">
+            {% endif %}
+        {% endif %}
+    {% endif %}
+</body>
+</html>

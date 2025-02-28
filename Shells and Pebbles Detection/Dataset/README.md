@@ -1,1 +1,0 @@
-I have fetched the Shells and Pebbles Dataset from, https://www.kaggle.com/datasets/vencerlanz09/shells-or-pebbles-an-image-classification-dataset, for building and developing this Project. You guys can check out the dataset from the given link.
