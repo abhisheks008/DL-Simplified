@@ -27,6 +27,8 @@ Here is the dataset link : [Link to the dataset](https://www.kaggle.com/datasets
 | Curly      | 411            | 103           |
 | Wavy       | 264            | 66            |
 
+
+
 ---
 ## Methodology
 - **Image Resizing**: All images resized to **224x224** for model compatibility.  
@@ -104,7 +106,9 @@ The **final model** is an **ensemble of all three models**, using a **weighted a
 - albumentations -- version 1.3.0 
 - sklearn.metrics  
 - cv2 (OpenCV)  
-- pathlib 
+- pathlib
+## Note 
+Make sure the input and output directory paths and libraries are correctly set before running the code.
 
 
 
