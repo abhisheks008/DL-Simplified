@@ -1,7 +1,0 @@
-imutils
-numpy
-pandas
-torch
-torchvision
-Cython
-ultralytics

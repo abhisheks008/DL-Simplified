@@ -1,6 +1,0 @@
-numpy
-matplotlib
-os
-tensorflow
-tensorflow.keras
-kagglehub

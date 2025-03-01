@@ -1,1 +1,0 @@
-The link for the dataset used in this project:  https://www.kaggle.com/datasets/deepcontractor/musical-instrument-chord-classification and https://www.kaggle.com/datasets/mehanat96/major-vs-minor-guitar-chords
