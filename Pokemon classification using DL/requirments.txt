@@ -1,0 +1,5 @@
+**Requirements For Project :-**
+
+1. NumPy: Fundamental package for numerical computing.
+2.  Matplotlib: Plotting library for creating visualizations.
+3.  Pytorch: For building model architecture and implementing pretrainned model for prediction.
