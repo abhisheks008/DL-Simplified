@@ -1,1 +1,0 @@
-# Data source: [FER-DS - Kaggle](https://www.kaggle.com/datasets/mhantor/facial-expression)

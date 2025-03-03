@@ -1,9 +1,0 @@
-Python (Python 3.x recommended)
-NumPy
-Pandas
-Seaborn
-Matplotlib
-TensorFlow
-Scikit-learn
-keras
-nltk

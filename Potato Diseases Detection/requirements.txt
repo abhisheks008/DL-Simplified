@@ -1,6 +1,0 @@
-tensorflow
-keras
-matplotlib
-seaborn
-numpy
-glob

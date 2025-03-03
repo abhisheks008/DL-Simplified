@@ -1,1 +1,0 @@
-The link for the dataset used in this project:  https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data

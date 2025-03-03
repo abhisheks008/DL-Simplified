@@ -1,6 +1,0 @@
-opencv
-tensorflow
-pandas
-numpy
-shutil
-keras
