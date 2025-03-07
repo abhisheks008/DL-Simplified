@@ -1,0 +1,20 @@
+1️⃣ Initialize a Git Repository
+bash
+Copy
+Edit
+cd your-project-folder
+git init
+git add .
+git commit -m "Initial commit with dataset links"
+2️⃣ Create a New GitHub Repository
+Go to GitHub → Click "New Repository".
+Name it Emotion-Based-Music-Recommender.
+DO NOT initialize with a README (since we already have one).
+Copy the repository link.
+3️⃣ Link & Push to GitHub
+bash
+Copy
+Edit
+git remote add origin https://github.com/your-username/your-repo.git
+git branch -M main
+git push -u origin main
