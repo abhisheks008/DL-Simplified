@@ -48,6 +48,6 @@ The primary objective of this project is to build, train, and benchmark multiple
 ## 🏆 Conclusion
 For real-time sports analytics, **YOLOv8 Medium** proved to be the best-fitted algorithm for this model. It successfully tracked the ball through motion blur and net occlusion while maintaining a high enough FPS to process live video. While architectures like Faster R-CNN and RetinaNet offer incredible accuracy and robust theoretical approaches (like Focal Loss), their heavier computational load makes them better suited for static image analysis rather than high-speed video tracking.
 
-**Ashwast**
+**Ashwast Gupta**
 * **LinkedIn:** https://www.linkedin.com/in/ashwast-gupta/
 * **GitHub:** https://github.com/ash-heinz
