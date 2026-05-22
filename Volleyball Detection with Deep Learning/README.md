@@ -4,7 +4,7 @@
 The primary objective of this project is to build, train, and benchmark multiple object detection architectures to determine the optimal algorithm for tracking a fast-moving, small object (a volleyball) in video footage. The project compares single-stage and two-stage detectors, evaluating them on a strict matrix of **Accuracy (mAP)** and **Inference Speed (FPS)** to find the best fit for real-world sports analytics.
 
 ## 💾 Dataset
-* **Source:** [\[Insert link to Kaggle/Roboflow/Drive dataset here\]](https://www.kaggle.com/datasets/pythonistasamurai/volleyball-ball-object-detection-dataset)
+* **Source:** https://www.kaggle.com/datasets/pythonistasamurai/volleyball-ball-object-detection-dataset
 * **Format:** The dataset was originally annotated in YOLO format (normalized `x_center, y_center, width, height`).
 * **Processing:** For the PyTorch-native models, a custom PyTorch `Dataset` class was engineered to dynamically parse YOLO `.txt` files and convert them into Pascal VOC absolute coordinates (`xmin, ymin, xmax, ymax`) on the fly during the training loop.
 
@@ -32,7 +32,7 @@ The primary objective of this project is to build, train, and benchmark multiple
 
 | Algorithm | Architecture Type | Final Validation Loss | Accuracy (mAP@50) | Speed (Inference FPS) |
 | :--- | :--- | :--- | :--- | :--- |
-| **YOLOv8 Medium** | Single-Stage | [Insert Loss] | **[Insert YOLO mAP]%** | **4.68 FPS** |
+| **YOLOv8 Medium** | Single-Stage | 0.963 | **99.2%** | **4.68 FPS** |
 | **SSD300** | Single-Stage | 1.6742 | **41.12%** | **2.86 FPS** |
 | **RetinaNet** | Single-Stage (Focal Loss) | 0.2662 | **92.63%** | **0.51 FPS** |
 | **Faster R-CNN** | Two-Stage | 0.0070 | **96.04%** | **0.16 FPS** |
