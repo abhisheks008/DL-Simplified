@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['ball']
+
+roboflow:
+  workspace: primaryws
+  project: volleyball_ball_object_detection_dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/primaryws/volleyball_ball_object_detection_dataset/dataset/1
