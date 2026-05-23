@@ -1,9 +1,0 @@
-pandas
-numpy
-matplotlib
-glob
-tensorflow
-opencv
-scikit-learn
-seaborn
-glob

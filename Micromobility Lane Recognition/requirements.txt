@@ -1,9 +1,0 @@
-**Key Packages Used in the Project**
-
-1. Pandas (pd): Data manipulation and analysis.
-2. NumPy (np): Numerical computing.
-3. Matplotlib (plt) and Seaborn (sns): Data visualization.
-4. PyTorch (torch, torch.nn, torch.optim, torch.nn.functional, torchvision): Deep learning framework.
-5. Scikit-Learn (sklearn.model_selection, sklearn.linear_model, sklearn.utils, sklearn.metrics): Machine learning tools.
-6. OpenCV (cv2): Image processing.
-7. PIL (Image): Image manipulation.

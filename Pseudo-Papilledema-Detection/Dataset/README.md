@@ -1,1 +1,0 @@
-I have fetched the Pseudo Papilledema Detection Dataset from, https://www.kaggle.com/datasets/shashwatwork/identification-of-pseudopapilledema, for building and developing this Project. You guys can check out the dataset from the given link.
