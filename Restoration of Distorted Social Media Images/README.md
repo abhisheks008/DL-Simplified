@@ -7,8 +7,6 @@ The primary objective of this project is to restore high-fidelity facial feature
 ### 🧵 **Dataset**
 
 The project utilizes high-quality facial datasets to generate paired training data via synthetic distortion:
-- **CelebA Dataset**: A large-scale face attributes dataset with over 200,000 celebrity images. [Link](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-- **FFHQ**: Flickr-Faces-HQ dataset containing 70,000 high-quality images. [Link](https://github.com/NVlabs/ffhq-dataset)
 - **Faces Dataset (Small)**: A sample dataset used for demonstration, automatically downloaded via `kagglehub`. [Link](https://www.kaggle.com/datasets/tommykamaz/faces-dataset-small)
 
 ### 🧾 **Description**
