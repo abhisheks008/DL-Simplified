@@ -61,5 +61,5 @@ The Component-Based Hybrid GAN effectively addresses the limitations of global i
 
 ### ✒️ **Your Signature**
 
-dheeraj00001
+Gurijala Dheeraj Reddy
 [GitHub/dheeraj00001](https://github.com/dheeraj00001)
