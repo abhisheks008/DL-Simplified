@@ -30,7 +30,7 @@ The system employs a **Hybrid GAN** approach specifically tuned for facial featu
 ## Model Weights
 The pre-trained model weights (`best_model.pth`) are too large (~660MB) to be hosted directly on GitHub. 
 
-**Download Link**: [Provide your Google Drive/Kaggle/OneDrive link here]
+**Download Link**: [Download best_model.pth from Hugging Face](https://huggingface.co/Flash-00007/SocialFace-Restore-GAN/resolve/main/best_model.pth)
 
 Place the downloaded `.pth` file inside this `Model/` directory before running the inference notebook.
 
