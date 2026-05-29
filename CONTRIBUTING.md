@@ -170,6 +170,17 @@ Your pull request will now be available for review by the project maintainers. T
 
 <br>
 
+# Pre-commit Hooks 🪝
+
+This project uses `pre-commit` to enforce code quality with `black` and `ruff`. Before committing, please install the pre-commit hooks:
+
+1. Install pre-commit: `pip install pre-commit`
+2. Install the hooks: `pre-commit install`
+
+Now, every time you commit, `black` will format your code and `ruff` will check for linting errors automatically!
+
+<br>
+
 # Note: 🔨
 
 > - Do not edit/delete someone else's code in this repository. You can only insert new files/folder in this repository.
