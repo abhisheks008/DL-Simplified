@@ -1,9 +1,0 @@
-tensorflow
-pandas
-opencv-python
-numpy
-tqdm
-mtcnn
-matplotlib
-scikit-learn
-seaborn

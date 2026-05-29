@@ -1,5 +1,0 @@
-tensorflow
-sklearn
-matplotlib
-pandas
-numpy
