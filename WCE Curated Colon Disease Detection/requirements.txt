@@ -1,4 +1,0 @@
-kaggle
-tensorflow
-tensorflow_hub
-matplotlib

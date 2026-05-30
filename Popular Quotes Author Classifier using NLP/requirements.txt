@@ -1,9 +1,0 @@
-tensorflow
-pandas
-nlpaug
-numpy
-transformers
-scikit-learn
-gensim
-matplotlib
-nltk

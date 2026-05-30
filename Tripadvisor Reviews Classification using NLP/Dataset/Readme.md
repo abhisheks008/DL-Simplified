@@ -1,1 +1,0 @@
-https://www.kaggle.com/datasets/arnabchaki/tripadvisor-reviews-2023/data

@@ -1,1 +1,0 @@
-The grouping of images by class has  been shown that for tortoise/turtle higher number of images are present. But, the rest of the dataset is balanced overall
