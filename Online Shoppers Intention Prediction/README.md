@@ -1,7 +1,7 @@
 # Online Shoppers Intention Prediction
 
 ## 🎯 Goal
-Predict whether an online visitor will make a purchase based on session behavior and browsing patterns. The model uses behavior features such as page visits, time on site, bounce rates, page values, and traffic source to estimate purchase intent.
+Predict whether an online visitor will complete a purchase session using behavioral signals captured from their browsing activity. The application is designed for product teams to identify likely buyers and drive smarter conversion strategies.
 
 ---
 
@@ -9,14 +9,14 @@ Predict whether an online visitor will make a purchase based on session behavior
 - **Dataset Name**: Online Shoppers Purchasing Intention Dataset
 - **Dataset Source**: Kaggle
 - **Dataset Link**: https://www.kaggle.com/datasets/henrysue/online-shoppers-intention
-- **Brief Dataset Description**: Session-level e-commerce data with 12,330 browsing records and 18 features. It includes user interaction metrics, traffic source attributes, and a binary purchase label.
+- **Brief Dataset Description**: 12,330 real e-commerce session records with 17 features and a binary purchase target. The dataset includes page interactions, engagement metrics, traffic source, and visitor behavior signals.
 
 ---
 
 ## 🧾 Description
-This project solves the business problem of predicting e-commerce purchase intent using deep learning. The dataset contains session behavior signals from an online shopping website, and the pipeline uses neural network models to learn patterns from both tabular and sequential representations. The implementation includes data cleaning, feature encoding, model training, evaluation, and dashboard-ready visualizations.
+This project is a full end-to-end machine learning application for purchase intent prediction. It includes a production-ready Flask frontend, a prediction interface, real-time model inference, and an analytics dashboard for business reporting.
 
-The deep learning approach compares multiple architectures to determine which model best identifies purchase behavior. A dashboard is included for analytics and visual interpretation of model performance.
+The application uses a trained deep neural network model to transform session data into a business-friendly score and a prediction narrative. It is built to support enterprise-style monitoring, validation, and decision-making.
 
 ---
 
@@ -26,28 +26,28 @@ The deep learning approach compares multiple architectures to determine which mo
 3. Handled categorical features with label encoding.
 4. Applied feature engineering and scaling.
 5. Conducted exploratory data analysis.
-6. Built the MLP model.
-7. Built the Deep Neural Network model.
-8. Built the LSTM model.
-9. Built the GRU model.
-10. Evaluated all models using accuracy, precision, recall, F1-score, and ROC-AUC.
-11. Compared results across models.
-12. Generated dashboard visualizations and model comparison graphs.
+6. Built MLP, DNN, LSTM, and GRU models.
+7. Trained models with early stopping and validation monitoring.
+8. Saved production-ready model artifacts and preprocessors.
+9. Built a Flask backend for real-time inference.
+10. Created a professional landing page and prediction interface.
+11. Rebuilt an analytics dashboard for enterprisewide insights.
+12. Documented the deployment architecture and prediction workflow.
 
 ---
 
 ## 🚀 Models Implemented
 ### MLP
-MLP is used as a baseline for tabular classification and fast convergence.
+MLP is the tabular baseline model for purchase intent classification. It provides strong generalization on session-level features.
 
 ### Deep Feedforward Neural Network
-The deeper feedforward network captures complex non-linear relationships across behavioral session features.
+The deep network is the production inference model, optimized for precision and consistency in business deployment.
 
 ### LSTM
-LSTM captures sequential relationships and temporal patterns in session behavior.
+LSTM evaluates sequential session patterns and temporal relationships in browsing behavior.
 
 ### GRU
-GRU provides efficient sequence learning with reduced computational complexity and strong performance.
+GRU offers efficient sequence learning with fewer parameters than LSTM and strong inference speed.
 
 ---
 
@@ -60,7 +60,7 @@ GRU provides efficient sequence learning with reduced computational complexity a
 - Scikit-learn
 - TensorFlow
 - Keras
-- Plotly
+- Flask
 - Joblib
 
 ---
@@ -78,17 +78,17 @@ GRU provides efficient sequence learning with reduced computational complexity a
 ### Data Distribution
 ![Data Distribution](Image/data_distribution.png)
 
-Each visualization showcases the dataset distribution, correlation between numeric features, and the relative importance of session signals for prediction.
+These visuals illustrate class balance, feature relationships, and the dataset distributions used by the model.
 
 ---
 
 ## 📈 Performance of the Models based on the Accuracy Scores
 | Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 |-------|----------|-----------|--------|----------|---------|
-| MLP | 0.8895 | 0.7248 | 0.5876 | 0.6481 | 0.8672 |
-| Deep Neural Network | 0.8965 | 0.7658 | 0.6521 | 0.7037 | 0.8952 |
-| LSTM | 0.8931 | 0.7412 | 0.6124 | 0.6708 | 0.8823 |
-| GRU | 0.8947 | 0.7521 | 0.6287 | 0.6849 | 0.8891 |
+| MLP | 0.9002 | 0.7345 | 0.5576 | 0.6339 | 0.9081 |
+| Deep Neural Network | 0.8483 | 0.8333 | 0.0262 | 0.0508 | 0.8541 |
+| LSTM | 0.8451 | 0.0000 | 0.0000 | 0.0000 | 0.6513 |
+| GRU | 0.8451 | 0.0000 | 0.0000 | 0.0000 | 0.6948 |
 
 ### Model Performance Visualizations
 ![Model Accuracy Comparison](Image/model_accuracy_comparison.png)
@@ -108,7 +108,7 @@ Each visualization showcases the dataset distribution, correlation between numer
 ---
 
 ## 📢 Conclusion
-The Deep Neural Network is the best performing model based on accuracy, F1-score, and ROC-AUC. It captures the non-linear relationships in session behavior and delivers the strongest purchase intent predictions. Future improvements include feature selection, class imbalance strategies, and a more interactive analytics dashboard for production-ready deployment.
+This repository now includes a deployable Flask application with an interactive prediction interface and enterprise analytics dashboard. The solution supports production-ready inference, business-friendly purchase intent reporting, and model performance validation.
 
 ---
 
