@@ -9,7 +9,7 @@ The application uses a Deep Feedforward Neural Network for production inference.
 ### Video Demonstration 🎥
 A demo video will be added after recording the application flow from the landing page through prediction input to dashboard review.
 
-`Web App/web_app.mp4`
+[Demo Video](web_app.mp4)
 
 ### Signature ✒️
 Somapuram Uday

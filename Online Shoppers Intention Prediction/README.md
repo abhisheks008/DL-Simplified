@@ -66,27 +66,37 @@ GRU provides efficient sequence learning with reduced computational complexity a
 ---
 
 ## 📊 Exploratory Data Analysis Results
-### Class Distribution
-[View Image](Images/class_distribution.png)
+### Training History
+[View Image](Images/01_training_history.png)
 
-![Class Distribution](Images/class_distribution.png)
+![Training History](Images/01_training_history.png)
 
-### Correlation Heatmap
-[View Image](Images/correlation_heatmap.png)
+### Model Comparison
+[View Image](Images/02_model_comparison.png)
 
-![Correlation Heatmap](Images/correlation_heatmap.png)
+![Model Comparison](Images/02_model_comparison.png)
 
-### Feature Analysis
-[View Image](Images/feature_analysis.png)
+### Confusion Matrices
+[View Image](Images/03_confusion_matrices.png)
 
-![Feature Analysis](Images/feature_analysis.png)
+![Confusion Matrix Summary](Images/03_confusion_matrices.png)
+
+### ROC Curve Comparison
+[View Image](Images/04_roc_curves.png)
+
+![ROC Curve Comparison](Images/04_roc_curves.png)
+
+### Feature Importance
+[View Image](Images/05_feature_importance.png)
+
+![Feature Importance](Images/05_feature_importance.png)
 
 ### Data Distribution
-[View Image](Images/data_distribution.png)
+[View Image](Images/06_data_distribution.png)
 
-![Data Distribution](Images/data_distribution.png)
+![Data Distribution](Images/06_data_distribution.png)
 
-Each visualization showcases the dataset distribution, correlation between numeric features, and the relative importance of session signals for prediction.
+Each visualization showcases the training progress, model comparison, confusion matrix summary, and dataset characteristics used for purchase intent prediction.
 
 ---
 
@@ -99,29 +109,24 @@ Each visualization showcases the dataset distribution, correlation between numer
 | GRU | 0.8947 | 0.7521 | 0.6287 | 0.6849 | 0.8891 |
 
 ### Model Performance Visualizations
-[View Image](Images/model_accuracy_comparison.png)
+[View Image](Images/02_model_comparison.png)
 
-![Model Accuracy Comparison](Images/model_accuracy_comparison.png)
+![Model Accuracy Comparison](Images/02_model_comparison.png)
 
 ### Confusion Matrices
-[View Image](Images/confusion_matrix_mlp.png)
-![MLP Confusion Matrix](Images/confusion_matrix_mlp.png)
-[View Image](Images/confusion_matrix_dnn.png)
-![DNN Confusion Matrix](Images/confusion_matrix_dnn.png)
-[View Image](Images/confusion_matrix_lstm.png)
-![LSTM Confusion Matrix](Images/confusion_matrix_lstm.png)
-[View Image](Images/confusion_matrix_gru.png)
-![GRU Confusion Matrix](Images/confusion_matrix_gru.png)
+[View Image](Images/03_confusion_matrices.png)
+
+![Confusion Matrix Summary](Images/03_confusion_matrices.png)
 
 ### ROC Curve Comparison
-[View Image](Images/roc_curve_comparison.png)
+[View Image](Images/04_roc_curves.png)
 
-![ROC Curve Comparison](Images/roc_curve_comparison.png)
+![ROC Curve Comparison](Images/04_roc_curves.png)
 
 ### Training History
-[View Image](Images/training_history.png)
+[View Image](Images/01_training_history.png)
 
-![Training History](Images/training_history.png)
+![Training History](Images/01_training_history.png)
 
 ---
 
@@ -130,7 +135,7 @@ The Deep Neural Network is the best performing model based on accuracy, F1-score
 
 ---
 
-## ✒️ Your Signature
+## ✒️ Signature
 Somapuram Uday
 
 GitHub: [https://github.com/udaycodespace](https://github.com/udaycodespace)
