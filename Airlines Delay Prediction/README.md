@@ -46,6 +46,23 @@ This project implements and compares four deep learning models — ANN, LSTM, GR
 | GRU    | 34.94 | 3.94 |
 | LSTM   | 35.69 | 8.52 |
 
+## 📉 EDA Visualizations
+
+### Arrival Delay Distribution
+![Arrival Delay](Images/arrival_delay_distribution.png)
+
+### Top 10 Airlines by Average Delay
+![Top Airlines](Images/top10_airlines_delay.png)
+
+### Correlation Heatmap
+![Heatmap](Images/correlation_heatmap.png)
+
+### ANN Training Loss
+![ANN Loss](Images/ann_loss.png)
+
+### Model Comparison
+![Model Comparison](Images/model_comparison.png)
+
 ## Conclusion
 ANN achieved the best performance with RMSE of 1.01 and MAE of 0.61, making it the most suitable model for Airlines Delay Prediction on tabular flight data. LSTM and GRU underperformed as this dataset lacks true sequential temporal patterns that these models are designed for. 1D-CNN performed as a solid second choice.
 
