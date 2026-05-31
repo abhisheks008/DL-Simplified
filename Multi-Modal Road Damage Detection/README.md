@@ -1,10 +1,10 @@
-# 🛣️ Multi-Modal Deep Learning Framework for Road Damage Detection
+#  Multi-Modal Deep Learning Framework for Road Damage Detection
 
 **GSSoC 2026 | DL-Simplified**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a **Multi-Modal Deep Learning Framework** for automated road damage detection and classification. Four distinct deep learning architectures — **EfficientNet-B0**, **ResNet50**, **YOLOv8n**, and **Vision Transformer (ViT-B/16)** — are trained, evaluated, and compared on the **RDD-2022 (Road Damage Dataset)** to detect and classify four types of road damage across multiple countries.
 
@@ -12,13 +12,13 @@ The framework supports both **image classification** (CNN-based and transformer-
 
 ---
 
-## 🎯 Aim of the Project
+##  Aim of the Project
 
 To build, train, and evaluate multiple deep learning models for classifying road surface damage types from images, enabling automated, scalable, and accurate inspection of road infrastructure.
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 ### Source: RDD-2022 (Road Damage Dataset 2022)
 
@@ -52,7 +52,7 @@ The dataset contains road images collected from **multiple countries** using sma
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Multi-Modal Road Damage Detection/
@@ -86,7 +86,7 @@ Multi-Modal Road Damage Detection/
 
 ---
 
-## 🧠 Models Implemented
+##  Models Implemented
 
 ### 1. EfficientNet-B0
 - **Architecture:** Compound scaling CNN with depthwise separable convolutions
@@ -121,7 +121,7 @@ Multi-Modal Road Damage Detection/
 
 ---
 
-## ⚙️ Methodology & Pipeline
+##  Methodology & Pipeline
 
 ### 1. Data Preprocessing
 
@@ -152,7 +152,7 @@ Multi-Modal Road Damage Detection/
 
 ---
 
-## 📊 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 ### Training Sample Visualization
 
@@ -168,7 +168,7 @@ Multi-Modal Road Damage Detection/
 
 ---
 
-## 📈 Training Curves
+##  Training Curves
 
 ### EfficientNet-B0
 
@@ -184,7 +184,7 @@ Multi-Modal Road Damage Detection/
 
 ---
 
-## 🔍 Grad-CAM Visualizations
+##  Grad-CAM Visualizations
 
 **Gradient-weighted Class Activation Mapping (Grad-CAM)** is used to visualize what regions of the road image each model focuses on when making predictions — providing interpretability and insight into model decision-making.
 
@@ -206,7 +206,7 @@ Multi-Modal Road Damage Detection/
 
 ---
 
-## 🛠️ Libraries & Dependencies
+##  Libraries & Dependencies
 
 ### Core Deep Learning
 
@@ -233,7 +233,7 @@ Multi-Modal Road Damage Detection/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 
@@ -307,7 +307,7 @@ jupyter notebook "Model/Road_Damage_Detection.ipynb"
 
 ---
 
-## 📋 Notebook Sections
+##  Notebook Sections
 
 | Section | Description |
 |---------|-------------|
@@ -326,7 +326,7 @@ jupyter notebook "Model/Road_Damage_Detection.ipynb"
 
 ---
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Custom Dataset Class
 
@@ -355,7 +355,7 @@ All classification models are evaluated with:
 
 ---
 
-## 📦 Saved Model Artifacts
+##  Saved Model Artifacts
 
 After training, model checkpoints and evaluation plots are saved in the `Model/` directory:
 
@@ -370,13 +370,13 @@ After training, model checkpoints and evaluation plots are saved in the `Model/`
 
 ---
 
-## 🌍 Multi-Country Generalization
+##  Multi-Country Generalization
 
 The RDD-2022 dataset contains road images from **multiple countries** (Japan, India, Czech Republic, China, Norway, USA), making the models trained here capable of generalizing to diverse road surface conditions, lighting environments, and damage patterns across different geographical regions.
 
 ---
 
-## 📊 Model Performance Results
+##  Model Performance Results
 
 The following results were obtained on the **test set** (5,758 images) after training on the RDD-2022 dataset.
 
@@ -391,14 +391,14 @@ The following results were obtained on the **test set** (5,758 images) after tra
 
 > **Note:** YOLOv8n is evaluated as an object detector (bounding-box level), while EfficientNet-B0, ResNet50, and ViT-B/16 are evaluated as image-level classifiers. Direct metric comparison should account for task differences.
 
-### 🏆 Key Observations
+###  Key Observations
 
 - **Best Overall Accuracy & F1:** `ResNet50` achieved the highest test accuracy (**75.86%**) and F1-score (**0.7573**), making it the top-performing classification model on this dataset.
 - **Most Lightweight & Fast:** `YOLOv8n` offers the **lowest inference latency** (7.52 ms/img) and uniquely provides **bounding box localization** — detecting damage locations within images rather than just classifying them.
 - **Efficient Accuracy-Speed Trade-off:** `EfficientNet-B0` delivers competitive accuracy (**71.31%**) with only **4.01M parameters**, making it ideal for edge deployment.
 - **Transformer-based:** `ViT-B/16` achieves **73.42% accuracy** but at a higher computational cost (~86M parameters and 12.95 ms/img latency).
 
-### 📈 Summary Chart
+###  Summary Chart
 
 | Metric | EfficientNet-B0 | ResNet50 | YOLOv8n | ViT-B/16 |
 |--------|:-:|:-:|:-:|:-:|
@@ -413,19 +413,9 @@ The following results were obtained on the **test set** (5,758 images) after tra
 
 ---
 
-## 🤝 Contributing
 
-This project is part of **GSSoC 2026** under the **DL-Simplified** repository.
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Submit a Pull Request
-
----
-
-## 👤 Author
+##  Author
 
 **Adhavan**
 - GitHub: [@Adhavan1801](https://github.com/Adhavan1801)
@@ -433,13 +423,13 @@ This project is part of **GSSoC 2026** under the **DL-Simplified** repository.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](../../LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - **RDD-2022 Dataset** — Provided by the international road damage detection challenge organizers
 - **GSSoC 2026** — For the open-source contribution opportunity
