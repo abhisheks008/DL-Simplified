@@ -7,9 +7,16 @@ A deployable Flask web application for real-time purchase intent prediction usin
 The application uses a Deep Feedforward Neural Network for production inference. Additional models trained and compared in the project include MLP, LSTM, and GRU.
 
 ### Video Demonstration 🎥
-A demo video will be added after recording the application flow from the landing page through prediction input to dashboard review.
 
-[Demo Video](web_app.mp4)
+The demonstration showcases:
+
+- Landing Page
+- Prediction Workflow
+- Real-Time Inference
+- Analytics Dashboard
+- Model Comparison
+
+[Watch Demo Video](web_app.mp4)
 
 ### Signature ✒️
 Somapuram Uday
