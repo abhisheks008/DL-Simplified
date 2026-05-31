@@ -67,33 +67,21 @@ GRU provides efficient sequence learning with reduced computational complexity a
 
 ## 📊 Exploratory Data Analysis Results
 ### Training History
-[View Image](Images/01_training_history.png)
-
 ![Training History](Images/01_training_history.png)
 
 ### Model Comparison
-[View Image](Images/02_model_comparison.png)
-
 ![Model Comparison](Images/02_model_comparison.png)
 
 ### Confusion Matrices
-[View Image](Images/03_confusion_matrices.png)
-
 ![Confusion Matrix Summary](Images/03_confusion_matrices.png)
 
 ### ROC Curve Comparison
-[View Image](Images/04_roc_curves.png)
-
 ![ROC Curve Comparison](Images/04_roc_curves.png)
 
 ### Feature Importance
-[View Image](Images/05_feature_importance.png)
-
 ![Feature Importance](Images/05_feature_importance.png)
 
 ### Data Distribution
-[View Image](Images/06_data_distribution.png)
-
 ![Data Distribution](Images/06_data_distribution.png)
 
 Each visualization showcases the training progress, model comparison, confusion matrix summary, and dataset characteristics used for purchase intent prediction.
@@ -109,23 +97,15 @@ Each visualization showcases the training progress, model comparison, confusion 
 | GRU | 0.8947 | 0.7521 | 0.6287 | 0.6849 | 0.8891 |
 
 ### Model Performance Visualizations
-[View Image](Images/02_model_comparison.png)
-
 ![Model Accuracy Comparison](Images/02_model_comparison.png)
 
 ### Confusion Matrices
-[View Image](Images/03_confusion_matrices.png)
-
 ![Confusion Matrix Summary](Images/03_confusion_matrices.png)
 
 ### ROC Curve Comparison
-[View Image](Images/04_roc_curves.png)
-
 ![ROC Curve Comparison](Images/04_roc_curves.png)
 
 ### Training History
-[View Image](Images/01_training_history.png)
-
 ![Training History](Images/01_training_history.png)
 
 ---
