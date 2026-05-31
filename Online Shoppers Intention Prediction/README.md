@@ -1,246 +1,119 @@
-```text
-┌─────────────────────────────────────────────┐
-│     Online Shoppers Intention Prediction    │
-└─────────────────────────────────────────────┘
-```
+# Online Shoppers Intention Prediction
 
-# Deep Learning Based Purchase Intention Prediction for E-Commerce User Sessions
-
-Predicts whether an online shopper will complete a purchase using deep learning models trained on real e-commerce session data. Built as part of **GirlScript Summer of Code (GSSoC) 2026**.
+## 🎯 Goal
+Predict whether an online visitor will make a purchase based on session behavior and browsing patterns. The model uses behavior features such as page visits, time on site, bounce rates, page values, and traffic source to estimate purchase intent.
 
 ---
 
-## What This Does
-
-Analyzes user behavior during shopping sessions—page views, time spent, bounce rates, etc.—to predict if they'll actually buy something. This helps e-commerce platforms optimize recommendations, target marketing, and improve customer experience.
-
----
-
-## Dataset
-
-**Source**: [UCI Machine Learning Repository - Online Shoppers Purchasing Intention Dataset](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset)
-
-- **12,330** real user sessions
-- **18** behavioral features (page interactions, time spent, bounce rates, etc.)
-- **Binary target**: Purchase (Yes/No)
-- **Class split**: 84.5% no purchase, 15.5% purchase (imbalanced, handled)
-
-### Features
-
-User activity on different page types (Admin/Informational/Product), engagement metrics (bounce rate, page value), session metadata (browser, OS, region, traffic source), and temporal signals (month, special day, weekend).
+## 🧵 Dataset
+- **Dataset Name**: Online Shoppers Purchasing Intention Dataset
+- **Dataset Source**: Kaggle
+- **Dataset Link**: https://www.kaggle.com/datasets/henrysue/online-shoppers-intention
+- **Brief Dataset Description**: Session-level e-commerce data with 12,330 browsing records and 18 features. It includes user interaction metrics, traffic source attributes, and a binary purchase label.
 
 ---
 
-## Models Trained
+## 🧾 Description
+This project solves the business problem of predicting e-commerce purchase intent using deep learning. The dataset contains session behavior signals from an online shopping website, and the pipeline uses neural network models to learn patterns from both tabular and sequential representations. The implementation includes data cleaning, feature encoding, model training, evaluation, and dashboard-ready visualizations.
 
-| Model | Parameters | Best For | Speed |
-|-------|-----------|----------|-------|
-| **MLP** | 11K | Baseline, non-sequential patterns | Fast |
-| **LSTM** | 25K | Sequential behavior, long dependencies | Medium |
-| **GRU** | 16K | Sequential patterns, lighter LSTM | Medium |
-| **Deep Network** | 103K | Complex non-linear relationships | Slower |
-
-All models include dropout, early stopping, and feature scaling for regularization.
+The deep learning approach compares multiple architectures to determine which model best identifies purchase behavior. A dashboard is included for analytics and visual interpretation of model performance.
 
 ---
 
-## Results
-
-Test set: **2,466 samples** (20% of 12,330 total)
-
-| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | Epochs |
-|-------|----------|-----------|--------|----------|---------|--------|
-| MLP | 0.8895 | 0.7248 | 0.5876 | 0.6481 | 0.8672 | 47 |
-| LSTM | 0.8931 | 0.7412 | 0.6124 | 0.6708 | 0.8823 | 52 |
-| GRU | 0.8947 | 0.7521 | 0.6287 | 0.6849 | 0.8891 | 49 |
-| **Deep Network** | **0.8965** | **0.7658** | **0.6521** | **0.7037** | **0.8952** | 58 |
-
-**🏆 Winner: Deep Network** - Best F1-Score (0.7037) and ROC-AUC (0.8952). Precision 76.58% means 3 out of 4 predicted purchases are correct. Recall 65.21% means it catches 2 out of 3 actual buyers.
-
----
-
-## What You Get
-
-**Trained Models** (saved in `/Models`)
-- All 4 model architectures as .h5 files
-- Feature scaler and label encoders for inference
-- Ready for production deployment
-
-**Visualizations** (generated in `/Image`)
-- Training history (accuracy curves, early stopping)
-- Confusion matrices (all models)
-- ROC curves (model comparison)
-- Feature importance (top 15 correlations)
-- Data distribution (class balance, train/test split)
-- Performance metrics (side-by-side comparison)
+## 🧮 What I had done!
+1. Loaded dataset from the `Dataset` folder.
+2. Performed preprocessing and data cleaning.
+3. Handled categorical features with label encoding.
+4. Applied feature engineering and scaling.
+5. Conducted exploratory data analysis.
+6. Built the MLP model.
+7. Built the Deep Neural Network model.
+8. Built the LSTM model.
+9. Built the GRU model.
+10. Evaluated all models using accuracy, precision, recall, F1-score, and ROC-AUC.
+11. Compared results across models.
+12. Generated dashboard visualizations and model comparison graphs.
 
 ---
 
-## Quick Start
+## 🚀 Models Implemented
+### MLP
+MLP is used as a baseline for tabular classification and fast convergence.
 
-### 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+### Deep Feedforward Neural Network
+The deeper feedforward network captures complex non-linear relationships across behavioral session features.
 
-### 2. Run Pipeline
-```bash
-python online_shoppers_intention_prediction.py
-```
+### LSTM
+LSTM captures sequential relationships and temporal patterns in session behavior.
 
-This will:
-- Load and clean data
-- Handle missing values and duplicates
-- Encode categorical variables
-- Train all 4 models
-- Generate 6 visualization graphs
-- Save models and preprocessors
-
-**Runtime**: ~3-5 minutes
+### GRU
+GRU provides efficient sequence learning with reduced computational complexity and strong performance.
 
 ---
 
-## Using Trained Models
-
-```python
-from tensorflow.keras.models import load_model
-import pickle
-
-# Load model
-model = load_model('Models/04_deep_network_model.h5')
-scaler = pickle.load(open('Models/feature_scaler.pkl', 'rb'))
-
-# Prepare new session (17 features, pre-encoded)
-new_session = [[...]]
-scaled = scaler.transform(new_session)
-
-# Predict purchase probability
-probability = model.predict(scaled)[0][0]
-print(f"Purchase intent: {probability:.1%}")
-```
+## 📚 Libraries Needed
+- Python 3
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TensorFlow
+- Keras
+- Plotly
+- Joblib
 
 ---
 
-## Data Pipeline
+## 📊 Exploratory Data Analysis Results
+### Class Distribution
+![Class Distribution](Image/class_distribution.png)
 
-1. **Load & Inspect**: Check shape, dtypes, sample rows
-2. **Duplicates**: Remove exact duplicates
-3. **Missing Values**: Median for numeric, mode for categorical
-4. **Encoding**: LabelEncoder for categorical features
-5. **Scaling**: StandardScaler for neural networks
-6. **Split**: 80-20 train-test with stratification (preserve class balance)
+### Correlation Heatmap
+![Correlation Heatmap](Image/correlation_heatmap.png)
 
----
+### Feature Analysis
+![Feature Analysis](Image/feature_analysis.png)
 
-## Key Findings
+### Data Distribution
+![Data Distribution](Image/data_distribution.png)
 
-- **Top predictors**: Time on product pages, page values, bounce rates
-- **Sequential matters**: LSTM/GRU outperformed MLP (order of page visits = signal)
-- **Imbalance handled**: Stratified split ensures representative train/test sets
-- **Regularization works**: Dropout + early stopping prevented overfitting
-- **Deeper ≠ better always**: Deep network 1.5% better than LSTM with 4x parameters
+Each visualization showcases the dataset distribution, correlation between numeric features, and the relative importance of session signals for prediction.
 
 ---
 
-## Project Structure
+## 📈 Performance of the Models based on the Accuracy Scores
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|-------|----------|-----------|--------|----------|---------|
+| MLP | 0.8895 | 0.7248 | 0.5876 | 0.6481 | 0.8672 |
+| Deep Neural Network | 0.8965 | 0.7658 | 0.6521 | 0.7037 | 0.8952 |
+| LSTM | 0.8931 | 0.7412 | 0.6124 | 0.6708 | 0.8823 |
+| GRU | 0.8947 | 0.7521 | 0.6287 | 0.6849 | 0.8891 |
 
-```
-Online Shoppers Intention Prediction/
-├── Dataset/
-│   └── online_shoppers_intention.csv
-├── Models/
-│   ├── 01_mlp_model.h5
-│   ├── 02_lstm_model.h5
-│   ├── 03_gru_model.h5
-│   ├── 04_deep_network_model.h5
-│   ├── feature_scaler.pkl
-│   ├── label_encoders.pkl
-│   └── target_encoder.pkl
-├── Image/
-│   ├── 01_training_history.png
-│   ├── 02_model_comparison.png
-│   ├── 03_confusion_matrices.png
-│   ├── 04_roc_curves.png
-│   ├── 05_feature_importance.png
-│   └── 06_data_distribution.png
-├── online_shoppers_intention_prediction.py
-├── requirements.txt
-└── README.md
-```
+### Model Performance Visualizations
+![Model Accuracy Comparison](Image/model_accuracy_comparison.png)
+
+### Confusion Matrices
+![MLP Confusion Matrix](Image/confusion_matrix_mlp.png)
+![DNN Confusion Matrix](Image/confusion_matrix_dnn.png)
+![LSTM Confusion Matrix](Image/confusion_matrix_lstm.png)
+![GRU Confusion Matrix](Image/confusion_matrix_gru.png)
+
+### ROC Curve Comparison
+![ROC Curve Comparison](Image/roc_curve_comparison.png)
+
+### Training History
+![Training History](Image/training_history.png)
 
 ---
 
-## Technologies
-
-- **Deep Learning**: TensorFlow, Keras
-- **ML**: Scikit-Learn
-- **Data**: Pandas, NumPy
-- **Visualization**: Matplotlib, Seaborn
-- **Language**: Python 3.8+
+## 📢 Conclusion
+The Deep Neural Network is the best performing model based on accuracy, F1-score, and ROC-AUC. It captures the non-linear relationships in session behavior and delivers the strongest purchase intent predictions. Future improvements include feature selection, class imbalance strategies, and a more interactive analytics dashboard for production-ready deployment.
 
 ---
 
-## Edge Cases Handled
+## ✒️ Your Signature
+Somapuram Uday
 
-✓ Duplicate records  
-✓ Missing values (median/mode imputation)  
-✓ Class imbalance (stratified split)  
-✓ Feature scaling (StandardScaler)  
-✓ Data leakage (fit scaler on train only)  
-✓ Overfitting (dropout, early stopping)  
-✓ Categorical encoding (label encoding)
-
----
-
-## 🤝 Contributors
-
-<div align="center">
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="50%">
-        <a href="https://github.com/udaycodespace">
-          <img src="https://github.com/udaycodespace.png" width="80px;" style="border-radius:50%" alt="udaycodespace"/>
-          <br/><sub><b>udaycodespace</b></sub>
-        </a>
-        <br/>🤖 💻 📊 📖
-      </td>
-      <td align="center" valign="top" width="50%">
-        <a href="https://github.com/abhisheks008">
-          <img src="https://github.com/abhisheks008.png" width="80px;" style="border-radius:50%" alt="abhisheks008"/>
-          <br/><sub><b>abhisheks008</b></sub>
-        </a>
-        <br/>🚀 👨‍🏫 📂 🎯
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
-<br/>
-
-> 🤖 AI/ML Development · 💻 Deep Learning Implementation · 📊 Data Preprocessing & Analysis · 📖 Documentation
-> 🚀 Project Owner · 👨‍🏫 Mentor · 📂 Repository Maintainer · 🎯 Open Source Lead
-
-
-
----
-
-## License
-
-MIT License - See LICENSE file for details
-
----
-
-## References
-
-- Sakar, C. O., Polat, S. O., Katircioglu, M., & Kastro, Y. (2019). Real-time prediction of online shoppers' purchasing intention using multilayer perceptron and LSTM recurrent neural networks. *Neural Networks*, 110, 11-22.
-- Hochreiter & Schmidhuber (1997) - LSTM
-- Cho et al. (2014) - GRU
-- Srivastava et al. (2014) - Dropout
-
----
-
-**This project is part of GirlScript Summer of Code (GSSoC) 2026**
+GitHub: [https://github.com/udaycodespace](https://github.com/udaycodespace)
+LinkedIn: [https://www.linkedin.com/in/somapuram-uday](https://www.linkedin.com/in/somapuram-uday)
