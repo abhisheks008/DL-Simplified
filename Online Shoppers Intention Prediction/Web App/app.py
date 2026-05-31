@@ -9,7 +9,7 @@ from tensorflow.keras.models import load_model
 
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = BASE_DIR.parent
-MODEL_DIR = PROJECT_DIR / 'Models'
+MODEL_DIR = PROJECT_DIR / 'Model'
 DATA_PATH = PROJECT_DIR / 'Dataset' / 'online_shoppers_intention.csv'
 
 MODEL_FILE = MODEL_DIR / '04_deep_network_model.h5'
@@ -50,10 +50,10 @@ def build_lookup_tables():
         ('New Visitor', 'New Visitor'),
         ('Other', 'Other'),
     ]
-    os_options = [(str(v), f'Operating System {v}') for v in range(1, 9)]
-    browser_options = [(str(v), f'Browser {v}') for v in range(1, 14)]
-    region_options = [(str(v), f'Region {v}') for v in range(1, 10)]
-    traffic_options = [(str(v), f'Traffic Type {v}') for v in range(1, 21)]
+    os_options = [(str(v), f'OS Category {v}') for v in range(1, 9)]
+    browser_options = [(str(v), f'Browser Category {v}') for v in range(1, 14)]
+    region_options = [(str(v), f'Region Category {v}') for v in range(1, 10)]
+    traffic_options = [(str(v), f'Traffic Source Category {v}') for v in range(1, 21)]
     return months, visitor_types, os_options, browser_options, region_options, traffic_options
 
 MONTH_OPTIONS, VISITOR_OPTIONS, OS_OPTIONS, BROWSER_OPTIONS, REGION_OPTIONS, TRAFFIC_OPTIONS = build_lookup_tables()
@@ -139,10 +139,10 @@ def build_model_comparison():
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
     X_test_scaled = scaler.transform(X_test)
     models = [
-        ('MLP', PROJECT_DIR / 'Models' / '01_mlp_model.h5'),
-        ('LSTM', PROJECT_DIR / 'Models' / '02_lstm_model.h5'),
-        ('GRU', PROJECT_DIR / 'Models' / '03_gru_model.h5'),
-        ('Deep Network', PROJECT_DIR / 'Models' / '04_deep_network_model.h5'),
+        ('MLP', PROJECT_DIR / 'Model' / '01_mlp_model.h5'),
+        ('LSTM', PROJECT_DIR / 'Model' / '02_lstm_model.h5'),
+        ('GRU', PROJECT_DIR / 'Model' / '03_gru_model.h5'),
+        ('Deep Network', PROJECT_DIR / 'Model' / '04_deep_network_model.h5'),
     ]
     items = []
     for name, model_instance in MODEL_REGISTRY.items():
@@ -176,25 +176,57 @@ def generate_prediction_summary(input_values, probability):
     score = round(float(probability * 100), 1)
     model_used = 'Deep Network'
     indicators = []
-    if input_values['PageValues'] >= 20:
-        indicators.append('High page value signals strong purchase intent.')
-    if input_values['ProductRelated'] >= 20:
-        indicators.append('Many product page interactions indicate active browsing.')
-    if input_values['BounceRates'] < 0.05:
-        indicators.append('Low bounce rate suggests sustained engagement.')
-    if input_values['ExitRates'] < 0.1:
-        indicators.append('Low exit rate indicates positive navigation through the site.')
-    if input_values['SpecialDay'] >= 0.5:
-        indicators.append('This session occurs near a special day, which can boost conversion.')
 
-    if probability >= 0.55:
-        title = 'Likely Purchase Intent Detected'
-        description = 'This visitor demonstrates behavioural patterns similar to users who completed purchases during historical sessions.'
+    if probability >= 0.70:
+        title = 'High Purchase Intent Detected'
+        description = 'Visitor session behaviour matches high-conversion patterns from historical purchase sessions.'
+        if input_values['PageValues'] >= 50:
+            indicators.append('Strong page value indicates a high conversion signal.')
+        if input_values['ProductRelated'] >= 30:
+            indicators.append('High product page interaction suggests active purchase consideration.')
+        if input_values['BounceRates'] < 0.10:
+            indicators.append('Very low bounce rate signals sustained engagement.')
+        if input_values['ExitRates'] < 0.08:
+            indicators.append('Low exit rate indicates the visitor remained in the session flow.')
+        if input_values['VisitorType'] == 'Returning Visitor':
+            indicators.append('Returning visitors often convert at higher rates.')
+        if input_values['Weekend'] == 'Yes':
+            indicators.append('Weekend traffic shows strong buyer intent in this dataset.')
+    elif probability >= 0.40:
+        title = 'Moderate Purchase Intent Detected'
+        description = 'Visitor behaviour shows some purchase intent, but the session is not yet clearly a strong conversion signal.'
+        if input_values['PageValues'] >= 20:
+            indicators.append('Moderate page value suggests measurable purchase interest.')
+        if input_values['ProductRelated'] >= 15:
+            indicators.append('Reasonable product exploration is present in this session.')
+        if input_values['BounceRates'] < 0.40:
+            indicators.append('Bounce rate is within a moderate range for engaged browsing.')
+        if input_values['ExitRates'] < 0.30:
+            indicators.append('Exit rate is relatively low, indicating some sustained navigation.')
+        if input_values['SpecialDay'] >= 0.5:
+            indicators.append('Special day proximity can increase conversion likelihood.')
     else:
         title = 'Low Purchase Intent Detected'
-        description = 'This visitor currently demonstrates behavioural patterns more commonly associated with browsing sessions that did not result in a completed purchase.'
+        description = 'This session currently resembles browsing behaviour with weak conversion signals.'
+        if input_values['PageValues'] < 20:
+            indicators.append('Low page value indicates minimal purchase value signal.')
+        if input_values['ProductRelated'] < 15:
+            indicators.append('Limited product page interactions point to low purchase interest.')
+        if input_values['BounceRates'] > 0.50:
+            indicators.append('High bounce rate suggests the visitor left quickly without deep engagement.')
+        if input_values['ExitRates'] > 0.30:
+            indicators.append('High exit rate indicates the session ended before strong conversion signals emerged.')
+        if input_values['SpecialDay'] < 0.5:
+            indicators.append('This session is not occurring near a high-conversion special day.')
+
     if not indicators:
-        indicators.append('Model is relying on overall behaviour and engagement signals for this prediction.')
+        if probability >= 0.70:
+            indicators.append('High session engagement and interaction patterns are driving this prediction.')
+        elif probability >= 0.40:
+            indicators.append('A mix of browsing and purchase signals are influencing this prediction.')
+        else:
+            indicators.append('Low engagement metrics and weak purchase indicators are influencing this prediction.')
+
     return {
         'title': title,
         'description': description,

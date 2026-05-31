@@ -36,7 +36,7 @@
         <article class="model-card {% if model.name == 'Deep Network' %}model-card-highlight{% endif %}">
             <div class="model-card-header">
                 <span>{{ model.name }}</span>
-                {% if model.name == 'Deep Network' %}<span class="badge">Best model</span>{% endif %}
+                {% if model.name == 'Deep Network' %}<span class="badge">Production model</span>{% endif %}
             </div>
             <div class="model-metric"><strong>Accuracy</strong><span>{{ model.accuracy }}</span></div>
             <div class="model-metric"><strong>Precision</strong><span>{{ model.precision }}</span></div>
@@ -50,12 +50,12 @@
 
 <section class="section-panel analysis-panel">
     <div class="analysis-block">
-        <h2>Accuracy analysis</h2>
-        <p>The deployed model delivers accuracy across session patterns while focusing on purchase signal quality.</p>
+        <h2>Production model rationale</h2>
+        <p>The deployed Deep Network is selected for production because it offers stronger precision and ROC-AUC for purchase intent decisions, even when the MLP baseline reports slightly higher raw accuracy.</p>
     </div>
     <div class="analysis-block">
         <h2>ROC-AUC analysis</h2>
-        <p>ROC-AUC reflects how well the model distinguishes between likely buyers and browsers across all thresholds.</p>
+        <p>ROC-AUC reflects how well the model distinguishes between likely buyers and browsers across all score thresholds.</p>
     </div>
 </section>
 
@@ -83,8 +83,8 @@
 </section>
 
 <section class="section-panel final-panel">
-    <h2>Best model summary</h2>
-    <p>The Deep Network architecture is selected as the business-facing production model based on balanced predictive performance across accuracy, precision, recall, and ROC-AUC.</p>
+    <h2>Production model summary</h2>
+    <p>The Deep Network architecture is selected as the business-facing production model because it delivers superior precision and ROC-AUC for purchase intent prediction, while maintaining competitive accuracy.</p>
     <div class="summary-grid">
         <div>
             <strong>Model</strong>

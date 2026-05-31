@@ -303,6 +303,87 @@ select:focus {
     border-color: var(--accent);
 }
 
+.form-section-card {
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    background: #ffffff;
+    padding: 28px;
+    margin-bottom: 24px;
+}
+
+.guide-card details {
+    margin-top: 18px;
+}
+
+.guide-card summary {
+    cursor: pointer;
+    font-weight: 700;
+    padding: 14px 18px;
+    border-radius: 16px;
+    background: #f3f7ff;
+    border: 1px solid var(--border);
+}
+
+.guide-table-wrapper {
+    overflow-x: auto;
+    margin-top: 18px;
+}
+
+.guide-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.guide-table th,
+.guide-table td {
+    border: 1px solid var(--border);
+    padding: 12px 14px;
+    text-align: left;
+}
+
+.guide-table th {
+    background: #f4f8ff;
+    font-weight: 700;
+}
+
+.profile-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin-top: 18px;
+}
+
+.profile-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.example-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.field-block.error input,
+.field-block.error select {
+    border-color: #d32f2f;
+    box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.12);
+}
+
+.form-section-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    color: var(--text-primary);
+}
+
+.select-block select option[disabled] {
+    color: #8a99ad;
+}
+
 .field-error {
     color: #d32f2f;
     font-size: 0.87rem;
