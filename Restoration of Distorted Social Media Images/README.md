@@ -49,15 +49,14 @@ Initial analysis involves monitoring the distribution of synthetic distortions a
 ### 📈 **Performance of the Models based on the Accuracy Scores**
 
 The restoration quality is quantified using standard perceptual metrics:
-- **PSNR (Peak Signal-to-Noise Ratio)**: Target > 28dB for high-fidelity reconstruction.
-- **SSIM (Structural Similarity Index)**: Target > 0.85 for structural preservation.
-- **LPIPS (Learned Perceptual Similarity)**: Target < 0.15 for high human-perceived realism.
+- **ConvAE (Baseline)**: PSNR ~29.590 dB | SSIM ~0.9116
+- **Hybrid GAN (Proposed)**: PSNR ~24.922 dB | SSIM ~0.6675
 
-*The Component-Based Hybrid GAN consistently outperforms basic U-Net models by achieving lower LPIPS scores, indicating superior texture recovery in critical facial regions.*
+*Note: While the ConvAE provides higher pixel-wise accuracy (PSNR), the Component-Based Hybrid GAN is designed to prioritize the recovery of sharp, high-frequency facial textures that are often smoothed out by MSE-optimized models.*
 
 ### 📢 **Conclusion**
 
-The Component-Based Hybrid GAN effectively addresses the limitations of global image restoration by prioritizing perceptually critical facial features. The integration of local discriminators and identity-preserving losses ensures that the restoration is not only sharp but also identity-consistent. Based on the LPIPS and SSIM scores, the hybrid architecture is the optimal choice for social media image restoration where human perception is the primary evaluation criterion.
+Based on the quantitative results, the **ConvAE** currently offers superior performance in terms of structural preservation (SSIM) and pixel-level fidelity (PSNR). However, the **Component-Based Hybrid GAN** architecture remains the core focus of this research for its potential in achieving high-fidelity, identity-consistent restoration of fine facial features. The hybrid model is preferred for applications where human perception and sharp feature recovery are more critical than pure signal-to-noise ratios.
 
 ### ✒️ **Your Signature**
 

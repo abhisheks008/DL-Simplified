@@ -16,7 +16,7 @@ The project utilizes the **Flickr-Faces-HQ (FFHQ) Small** dataset, a reduced ver
 The training pipeline handles dataset acquisition autonomously via `kagglehub`. Manual download into this directory is not required for the standard execution flow.
 
 ### Automated Synchronization
-The `facial_restoration_gan.ipynb` notebook executes the following retrieval logic:
+The `distorted_restore.ipynb` notebook executes the following retrieval logic:
 
 ```python
 import kagglehub
