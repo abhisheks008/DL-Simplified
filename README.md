@@ -35,7 +35,7 @@ Check out the official **Deep Learning Simplified** website for more information
 - [Star This Project ⭐](#give-this-project-a-star)
 - [Contact 📬](#contact)
 
-![](https://github.com/World-of-ML/DL-Simplified/blob/main/.github/Assets/deep%20learning%20(2).png)
+![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/banner.png)
 
 ****************************************************
 ## 🔴 Welcome contributors!
@@ -209,7 +209,10 @@ If you'd like to contact me, you can reach me through my social media handles.
 <a href="https://twitter.com/abhishek_py3"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/abhishek-sharma-aa06a9183/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
 
 
-© 2024 Abhishek Sharma
+© 2026 Abhishek Sharma
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) 
+
+
+> _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_

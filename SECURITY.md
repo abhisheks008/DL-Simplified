@@ -2,20 +2,36 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The DL-Simplified repository is actively maintained through the main branch and community-reviewed contributions.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :white_check_mark: |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Security updates and fixes are applied to actively maintained modules whenever possible.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security vulnerability, please avoid creating a public issue immediately.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Instead:
+- Contact the maintainers privately if sensitive information is involved
+- Clearly describe the issue and affected module
+- Include reproduction steps if possible
+- Provide screenshots/logs when relevant
+
+The maintainers will review the report and take appropriate action.
+
+## Security Best Practices
+
+### For Contributors
+- Do not commit API keys, credentials, or secrets
+- Avoid uploading sensitive datasets
+- Verify external datasets and notebook sources before use
+- Use trusted Python packages and libraries only
+- Review notebook outputs before committing
+
+### Dependency Safety
+- Keep dependencies updated
+- Avoid unnecessary packages
+- Use version-pinned dependencies when possible
+
+## Responsible Disclosure
+
+Please allow maintainers reasonable time to investigate and resolve reported vulnerabilities before public disclosure.

@@ -1,8 +1,8 @@
 ---
 name: DL-Simplified_readme_issue_template
-about: Describe this issue template's purpose here.
-title: ''
-labels: Up For Grabs
+about: Raise a issue if you want to update an existing README of anyy project folder
+title: Enhancement
+labels: ''
 assignees: ''
 
 ---
