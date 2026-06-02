@@ -24,11 +24,11 @@ Check out the official **Deep Learning Simplified** website for more information
 
 ## 📑 Table of Contents
 - [Introduction](#-deep-learning-simplified)
-- [Welcome Contributors! 🔴](#-welcome-contributors)
-- [Project Structure 📝](#structure-of-the-projects-)
-- [Workflow 🧮](#-workflow)
+- [Project Structure 📝](#-project-structure)
+- [Getting Started 🧭](#-getting-started)
+- [Contributing Workflow 🧮](#-contributing-workflow)
 - [Open Source Programs ❄️](#️open-source-programs)
-- [New to Open Source? 🤔](#-new-to-open-source-programsevents)
+- [New to Open Source? 🤔](#-new-to-open-source)
 - [Achievements 🏆](#-achievements-of-this-project-repo-)
 - [Project Admin](#project-admin)
 - [Top Contributors ✨](#top-contributors)
@@ -37,16 +37,11 @@ Check out the official **Deep Learning Simplified** website for more information
 
 ![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/banner.png)
 
-****************************************************
-## 🔴 Welcome contributors!
-Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain—albeit far from matching its ability—allowing it to “learn” from large amounts of data. Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. The concept of deep learning is not new. It has been around for a couple of years now. It’s in hype nowadays because earlier we did not have that much processing power and a lot of data. As in the last 20 years, the processing power increased exponentially, deep learning and machine learning came into the picture. </br> </br>
-**Deep Learning Simplified is an open-source repository containing beginner to advanced-level deep learning projects for contributors who are willing to start their journey in deep learning.**
+## 🔴 Project Structure
+This repository contains deep learning projects organized with a consistent folder layout so new contributors can quickly understand each project and where its assets live.
 
-## Structure of the Projects 📝
-This repository consists of various machine learning projects, and all of the projects must follow a certain template. I want the contributors to keep this in mind while contributing to this repository. <br><br>
-**Dataset** - This folder stores the dataset used in this project. If the dataset cannot be uploaded to this folder due to its large size, then put a README.md file inside the Dataset folder and include the link to the collected dataset. That'll work!<br><br>
-**Images** - This folder is used to store the images generated during the data analysis, data visualization, and data segmentation of the project.<br><br>
-**Model** - This folder will contain your project file (that is .ipynb file) whether it's for analysis or prediction. In addition to the project file, it should also have a **'README.md'** using this [template](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/readme_template.md) and **'requirements.txt'** file that includes all necessary add-ons and libraries for the project.</br></br>
+### Folder Layout
+Each project should follow the structure below:
 
 ```
 Project Folder Name/
@@ -74,23 +69,37 @@ Project Folder Name/
 └── requirements.txt    <- requirements file for the list of plugin(s) & functions
 ```
 
+### Folder Guide
+- `Dataset/` stores the dataset used in the project. If the dataset is too large to upload, add a `README.md` with the dataset source link.
+- `Images/` stores visualizations created during EDA, model evaluation, or segmentation.
+- `Model/` contains the main notebook and should also include a `README.md` and `requirements.txt`.
+- `Web App/` is optional and can be used to demo the project with a small app and recording.
+
 Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplified/blob/main/Code_of_conduct.md) and [Contributing Guidelines](https://github.com/abhisheks008/DL-Simplified/blob/main/CONTRIBUTING.md) while contributing in this project repository.
 
-## 🧮 Workflow
+## 🧭 Getting Started
+If you are new to the repository, use this quick path:
+1. Read the project README and the template in `.github/readme_template.md`.
+2. Browse the open issues and pick one that matches your interests.
+3. Comment on the issue before you start work so it can be assigned to you.
+4. Fork the repository and clone your fork locally.
+5. Make your changes, verify them, and submit a pull request.
+
+## 🧮 Contributing Workflow
 - Go through the project repository and the [README](https://github.com/World-of-ML/DL-Simplified/blob/main/README.md) to get an idea about this repository.
 - Check out the existing issues present there in the [Issues](https://github.com/World-of-ML/DL-Simplified/issues) section.
-- Comment out in the issue, you wanna work on.
-- Wait for the issue to be assigned to you. Once it's assigned to you, start working on it.
+- Comment on the issue you want to work on.
+- Wait for the issue to be assigned to you. Once assigned, start working on it.
 - Fork the repository.
-- Clone your forked repository using terminal or gitbash. Also you can simply use the web version of GitHub to add your files.
+- Clone your forked repository using terminal or gitbash. You can also use the web version of GitHub to add your files.
 - Make changes to the cloned repository.
-- Add, Commit and Push.
-- Then on GitHub, in your cloned repository, find the option to make a pull request.
-- The project admin will evaluate your PR and provide remarks accordingly. If it satisfies all the criteria, your PR will be merged, and your contributions will be counted.
+- Add, commit, and push.
+- On GitHub, open a pull request from your fork to the main repository.
+- The project admin will evaluate your PR and provide feedback accordingly.
 
 
 ************************************************************
-## ❄️Open Source Programs!
+## ❄️ Open Source Programs!
 <table>
 <tr>
   <td align="center">
@@ -148,9 +157,8 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
 </tr>
 </table>
 
-## 🤔 New to Open Source programs/events!
-Here are a few articles that will help you get an idea of how to start contributing to open source projects:
-You can refer to the following articles on the basics of Git and Github.
+## 🤔 New to Open Source?
+Here are a few resources to help you get started with open source and GitHub:
 - [Watch this video to get started, if you have no clue about open source](https://youtu.be/SYtPC9tHYyQ)
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
