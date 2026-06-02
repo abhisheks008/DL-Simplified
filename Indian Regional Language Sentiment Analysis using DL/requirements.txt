@@ -1,0 +1,9 @@
+pandas
+numpy
+torch
+transformers
+datasets<4.0
+huggingface_hub
+scikit-learn
+matplotlib
+seaborn
