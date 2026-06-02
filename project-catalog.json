@@ -1,0 +1,1508 @@
+﻿[
+    {
+        "project":  "Advance Anime Recommendation System",
+        "path":  "Advance Anime Recommendation System",
+        "domain":  "Recommendation Systems",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Adverse Weather Classification",
+        "path":  "Adverse Weather Classification",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Age and Sex Prediction",
+        "path":  "Age and Sex Prediction",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "AI Based Book Recommendation System",
+        "path":  "AI Based Book Recommendation System",
+        "domain":  "Recommendation Systems",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "AI Generated Fruits and Real Fruits Classification using Image Processing",
+        "path":  "AI Generated Fruits and Real Fruits Classification using Image Processing",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "AI Generated vs Real Images Classification using DL",
+        "path":  "AI Generated vs Real Images Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "AI Resume Analyzer",
+        "path":  "AI Resume Analyzer",
+        "domain":  "NLP",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "AI Security Camera App using DL",
+        "path":  "AI Security Camera App using DL",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "AI Vs Human Text Classification",
+        "path":  "AI Vs Human Text Classification",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Airplane Passenger Prediction",
+        "path":  "Airplane Passenger Prediction",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Almond Varieties Image Classification",
+        "path":  "Almond Varieties Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Alzheimers Detection",
+        "path":  "Alzheimers Detection",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Amazon Reviews Sentiment Analysis",
+        "path":  "Amazon Reviews Sentiment Analysis",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "American Sign Language Detection",
+        "path":  "American Sign Language Detection",
+        "domain":  "NLP",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Animal Detection Using Advanced DL Model",
+        "path":  "Animal Detection Using Advanced DL Model",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Anomaly Detection in Time Series",
+        "path":  "Anomaly Detection in Time Series",
+        "domain":  "Time Series",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Anti Spoofing Project using DL",
+        "path":  "Anti Spoofing Project using DL",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Apple Stock Price Prediction Based on 40 Years",
+        "path":  "Apple Stock Price Prediction Based on 40 Years",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Arabic Dates Classification using DL",
+        "path":  "Arabic Dates Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Artwork Image Recognition",
+        "path":  "Artwork Image Recognition",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Attendance Management System using Face Recognition",
+        "path":  "Attendance Management System using Face Recognition",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Automated Essay Scores",
+        "path":  "Automated Essay Scores",
+        "domain":  "NLP",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Avocados Classification",
+        "path":  "Avocados Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Bank Loan Approval Prediction",
+        "path":  "Bank Loan Approval Prediction",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Bird Species Classification",
+        "path":  "Bird Species Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Blood Disease Detection",
+        "path":  "Blood Disease Detection",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Bone Fracture Detection",
+        "path":  "Bone Fracture Detection",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Bone Marrow Cells Classification using Deep Learning",
+        "path":  "Bone Marrow Cells Classification using Deep Learning",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Brain Tumor Detection",
+        "path":  "Brain Tumor Detection",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Brand Sentiment Analysis using NLP",
+        "path":  "Brand Sentiment Analysis using NLP",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Breast Cancer Detection using DL with WebApp",
+        "path":  "Breast Cancer Detection using DL with WebApp",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Butterfly Image Classification",
+        "path":  "Butterfly Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Canola Diseases Prediction",
+        "path":  "Canola Diseases Prediction",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Car Detection from Drones",
+        "path":  "Car Detection from Drones",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Car Object Detection using DL",
+        "path":  "Car Object Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Car Price Prediction using DL",
+        "path":  "Car Price Prediction using DL",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Cardiovascular Disease Risk Prediction Model",
+        "path":  "Cardiovascular Disease Risk Prediction Model",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Cassava Leaf Disease Classification",
+        "path":  "Cassava Leaf Disease Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Cassava Leaf Disease Classification using DL",
+        "path":  "Cassava Leaf Disease Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Cataract Detection using DL",
+        "path":  "Cataract Detection using DL",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Cats Breed Classification using DL",
+        "path":  "Cats Breed Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Cats vs Dogs Audio Classification using DL",
+        "path":  "Cats vs Dogs Audio Classification using DL",
+        "domain":  "Audio/Speech",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Cats vs Dogs Classification using DL",
+        "path":  "Cats vs Dogs Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Celebrity Faces Detection Model",
+        "path":  "Celebrity Faces Detection Model",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "ChatGPT Based Tweets Sentiment Analysis Using DL",
+        "path":  "ChatGPT Based Tweets Sentiment Analysis Using DL",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "ChatGPT Reddit Comments Analysis using NLP",
+        "path":  "ChatGPT Reddit Comments Analysis using NLP",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Chest X-ray - Tuberculosis Disease Prediction",
+        "path":  "Chest X-ray - Tuberculosis Disease Prediction",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Children vs Adults Classification using DL",
+        "path":  "Children vs Adults Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Chocolate Classification using DL",
+        "path":  "Chocolate Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Colon-And-Lung-Cancer-Type-Prediction",
+        "path":  "Colon-And-Lung-Cancer-Type-Prediction",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Colour Detection using DL",
+        "path":  "Colour Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Computed Tomography Analysis using DL",
+        "path":  "Computed Tomography Analysis using DL",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Concrete Compressive Strength",
+        "path":  "Concrete Compressive Strength",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Condition Monitoring using DL Techniques",
+        "path":  "Condition Monitoring using DL Techniques",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Cotton Disease Classification using DL",
+        "path":  "Cotton Disease Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Covid Case Predictor",
+        "path":  "Covid Case Predictor",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "COVID19-X Ray  Image Classification",
+        "path":  "COVID19-X Ray  Image Classification",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Crack Detection using DL",
+        "path":  "Crack Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Credit Card Fraud Detection",
+        "path":  "Credit Card Fraud Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Cricket Shots Detection",
+        "path":  "Cricket Shots Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Crop Pest and Disease Detection using DL",
+        "path":  "Crop Pest and Disease Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Cyclone Detection",
+        "path":  "Cyclone Detection",
+        "domain":  "Time Series",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Dance-Form-Classification",
+        "path":  "Dance-Form-Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Deepfake Images Detector",
+        "path":  "Deepfake Images Detector",
+        "domain":  "GANs",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Defective Captcha Image Recognition",
+        "path":  "Defective Captcha Image Recognition",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Denoising Sine wave signal",
+        "path":  "Denoising Sine wave signal",
+        "domain":  "Time Series",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Diabetes Predictor",
+        "path":  "Diabetes Predictor",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Disaster Tweets Prediction using Deep Learning",
+        "path":  "Disaster Tweets Prediction using Deep Learning",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Distracted Driver Detection",
+        "path":  "Distracted Driver Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Dog Breeds Classification",
+        "path":  "Dog Breeds Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Dog Face Detection using DL",
+        "path":  "Dog Face Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "DRIVING BEHAVIOUR IDENTIFICATION",
+        "path":  "DRIVING BEHAVIOUR IDENTIFICATION",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Drone Detection Using YOLO",
+        "path":  "Drone Detection Using YOLO",
+        "domain":  "Computer Vision",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Drone Navigation Detection using Reinforcement Learning techniques",
+        "path":  "Drone Navigation Detection using Reinforcement Learning techniques",
+        "domain":  "Reinforcement Learning",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Drowsiness Detection using EEG signals",
+        "path":  "Drowsiness Detection using EEG signals",
+        "domain":  "Time Series",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Durum Wheat Classification using DL",
+        "path":  "Durum Wheat Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Earthquake Type Prediction",
+        "path":  "Earthquake Type Prediction",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Electron Microscope Particle Segmentation",
+        "path":  "Electron Microscope Particle Segmentation",
+        "domain":  "Computer Vision",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Email Spam Classification",
+        "path":  "Email Spam Classification",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Emergency Fire detection",
+        "path":  "Emergency Fire detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Emojify - An Emoji Prediction Project using DL",
+        "path":  "Emojify - An Emoji Prediction Project using DL",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "emotion based music player using deep learning",
+        "path":  "emotion based music player using deep learning",
+        "domain":  "Audio/Speech",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Emotion Based Stress Classification using DL",
+        "path":  "Emotion Based Stress Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Emotion Classifier",
+        "path":  "Emotion Classifier",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Emotion-Based-Music-Recommender",
+        "path":  "Emotion-Based-Music-Recommender",
+        "domain":  "Recommendation Systems",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Ethnicity Classification of Asian People",
+        "path":  "Ethnicity Classification of Asian People",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Eye Disease Classification using DL",
+        "path":  "Eye Disease Classification using DL",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Face Mask Detection",
+        "path":  "Face Mask Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Face Verification",
+        "path":  "Face Verification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Facial Emotion Detection",
+        "path":  "Facial Emotion Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Fake and Real Face Detection using DL",
+        "path":  "Fake and Real Face Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Fake News Detection",
+        "path":  "Fake News Detection",
+        "domain":  "NLP",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Fire And Smoke Detection",
+        "path":  "Fire And Smoke Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Flower Classification",
+        "path":  "Flower Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Fracture Detection using DL",
+        "path":  "Fracture Detection using DL",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Framing the Future",
+        "path":  "Framing the Future",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Fraudulent Transactions Detection",
+        "path":  "Fraudulent Transactions Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Fruits Classification",
+        "path":  "Fruits Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Fusarium Wilt Disease Detection",
+        "path":  "Fusarium Wilt Disease Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "GAN-based Art Generator using Deep learning",
+        "path":  "GAN-based Art Generator using Deep learning",
+        "domain":  "GANs",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Gender Classification using DL",
+        "path":  "Gender Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Glass Bangle Defects Detection using DL",
+        "path":  "Glass Bangle Defects Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Global Land Cover Mapping using Image Processing",
+        "path":  "Global Land Cover Mapping using Image Processing",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Google Recaptcha Image Classification",
+        "path":  "Google Recaptcha Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Grape Plant Disease Recognition",
+        "path":  "Grape Plant Disease Recognition",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "GrapeVine Leaves Identification",
+        "path":  "GrapeVine Leaves Identification",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Groundwater Arsenic Content Detection",
+        "path":  "Groundwater Arsenic Content Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "HackerEarth Holiday Session Challenge",
+        "path":  "HackerEarth Holiday Session Challenge",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "HackerEarth Keep Babies Safe",
+        "path":  "HackerEarth Keep Babies Safe",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Hair Type Classification using Deep Learning v2",
+        "path":  "Hair Type Classification using Deep Learning v2",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Hair Type Classifier",
+        "path":  "Hair Type Classifier",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Hand Gloves Detection using DL",
+        "path":  "Hand Gloves Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Hand Navigation Landmarks Detection",
+        "path":  "Hand Navigation Landmarks Detection",
+        "domain":  "Reinforcement Learning",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Handwriting Recognition Project",
+        "path":  "Handwriting Recognition Project",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Handwritten Equation Solver",
+        "path":  "Handwritten Equation Solver",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Hate Speech Detection",
+        "path":  "Hate Speech Detection",
+        "domain":  "Audio/Speech",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Heart Disease Detection",
+        "path":  "Heart Disease Detection",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Heartbeat Classification using ECG",
+        "path":  "Heartbeat Classification using ECG",
+        "domain":  "Audio/Speech",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Heat sink defect detection",
+        "path":  "Heat sink defect detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Heatmap Visualization using GRAD-CAM",
+        "path":  "Heatmap Visualization using GRAD-CAM",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "High Throughput Algae Cell Detection",
+        "path":  "High Throughput Algae Cell Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Honey Bee Pollen detection",
+        "path":  "Honey Bee Pollen detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "HotDog Classification",
+        "path":  "HotDog Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Human Action Recognition",
+        "path":  "Human Action Recognition",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Human Detection Project",
+        "path":  "Human Detection Project",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Human Detection using CCTV Footages",
+        "path":  "Human Detection using CCTV Footages",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Image Caption Generator",
+        "path":  "Image Caption Generator",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Image Classification using DL Methods Version 2",
+        "path":  "Image Classification using DL Methods Version 2",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Image De-Photobombing",
+        "path":  "Image De-Photobombing",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Indian Actors Recognition",
+        "path":  "Indian Actors Recognition",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Indian Currency Detection using DL",
+        "path":  "Indian Currency Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Indian Food Images Recognition",
+        "path":  "Indian Food Images Recognition",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Indian Medicinal Plants Classification",
+        "path":  "Indian Medicinal Plants Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Indian Truck Detection",
+        "path":  "Indian Truck Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Indian Venomous Snakes Classification using DL",
+        "path":  "Indian Venomous Snakes Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Indonesian Spice Classification using DL",
+        "path":  "Indonesian Spice Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Insect Detection and Classification using DL",
+        "path":  "Insect Detection and Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Intrusion Detection",
+        "path":  "Intrusion Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "James Webb Space Telescope Image Analysis",
+        "path":  "James Webb Space Telescope Image Analysis",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Kidney Stone Detection",
+        "path":  "Kidney Stone Detection",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Land Use Scene Classification",
+        "path":  "Land Use Scene Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Laptop Price Prediction Using DL",
+        "path":  "Laptop Price Prediction Using DL",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Lemon Quality Segmentation",
+        "path":  "Lemon Quality Segmentation",
+        "domain":  "Computer Vision",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Lending Club Loan Analysis",
+        "path":  "Lending Club Loan Analysis",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Leukaemia Classification using DL",
+        "path":  "Leukaemia Classification using DL",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Lung Cancer Detection",
+        "path":  "Lung Cancer Detection",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Maize Leave Disease Detection",
+        "path":  "Maize Leave Disease Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Malaria Cell Image Classification",
+        "path":  "Malaria Cell Image Classification",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Market Basket Analysis",
+        "path":  "Market Basket Analysis",
+        "domain":  "Recommendation Systems",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Meat Quality Assessment",
+        "path":  "Meat Quality Assessment",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Micromobility Lane Recognition",
+        "path":  "Micromobility Lane Recognition",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Military Aircraft Detection",
+        "path":  "Military Aircraft Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "MLM Analysis of ChatGPT using NLP",
+        "path":  "MLM Analysis of ChatGPT using NLP",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "MNIST Digit Classification using Neural Networks",
+        "path":  "MNIST Digit Classification using Neural Networks",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Monkeypox Detection",
+        "path":  "Monkeypox Detection",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Mosquito Detection on Human Skin",
+        "path":  "Mosquito Detection on Human Skin",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Movies Classification using DL",
+        "path":  "Movies Classification using DL",
+        "domain":  "Recommendation Systems",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Mushroom Classification using Deep Learning",
+        "path":  "Mushroom Classification using Deep Learning",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Musical Instrument Chord Classification",
+        "path":  "Musical Instrument Chord Classification",
+        "domain":  "Audio/Speech",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Musical Instruments Image Classification",
+        "path":  "Musical Instruments Image Classification",
+        "domain":  "Audio/Speech",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Myntra Fashion Product Analysis",
+        "path":  "Myntra Fashion Product Analysis",
+        "domain":  "Recommendation Systems",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Natural Diamonds Image Classification",
+        "path":  "Natural Diamonds Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Object Detection from a video",
+        "path":  "Object Detection from a video",
+        "domain":  "Computer Vision",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Online Food Delivery Preferences",
+        "path":  "Online Food Delivery Preferences",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Paddy Disease Classification",
+        "path":  "Paddy Disease Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Payment Fraud Detection using DL",
+        "path":  "Payment Fraud Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Penguin and Turtle Image Classification using DL",
+        "path":  "Penguin and Turtle Image Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Persian Alphabets Classification",
+        "path":  "Persian Alphabets Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Pet\u0027s Facial Expression",
+        "path":  "Pet\u0027s Facial Expression",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Pharmaceutical Drugs and Vitamins Images Detection",
+        "path":  "Pharmaceutical Drugs and Vitamins Images Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Phishing-Website-Detection",
+        "path":  "Phishing-Website-Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "PII Doc Classification using Transfer Learning",
+        "path":  "PII Doc Classification using Transfer Learning",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Pistol Recognition",
+        "path":  "Pistol Recognition",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Plant Pathogen Detection using DL",
+        "path":  "Plant Pathogen Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Playing Cards Image Classification",
+        "path":  "Playing Cards Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Pneumonia Detection using X-Ray Images",
+        "path":  "Pneumonia Detection using X-Ray Images",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Polyp Segmentation",
+        "path":  "Polyp Segmentation",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Pomegranate Disease Classification using DL",
+        "path":  "Pomegranate Disease Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Popular Quotes Author Classifier using NLP",
+        "path":  "Popular Quotes Author Classifier using NLP",
+        "domain":  "NLP",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Portuguese Meals Classification",
+        "path":  "Portuguese Meals Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Potato Diseases Detection",
+        "path":  "Potato Diseases Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Pothole Detection System",
+        "path":  "Pothole Detection System",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Predict the Time of the Day using DL",
+        "path":  "Predict the Time of the Day using DL",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Pseudo-Papilledema-Detection",
+        "path":  "Pseudo-Papilledema-Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Quality Prediction in Mining Process",
+        "path":  "Quality Prediction in Mining Process",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Railway Track Fault Detection",
+        "path":  "Railway Track Fault Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Real or Fake Job Posting Prediction",
+        "path":  "Real or Fake Job Posting Prediction",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Real Time Sudoku Solver",
+        "path":  "Real Time Sudoku Solver",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Research Topic Prediction using Deep Learning",
+        "path":  "Research Topic Prediction using Deep Learning",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Resume Screning Model",
+        "path":  "Resume Screning Model",
+        "domain":  "NLP",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Rice Image Classification",
+        "path":  "Rice Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Rice Image Classification using DL",
+        "path":  "Rice Image Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Rick and Morty Character Image Detection",
+        "path":  "Rick and Morty Character Image Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "River Images Classification of Sao Carlos using DL",
+        "path":  "River Images Classification of Sao Carlos using DL",
+        "domain":  "Reinforcement Learning",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Roadmark Detection",
+        "path":  "Roadmark Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "SARS COV 2 CT Scan Classification",
+        "path":  "SARS COV 2 CT Scan Classification",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Scene Classification using DL",
+        "path":  "Scene Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Scientific Research Article Topic Classification",
+        "path":  "Scientific Research Article Topic Classification",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Sea Animal Detection Using Neural Networks",
+        "path":  "Sea Animal Detection Using Neural Networks",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Sea Animals Detection",
+        "path":  "Sea Animals Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Sentiment Analysis Model",
+        "path":  "Sentiment Analysis Model",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Sephora Products and Skincare Reviews using NLP",
+        "path":  "Sephora Products and Skincare Reviews using NLP",
+        "domain":  "Recommendation Systems",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Shells and Pebbles Detection",
+        "path":  "Shells and Pebbles Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Ship Classification Using Deep Learning",
+        "path":  "Ship Classification Using Deep Learning",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Ship Detection from Aerial Images",
+        "path":  "Ship Detection from Aerial Images",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Shoe vs Sandal vs Boot Image Classification",
+        "path":  "Shoe vs Sandal vs Boot Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Shoes Classification",
+        "path":  "Shoes Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Simple Object Detection",
+        "path":  "Simple Object Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Skin Disease Classification using Deep Learning Models",
+        "path":  "Skin Disease Classification using Deep Learning Models",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Smartphone processor classification",
+        "path":  "Smartphone processor classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Smile Recognition with Deep Learning",
+        "path":  "Smile Recognition with Deep Learning",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Snake Breed Identification",
+        "path":  "Snake Breed Identification",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Spam Vs Ham Mail Classification [With Streamlit GUI]",
+        "path":  "Spam Vs Ham Mail Classification [With Streamlit GUI]",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Speech Sentiment Analysis using DL",
+        "path":  "Speech Sentiment Analysis using DL",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Sports Image Classification",
+        "path":  "Sports Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Srinivas Tulu Handwriting Detection",
+        "path":  "Srinivas Tulu Handwriting Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Staircases Segmentation Using DL",
+        "path":  "Staircases Segmentation Using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Advanced"
+    },
+    {
+        "project":  "Stock Analysis",
+        "path":  "Stock Analysis",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Stock Price Predictions",
+        "path":  "Stock Price Predictions",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Store Sales Prediction Using Deep Learning",
+        "path":  "Store Sales Prediction Using Deep Learning",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Stroke Prediction",
+        "path":  "Stroke Prediction",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Sucide \u0026 Depression Detection",
+        "path":  "Sucide \u0026 Depression Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Sugarcane Leaf Disease Detection",
+        "path":  "Sugarcane Leaf Disease Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Terrain classification",
+        "path":  "Terrain classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Tesla Historic Stock Price Analysis",
+        "path":  "Tesla Historic Stock Price Analysis",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Thyroid Cancer Recurrence Prediction",
+        "path":  "Thyroid Cancer Recurrence Prediction",
+        "domain":  "Medical Imaging",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Tiger Identification using DL",
+        "path":  "Tiger Identification using DL",
+        "domain":  "Other / Tabular",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Tomato-Leaf Classification using DL",
+        "path":  "Tomato-Leaf Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Toxic Comment Classification",
+        "path":  "Toxic Comment Classification",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Track Fault Detection using DL",
+        "path":  "Track Fault Detection using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Traffic Accident Prediction Model using Deep Learning",
+        "path":  "Traffic Accident Prediction Model using Deep Learning",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Traffic Sign Recognition",
+        "path":  "Traffic Sign Recognition",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Tripadvisor Reviews Classification using NLP",
+        "path":  "Tripadvisor Reviews Classification using NLP",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Turkey Almond Species Classification using DL",
+        "path":  "Turkey Almond Species Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Tweet Analysis of Political Parties",
+        "path":  "Tweet Analysis of Political Parties",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Twitter Sentiment Analysis NLP",
+        "path":  "Twitter Sentiment Analysis NLP",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Urban Sound Classification using Deep Learning",
+        "path":  "Urban Sound Classification using Deep Learning",
+        "domain":  "Audio/Speech",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Urdu_Text_Detection",
+        "path":  "Urdu_Text_Detection",
+        "domain":  "NLP",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Vegetable Image Classification",
+        "path":  "Vegetable Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Waste Classification using DL",
+        "path":  "Waste Classification using DL",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "WCE Curated Colon Disease Detection",
+        "path":  "WCE Curated Colon Disease Detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Weather Image Recognition",
+        "path":  "Weather Image Recognition",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Weather_prediction",
+        "path":  "Weather_prediction",
+        "domain":  "Time Series",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Website Classification",
+        "path":  "Website Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Weed Classification",
+        "path":  "Weed Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Weed Crop Image Classification",
+        "path":  "Weed Crop Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Wild Animal Image Classification",
+        "path":  "Wild Animal Image Classification",
+        "domain":  "Computer Vision",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Wine Reviews Classification",
+        "path":  "Wine Reviews Classification",
+        "domain":  "NLP",
+        "difficulty":  "Beginner"
+    },
+    {
+        "project":  "Wrinkle classifier",
+        "path":  "Wrinkle classifier",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Yahoo Answers NLP",
+        "path":  "Yahoo Answers NLP",
+        "domain":  "NLP",
+        "difficulty":  "Intermediate"
+    },
+    {
+        "project":  "Yoga_detection",
+        "path":  "Yoga_detection",
+        "domain":  "Computer Vision",
+        "difficulty":  "Intermediate"
+    }
+]

@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # 💻🧠 DEEP LEARNING SIMPLIFIED
 
@@ -26,6 +26,7 @@ Check out the official **Deep Learning Simplified** website for more information
 - [Introduction](#-deep-learning-simplified)
 - [Welcome Contributors! 🔴](#-welcome-contributors)
 - [Project Structure 📝](#structure-of-the-projects-)
+- [Project Catalog 🗂️](#-project-catalog)
 - [Workflow 🧮](#-workflow)
 - [Open Source Programs ❄️](#️open-source-programs)
 - [New to Open Source? 🤔](#-new-to-open-source-programsevents)
@@ -36,6 +37,33 @@ Check out the official **Deep Learning Simplified** website for more information
 - [Contact 📬](#contact)
 
 ![](https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/banner.png)
+
+## 🗂️ Project Catalog
+The repository is now organized with a lightweight metadata file so contributors can browse projects by domain and difficulty without digging through every folder first. The catalog is generated from [`project-catalog.json`](project-catalog.json), and you can refresh it with [`scripts/generate_project_catalog.ps1`](scripts/generate_project_catalog.ps1).
+
+### By Domain
+
+| Domain | Count |
+| --- | ---: |
+| Audio/Speech | 7 |
+| Computer Vision | 132 |
+| GANs | 2 |
+| Medical Imaging | 24 |
+| NLP | 26 |
+| Other / Tabular | 25 |
+| Recommendation Systems | 7 |
+| Reinforcement Learning | 3 |
+| Time Series | 25 |
+
+### By Difficulty
+
+| Difficulty | Count |
+| --- | ---: |
+| Beginner | 138 |
+| Intermediate | 80 |
+| Advanced | 33 |
+
+If you want the full per-project breakdown, open the catalog JSON directly. It keeps the README easy to scan while still making the project index machine-readable.
 
 ****************************************************
 ## 🔴 Welcome contributors!
@@ -216,3 +244,4 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
