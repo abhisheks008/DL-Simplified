@@ -82,4 +82,4 @@ See the `Images/` folder for:
 - Explore cross-lingual transfer learning
 
 ## YOUR NAME
-[Your Name] | [GitHub: @your-username] | GSSoC 2026
+Mallika Suri | [GitHub: @snowhiteohno] | GSSoC 2026
