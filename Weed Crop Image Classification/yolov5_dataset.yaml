@@ -1,9 +1,0 @@
-path: path to root folder
-train: ./train/images #relative path
-val: ./valid/images
-test: ./test/images
-
-# Classes
-names:
-  0: crop
-  1: weed
