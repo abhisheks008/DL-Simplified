@@ -1,6 +1,4 @@
 # Dataset — Kidney Stone Images
-```markdown
-# Dataset — Kidney Stone Images
 
 ## Source
 **Kaggle:** https://www.kaggle.com/datasets/safurahajiheidari/kidney-stone-images
