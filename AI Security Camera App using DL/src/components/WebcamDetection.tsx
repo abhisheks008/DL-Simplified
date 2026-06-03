@@ -50,6 +50,9 @@ export function CameraMonitor() {
   const [detectedObjects, setDetectedObjects] = useState([]);
   const frameLoop = useRef();
   const lastFrame = useRef(0);
+  
+  // Temporal smoothing history tracking
+  const trackingHistory = useRef({});
 
   const processFrame = useCallback(async (time) => {
     if (!detector || !video.current || !overlay.current) {
@@ -79,21 +82,66 @@ export function CameraMonitor() {
 
       const objects = await detector.detect(video.current);
       if (!objects?.length) {
+        // Decay history tracking when no objects are detected in the frame
+        Object.keys(trackingHistory.current).forEach(label => {
+          trackingHistory.current[label] = Math.max(trackingHistory.current[label] - 1, 0);
+        });
+        setDetectedObjects([]);
         frameLoop.current = requestAnimationFrame(processFrame);
         return;
       }
 
-      const threats = objects
-        .filter(item => item.score > MIN_CONFIDENCE)
-        .map(item => ({
+      // Per-item fine-tuned confidence thresholds to reduce false positives
+      const CUSTOM_THRESHOLDS = {
+        [TRACKED_ITEMS.PERSON]: 0.55,
+        [TRACKED_ITEMS.KNIFE]: 0.30, 
+        [TRACKED_ITEMS.SCISSORS]: 0.35,
+        [TRACKED_ITEMS.BAT]: 0.40,
+        [TRACKED_ITEMS.BOTTLE]: 0.45,
+        [TRACKED_ITEMS.PHONE]: 0.50,
+        [TRACKED_ITEMS.BACKPACK]: 0.45,
+        [TRACKED_ITEMS.BAG]: 0.45,
+        [TRACKED_ITEMS.CASE]: 0.50
+      };
+
+      // Filter using specialized threshold matrix if available, falling back to original MIN_CONFIDENCE
+      const validDetections = objects.filter(item => {
+        const requiredConfidence = CUSTOM_THRESHOLDS[item.class.toLowerCase()] || MIN_CONFIDENCE;
+        return item.score > requiredConfidence;
+      });
+
+      const currentFrameLabels = new Set();
+      const threats = validDetections.map(item => {
+        const securityTerm = convertToSecurityTerms(item.class);
+        currentFrameLabels.add(securityTerm);
+        return {
           area: item.bbox,
-          type: convertToSecurityTerms(item.class),
+          type: securityTerm,
           confidence: item.score,
           time: Date.now()
-        }));
+        };
+      });
 
-      setDetectedObjects(threats);
-      drawDetections(ctx, threats);
+      // Update temporal analysis buffer counters
+      threats.forEach(threat => {
+        if (!trackingHistory.current[threat.type]) {
+          trackingHistory.current[threat.type] = 0;
+        }
+        trackingHistory.current[threat.type] = Math.min(trackingHistory.current[threat.type] + 1, 10);
+      });
+
+      // Decay objects missing from this frame iteration
+      Object.keys(trackingHistory.current).forEach(label => {
+        if (!currentFrameLabels.has(label)) {
+          trackingHistory.current[label] = Math.max(trackingHistory.current[label] - 1, 0);
+        }
+      });
+
+      // Verify threats have been sustained across at least 5 frame iterations
+      const verifiedThreats = threats.filter(threat => trackingHistory.current[threat.type] >= 5);
+
+      setDetectedObjects(verifiedThreats);
+      drawDetections(ctx, verifiedThreats);
     } catch (err) {
       console.warn('Frame processing error:', err);
       if (err.message !== 'No objects detected') {
@@ -210,17 +258,18 @@ export function CameraMonitor() {
 
   return (
     <div className="relative w-full h-screen flex flex-col p-4">
-      <div className="relative flex-1 min-h-0">
+      {/* Aspect ratio-locked layout container to eliminate canvas drawing scale drift */}
+      <div className="relative flex-1 min-h-0 aspect-video max-w-full mx-auto bg-black rounded-lg shadow-lg overflow-hidden">
         <video
           ref={video}
           autoPlay
           playsInline
           muted
-          className="w-full h-full object-contain rounded-lg shadow-lg"
+          className="w-full h-full object-cover"
         />
         <canvas
           ref={overlay}
-          className="absolute top-0 left-0 w-full h-full"
+          className="absolute top-0 left-0 w-full h-full pointer-events-none"
         />
       </div>
 
@@ -268,7 +317,7 @@ export function CameraMonitor() {
                 <div className="flex items-center gap-2">
                   <Shield className="w-5 h-5 text-green-500" />
                   <span className="text-green-700 font-medium">
-                    Area secure - No threats detected
+                    Area Secure: No Threats Detected!
                   </span>
                 </div>
               )}
