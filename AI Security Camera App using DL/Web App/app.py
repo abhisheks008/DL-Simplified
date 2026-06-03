@@ -6,7 +6,7 @@ import tensorflow as tf
 app = Flask(__name__)
 
 # Load the trained model
-model = tf.keras.models.load_model('../Model/saved_model')
+model = tf.keras.layers.TFSMLayer('../Model/saved_model', call_endpoint='serving_default')
 
 def generate_frames():
     camera = cv2.VideoCapture(0)
