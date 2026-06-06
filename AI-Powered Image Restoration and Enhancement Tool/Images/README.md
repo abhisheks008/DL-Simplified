@@ -1,9 +1,19 @@
 # Images
 
-This folder contains EDA and model-related images generated from the notebook.
+This folder contains the output images generated from the notebook.
 
-## Contents
-- EDA images — sample images from BSD300 dataset
-- Model architecture diagrams
-- Before/after comparison images
-- PSNR/SSIM metric visualizations
+## EDA Images
+- Sample images from BSD300 dataset
+- Image size distribution plots
+- Noise level analysis
+
+## Model Output Images
+- DnCNN: Original vs Noisy vs Denoised comparison
+- SRCNN: Low resolution vs Super resolution comparison  
+- U-Net: Grayscale vs Colorized comparison
+- ESRGAN: Input vs Enhanced output comparison
+
+## Metrics Visualization
+- PSNR scores comparison across models
+- SSIM scores comparison across models
+- Before/After visual comparisons
