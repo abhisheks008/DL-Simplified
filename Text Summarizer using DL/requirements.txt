@@ -1,0 +1,5 @@
+transformers
+torch
+sumy
+nltk
+tf-keras
