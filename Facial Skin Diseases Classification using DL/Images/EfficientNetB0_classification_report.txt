@@ -1,0 +1,13 @@
+                   precision    recall  f1-score   support
+
+Actinic Keratosis       0.00      0.00      0.00        60
+           Eczema       0.00      0.00      0.00        60
+         Melanoma       0.00      0.00      0.00        60
+      Nail Fungus       0.14      1.00      0.25        60
+        Psoriasis       0.00      0.00      0.00        60
+   Tinea Ringworm       0.00      0.00      0.00        60
+  Warts Molluscum       0.00      0.00      0.00        60
+
+         accuracy                           0.14       420
+        macro avg       0.02      0.14      0.04       420
+     weighted avg       0.02      0.14      0.04       420
