@@ -1,0 +1,18 @@
+# Trained model files (too large for GitHub)
+saved_models/
+*.keras
+*.h5
+*.pb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab
+.config/
