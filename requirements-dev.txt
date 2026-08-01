@@ -1,0 +1,20 @@
+# Development dependencies for DL-Simplified
+# Install with: pip install -r requirements-dev.txt
+
+# Linting
+flake8>=6.0.0
+
+# Code formatting
+black>=23.0.0
+
+# Import sorting
+isort>=5.12.0
+
+# Testing
+pytest>=7.0.0
+
+# Notebook validation
+nbformat>=5.0.0
+
+# Jupyter
+jupyter>=1.0.0
