@@ -1,4 +1,0 @@
-TensorFlow
-Matplotlib
-Numpy
-Scikit-learn

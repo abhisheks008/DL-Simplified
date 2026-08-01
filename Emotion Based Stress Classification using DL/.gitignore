@@ -1,8 +1,0 @@
-# Large model weight files (exceed GitHub's 100MB limit)
-Model/*.pth
-Model/*.onnx
-Model/*.engine
-
-# Dataset images (too large for GitHub - provide download link in README instead)
-Dataset/train/
-Dataset/test/
