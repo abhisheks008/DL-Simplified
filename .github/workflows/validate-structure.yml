@@ -1,0 +1,51 @@
+name: Validate Project Structure
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '*/Dataset/**'
+      - '*/Model/**'
+      - '*/Images/**'
+      - '*/README.md'
+      - '*/requirements.txt'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Validate project structure
+        run: |
+          echo "Validating project structure..."
+          
+          # Find modified project directories
+          PROJECTS=$(echo "${{ github.event.pull_request.changed_files }}" | cut -d'/' -f1 | sort -u)
+          
+          for PROJECT in $PROJECTS; do
+            if [ -d "$PROJECT" ]; then
+              echo "Checking: $PROJECT"
+              
+              # Check required directories
+              for DIR in Dataset Model Images; do
+                if [ ! -d "$PROJECT/$DIR" ]; then
+                  echo "  MISSING: $DIR/"
+                fi
+              done
+              
+              # Check required files
+              for FILE in README.md requirements.txt; do
+                if [ ! -f "$PROJECT/$FILE" ]; then
+                  echo "  MISSING: $FILE"
+                fi
+              done
+            fi
+          done
