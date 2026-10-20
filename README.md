@@ -145,6 +145,9 @@ Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplifie
    <td align="center">
 <a href=""><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/github.webp" width=80px height=80px /><br /><sub><b>GitRecQuest v1.0.0<b></sub></a>
    </td>
+  <td align="center">
+<a href="https://www.nsoc.in/"><img src="https://github.com/abhisheks008/DL-Simplified/blob/main/.github/Assets/nsoc.png" width=80px height=80px /><br /><sub><b>Nexus Spring</br>of Code 2026<b></sub></a>
+   </td>
 </tr>
 </table>
 
