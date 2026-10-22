@@ -1,0 +1,57 @@
+{
+  "genres": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "genre_to_idx": {
+    "blues": 0,
+    "classical": 1,
+    "country": 2,
+    "disco": 3,
+    "hiphop": 4,
+    "jazz": 5,
+    "metal": 6,
+    "pop": 7,
+    "reggae": 8,
+    "rock": 9
+  },
+  "sr": 22050,
+  "n_mels": 128,
+  "hop_length": 512,
+  "n_fft": 2048,
+  "segment_duration": 3,
+  "input_shape": [
+    128,
+    130,
+    1
+  ],
+  "best_model": "ResNet50",
+  "segment_test_accuracy": 0.8265510340226818,
+  "track_test_accuracy": 0.8933333333333333,
+  "all_results": {
+    "Custom_CNN": {
+      "seg_acc": 0.6490993995997332,
+      "track_acc": 0.7066666666666667
+    },
+    "VGG16": {
+      "seg_acc": 0.8458972648432288,
+      "track_acc": 0.8866666666666667
+    },
+    "ResNet50": {
+      "seg_acc": 0.8265510340226818,
+      "track_acc": 0.8933333333333333
+    },
+    "EfficientNet_B0": {
+      "seg_acc": 0.8205470313542361,
+      "track_acc": 0.8866666666666667
+    }
+  }
+}
